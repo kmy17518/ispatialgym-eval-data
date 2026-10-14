@@ -88,32 +88,3 @@ run_isg gives an instance `max(300, 2 x its demo's length)` steps (`--max-steps`
 settle rows (replay: `episodes.jsonl` `settle_steps`), and replays its demo unless `--replay` names another.
 run_isg never writes into this folder: runs go to `--out` (default `./runs`) and the goal / sidecar write-backs of oracle
 runs are skipped for dataset instances.
-
-## Goal images
-
-The goal image is the head camera's last frame (`final_rgb.png`, 1080 x 1080) of a successful replay of the instance's demo:
-the eval run's replay re-run with the current code, else its original replay (`python -m ispatialgym.eval.instances
-set-goal`). A replay renders the whole episode; a frame rendered straight at the demo's final state comes out about 1 %
-darker (3-4 % in shadows), because the renderer's bounced light depends on what it rendered before. Each instance's
-`files.goal_rgb` (here) names it, and its instance file registers it (`ispatialgym.goal_observation`, as `run_isg
---goal-image` writes it: `rgb_path`, sha256, size, the head camera key and intrinsics, and the camera's world pose: the
-demo's last recorded head camera pose, which the replay holds through its settle window), which is where the policy
-harness reads it. The sidecar's `tro_sha256` follows the instance file.
-
-The measured targets of 2 instances were re-pinned from their goal image's replay (`python -m ispatialgym.eval.instances
-set-goal <name> <index> --run <replay> --measured-targets`): `disembedding_cellulose_tape_cork_1_coaster_1_cap_1`
-instance 0, `inter_object_relation_satisfaction_ontop_small_scale_pack_of_kielbasa_platter` instance 0. The pose targets
-of their `(:measure ...)`-only atoms are where that replay left them (its `meta.json` `final_target_poses`), so the goal
-image and the targets agree; such a replay needs only symbolic success, the targets it missed being the ones re-pinned.
-
-Another image size: replay the instance at that size (`--record video`: no demo.hdf5 / LeRobot copy of the replay), then
-make that run's final frame the goal image (one goal image per instance; a re-export keeps it). The replay keeps going
-through the demo's own contacts with the objects: run_isg only logs the QA metrics of a replay (`--qa`), it never stops
-at them.
-
-```bash
-python -m ispatialgym.oracle.run_isg --task alignment_axial --instance-indices 0 --mode replay \
-    --image-size 720 --record video --out <dir>
-python -m ispatialgym.eval.instances set-goal alignment_axial 0 --run <dir>
-python -m ispatialgym.eval.instances set-goal alignment_axial 0          # back to the eval run's replay (1080)
-```
