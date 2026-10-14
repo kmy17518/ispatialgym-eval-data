@@ -1,0 +1,895 @@
+{
+ "template_id": "house_double_floor_lower__support-coffee_table_koagbh_0-T3__partner-vase-gopbrh__target-sunflower-dkajbh",
+ "scene": "house_double_floor_lower",
+ "timings": {
+  "bind_spawn_s": 17.195772647857666,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 47.44325661659241,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 4,
+   "collision_configs": 1072,
+   "collision_s": 0.129
+  },
+  "save_template_s": 0.424715518951416
+ },
+ "variant": "inter_object_relation_satisfaction-inside_small_scale-sunflower-vase-coffee_table",
+ "subtask": "inter_object_relation_satisfaction-inside_small_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "29b9a6d7f93eb794768e160d3f4cda9bdeef56fb720aefb387cf1532c05e3cad",
+ "choice": {
+  "scene": "house_double_floor_lower",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "support": [
+    "coffee_table_koagbh_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "coffee_table_koagbh_0",
+     "init": "ontop",
+     "top_z": 0.42,
+     "row": "inter_object_relation_satisfaction-inside#03~T3"
+    }
+   ],
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "sunflower",
+    "model": "dkajbh",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "sunflower__dkajbh__r50",
+    "scale": null
+   },
+   "partner": {
+    "category": "vase",
+    "model": "gopbrh",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_double_floor_lower__support-coffee_table_koagbh_0-T3__partner-vase-gopbrh__target-sunflower-dkajbh",
+  "support_tag": "coffee_table_koagbh_0-T3"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_6cabe73f_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 865368992,
+  "seed_source": "split",
+  "scene": "house_double_floor_lower",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_double_floor_lower",
+  "support": "coffee_table_koagbh_0",
+  "row": "inter_object_relation_satisfaction-inside#03~T3",
+  "init": "ontop",
+  "top_z": 0.42,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "living_room_0"
+  ],
+  "floor_room": "living_room_0",
+  "tag": "coffee_table_koagbh_0-T3",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "0150f2f341e073f58b7aa68121defc8c1113c138e8313a1419802c77064dd39e",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "grasps_dropped_not_attachable": [],
+  "grasp_pinch_recentre": {
+   "grasp_0": {
+    "offset_m": 0.0094,
+    "chord_original_m": 0.0681,
+    "chord_recentred_m": 0.0681,
+    "library_width_m": 0.0107,
+    "applied": false,
+    "reason": "the re-centred pads would close on a different width"
+   },
+   "grasp_1": {
+    "offset_m": 0.0128,
+    "chord_original_m": 0.0056,
+    "chord_recentred_m": 0.0056,
+    "library_width_m": 0.0098,
+    "applied": true
+   },
+   "grasp_2": {
+    "offset_m": -0.0266,
+    "chord_original_m": 0.004,
+    "chord_recentred_m": 0.004,
+    "library_width_m": 0.013,
+    "applied": false,
+    "reason": "the re-centred pads would close on a different width"
+   },
+   "grasp_3": {
+    "offset_m": 0.0096,
+    "chord_original_m": 0.0815,
+    "chord_recentred_m": 0.0815,
+    "library_width_m": 0.011,
+    "applied": false,
+    "reason": "the re-centred pads would close on a different width"
+   }
+  },
+  "grasp_pinch_offset_m": {
+   "grasp_0": 0.0094,
+   "grasp_1": 0.0128,
+   "grasp_2": -0.0266,
+   "grasp_3": 0.0096
+  },
+  "grasps_recentred": [
+   "grasp_1"
+  ],
+  "grasp_closing_tilt_deg": {
+   "grasp_0": 20.4,
+   "grasp_1": 9.0,
+   "grasp_2": 2.6,
+   "grasp_3": 20.4
+  },
+  "grasp_pivot_arms_m": {
+   "grasp_0": 0.0218,
+   "grasp_1": 0.0042,
+   "grasp_2": 0.0088,
+   "grasp_3": 0.023
+  },
+  "grasp_pinch_vs_long_axis_deg": {
+   "grasp_0": 79.5,
+   "grasp_1": 78.6,
+   "grasp_2": 73.0,
+   "grasp_3": 79.5
+  },
+  "grasps_flush_first": [
+   "grasp_1",
+   "grasp_2"
+  ],
+  "grasps_inclined_fallback": [
+   "grasp_0",
+   "grasp_3"
+  ],
+  "pair": {
+   "target_extent": [
+    0.06375941634178162,
+    0.08012782782316208,
+    0.19392776489257812
+   ],
+   "partner_extent": [
+    0.09521484375,
+    0.09519577026367188,
+    0.16297292709350586
+   ],
+   "relation": "inside",
+   "target_up_axis": "+x"
+  },
+  "support_surface": {
+   "support": "coffee_table_koagbh_0",
+   "spec": {
+    "name": "coffee_table_koagbh_0",
+    "init": "ontop",
+    "top_z": 0.42,
+    "row": "inter_object_relation_satisfaction-inside#03~T3"
+   },
+   "top_z_above_floor": 0.423,
+   "top_error": null,
+   "surface": "top"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": null,
+    "mirrored_from": "right",
+    "mirror_source": "/tmp/minyeong/isge_17820594/reach_bands/tabletop__house_double_floor_lower__coffee_table_koagbh_0__sunflower-dkajbh__e1fc59bea22d531f.npz"
+   }
+  },
+  "support": {
+   "name": "coffee_table_koagbh_0",
+   "z": 0.42304563522338867,
+   "yaw": 4.3057696075265994e-08,
+   "local_bounds": [
+    3.1235435009002686,
+    3.9235434532165527,
+    4.4671759605407715,
+    6.107175827026367
+   ],
+   "n_free_cells": 3403,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "+u",
+   "mid": [
+    3.9235432147979736,
+    5.287176132202148
+   ],
+   "inward": [
+    -1.0,
+    -4.3057696075265994e-08
+   ],
+   "tangent": [
+    4.3057696075265994e-08,
+    -1.0
+   ],
+   "length_m": 1.6399998664855957,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    4.3735432624816895,
+    4.967991828918457,
+    -3.141592610532097
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.319184104846774,
+   "H_max": 0.16297292709350586,
+   "delta": 0.5626129727772993,
+   "delta_aim": 0.5626129727772993,
+   "delta_min": 0.45074639320373533,
+   "delta_max": 0.7563620785059245,
+   "conflict": false,
+   "d_ws": 0.3055555146149915,
+   "d_near": 0.02999994158744812,
+   "d_far": 0.6700000762939453,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.1599999964237213,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.8336525559425354,
+   "b_right": 0.8336525559425354,
+   "b_left": 0.8336552977561951,
+   "R_img": 0.8336525559425354,
+   "t_range": [
+    0.868707744956092,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.1877734661102295,
+   "n_workspace_cells": 99,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "b": 0.8336525559425354,
+    "R_img": 0.8336525559425354,
+    "safety": 0.02,
+    "D_p": 0.12521484375,
+    "m_R": 1.138381715118885,
+    "m_L": 0.49838169962167744
+   },
+   "lateral_bounds": [
+    0.31838178187608723,
+    0.3216182336211204
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     3.9235432147979736,
+     5.287176132202148
+    ],
+    "inward": [
+     -1.0,
+     -4.3057696075265994e-08
+    ],
+    "tangent": [
+     4.3057696075265994e-08,
+     -1.0
+    ],
+    "length_m": 1.6399998664855957,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500000476837158,
+   "extras": {
+    "H_max": 0.16297292709350586,
+    "delta": 0.5626129727772993,
+    "delta_aim": 0.5626129727772993,
+    "delta_min": 0.45074639320373533,
+    "delta_max": 0.7563620785059245,
+    "conflict": false,
+    "d_ws": 0.3055555146149915,
+    "d_near": 0.02999994158744812,
+    "d_far": 0.6700000762939453,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8336525559425354,
+    "b_right": 0.8336525559425354,
+    "b_left": 0.8336552977561951,
+    "R_img": 0.8336525559425354,
+    "t_range": [
+     0.868707744956092,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.1877734661102295,
+    "n_workspace_cells": 99,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.1599999964237213,
+     "b": 0.8336525559425354,
+     "R_img": 0.8336525559425354,
+     "safety": 0.02,
+     "D_p": 0.12521484375,
+     "m_R": 1.138381715118885,
+     "m_L": 0.49838169962167744
+    },
+    "lateral_bounds": [
+     0.31838178187608723,
+     0.3216182336211204
+    ]
+   }
+  },
+  "n_manipulation_candidates": 1742,
+  "grasp_key": "sunflower__dkajbh__r50",
+  "n_grasps": 4,
+  "bands": "/tmp/minyeong/isge_17820594/reach_bands/tabletop__house_double_floor_lower__coffee_table_koagbh_0__sunflower-dkajbh__e1fc59bea22d531f.npz",
+  "H_max": 0.16297292709350586,
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "ulujpr",
+   "scene_object_name": "floors_ulujpr_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "coffee_table.n.01_1",
+   "synset": "coffee_table.n.01",
+   "category": "coffee_table",
+   "model": "koagbh",
+   "scene_object_name": "coffee_table_koagbh_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "sunflower.n.01_1",
+   "synset": "sunflower.n.01",
+   "category": "sunflower",
+   "model": "dkajbh",
+   "scene_object_name": "target_sunflower_dkajbh_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "partner",
+   "name": "vase.n.01_1",
+   "synset": "vase.n.01",
+   "category": "vase",
+   "model": "gopbrh",
+   "scene_object_name": "partner_vase_gopbrh_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "199f080e7e915180e37bf9a60fee106e46e1c0ed84cb31c557b976a1b25f4659",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-inside_03/c3_k0/inst/inter_object_relation_satisfaction-inside-sunflower-vase-coffee_table/house_double_floor_lower__support-coffee_table_koagbh_0-T3__partner-vase-gopbrh__target-sunflower-dkajbh/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-inside_03/c3_k0/inst/inter_object_relation_satisfaction-inside-sunflower-vase-coffee_table/house_double_floor_lower__support-coffee_table_koagbh_0-T3__partner-vase-gopbrh__target-sunflower-dkajbh/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "corridor_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "corridor_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-9",
+ "choices": {
+  "target": {
+   "category": "sunflower",
+   "model": "dkajbh",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "sunflower__dkajbh__r50",
+   "scale": null
+  },
+  "partner": {
+   "category": "vase",
+   "model": "gopbrh",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_ulujpr_0",
+  "coffee_table.n.01_1": "coffee_table_koagbh_0",
+  "sunflower.n.01_1": "target_sunflower_dkajbh_0",
+  "vase.n.01_1": "partner_vase_gopbrh_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 287.61902022361755,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem60.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-inside_small_scale-sunflower-vase-coffee_table",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    4.3735432624816895,
+    4.967991828918457,
+    -3.141592610532097
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.319184104846774,
+   "H_max": 0.16297292709350586,
+   "delta": 0.5626129727772993,
+   "delta_aim": 0.5626129727772993,
+   "delta_min": 0.45074639320373533,
+   "delta_max": 0.7563620785059245,
+   "conflict": false,
+   "d_ws": 0.3055555146149915,
+   "d_near": 0.02999994158744812,
+   "d_far": 0.6700000762939453,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.1599999964237213,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.8336525559425354,
+   "b_right": 0.8336525559425354,
+   "b_left": 0.8336552977561951,
+   "R_img": 0.8336525559425354,
+   "t_range": [
+    0.868707744956092,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.1877734661102295,
+   "n_workspace_cells": 99,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "b": 0.8336525559425354,
+    "R_img": 0.8336525559425354,
+    "safety": 0.02,
+    "D_p": 0.12521484375,
+    "m_R": 1.138381715118885,
+    "m_L": 0.49838169962167744
+   },
+   "lateral_bounds": [
+    0.31838178187608723,
+    0.3216182336211204
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     3.9235432147979736,
+     5.287176132202148
+    ],
+    "inward": [
+     -1.0,
+     -4.3057696075265994e-08
+    ],
+    "tangent": [
+     4.3057696075265994e-08,
+     -1.0
+    ],
+    "length_m": 1.6399998664855957,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500000476837158,
+   "extras": {
+    "H_max": 0.16297292709350586,
+    "delta": 0.5626129727772993,
+    "delta_aim": 0.5626129727772993,
+    "delta_min": 0.45074639320373533,
+    "delta_max": 0.7563620785059245,
+    "conflict": false,
+    "d_ws": 0.3055555146149915,
+    "d_near": 0.02999994158744812,
+    "d_far": 0.6700000762939453,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8336525559425354,
+    "b_right": 0.8336525559425354,
+    "b_left": 0.8336552977561951,
+    "R_img": 0.8336525559425354,
+    "t_range": [
+     0.868707744956092,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.1877734661102295,
+    "n_workspace_cells": 99,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.1599999964237213,
+     "b": 0.8336525559425354,
+     "R_img": 0.8336525559425354,
+     "safety": 0.02,
+     "D_p": 0.12521484375,
+     "m_R": 1.138381715118885,
+     "m_L": 0.49838169962167744
+    },
+    "lateral_bounds": [
+     0.31838178187608723,
+     0.3216182336211204
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    4.273543357849121,
+    5.26799201965332,
+    -3.141592610532097
+   ],
+   "translate": 0.5,
+   "tilt": -0.9083999792734782,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.35,
+   "edge": "+u",
+   "lateral": 0.01918410484677402,
+   "focus": [
+    3.3135433197021484,
+    5.107992172241211,
+    0.45454737544059753
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.16297292709350586,
+   "delta": 0.5626129727772993,
+   "delta_aim": 0.5626129727772993,
+   "delta_min": 0.45074639320373533,
+   "delta_max": 0.7563620785059245,
+   "conflict": false,
+   "d_ws": 0.3055555146149915,
+   "d_near": 0.02999994158744812,
+   "d_far": 0.6700000762939453,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.1599999964237213,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.8336525559425354,
+   "b_right": 0.8336525559425354,
+   "b_left": 0.8336552977561951,
+   "R_img": 0.8336525559425354,
+   "t_range": [
+    0.868707744956092,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.1877734661102295,
+   "n_workspace_cells": 99,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "b": 0.8336525559425354,
+    "R_img": 0.8336525559425354,
+    "safety": 0.02,
+    "D_p": 0.12521484375,
+    "m_R": 1.138381715118885,
+    "m_L": 0.49838169962167744
+   },
+   "lateral_bounds": [
+    0.31838178187608723,
+    0.3216182336211204
+   ],
+   "lateral_shift_m": -0.3,
+   "axis_angle": 0.28400166388280235,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.2966981142383713,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "init_travel": {
+    "lateral_m": -0.3,
+    "base_m": 0.3162,
+    "path_m": 0.3,
+    "departure_stand_off_m": null,
+    "transition_stand_off_m": 0.45
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     3.9235432147979736,
+     5.287176132202148
+    ],
+    "inward": [
+     -1.0,
+     -4.3057696075265994e-08
+    ],
+    "tangent": [
+     4.3057696075265994e-08,
+     -1.0
+    ],
+    "length_m": 1.6399998664855957,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.35000014305114746,
+   "extras": {
+    "H_max": 0.16297292709350586,
+    "delta": 0.5626129727772993,
+    "delta_aim": 0.5626129727772993,
+    "delta_min": 0.45074639320373533,
+    "delta_max": 0.7563620785059245,
+    "conflict": false,
+    "d_ws": 0.3055555146149915,
+    "d_near": 0.02999994158744812,
+    "d_far": 0.6700000762939453,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.1599999964237213,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8336525559425354,
+    "b_right": 0.8336525559425354,
+    "b_left": 0.8336552977561951,
+    "R_img": 0.8336525559425354,
+    "t_range": [
+     0.868707744956092,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.1877734661102295,
+    "n_workspace_cells": 99,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.1599999964237213,
+     "b": 0.8336525559425354,
+     "R_img": 0.8336525559425354,
+     "safety": 0.02,
+     "D_p": 0.12521484375,
+     "m_R": 1.138381715118885,
+     "m_L": 0.49838169962167744
+    },
+    "lateral_bounds": [
+     0.31838178187608723,
+     0.3216182336211204
+    ],
+    "lateral_shift_m": -0.3,
+    "axis_angle": 0.28400166388280235,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.2966981142383713,
+    "init_view_class": 0,
+    "_position": [
+     13,
+     -2
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "init_travel": {
+     "lateral_m": -0.3,
+     "base_m": 0.3162,
+     "path_m": 0.3,
+     "departure_stand_off_m": null,
+     "transition_stand_off_m": 0.45
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 4,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "target_placement": 5,
+  "approach_untrackable": 2
+ },
+ "rejection_examples": {
+  "target_placement": [
+   {
+    "message": "[target_placement] candidate 2: [grasp_unreachable] empty feasible set F at the focus [3.334, 4.948] (trunk 0.75/-0.75, 8 yaws x 4 grasps); candidate 4: [grasp_unreachable] empty feasible set F at the focus [3.334, 4.988] (trunk 0.75/-0.75, 8 yaws x 4 grasps, arms ['right', 'left']); candidate 0: [grasp_unreachable] empty feasible set F at the focus [3.314, 4.968] (trunk 0.25/-1.07, 8 yaws x 4 gra",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 6852877606219142944
+   },
+   {
+    "message": "[target_placement] candidate 2: [grasp_unreachable] empty feasible set F at the focus [3.334, 4.948] (trunk 0.75/-0.75, 8 yaws x 4 grasps); candidate 0: [grasp_unreachable] empty feasible set F at the focus [3.314, 4.968] (trunk 0.25/-1.07, 8 yaws x 4 grasps, arms ['right', 'left']); candidate 5: [ik_joint_limit] place screening at the draw (candidate 5, trunk 0.5, -0.91, from the manipulation sta",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 1,
+    "seed": 6852877606219142945
+   },
+   {
+    "message": "[target_placement] candidate 1: [grasp_unreachable] empty feasible set F at the focus [3.334, 4.748] (trunk 0.75/-0.75, 8 yaws x 4 grasps); candidate 0: [grasp_unreachable] empty feasible set F at the focus [3.314, 4.748] (trunk 0.25/-1.07, 8 yaws x 4 grasps)",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 3,
+    "seed": 6852877606219142947
+   }
+  ],
+  "approach_untrackable": [
+   {
+    "message": "[approach_untrackable] pre-grasp / grasp at the settled target pose fail the exact IK (approach_untrackable: joint jump 0.29 rad at waypoint 9; from the end's branch: approach_untrackable: differential IK did not converge at waypoint 0/10: pos_err=7.5mm rot_err=0.001rad at_lower=[] at_upper=[] singular_iterations=0; pre alone ok, pre with the partner removed ok, pre with every object removed ok; t",
+    "phase": "settle_validate",
+    "index": 0,
+    "attempt": 2,
+    "seed": 6852877606219142946
+   },
+   {
+    "message": "[approach_untrackable] lift: approach_untrackable: chain tracking (21 dense poses): differential IK did not converge at waypoint 18/21: pos_err=15.2mm rot_err=0.004rad at_lower=[] at_upper=[] singular_iterations=0; the end pose's IK from the stall lies 3.94 rad away in joint space (> 0.60: another IK branch, the oracle's finish would be rejected) (stance manipulation, arm left, carried sunflower.n",
+    "phase": "program_check",
+    "index": 0,
+    "attempt": 6,
+    "seed": 6852877606219142950,
+    "action": "lift"
+   }
+  ]
+ },
+ "counters": {},
+ "seeds": [
+  6852877606219142951
+ ],
+ "kit_stats": {
+  "ik_calls": 388,
+  "ik_s": 50.79821443557739,
+  "ik_batch_calls": 107,
+  "ik_batch_problems": 1974,
+  "ik_batch_s": 1223.7345035076141,
+  "collision_calls": 480,
+  "collision_configs": 2807,
+  "collision_s": 2.9768621921539307,
+  "limit_retry_poses": 39,
+  "limit_reject.right_arm_joint5": 1,
+  "twin_picks": 16,
+  "twin_solves": 35,
+  "limit_retry_seeded_rescued": 15,
+  "limit_reject.right_arm_joint2": 7,
+  "orient_choices": 16,
+  "orient_reason.reach": 6,
+  "orient_source.map": 4,
+  "arm_band_mirrored.foci": 29,
+  "arm_band_mirrored.empty_F": 26,
+  "limit_retry_random": 104,
+  "limit_retry_random_rescued": 13,
+  "orient_against_default": 4,
+  "twin_taken": 4,
+  "twin_taken.reach": 4,
+  "arm_band_mirrored.ik_tried": 8,
+  "limit_reject.left_arm_joint2": 2,
+  "arm_band_mirrored.ik_failed": 2,
+  "limit_reject.left_arm_joint6": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_inside_small_scale",
+  "subtask": "inter_object_relation_satisfaction_inside_small_scale_sunflower_vase",
+  "variant": "inter_object_relation_satisfaction-inside_small_scale-sunflower-vase-coffee_table"
+ }
+}

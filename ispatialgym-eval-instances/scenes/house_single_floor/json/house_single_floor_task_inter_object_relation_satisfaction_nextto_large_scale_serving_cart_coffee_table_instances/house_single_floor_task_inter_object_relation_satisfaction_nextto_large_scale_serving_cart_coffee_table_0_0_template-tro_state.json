@@ -1,0 +1,289 @@
+{
+  "serving_cart.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        12.465746879577637,
+        2.892470598220825,
+        0.37949812412261963
+      ],
+      "ori": [
+        4.4429828705006e-08,
+        2.5471752707062478e-08,
+        0.793353259563446,
+        0.6087616086006165
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          12.20988941192627,
+          2.664792537689209,
+          -7.361173629760742e-06,
+          12.719943046569824,
+          3.140245199203491,
+          0.8552016019821167
+        ]
+      }
+    }
+  },
+  "coffee_table.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        12.591486930847168,
+        0.6086569428443909,
+        0.150413379073143
+      ],
+      "ori": [
+        6.482667913587647e-08,
+        2.9994893235851805e-09,
+        -1.9759864855473097e-08,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          12.104037284851074,
+          0.1212068498134613,
+          -7.495284080505371e-06,
+          13.078937530517578,
+          1.0961068868637085,
+          0.26919248700141907
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        13.494917869567871,
+        0.7989608645439148,
+        -0.13880740106105804
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          9.365768432617188,
+          -2.50658917427063,
+          -0.27760744094848633,
+          17.624067306518555,
+          4.10451078414917,
+          -7.465481758117676e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          11.036710739135742,
+          3.359905242919922,
+          0.005276679992675781
+        ],
+        "orientation": [
+          4.448927938938141e-06,
+          8.124011219479144e-05,
+          -0.1534440666437149,
+          0.988157331943512
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 22,
+    "task_variant": "inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor",
+    "instance_id": "inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor__house_single_floor__support-floor__target-serving_cart-heqtlk__0000",
+    "generation_seed": 4296617386819491032,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "e467ff65f7d4d75a5ba8155e8d02f9a69771c6c8c10fa458032ce62eed472234",
+    "task_spec_sha256": "bbf3f66506543b9e5d04ce8cf0153bcbd9b15c781f009f3848f331d72aedda45",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "43ff5e731a19cfc41328ce95f532bafe5e053faf358b1d7897ec2b77ccb747bc",
+      "load_room_instances": [
+        "living_room_0",
+        "corridor_0",
+        "dining_room_0",
+        "garden_0",
+        "kitchen_0"
+      ],
+      "task_rooms": [
+        "living_room_0"
+      ],
+      "sampled_with_rooms": [
+        "living_room_0",
+        "corridor_0",
+        "dining_room_0",
+        "garden_0",
+        "kitchen_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "coffee_table_rlsebe_0",
+        "floors_uzsntg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_uzsntg_0",
+        "category": "floors",
+        "model": "uzsntg"
+      },
+      "coffee_table.n.01_1": {
+        "scene_object_name": "coffee_table_rlsebe_0",
+        "category": "coffee_table",
+        "model": "rlsebe"
+      },
+      "serving_cart.n.01_1": {
+        "scene_object_name": "target_serving_cart_heqtlk_0",
+        "category": "serving_cart",
+        "model": "heqtlk"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.44998982548713684,
+        "torso_joint2": -0.4000135660171509,
+        "torso_joint3": 3.323245039155154e-07,
+        "torso_joint4": -4.046073058816546e-07,
+        "left_arm_joint1": 1.3815166312269866e-05,
+        "right_arm_joint1": 5.610962398350239e-05,
+        "left_arm_joint2": 1.5700000524520874,
+        "right_arm_joint2": -1.5699992179870605,
+        "left_arm_joint3": -1.3930930435890332e-06,
+        "right_arm_joint3": 7.716708410043793e-07,
+        "left_arm_joint4": -1.5700024366378784,
+        "right_arm_joint4": -1.5699973106384277,
+        "left_arm_joint5": 1.5699920654296875,
+        "right_arm_joint5": -1.5700081586837769,
+        "left_arm_joint6": -8.05980732820899e-07,
+        "right_arm_joint6": -9.782224879018031e-07,
+        "left_arm_joint7": -1.3573151136370143e-06,
+        "right_arm_joint7": -1.2214022717671469e-06,
+        "left_gripper_finger_joint1": 0.04999946430325508,
+        "left_gripper_finger_joint2": 0.04999999329447746,
+        "right_gripper_finger_joint1": 0.049999386072158813,
+        "right_gripper_finger_joint2": 0.05000000074505806
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_inter_object_relation_satisfaction_nextto_large_scale_serving_cart_coffee_table_0_0_template-goal_rgb.png",
+      "rgb_sha256": "f45faa63c66d876f750d710d7890cbdf5b6c626ae6e9614ee5a1fed1ba6fc503",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          12.749905586242676,
+          1.8377329111099243,
+          1.0709320306777954
+        ],
+        "orientation": [
+          -0.05564720928668976,
+          0.42275962233543396,
+          0.8967936635017395,
+          -0.11806292831897736
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "serving_cart.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          12.842724800109863,
+          1.4863650798797607,
+          0.3794981837272644
+        ],
+        "orientation": [
+          7.94634971157393e-08,
+          7.546359626076082e-08,
+          0.7872399687767029,
+          0.6166467070579529
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.15,
+        "orientation_tolerance": 0.35,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

@@ -1,0 +1,660 @@
+{
+ "template_id": "house_double_floor_upper__room-bedroom_0__target-pack_of_cigarettes-kienyo",
+ "scene": "house_double_floor_upper",
+ "timings": {
+  "bind_spawn_s": 23.1627676486969,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 97.10847496986389,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 13.237,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 205,
+   "ik_batch_s": 45.808,
+   "collision_calls": 2,
+   "collision_configs": 2,
+   "collision_s": 0.02,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.default": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.default": 1
+  },
+  "save_template_s": 0.28954029083251953
+ },
+ "variant": "object_scaling-pack_of_cigarettes",
+ "subtask": "object_scaling",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "f5ccadfa24c85cfeb6a1bcd7a2497d22b0f72a125a34bc7b1b09722a2505b6f9",
+ "choice": {
+  "scene": "house_double_floor_upper",
+  "rooms": [
+   "bedroom_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "bedroom_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "pack_of_cigarettes",
+    "model": "kienyo",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "pack_of_cigarettes__kienyo__f",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_double_floor_upper__room-bedroom_0__target-pack_of_cigarettes-kienyo",
+  "room_tag": "bedroom_0"
+ },
+ "rooms": [
+  "bedroom_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_14a2f58b_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 473970800,
+  "seed_source": "split",
+  "scene": "house_double_floor_upper",
+  "room": "bedroom_0",
+  "scene_source": "split",
+  "room_override": true
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "d930fc65de83f899dd2b7a1edd2454cc04a99a6fb3a3bc2bfce6f8f99e84e335",
+ "hold": {
+  "key": "d185bf8757026bdd",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 90.0,
+  "approach": "base +y",
+  "closing": "world down rolled 90.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.7012374401092529,
+    0.011836886405944824,
+    1.1998993158340454
+   ],
+   "orientation": [
+    -0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "pad_in_base": [
+   0.7012374401092529,
+   -2.3126602172851562e-05,
+   1.1998993158340454
+  ],
+  "camera_in_base": {
+   "position": [
+    0.2395496368408203,
+    -2.3365020751953125e-05,
+    1.3918485641479492
+   ],
+   "orientation": [
+    0.3924639821052551,
+    -0.39245733618736267,
+    -0.5882006287574768,
+    0.5881915092468262
+   ]
+  },
+  "right_arm_q": [
+   -1.321614146232605,
+   0.03607911244034767,
+   0.17918144166469574,
+   -0.5514163970947266,
+   -0.16618730127811432,
+   0.2501165270805359,
+   1.4424258470535278
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "default",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "default",
+   "against_default": false,
+   "viable": [
+    "right",
+    "left"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "default",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.1284,
+     "nearest_joint": "right_arm_joint7",
+     "reach_rad": 1.442
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.345,
+     "nearest_joint": "left_arm_joint2",
+     "reach_rad": 1.618
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "default",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "default",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.1284,
+      "nearest_joint": "right_arm_joint7",
+      "reach_rad": 1.442
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.345,
+      "nearest_joint": "left_arm_joint2",
+      "reach_rad": 1.618
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "default",
+     "against_default": false,
+     "viable": [
+      "right",
+      "left"
+     ]
+    }
+   }
+  },
+  "goal_options": {
+   "grasps": 5,
+   "prior_skipped": 0,
+   "prior_unknown": 5,
+   "held_out_of_view": 0,
+   "depths": 41,
+   "too_narrow": 0,
+   "windows": 5,
+   "grasps_with_options": 5,
+   "prior_skipped_names": [],
+   "per_grasp": {
+    "grasp_0": [
+     0.22,
+     0.5
+    ],
+    "grasp_1": [
+     0.22,
+     0.5
+    ],
+    "grasp_2": [
+     0.23,
+     0.51
+    ],
+    "grasp_3": [
+     0.22,
+     0.51
+    ],
+    "grasp_4": [
+     0.23,
+     0.51
+    ]
+   }
+  },
+  "depth_windows": {
+   "grasp_0": {
+    "reference_depth": 0.4966,
+    "run": [
+     0.2,
+     0.52
+    ],
+    "window": [
+     0.22,
+     0.5
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.53,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_1": {
+    "reference_depth": 0.4972,
+    "run": [
+     0.2,
+     0.52
+    ],
+    "window": [
+     0.22,
+     0.5
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.53,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_2": {
+    "reference_depth": 0.5031,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_3": {
+    "reference_depth": 0.5009,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_4": {
+    "reference_depth": 0.5052,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   }
+  },
+  "hold": {
+   "key": "d185bf8757026bdd",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 90.0,
+   "approach": "base +y",
+   "closing": "world down rolled 90.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.7012374401092529,
+     0.011836886405944824,
+     1.1998993158340454
+    ],
+    "orientation": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "pad_in_base": [
+    0.7012374401092529,
+    -2.3126602172851562e-05,
+    1.1998993158340454
+   ],
+   "camera_in_base": {
+    "position": [
+     0.2395496368408203,
+     -2.3365020751953125e-05,
+     1.3918485641479492
+    ],
+    "orientation": [
+     0.3924639821052551,
+     -0.39245733618736267,
+     -0.5882006287574768,
+     0.5881915092468262
+    ]
+   },
+   "right_arm_q": [
+    -1.321614146232605,
+    0.03607911244034767,
+    0.17918144166469574,
+    -0.5514163970947266,
+    -0.16618730127811432,
+    0.2501165270805359,
+    1.4424258470535278
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "pack_of_cigarettes__kienyo__f",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 0
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "nlswvt",
+   "scene_object_name": "floors_nlswvt_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "pack__of__cigarettes.n.01_1",
+   "synset": "pack__of__cigarettes.n.01",
+   "category": "pack_of_cigarettes",
+   "model": "kienyo",
+   "scene_object_name": "target_pack_of_cigarettes_kienyo_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "2e7a6ac029612acd6e12d584750782b3164b8c71e85a8438c715fa4825a1f25e",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-pack_of_cigarettes/inst/object_scaling-pack_of_cigarettes/house_double_floor_upper__room-bedroom_0__target-pack_of_cigarettes-kienyo/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-pack_of_cigarettes/inst/object_scaling-pack_of_cigarettes/house_double_floor_upper__room-bedroom_0__target-pack_of_cigarettes-kienyo/template-partial_rooms.json",
+ "load_room_instances": [
+  "bedroom_0",
+  "bathroom_0",
+  "living_room_0"
+ ],
+ "task_rooms": [
+  "bedroom_0"
+ ],
+ "sampled_with_rooms": [
+  "bedroom_0",
+  "bathroom_0",
+  "living_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "object_scaling-2",
+ "choices": {
+  "target": {
+   "category": "pack_of_cigarettes",
+   "model": "kienyo",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "pack_of_cigarettes__kienyo__f",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_nlswvt_0",
+  "pack__of__cigarettes.n.01_1": "target_pack_of_cigarettes_kienyo_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 232.702712059021,
+ "activity_definition": "../activity_definitions/object_scaling/problem4.bddl",
+ "bddl_variant": "object_scaling-pack_of_cigarettes",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -4.700000286102295,
+    1.5,
+    -0.4142778112774299
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "pack__of__cigarettes.n.01_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.293296,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 90.0,
+    "start_depth_m": 0.2907795310020447,
+    "reference_depth_m": 0.5
+   },
+   "arms_q": {
+    "right": [
+     -1.02941,
+     -0.13351,
+     0.31448,
+     -1.77605,
+     -0.71306,
+     1.04585,
+     0.86106
+    ],
+    "left": [
+     -0.0,
+     -0.0,
+     4e-05,
+     -1e-05,
+     1e-05,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.02860511653125286,
+   "fingers_by_arm": {
+    "right": 0.0286,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.293296,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 90.0,
+     "start_depth_m": 0.2907795310020447,
+     "reference_depth_m": 0.5
+    },
+    "arms_q": {
+     "right": [
+      -1.02941,
+      -0.13351,
+      0.31448,
+      -1.77605,
+      -0.71306,
+      1.04585,
+      0.86106
+     ],
+     "left": [
+      -0.0,
+      -0.0,
+      4e-05,
+      -1e-05,
+      1e-05,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.02860511653125286,
+    "fingers_by_arm": {
+     "right": 0.0286,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 1
+ },
+ "seeds": [
+  3753386025324295600
+ ],
+ "kit_stats": {
+  "ik_calls": 11,
+  "ik_s": 13.256720542907715,
+  "ik_batch_calls": 5,
+  "ik_batch_problems": 205,
+  "ik_batch_s": 45.80760335922241,
+  "collision_calls": 26,
+  "collision_configs": 55,
+  "collision_s": 0.22092652320861816,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.default": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "object_scaling",
+  "task": "object_scaling",
+  "subtask": "object_scaling_pack_of_cigarettes",
+  "variant": "object_scaling-pack_of_cigarettes"
+ }
+}

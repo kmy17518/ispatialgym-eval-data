@@ -1,0 +1,171 @@
+{
+  "schema": "isg-oracle-v1",
+  "instance_id": "camera_relocalization-obstructed-trash_can_1__house_single_floor__obstacles-trash_can_1-s1.4__0000",
+  "tro_sha256": "734825c5376fbc12e38749fab5b2b509548ab7eeecfcae2a0a58cc22fe1012d8",
+  "task_family": "camera_relocalization",
+  "variant": "camera_relocalization-obstructed-trash_can_1",
+  "path_bucket_m": 5.0,
+  "stances": {
+    "init": {
+      "base_pose2d": [
+        13.5,
+        0.20000000298023224,
+        3.122861527579057
+      ],
+      "translate": 0.5,
+      "tilt": 0.0,
+      "arms": "untucked",
+      "posture": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    },
+    "goal": {
+      "base_pose2d": [
+        16.30000114440918,
+        1.7000000476837158,
+        -2.6927798819947766
+      ],
+      "translate": 0.19417503478984846,
+      "tilt": -0.26387984301271206,
+      "arms": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    }
+  },
+  "paths": [
+    {
+      "from": "init",
+      "to": "goal",
+      "mode": "global",
+      "waypoints": [
+        [
+          13.5,
+          0.20000000298023224,
+          3.122861527579057
+        ],
+        [
+          15.90000057220459,
+          0.30000001192092896,
+          1.2924962966665743
+        ],
+        [
+          16.30000114440918,
+          1.7000000476837158,
+          -2.6927798819947766
+        ]
+      ],
+      "length_m": 3.8581051714132695,
+      "posture": "untucked",
+      "carried": null,
+      "style": "face_travel",
+      "view_waypoint_index": {
+        "ashcan.n.01_1": 0
+      },
+      "view_s_m": {
+        "ashcan.n.01_1": 0.0
+      },
+      "divergence_waypoint_index": {
+        "ashcan.n.01_1": 0
+      },
+      "divergence_s_m": {
+        "ashcan.n.01_1": 0.05
+      },
+      "view_pose2d": {
+        "ashcan.n.01_1": [
+          13.5,
+          0.20000000298023224,
+          0.04164257290053325
+        ]
+      },
+      "view_heading": "driven schedule",
+      "view_trunk": "init"
+    }
+  ],
+  "goal": {
+    "base_pose2d": [
+      16.30000114440918,
+      1.7000000476837158,
+      -2.6927798819947766
+    ],
+    "translate": 0.19417503478984846,
+    "tilt": -0.26387984301271206,
+    "arms": "same",
+    "blocked_footprints": {
+      "free": [],
+      "block": [
+        [
+          [
+            14.558141593933106,
+            0.6419122266769408
+          ],
+          [
+            15.642502899169921,
+            0.6419122266769408
+          ],
+          [
+            15.642502899169921,
+            1.7878072214126588
+          ],
+          [
+            14.558141593933106,
+            1.7878072214126588
+          ]
+        ]
+      ]
+    }
+  },
+  "language": {
+    "objects": {
+      "ashcan.n.01_1": {
+        "display_name": "trash can",
+        "descriptor": "the trash can on the way"
+      }
+    },
+    "goal_numbers": {}
+  },
+  "waypoint_policy": "checked"
+}

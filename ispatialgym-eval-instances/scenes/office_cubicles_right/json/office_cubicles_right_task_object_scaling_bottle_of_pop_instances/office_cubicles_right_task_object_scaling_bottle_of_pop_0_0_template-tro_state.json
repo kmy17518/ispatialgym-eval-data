@@ -1,0 +1,288 @@
+{
+  "bottle__of__pop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        9.164217948913574,
+        5.8280415534973145,
+        1.2750500440597534
+      ],
+      "ori": [
+        0.01257338561117649,
+        -0.009314967319369316,
+        0.002764430595561862,
+        0.9998738169670105
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          9.136746406555176,
+          5.800338268280029,
+          1.197305679321289,
+          9.19138240814209,
+          5.855841159820557,
+          1.3695077896118164
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        9.922688484191895,
+        4.005344390869141,
+        -0.1428554356098175
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          8.047689437866211,
+          1.9553444385528564,
+          -0.29285573959350586,
+          11.797687530517578,
+          6.055344581604004,
+          0.007144898176193237
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          8.999999046325684,
+          5.300014495849609,
+          0.012431621551513672
+        ],
+        "orientation": [
+          -5.102064460515976e-05,
+          5.856923962710425e-05,
+          0.593475878238678,
+          0.8048518896102905
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "object_scaling",
+    "activity_definition_id": 8,
+    "task_variant": "object_scaling-bottle_of_pop",
+    "instance_id": "object_scaling-bottle_of_pop__office_cubicles_right__room-private_office_0__target-bottle_of_pop-ubazru__0000",
+    "generation_seed": 3380054483525030176,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "aca600bc990cdbd6d57a2f1122c12b6dd29fecab38d1f7a50e5c60c8c3c246f9",
+    "task_spec_sha256": "35332f2ae10f722c7722e5599222a7888e35592acf1af6c387c7d5608d2766c6",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "1ea62d5b65227cb27b0f1a7d0536a93d4a15bc8732e6920cd0917c7841ecb737",
+      "load_room_instances": [
+        "private_office_0",
+        "corridor_0",
+        "empty_room_0",
+        "shared_office_0"
+      ],
+      "task_rooms": [
+        "private_office_0"
+      ],
+      "sampled_with_rooms": [
+        "private_office_0",
+        "corridor_0",
+        "empty_room_0",
+        "shared_office_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_wjsaxw_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_wjsaxw_0",
+        "category": "floors",
+        "model": "wjsaxw"
+      },
+      "bottle__of__pop.n.01_1": {
+        "scene_object_name": "target_bottle_of_pop_ubazru_0",
+        "category": "bottle_of_pop",
+        "model": "ubazru"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0250316858291626,
+        "torso_joint2": -1.4499491453170776,
+        "torso_joint3": -0.47007468342781067,
+        "torso_joint4": 8.609316137153655e-05,
+        "left_arm_joint1": -0.00010300971916876733,
+        "right_arm_joint1": -1.113467812538147,
+        "left_arm_joint2": 5.199632937546994e-07,
+        "right_arm_joint2": -0.28387534618377686,
+        "left_arm_joint3": -8.24140734039247e-05,
+        "right_arm_joint3": 0.5384477972984314,
+        "left_arm_joint4": 6.266137643251568e-05,
+        "right_arm_joint4": -1.61414635181427,
+        "left_arm_joint5": -2.7819928618555423e-06,
+        "right_arm_joint5": -0.907981276512146,
+        "left_arm_joint6": -2.856080755009316e-05,
+        "right_arm_joint6": 0.772915244102478,
+        "left_arm_joint7": -4.001612978754565e-06,
+        "right_arm_joint7": 0.7816380262374878,
+        "left_gripper_finger_joint1": 0.04999937862157822,
+        "left_gripper_finger_joint2": 0.04999937489628792,
+        "right_gripper_finger_joint1": 0.029194315895438194,
+        "right_gripper_finger_joint2": 0.028650576248764992
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {
+        "torso_joint1": 1.0250296592712402,
+        "torso_joint2": -1.4499489068984985,
+        "torso_joint3": -0.470064640045166,
+        "torso_joint4": 5.8898560382658616e-05,
+        "left_arm_joint1": -8.196820272132754e-05,
+        "left_arm_joint2": 1.6727493346024858e-07,
+        "left_arm_joint3": -6.566342199221253e-05,
+        "left_arm_joint4": 3.6441073461901397e-05,
+        "left_arm_joint5": -3.66341896551603e-06,
+        "left_arm_joint6": -1.9753397282329388e-05,
+        "left_arm_joint7": -3.411733814573381e-06,
+        "right_arm_joint1": -1.1135283708572388,
+        "right_arm_joint2": -0.2837795615196228,
+        "right_arm_joint3": 0.538352906703949,
+        "right_arm_joint4": -1.613486647605896,
+        "right_arm_joint5": -0.9174798130989075,
+        "right_arm_joint6": 0.7789161801338196,
+        "right_arm_joint7": 0.7844322919845581
+      }
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_object_scaling_bottle_of_pop_0_0_template-goal_rgb.png",
+      "rgb_sha256": "43e14422859cde0606de5b1bf7a56f1b6fb498f43078500cd2de12e0ee4bca74",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          9.070952415466309,
+          5.529450416564941,
+          1.4041953086853027
+        ],
+        "orientation": [
+          0.5485736131668091,
+          -0.08291162550449371,
+          -0.1243220642209053,
+          0.822640061378479
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "bottle__of__pop.n.01_1": {
+        "link": null,
+        "frame": "agent.n.01_1::robot_r1:zed_link:Camera:0",
+        "position": [
+          0.0008435249328613281,
+          0.0013446807861328125,
+          -0.4232206344604492
+        ],
+        "orientation": null,
+        "position_metric": "depth",
+        "orientation_metric": null,
+        "position_tolerance": 0.02,
+        "orientation_tolerance": null,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "grasps": [
+      {
+        "agent": "agent.n.01_1",
+        "arm": "right",
+        "object": "bottle__of__pop.n.01_1",
+        "grasp_key": "bottle_of_pop__ubazru",
+        "grasp_name": "grasp_0",
+        "object_pose_in_eef_frame": {
+          "position": [
+            0.00104522705078125,
+            -0.0035552978515625,
+            -0.012689590454101562
+          ],
+          "orientation": [
+            0.6939070820808411,
+            -0.11740430444478989,
+            -0.7027522325515747,
+            0.10415622591972351
+          ]
+        },
+        "finger_q": [
+          0.029194315895438194,
+          0.028650576248764992
+        ],
+        "ag_anchor_in_eef": [
+          -0.00988316535949707,
+          0.02942943572998047,
+          -0.012036323547363281
+        ]
+      }
+    ]
+  }
+}

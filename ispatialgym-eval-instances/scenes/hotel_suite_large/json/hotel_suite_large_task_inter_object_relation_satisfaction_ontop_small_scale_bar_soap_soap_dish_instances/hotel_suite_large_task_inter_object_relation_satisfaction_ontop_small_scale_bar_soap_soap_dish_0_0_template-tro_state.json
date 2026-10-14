@@ -1,0 +1,336 @@
+{
+  "bar_soap.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        0.4846045970916748,
+        2.507439136505127,
+        0.6670653223991394
+      ],
+      "ori": [
+        2.644710912136361e-05,
+        -1.814608185668476e-05,
+        0.7848781943321228,
+        -0.6196500658988953
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          0.46585097908973694,
+          2.481588840484619,
+          0.6616447567939758,
+          0.5033320784568787,
+          2.533304452896118,
+          0.6724877953529358
+        ]
+      }
+    }
+  },
+  "soap_dish.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        0.7612434029579163,
+        2.507439136505127,
+        0.664323627948761
+      ],
+      "ori": [
+        1.6501840036653448e-06,
+        1.0551237892286736e-06,
+        0.6389613151550293,
+        0.7692389488220215
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          0.6733537316322327,
+          2.45522141456604,
+          0.6616451740264893,
+          0.83876633644104,
+          2.562457323074341,
+          0.6778021454811096
+        ]
+      }
+    }
+  },
+  "shelf.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        0.9656672477722168,
+        2.594447612762451,
+        0.5849820971488953
+      ],
+      "ori": [
+        0.7071067094802856,
+        0.7071068286895752,
+        1.685874195800352e-07,
+        1.0677015893634234e-07
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          0.10376691818237305,
+          2.349961996078491,
+          0.5086458325386047,
+          1.8275673389434814,
+          2.8399620056152344,
+          0.6616466641426086
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -0.5485377311706543,
+        4.161387920379639,
+        -0.13994504511356354
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -3.551239490509033,
+          2.2299864292144775,
+          -0.2739635407924652,
+          2.451261043548584,
+          6.090987205505371,
+          0.027917519211769104
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          0.3598010838031769,
+          3.2699623107910156,
+          -0.0008158683776855469
+        ],
+        "orientation": [
+          5.1748938858509064e-05,
+          6.13194060861133e-05,
+          -0.7071065306663513,
+          0.7071071267127991
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 2,
+    "task_variant": "inter_object_relation_satisfaction-ontop_small_scale-bar_soap_utgixp-soap_dish-shelf",
+    "instance_id": "inter_object_relation_satisfaction-ontop_small_scale-bar_soap_utgixp-soap_dish-shelf__hotel_suite_large__support-shelf_rglkkf_0-T2__partner-soap_dish-slksbk__target-bar_soap-utgixp__0000",
+    "generation_seed": 5301372256207056414,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "f79828f0f32d28ac90524a3869992edbd6ceaeee693312089d3464c39d16e1e9",
+    "task_spec_sha256": "b26acb58032b00ff98a4fc864d1f54249f9d7c9be33622620444a4aee568b06b",
+    "layout_template_id": null,
+    "scene": {
+      "model": "hotel_suite_large",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "389e50ff753e9bbdad14d01e6afe17febba51e26fd4d088d6cf669c864961bce",
+      "load_room_instances": [
+        "bathroom_0",
+        "bedroom_0"
+      ],
+      "task_rooms": [
+        "bathroom_0"
+      ],
+      "sampled_with_rooms": [
+        "bathroom_0",
+        "bedroom_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_kudtlk_0",
+        "shelf_rglkkf_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_kudtlk_0",
+        "category": "floors",
+        "model": "kudtlk"
+      },
+      "shelf.n.01_1": {
+        "scene_object_name": "shelf_rglkkf_0",
+        "category": "shelf",
+        "model": "rglkkf"
+      },
+      "bar_soap.n.01_1": {
+        "scene_object_name": "target_bar_soap_utgixp_0",
+        "category": "bar_soap",
+        "model": "utgixp"
+      },
+      "soap_dish.n.01_1": {
+        "scene_object_name": "partner_soap_dish_slksbk_0",
+        "category": "soap_dish",
+        "model": "slksbk"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.511842966079712,
+        "torso_joint2": -2.3390135765075684,
+        "torso_joint3": -0.8679404854774475,
+        "torso_joint4": -5.404357850125052e-08,
+        "left_arm_joint1": 2.4068849597824737e-05,
+        "right_arm_joint1": 3.6341389204608276e-05,
+        "left_arm_joint2": 1.5700002908706665,
+        "right_arm_joint2": -1.570000171661377,
+        "left_arm_joint3": -1.0850866374312318e-06,
+        "right_arm_joint3": 7.156390324780659e-07,
+        "left_arm_joint4": -1.570000410079956,
+        "right_arm_joint4": -1.5699995756149292,
+        "left_arm_joint5": 1.5699994564056396,
+        "right_arm_joint5": -1.570001482963562,
+        "left_arm_joint6": -5.952603032710613e-08,
+        "right_arm_joint6": -2.331562143353949e-08,
+        "left_arm_joint7": -1.2720586539671785e-07,
+        "right_arm_joint7": -4.996304880933167e-08,
+        "left_gripper_finger_joint1": 0.04999968782067299,
+        "left_gripper_finger_joint2": 0.0499998964369297,
+        "right_gripper_finger_joint1": 0.04999968782067299,
+        "right_gripper_finger_joint2": 0.04999998211860657
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "hotel_suite_large_task_inter_object_relation_satisfaction_ontop_small_scale_bar_soap_soap_dish_0_0_template-goal_rgb.png",
+      "rgb_sha256": "24d9cf908ec108652f74cb502f57c792de398ea43d8cc3803643d75618b78943",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          0.35983163118362427,
+          2.79431414604187,
+          1.202552318572998
+        ],
+        "orientation": [
+          -1.5428006008733064e-05,
+          0.24648517370224,
+          0.9691465497016907,
+          -1.1488815289339982e-05
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "soap_dish.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          0.7608418464660645,
+          2.5060231685638428,
+          0.6643239855766296
+        ],
+        "orientation": [
+          1.2603527466126252e-06,
+          -1.1721406281139934e-06,
+          0.634310245513916,
+          0.7730786800384521
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      },
+      "bar_soap.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          0.7565823793411255,
+          2.507645606994629,
+          0.6767206192016602
+        ],
+        "orientation": [
+          -0.0006522269104607403,
+          -0.012853643856942654,
+          0.7782972455024719,
+          -0.627764105796814
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

@@ -1,0 +1,804 @@
+{
+  "toy_dice.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.53147554397583,
+        3.4099252223968506,
+        0.8394154906272888
+      ],
+      "ori": [
+        0.00012253629392944276,
+        6.53122624498792e-05,
+        0.47951972484588623,
+        -0.877531111240387
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.502819538116455,
+          3.3812801837921143,
+          0.8187048435211182,
+          7.560054779052734,
+          3.438527822494507,
+          0.8601446151733398
+        ]
+      }
+    }
+  },
+  "toy_dice.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.417971611022949,
+        3.4867146015167236,
+        0.8669787049293518
+      ],
+      "ori": [
+        -0.03992844000458717,
+        0.023953057825565338,
+        0.8527906537055969,
+        0.5201730132102966
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.361372470855713,
+          3.4256153106689453,
+          0.8169049024581909,
+          7.476712226867676,
+          3.543558120727539,
+          0.9204871654510498
+        ]
+      }
+    }
+  },
+  "toy_dice.n.01_3": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.309973239898682,
+        3.3827435970306396,
+        0.8394095301628113
+      ],
+      "ori": [
+        -6.832960207248107e-05,
+        -0.00014490717148873955,
+        -0.6290706992149353,
+        0.7773481607437134
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.285637855529785,
+          3.3583827018737793,
+          0.8187238574028015,
+          7.3343071937561035,
+          3.407058000564575,
+          0.8601635098457336
+        ]
+      }
+    }
+  },
+  "toy_figure.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.669818878173828,
+        3.351924180984497,
+        0.846847414970398
+      ],
+      "ori": [
+        0.0008925137226469815,
+        -0.0022341820877045393,
+        -0.9628993272781372,
+        0.2698502540588379
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.589466094970703,
+          3.2902164459228516,
+          0.818718433380127,
+          7.745087146759033,
+          3.4078140258789062,
+          0.8943341970443726
+        ]
+      }
+    }
+  },
+  "breakfast_table.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.294810771942139,
+        3.5007450580596924,
+        0.7648559212684631
+      ],
+      "ori": [
+        -0.00011922650446649641,
+        0.00013806382776238024,
+        0.706203818321228,
+        0.7080085873603821
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.8305158615112305,
+          2.9049344062805176,
+          -0.00041484832763671875,
+          8.759994506835938,
+          4.0956034660339355,
+          0.812868595123291
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.522749423980713,
+        3.4451966285705566,
+        0.8181213140487671
+      ],
+      "ori": [
+        -9.937943104887381e-05,
+        0.00013349037908483297,
+        0.7062031626701355,
+        0.7080093026161194
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.239818572998047,
+          3.246691942214966,
+          0.8125963807106018,
+          7.80542516708374,
+          3.643929958343506,
+          0.8333231806755066
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.3644022941589355,
+        3.4481236934661865,
+        0.8172159790992737
+      ],
+      "ori": [
+        0.0019109660061076283,
+        -0.001898024813272059,
+        0.706196665763855,
+        0.7080106139183044
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          6.144192695617676,
+          3.3096799850463867,
+          0.8126246333122253,
+          6.5846147537231445,
+          3.587611198425293,
+          0.8341605067253113
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.781831741333008,
+        3.26104998588562,
+        -0.13887082040309906
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          3.8204739093780518,
+          1.8885823488235474,
+          -0.2777208387851715,
+          9.36577320098877,
+          4.7315826416015625,
+          -2.0831823348999023e-05
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          7.561385154724121,
+          2.4666709899902344,
+          0.0052661895751953125
+        ],
+        "orientation": [
+          -5.972292274236679e-05,
+          5.1452199841151014e-05,
+          0.7062032222747803,
+          0.7080092430114746
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 4,
+    "task_variant": "disembedding-toy_dice-toy_dice_2_toy_figure_1-breakfast_table",
+    "instance_id": "disembedding-toy_dice-toy_dice_2_toy_figure_1-breakfast_table__house_single_floor__support-breakfast_table_rhjoby_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-toy_dice-hbkqqp__distractors-toy_dice_2-toy_figure_1__0000",
+    "generation_seed": 1840330075099662379,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "b296b19de835831a26b7954614b4246b3bc4fedbabb1560ea089b9348b59c3a1",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "72543151e7c029cf4013b912f9071bdb25dd2803018aa8dd7348cbbc6a65bff2",
+      "load_room_instances": [
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "kitchen_0",
+        "living_room_0",
+        "living_room_1"
+      ],
+      "task_rooms": [
+        "dining_room_0"
+      ],
+      "sampled_with_rooms": [
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "kitchen_0",
+        "living_room_0",
+        "living_room_1"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/house_single_floor__cc5e0dab4b.json",
+        "removed_objects": [
+          "straight_chair_jgoolz_0",
+          "straight_chair_jgoolz_1",
+          "straight_chair_jgoolz_2",
+          "straight_chair_jgoolz_3",
+          "straight_chair_jgoolz_4",
+          "straight_chair_jgoolz_5"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                7.993353843688965,
+                3.1143271923065186
+              ],
+              [
+                8.363746643066406,
+                3.248072862625122
+              ],
+              [
+                8.546874046325684,
+                2.7409231662750244
+              ],
+              [
+                8.176481246948242,
+                2.607177495956421
+              ]
+            ],
+            [
+              [
+                8.428321838378906,
+                3.81669282913208
+              ],
+              [
+                8.04768180847168,
+                3.715738296508789
+              ],
+              [
+                7.909452438354492,
+                4.236918926239014
+              ],
+              [
+                8.290092468261719,
+                4.337873458862305
+              ]
+            ],
+            [
+              [
+                7.475783348083496,
+                3.7558629512786865
+              ],
+              [
+                7.083395957946777,
+                3.722538948059082
+              ],
+              [
+                7.037768363952637,
+                4.259805202484131
+              ],
+              [
+                7.4301557540893555,
+                4.293128967285156
+              ]
+            ],
+            [
+              [
+                6.607521057128906,
+                3.804436206817627
+              ],
+              [
+                6.21530818939209,
+                3.8397560119628906
+              ],
+              [
+                6.263669013977051,
+                4.3767828941345215
+              ],
+              [
+                6.655881881713867,
+                4.341463088989258
+              ]
+            ],
+            [
+              [
+                6.289393901824951,
+                3.2292425632476807
+              ],
+              [
+                6.669515132904053,
+                3.1263527870178223
+              ],
+              [
+                6.528636455535889,
+                2.605881929397583
+              ],
+              [
+                6.148515224456787,
+                2.7087717056274414
+              ]
+            ],
+            [
+              [
+                7.140786647796631,
+                3.0244858264923096
+              ],
+              [
+                7.520907878875732,
+                2.921595573425293
+              ],
+              [
+                7.380028247833252,
+                2.401125192642212
+              ],
+              [
+                6.99990701675415,
+                2.5040154457092285
+              ]
+            ]
+          ],
+          "block": [
+            [
+              [
+                5.848289966583252,
+                4.084524154663086
+              ],
+              [
+                8.743980407714844,
+                4.077131748199463
+              ],
+              [
+                8.741019248962402,
+                2.9172356128692627
+              ],
+              [
+                5.845329284667969,
+                2.9246277809143066
+              ]
+            ]
+          ]
+        },
+        "moved_objects": {
+          "straight_chair_jgoolz_0": {
+            "pos": [
+              8.276880264282227,
+              2.908885955810547,
+              0.32601872086524963
+            ],
+            "ori": [
+              1.6197562217712402e-05,
+              -1.215015072375536e-05,
+              0.8184217810630798,
+              0.5746181011199951
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -124.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          },
+          "straight_chair_jgoolz_1": {
+            "pos": [
+              8.163780212402344,
+              4.046063423156738,
+              0.32601845264434814
+            ],
+            "ori": [
+              -1.2665987014770508e-05,
+              -1.56183959916234e-05,
+              -0.6097702980041504,
+              0.7925782799720764
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -129.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          },
+          "straight_chair_jgoolz_2": {
+            "pos": [
+              7.255090236663818,
+              4.027685642242432,
+              0.32602065801620483
+            ],
+            "ori": [
+              -6.452202796936035e-06,
+              -7.124384865164757e-06,
+              -0.6765273213386536,
+              0.7364175915718079
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -134.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          },
+          "straight_chair_jgoolz_3": {
+            "pos": [
+              6.437382221221924,
+              4.110452651977539,
+              0.32601872086524963
+            ],
+            "ori": [
+              -1.7136335372924805e-05,
+              -1.3347831554710865e-05,
+              -0.7381362915039062,
+              0.6746516227722168
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -139.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          },
+          "straight_chair_jgoolz_4": {
+            "pos": [
+              6.403809547424316,
+              2.8983311653137207,
+              0.3260188698768616
+            ],
+            "ori": [
+              1.1816620826721191e-05,
+              -1.826148945838213e-05,
+              0.6077523231506348,
+              0.7941267490386963
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -144.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          },
+          "straight_chair_jgoolz_5": {
+            "pos": [
+              7.255201816558838,
+              2.6935744285583496,
+              0.3260185718536377
+            ],
+            "ori": [
+              1.1801719665527344e-05,
+              -1.615926157683134e-05,
+              0.6077519059181213,
+              0.7941270470619202
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -149.84286308288574,
+              -115.73151111602783,
+              -100.9590277671814
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "breakfast_table_rhjoby_0",
+        "floors_qgmjvd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_qgmjvd_0",
+        "category": "floors",
+        "model": "qgmjvd"
+      },
+      "breakfast_table.n.01_1": {
+        "scene_object_name": "breakfast_table_rhjoby_0",
+        "category": "breakfast_table",
+        "model": "rhjoby"
+      },
+      "toy_dice.n.01_1": {
+        "scene_object_name": "target_toy_dice_hbkqqp_0",
+        "category": "toy_dice",
+        "model": "hbkqqp"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "toy_dice.n.01_2": {
+        "scene_object_name": "distractors_toy_dice_haqumx_0",
+        "category": "toy_dice",
+        "model": "haqumx"
+      },
+      "toy_dice.n.01_3": {
+        "scene_object_name": "distractors_toy_dice_wyxlhc_1",
+        "category": "toy_dice",
+        "model": "wyxlhc"
+      },
+      "toy_figure.n.01_1": {
+        "scene_object_name": "distractors_toy_figure_acymin_2",
+        "category": "toy_figure",
+        "model": "acymin"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.2378662824630737,
+        "torso_joint2": -1.8386659622192383,
+        "torso_joint3": -0.6439858078956604,
+        "torso_joint4": -1.514255956180932e-07,
+        "left_arm_joint1": -0.0001350204402115196,
+        "right_arm_joint1": -9.62279736995697e-05,
+        "left_arm_joint2": 1.570001244544983,
+        "right_arm_joint2": -1.5700010061264038,
+        "left_arm_joint3": -1.7870175952339196e-06,
+        "right_arm_joint3": 5.286219106892531e-07,
+        "left_arm_joint4": -1.5700000524520874,
+        "right_arm_joint4": -1.570000171661377,
+        "left_arm_joint5": 1.5699992179870605,
+        "right_arm_joint5": -1.5699996948242188,
+        "left_arm_joint6": 5.3645237585442374e-08,
+        "right_arm_joint6": 1.7664726215116389e-07,
+        "left_arm_joint7": -1.8776640331452654e-07,
+        "right_arm_joint7": 6.490893156296806e-09,
+        "left_gripper_finger_joint1": 0.04999958723783493,
+        "left_gripper_finger_joint2": 0.049999672919511795,
+        "right_gripper_finger_joint1": 0.049999505281448364,
+        "right_gripper_finger_joint2": 0.049999937415122986
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_disembedding_toy_dice_toy_dice_2_toy_figure_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "0175210294eb2a1949a5498d7e26a3fce0e7928f8082a5993308f7e1bd016883",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          6.582127094268799,
+          3.079738140106201,
+          1.3761765956878662
+        ],
+        "orientation": [
+          0.31527453660964966,
+          -0.00017820767243392766,
+          -0.0005129423807375133,
+          0.949000358581543
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "toy_dice.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          6.359274387359619,
+          3.4454236030578613,
+          0.8361064195632935
+        ],
+        "orientation": [
+          -0.0023615206591784954,
+          -0.0012902390444651246,
+          0.477848619222641,
+          -0.8784381151199341
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "toy_dice.n.01_1",
+      "occluders": [
+        "toy_dice.n.01_2",
+        "toy_dice.n.01_3",
+        "toy_figure.n.01_1"
+      ],
+      "ratio": -0.0011402508551880963,
+      "visible_area": 878,
+      "reference_area": 877,
+      "occluder_ids": [
+        "distractors_toy_dice_haqumx_0",
+        "distractors_toy_dice_wyxlhc_1",
+        "distractors_toy_figure_acymin_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 2297
+    }
+  }
+}

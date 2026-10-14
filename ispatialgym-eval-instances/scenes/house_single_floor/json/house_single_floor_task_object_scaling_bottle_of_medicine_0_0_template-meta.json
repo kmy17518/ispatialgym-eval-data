@@ -1,0 +1,662 @@
+{
+ "template_id": "house_single_floor__room-kitchen_0__target-bottle_of_medicine-kqkwoq",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 35.9954719543457,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 112.05461263656616,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 14.649,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 205,
+   "ik_batch_s": 46.901,
+   "collision_calls": 2,
+   "collision_configs": 2,
+   "collision_s": 0.027,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.default": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.default": 1
+  },
+  "save_template_s": 1.5724091529846191
+ },
+ "variant": "object_scaling-bottle_of_medicine",
+ "subtask": "object_scaling",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "e82df5e69cfa782bc09457ccde185ab986f80256ebd4f15a97d15372dcf4a340",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "kitchen_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "kitchen_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "bottle_of_medicine",
+    "model": "kqkwoq",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "bottle_of_medicine__kqkwoq",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__room-kitchen_0__target-bottle_of_medicine-kqkwoq",
+  "room_tag": "kitchen_0"
+ },
+ "rooms": [
+  "kitchen_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_14a2f58b_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 711449998,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": "kitchen_0",
+  "scene_source": "split",
+  "room_override": true
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "c32f5ee261d9f297fb3e93d49b6bec33e02a4fadb83081fcbe76c46783fde179",
+ "hold": {
+  "key": "d185bf8757026bdd",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 90.0,
+  "approach": "base +y",
+  "closing": "world down rolled 90.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.7012343406677246,
+    0.011836767196655273,
+    1.1999015808105469
+   ],
+   "orientation": [
+    -0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "pad_in_base": [
+   0.7012343406677246,
+   -2.3245811462402344e-05,
+   1.1999015808105469
+  ],
+  "camera_in_base": {
+   "position": [
+    0.2395458221435547,
+    -2.3543834686279297e-05,
+    1.3918490409851074
+   ],
+   "orientation": [
+    0.39246511459350586,
+    -0.3924584686756134,
+    -0.5881999731063843,
+    0.5881907343864441
+   ]
+  },
+  "right_arm_q": [
+   -1.3215960264205933,
+   0.036078792065382004,
+   0.1791825145483017,
+   -0.5514659881591797,
+   -0.1661880612373352,
+   0.2501473128795624,
+   1.4424177408218384
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "default",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "default",
+   "against_default": false,
+   "viable": [
+    "right",
+    "left"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "default",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.1284,
+     "nearest_joint": "right_arm_joint7",
+     "reach_rad": 1.442
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.3451,
+     "nearest_joint": "left_arm_joint2",
+     "reach_rad": 1.618
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "default",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "default",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.1284,
+      "nearest_joint": "right_arm_joint7",
+      "reach_rad": 1.442
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.3451,
+      "nearest_joint": "left_arm_joint2",
+      "reach_rad": 1.618
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "default",
+     "against_default": false,
+     "viable": [
+      "right",
+      "left"
+     ]
+    }
+   }
+  },
+  "goal_options": {
+   "grasps": 5,
+   "prior_skipped": 0,
+   "prior_unknown": 5,
+   "held_out_of_view": 0,
+   "depths": 41,
+   "too_narrow": 0,
+   "windows": 5,
+   "grasps_with_options": 5,
+   "prior_skipped_names": [],
+   "per_grasp": {
+    "grasp_0": [
+     0.22,
+     0.51
+    ],
+    "grasp_1": [
+     0.22,
+     0.51
+    ],
+    "grasp_2": [
+     0.23,
+     0.51
+    ],
+    "grasp_3": [
+     0.22,
+     0.51
+    ],
+    "grasp_4": [
+     0.23,
+     0.51
+    ]
+   }
+  },
+  "depth_windows": {
+   "grasp_0": {
+    "reference_depth": 0.4988,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_1": {
+    "reference_depth": 0.4994,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_2": {
+    "reference_depth": 0.5035,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_3": {
+    "reference_depth": 0.4979,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_4": {
+    "reference_depth": 0.5028,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   }
+  },
+  "hold": {
+   "key": "d185bf8757026bdd",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 90.0,
+   "approach": "base +y",
+   "closing": "world down rolled 90.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.7012343406677246,
+     0.011836767196655273,
+     1.1999015808105469
+    ],
+    "orientation": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "pad_in_base": [
+    0.7012343406677246,
+    -2.3245811462402344e-05,
+    1.1999015808105469
+   ],
+   "camera_in_base": {
+    "position": [
+     0.2395458221435547,
+     -2.3543834686279297e-05,
+     1.3918490409851074
+    ],
+    "orientation": [
+     0.39246511459350586,
+     -0.3924584686756134,
+     -0.5881999731063843,
+     0.5881907343864441
+    ]
+   },
+   "right_arm_q": [
+    -1.3215960264205933,
+    0.036078792065382004,
+    0.1791825145483017,
+    -0.5514659881591797,
+    -0.1661880612373352,
+    0.2501473128795624,
+    1.4424177408218384
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "bottle_of_medicine__kqkwoq",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 0
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "kxcpgy",
+   "scene_object_name": "floors_kxcpgy_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "bottle__of__medicine.n.01_1",
+   "synset": "bottle__of__medicine.n.01",
+   "category": "bottle_of_medicine",
+   "model": "kqkwoq",
+   "scene_object_name": "target_bottle_of_medicine_kqkwoq_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "b6e7e2e7debb76da4f318823d3219d21163ed25f652dbdd90037526f1532dadc",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-bottle_of_medicine/inst/object_scaling-bottle_of_medicine/house_single_floor__room-kitchen_0__target-bottle_of_medicine-kqkwoq/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-bottle_of_medicine/inst/object_scaling-bottle_of_medicine/house_single_floor__room-kitchen_0__target-bottle_of_medicine-kqkwoq/template-partial_rooms.json",
+ "load_room_instances": [
+  "kitchen_0",
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "living_room_0"
+ ],
+ "task_rooms": [
+  "kitchen_0"
+ ],
+ "sampled_with_rooms": [
+  "kitchen_0",
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "living_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "object_scaling-0",
+ "choices": {
+  "target": {
+   "category": "bottle_of_medicine",
+   "model": "kqkwoq",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "bottle_of_medicine__kqkwoq",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_kxcpgy_0",
+  "bottle__of__medicine.n.01_1": "target_bottle_of_medicine_kqkwoq_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 445.1362121105194,
+ "activity_definition": "../activity_definitions/object_scaling/problem2.bddl",
+ "bddl_variant": "object_scaling-bottle_of_medicine",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    5.0,
+    0.5,
+    -2.3068390645705144
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "bottle__of__medicine.n.01_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.440194,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 90.0,
+    "start_depth_m": 0.439800888299942,
+    "reference_depth_m": 0.5
+   },
+   "arms_q": {
+    "right": [
+     -1.14179,
+     0.01331,
+     0.16761,
+     -1.05018,
+     -0.17115,
+     0.56966,
+     1.39482
+    ],
+    "left": [
+     -2e-05,
+     0.0,
+     4e-05,
+     1e-05,
+     1e-05,
+     -1e-05,
+     -0.0
+    ]
+   },
+   "fingers": 0.026010360568761826,
+   "fingers_by_arm": {
+    "right": 0.026,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.440194,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 90.0,
+     "start_depth_m": 0.439800888299942,
+     "reference_depth_m": 0.5
+    },
+    "arms_q": {
+     "right": [
+      -1.14179,
+      0.01331,
+      0.16761,
+      -1.05018,
+      -0.17115,
+      0.56966,
+      1.39482
+     ],
+     "left": [
+      -2e-05,
+      0.0,
+      4e-05,
+      1e-05,
+      1e-05,
+      -1e-05,
+      -0.0
+     ]
+    },
+    "fingers": 0.026010360568761826,
+    "fingers_by_arm": {
+     "right": 0.026,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 3
+ },
+ "seeds": [
+  5633989436079602486
+ ],
+ "kit_stats": {
+  "ik_calls": 11,
+  "ik_s": 14.673224925994873,
+  "ik_batch_calls": 5,
+  "ik_batch_problems": 205,
+  "ik_batch_s": 46.90133023262024,
+  "collision_calls": 26,
+  "collision_configs": 28,
+  "collision_s": 0.2194507122039795,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.default": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "object_scaling",
+  "task": "object_scaling",
+  "subtask": "object_scaling_bottle_of_medicine",
+  "variant": "object_scaling-bottle_of_medicine"
+ }
+}

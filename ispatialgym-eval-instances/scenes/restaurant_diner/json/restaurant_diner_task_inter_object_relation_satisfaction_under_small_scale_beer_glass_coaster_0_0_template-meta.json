@@ -1,0 +1,894 @@
+{
+ "template_id": "restaurant_diner__support-booth_xzrpar_0-T5__partner-coaster-arjpcz__target-beer_glass-mxsliu",
+ "scene": "restaurant_diner",
+ "timings": {
+  "bind_spawn_s": 25.26805591583252,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 46.83736562728882,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 4,
+   "collision_configs": 1362,
+   "collision_s": 0.26
+  },
+  "save_template_s": 0.48765063285827637
+ },
+ "variant": "inter_object_relation_satisfaction-under_small_scale-beer_glass-coaster-booth",
+ "subtask": "inter_object_relation_satisfaction-under_small_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "f9d89d222a2288a0ac1bc3580ad1fa27eec08d9910792ee5b76fbd7c6b2a0c93",
+ "choice": {
+  "scene": "restaurant_diner",
+  "rooms": [
+   "dining_room_0"
+  ],
+  "bindings": {
+   "support": [
+    "booth_xzrpar_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "booth_xzrpar_0",
+     "init": "ontop",
+     "top_z": 0.75,
+     "row": "inter_object_relation_satisfaction-under_small_scale#02~T5"
+    }
+   ],
+   "floor": {
+    "room": "dining_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "beer_glass",
+    "model": "mxsliu",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "beer_glass__mxsliu__t2f",
+    "scale": null
+   },
+   "partner": {
+    "category": "coaster",
+    "model": "arjpcz",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "restaurant_diner__support-booth_xzrpar_0-T5__partner-coaster-arjpcz__target-beer_glass-mxsliu",
+  "support_tag": "booth_xzrpar_0-T5"
+ },
+ "rooms": [
+  "dining_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_7f621468_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 141004924,
+  "seed_source": "split",
+  "scene": "restaurant_diner",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "restaurant_diner",
+  "support": "booth_xzrpar_0",
+  "row": "inter_object_relation_satisfaction-under_small_scale#02~T5",
+  "init": "ontop",
+  "top_z": 0.75,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "dining_room_0"
+  ],
+  "floor_room": "dining_room_0",
+  "tag": "booth_xzrpar_0-T5",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "ad68ef55d7b2e9f6ebb9a016f214a4c5d77f03f01f58cdddc671b6e414fc5670",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "grasps_dropped_not_attachable": [],
+  "grasp_pinch_recentre": {},
+  "grasp_pinch_offset_m": {
+   "grasp_0": -0.0,
+   "grasp_1": -0.0,
+   "grasp_2": -0.0,
+   "grasp_3": -0.0,
+   "grasp_4": -0.0,
+   "grasp_5": -0.0
+  },
+  "grasps_recentred": [],
+  "grasp_closing_tilt_deg": {
+   "grasp_0": 0.2,
+   "grasp_1": 0.2,
+   "grasp_2": 0.2,
+   "grasp_3": 0.2,
+   "grasp_4": 0.2,
+   "grasp_5": 0.1
+  },
+  "grasp_pivot_arms_m": {
+   "grasp_0": 0.034,
+   "grasp_1": 0.0221,
+   "grasp_2": 0.0217,
+   "grasp_3": 0.0435,
+   "grasp_4": 0.0327,
+   "grasp_5": 0.0294
+  },
+  "grasp_pinch_vs_long_axis_deg": {
+   "grasp_0": 89.8,
+   "grasp_1": 89.8,
+   "grasp_2": 89.8,
+   "grasp_3": 89.8,
+   "grasp_4": 89.8,
+   "grasp_5": 89.9
+  },
+  "grasps_flush_first": [
+   "grasp_0",
+   "grasp_1",
+   "grasp_2",
+   "grasp_3",
+   "grasp_4",
+   "grasp_5"
+  ],
+  "grasps_inclined_fallback": [],
+  "pair": {
+   "target_extent": [
+    0.06017303466796875,
+    0.06052398681640625,
+    0.11691093444824219
+   ],
+   "partner_extent": [
+    0.10359954833984375,
+    0.10359954833984375,
+    0.00093841552734375
+   ],
+   "relation": "under",
+   "tier": "aligned"
+  },
+  "partner_sides": [
+   "left"
+  ],
+  "partner_on_meta_link": null,
+  "support_surface": {
+   "support": "booth_xzrpar_0",
+   "spec": {
+    "name": "booth_xzrpar_0",
+    "init": "ontop",
+    "top_z": 0.75,
+    "row": "inter_object_relation_satisfaction-under_small_scale#02~T5"
+   },
+   "top_z_above_floor": 0.7548,
+   "top_error": null,
+   "surface": "top"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": null,
+    "mirrored_from": "right",
+    "mirror_source": "/tmp/minyeong/isge_17823505/reach_bands/tabletop__restaurant_diner__booth_xzrpar_0__beer_glass-mxsliu__dd39c3d86ccef528.npz"
+   }
+  },
+  "start_region": {
+   "edge": "-v",
+   "edge_length_m": 0.68,
+   "L_min_m": 0.394,
+   "m_end_m": 0.1,
+   "lateral_m": -0.094,
+   "assigned": "left",
+   "sides": [
+    "left"
+   ],
+   "drawn_sides": [
+    "left"
+   ],
+   "gap_range_m": [
+    0.03,
+    0.1336
+   ],
+   "phase2_candidates": 1682,
+   "cells": {
+    "left": 23
+   },
+   "candidates": {
+    "left": 702
+   },
+   "gap_m": {
+    "left": [
+     0.03,
+     0.1336
+    ]
+   },
+   "meta_link": null,
+   "failed_lateral_draws": []
+  },
+  "support": {
+   "name": "booth_xzrpar_0",
+   "z": 0.753812313079834,
+   "yaw": -1.5707964897155762,
+   "local_bounds": [
+    -2.994723320007324,
+    -2.314723014831543,
+    -0.02668464370071888,
+    1.2733154296875
+   ],
+   "n_free_cells": 2309,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "-v",
+   "mid": [
+    -0.026684211567044258,
+    2.6547231674194336
+   ],
+   "inward": [
+    1.0,
+    -1.6292068494294654e-07
+   ],
+   "tangent": [
+    1.6292068494294654e-07,
+    1.0
+   ],
+   "length_m": 0.6800003051757812,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    -0.47668424248695374,
+    2.5604031085968018,
+    -1.629206849429451e-07
+   ],
+   "translate": 0.7514341388533966,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "-v",
+   "lateral": -0.0943199652557963,
+   "H_max": 0.11691093444824219,
+   "delta": 0.4994225955157355,
+   "delta_aim": 0.4994225955157355,
+   "delta_min": 0.40468904972076414,
+   "delta_max": 0.6775250544062762,
+   "conflict": false,
+   "d_ws": 0.27228572283472335,
+   "d_near": 0.030000001192092896,
+   "d_far": 0.5899999737739563,
+   "lam_min": -0.3199999928474426,
+   "lam_max": 0.0,
+   "x_c": 0.22215752781941145,
+   "z_c": 1.2542504932786152,
+   "b": 0.6914676427841187,
+   "b_right": 0.6914716958999634,
+   "b_left": 0.6914676427841187,
+   "R_img": 0.6914676427841187,
+   "t_range": [
+    0.42817334077704666,
+    0.8988984734675972
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 35,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "b": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "safety": 0.02,
+    "D_p": 0.13359954833984375,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.39412353515625,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.3400001525878906,
+    0.3400001525878906
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "-v",
+    "mid": [
+     -0.026684211567044258,
+     2.6547231674194336
+    ],
+    "inward": [
+     1.0,
+     -1.6292068494294654e-07
+    ],
+    "tangent": [
+     1.6292068494294654e-07,
+     1.0
+    ],
+    "length_m": 0.6800003051757812,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999998807907104,
+   "extras": {
+    "H_max": 0.11691093444824219,
+    "delta": 0.4994225955157355,
+    "delta_aim": 0.4994225955157355,
+    "delta_min": 0.40468904972076414,
+    "delta_max": 0.6775250544062762,
+    "conflict": false,
+    "d_ws": 0.27228572283472335,
+    "d_near": 0.030000001192092896,
+    "d_far": 0.5899999737739563,
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "x_c": 0.22215752781941145,
+    "z_c": 1.2542504932786152,
+    "b": 0.6914676427841187,
+    "b_right": 0.6914716958999634,
+    "b_left": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "t_range": [
+     0.42817334077704666,
+     0.8988984734675972
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 35,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.3199999928474426,
+     "lam_max": 0.0,
+     "b": 0.6914676427841187,
+     "R_img": 0.6914676427841187,
+     "safety": 0.02,
+     "D_p": 0.13359954833984375,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.39412353515625,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.3400001525878906,
+     0.3400001525878906
+    ]
+   }
+  },
+  "n_manipulation_candidates": 702,
+  "grasp_key": "beer_glass__mxsliu__t2f",
+  "n_grasps": 6,
+  "bands": "/tmp/minyeong/isge_17823505/reach_bands/tabletop__restaurant_diner__booth_xzrpar_0__beer_glass-mxsliu__dd39c3d86ccef528.npz",
+  "H_max": 0.11691093444824219,
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "cxcxqq",
+   "scene_object_name": "floors_cxcxqq_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "booth.n.01_1",
+   "synset": "booth.n.01",
+   "category": "booth",
+   "model": "xzrpar",
+   "scene_object_name": "booth_xzrpar_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "beer_glass.n.01_1",
+   "synset": "beer_glass.n.01",
+   "category": "beer_glass",
+   "model": "mxsliu",
+   "scene_object_name": "target_beer_glass_mxsliu_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "partner",
+   "name": "coaster.n.03_1",
+   "synset": "coaster.n.03",
+   "category": "coaster",
+   "model": "arjpcz",
+   "scene_object_name": "partner_coaster_arjpcz_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "cc4241252eacc67b7158fe9f05ff99d8dfb8f151581d3781315002b7cbcccc43",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-under_small_scale_02/c5_k0/inst/inter_object_relation_satisfaction-under_small_scale-beer_glass-coaster-booth/restaurant_diner__support-booth_xzrpar_0-T5__partner-coaster-arjpcz__target-beer_glass-mxsliu/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-under_small_scale_02/c5_k0/inst/inter_object_relation_satisfaction-under_small_scale-beer_glass-coaster-booth/restaurant_diner__support-booth_xzrpar_0-T5__partner-coaster-arjpcz__target-beer_glass-mxsliu/template-partial_rooms.json",
+ "load_room_instances": [
+  "dining_room_0",
+  "bar_0",
+  "corridor_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "dining_room_0"
+ ],
+ "sampled_with_rooms": [
+  "dining_room_0",
+  "bar_0",
+  "corridor_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-6",
+ "choices": {
+  "target": {
+   "category": "beer_glass",
+   "model": "mxsliu",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "beer_glass__mxsliu__t2f",
+   "scale": null
+  },
+  "partner": {
+   "category": "coaster",
+   "model": "arjpcz",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_cxcxqq_0",
+  "booth.n.01_1": "booth_xzrpar_0",
+  "beer_glass.n.01_1": "target_beer_glass_mxsliu_0",
+  "coaster.n.03_1": "partner_coaster_arjpcz_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 283.67677879333496,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem43.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-under_small_scale-beer_glass-coaster-booth",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -0.47668424248695374,
+    2.5604031085968018,
+    -1.629206849429451e-07
+   ],
+   "translate": 0.7514341388533966,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "-v",
+   "lateral": -0.0943199652557963,
+   "H_max": 0.11691093444824219,
+   "delta": 0.4994225955157355,
+   "delta_aim": 0.4994225955157355,
+   "delta_min": 0.40468904972076414,
+   "delta_max": 0.6775250544062762,
+   "conflict": false,
+   "d_ws": 0.27228572283472335,
+   "d_near": 0.030000001192092896,
+   "d_far": 0.5899999737739563,
+   "lam_min": -0.3199999928474426,
+   "lam_max": 0.0,
+   "x_c": 0.22215752781941145,
+   "z_c": 1.2542504932786152,
+   "b": 0.6914676427841187,
+   "b_right": 0.6914716958999634,
+   "b_left": 0.6914676427841187,
+   "R_img": 0.6914676427841187,
+   "t_range": [
+    0.42817334077704666,
+    0.8988984734675972
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 35,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "b": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "safety": 0.02,
+    "D_p": 0.13359954833984375,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.39412353515625,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.3400001525878906,
+    0.3400001525878906
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "-v",
+    "mid": [
+     -0.026684211567044258,
+     2.6547231674194336
+    ],
+    "inward": [
+     1.0,
+     -1.6292068494294654e-07
+    ],
+    "tangent": [
+     1.6292068494294654e-07,
+     1.0
+    ],
+    "length_m": 0.6800003051757812,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999998807907104,
+   "extras": {
+    "H_max": 0.11691093444824219,
+    "delta": 0.4994225955157355,
+    "delta_aim": 0.4994225955157355,
+    "delta_min": 0.40468904972076414,
+    "delta_max": 0.6775250544062762,
+    "conflict": false,
+    "d_ws": 0.27228572283472335,
+    "d_near": 0.030000001192092896,
+    "d_far": 0.5899999737739563,
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "x_c": 0.22215752781941145,
+    "z_c": 1.2542504932786152,
+    "b": 0.6914676427841187,
+    "b_right": 0.6914716958999634,
+    "b_left": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "t_range": [
+     0.42817334077704666,
+     0.8988984734675972
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 35,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.3199999928474426,
+     "lam_max": 0.0,
+     "b": 0.6914676427841187,
+     "R_img": 0.6914676427841187,
+     "safety": 0.02,
+     "D_p": 0.13359954833984375,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.39412353515625,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.3400001525878906,
+     0.3400001525878906
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    -0.3766842484474182,
+    2.4604032039642334,
+    -1.629206849429451e-07
+   ],
+   "translate": 0.25,
+   "tilt": -0.798799991607666,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.35,
+   "edge": "-v",
+   "lateral": -0.1943199652557963,
+   "focus": [
+    0.5833157300949097,
+    2.540403127670288,
+    0.8122677803039551
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.11691093444824219,
+   "delta": 0.4994225955157355,
+   "delta_aim": 0.4994225955157355,
+   "delta_min": 0.40468904972076414,
+   "delta_max": 0.6775250544062762,
+   "conflict": false,
+   "d_ws": 0.27228572283472335,
+   "d_near": 0.030000001192092896,
+   "d_far": 0.5899999737739563,
+   "lam_min": -0.3199999928474426,
+   "lam_max": 0.0,
+   "x_c": 0.22215752781941145,
+   "z_c": 1.2542504932786152,
+   "b": 0.6914676427841187,
+   "b_right": 0.6914716958999634,
+   "b_left": 0.6914676427841187,
+   "R_img": 0.6914676427841187,
+   "t_range": [
+    0.42817334077704666,
+    0.8988984734675972
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 35,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "b": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "safety": 0.02,
+    "D_p": 0.13359954833984375,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.39412353515625,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.3400001525878906,
+    0.3400001525878906
+   ],
+   "lateral_shift_m": -0.1,
+   "axis_angle": 0.3158655961319243,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.09527779218575438,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "start_region": {
+    "left": [
+     0.03,
+     0.1336
+    ]
+   },
+   "start_region_arms": {
+    "left": [
+     "left"
+    ]
+   },
+   "init_travel": {
+    "lateral_m": -0.1,
+    "base_m": 0.1414,
+    "path_m": 0.2236,
+    "departure_stand_off_m": 0.55,
+    "transition_stand_off_m": 0.35
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "-v",
+    "mid": [
+     -0.026684211567044258,
+     2.6547231674194336
+    ],
+    "inward": [
+     1.0,
+     -1.6292068494294654e-07
+    ],
+    "tangent": [
+     1.6292068494294654e-07,
+     1.0
+    ],
+    "length_m": 0.6800003051757812,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.3499999940395355,
+   "extras": {
+    "H_max": 0.11691093444824219,
+    "delta": 0.4994225955157355,
+    "delta_aim": 0.4994225955157355,
+    "delta_min": 0.40468904972076414,
+    "delta_max": 0.6775250544062762,
+    "conflict": false,
+    "d_ws": 0.27228572283472335,
+    "d_near": 0.030000001192092896,
+    "d_far": 0.5899999737739563,
+    "lam_min": -0.3199999928474426,
+    "lam_max": 0.0,
+    "x_c": 0.22215752781941145,
+    "z_c": 1.2542504932786152,
+    "b": 0.6914676427841187,
+    "b_right": 0.6914716958999634,
+    "b_left": 0.6914676427841187,
+    "R_img": 0.6914676427841187,
+    "t_range": [
+     0.42817334077704666,
+     0.8988984734675972
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 35,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.3199999928474426,
+     "lam_max": 0.0,
+     "b": 0.6914676427841187,
+     "R_img": 0.6914676427841187,
+     "safety": 0.02,
+     "D_p": 0.13359954833984375,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.39412353515625,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.3400001525878906,
+     0.3400001525878906
+    ],
+    "lateral_shift_m": -0.1,
+    "axis_angle": 0.3158655961319243,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.09527779218575438,
+    "init_view_class": 0,
+    "_position": [
+     13,
+     0
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "start_region": {
+     "left": [
+      0.03,
+      0.1336
+     ]
+    },
+    "start_region_arms": {
+     "left": [
+      "left"
+     ]
+    },
+    "init_travel": {
+     "lateral_m": -0.1,
+     "base_m": 0.1414,
+     "path_m": 0.2236,
+     "departure_stand_off_m": 0.55,
+     "transition_stand_off_m": 0.35
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 4,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {},
+ "seeds": [
+  1116621343009979468
+ ],
+ "kit_stats": {
+  "ik_calls": 25,
+  "ik_s": 8.366199493408203,
+  "ik_batch_calls": 2,
+  "ik_batch_problems": 69,
+  "ik_batch_s": 60.65734529495239,
+  "collision_calls": 92,
+  "collision_configs": 1597,
+  "collision_s": 1.4652082920074463,
+  "arm_band_mirrored.foci": 1,
+  "limit_retry_poses": 1,
+  "limit_retry_seeded_rescued": 1,
+  "twin_picks": 1,
+  "twin_solves": 1,
+  "orient_choices": 1,
+  "orient_reason.reach": 1,
+  "orient_against_default": 1,
+  "twin_taken": 1,
+  "twin_taken.reach": 1,
+  "arm_band_mirrored.ik_tried": 2
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_under_small_scale",
+  "subtask": "inter_object_relation_satisfaction_under_small_scale_beer_glass_coaster",
+  "variant": "inter_object_relation_satisfaction-under_small_scale-beer_glass-coaster-booth"
+ }
+}

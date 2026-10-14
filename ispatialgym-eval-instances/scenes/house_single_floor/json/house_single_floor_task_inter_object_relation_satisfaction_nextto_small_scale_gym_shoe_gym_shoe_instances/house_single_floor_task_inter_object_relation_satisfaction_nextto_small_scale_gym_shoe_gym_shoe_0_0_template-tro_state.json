@@ -1,0 +1,344 @@
+{
+  "gym_shoe.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        20.982622146606445,
+        24.363176345825195,
+        0.39714300632476807
+      ],
+      "ori": [
+        4.3019866780014127e-07,
+        -5.72455576275388e-07,
+        0.9998390078544617,
+        0.017945758998394012
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          20.80817985534668,
+          24.311988830566406,
+          0.34712493419647217,
+          21.11688232421875,
+          24.422269821166992,
+          0.4917568862438202
+        ]
+      }
+    }
+  },
+  "gym_shoe.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        20.98250961303711,
+        24.067426681518555,
+        0.3955320417881012
+      ],
+      "ori": [
+        0.002792616840451956,
+        -0.002174327615648508,
+        0.9991483092308044,
+        0.041112836450338364
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          20.80865478515625,
+          24.009920120239258,
+          0.3468881845474243,
+          21.115259170532227,
+          24.11760902404785,
+          0.4897538423538208
+        ]
+      }
+    }
+  },
+  "bench.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        20.974586486816406,
+        24.23708152770996,
+        0.16368523240089417
+      ],
+      "ori": [
+        -3.1890257901068253e-07,
+        4.0563258307813044e-10,
+        -0.0012448775814846158,
+        0.9999992251396179
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          20.798494338989258,
+          23.6530818939209,
+          0.000123634934425354,
+          21.17840576171875,
+          24.82301902770996,
+          0.347125768661499
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        22.5664005279541,
+        23.66229248046875,
+        -0.13886341452598572
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          19.57590675354004,
+          21.71286392211914,
+          -0.2776094079017639,
+          25.029207229614258,
+          25.895463943481445,
+          -9.417533874511719e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          21.619840621948242,
+          24.203126907348633,
+          0.005275726318359375
+        ],
+        "orientation": [
+          -8.199736475944519e-05,
+          -6.681982085865457e-06,
+          0.9999992847442627,
+          0.0012441440485417843
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 20,
+    "task_variant": "inter_object_relation_satisfaction-nextto_small_scale-gym_shoe-gym_shoe-bench",
+    "instance_id": "inter_object_relation_satisfaction-nextto_small_scale-gym_shoe-gym_shoe-bench__house_single_floor__support-bench_pfjnnj_0-T3__partner-gym_shoe-mcfcwq__target-gym_shoe-kmcbym__0000",
+    "generation_seed": 4827402181105096838,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "32f990c6c00a3ce5558cb38f405b91110ad0b15c04599a7d802a9db8e08c1601",
+    "task_spec_sha256": "a78d0603bcd639354cdd27176ab27ec2840fda52f21169bf9b6c0d5a41ce7480",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "c23f2a27e26cec70cb1826d67bcb3f078197a2d00a604019e55327bd2c6a9f1c",
+      "load_room_instances": [
+        "bedroom_0",
+        "bathroom_1",
+        "closet_0",
+        "closet_1",
+        "corridor_0",
+        "garden_0"
+      ],
+      "task_rooms": [
+        "bedroom_0"
+      ],
+      "sampled_with_rooms": [
+        "bedroom_0",
+        "bathroom_1",
+        "closet_0",
+        "closet_1",
+        "corridor_0",
+        "garden_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "bench_pfjnnj_0",
+        "floors_htolat_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_htolat_0",
+        "category": "floors",
+        "model": "htolat"
+      },
+      "bench.n.01_1": {
+        "scene_object_name": "bench_pfjnnj_0",
+        "category": "bench",
+        "model": "pfjnnj"
+      },
+      "gym_shoe.n.01_1": {
+        "scene_object_name": "target_gym_shoe_kmcbym_0",
+        "category": "gym_shoe",
+        "model": "kmcbym"
+      },
+      "gym_shoe.n.01_2": {
+        "scene_object_name": "partner_gym_shoe_mcfcwq_0",
+        "category": "gym_shoe",
+        "model": "mcfcwq"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.542504906654358,
+        "torso_joint2": -2.3949944972991943,
+        "torso_joint3": -0.8930044174194336,
+        "torso_joint4": -3.2848747650859877e-06,
+        "left_arm_joint1": 8.2078422565246e-06,
+        "right_arm_joint1": 0.0018403672147542238,
+        "left_arm_joint2": 1.56999933719635,
+        "right_arm_joint2": -1.5699785947799683,
+        "left_arm_joint3": 9.516322279523592e-06,
+        "right_arm_joint3": -2.951068563561421e-05,
+        "left_arm_joint4": -1.5699909925460815,
+        "right_arm_joint4": -1.5698788166046143,
+        "left_arm_joint5": 1.5700039863586426,
+        "right_arm_joint5": -1.5699926614761353,
+        "left_arm_joint6": -3.4854913337767357e-06,
+        "right_arm_joint6": -1.4400357940758113e-05,
+        "left_arm_joint7": -8.003927177924197e-06,
+        "right_arm_joint7": -0.0003451053344178945,
+        "left_gripper_finger_joint1": 0.04999852925539017,
+        "left_gripper_finger_joint2": 0.04999900981783867,
+        "right_gripper_finger_joint1": 0.04999879002571106,
+        "right_gripper_finger_joint2": 0.04999932646751404
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_inter_object_relation_satisfaction_nextto_small_scale_gym_shoe_gym_shoe_0_0_template-goal_rgb.png",
+      "rgb_sha256": "3ab580cd80bd74da7b5fdc49ba894a0424bfe4c8a0caa462956194c04ece32fc",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          20.93935203552246,
+          24.20479393005371,
+          1.1245487928390503
+        ],
+        "orientation": [
+          0.03856033831834793,
+          0.03845130279660225,
+          0.7051792740821838,
+          0.7069348096847534
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "gym_shoe.n.01_2": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          20.982501983642578,
+          24.06742286682129,
+          0.39553192257881165
+        ],
+        "orientation": [
+          0.002792617306113243,
+          -0.0021743662655353546,
+          0.9991483092308044,
+          0.04111297428607941
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      },
+      "gym_shoe.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          20.97823715209961,
+          24.21417236328125,
+          0.3971429467201233
+        ],
+        "orientation": [
+          3.820924732167441e-08,
+          -9.203291142512171e-07,
+          0.9989621639251709,
+          0.04554915055632591
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

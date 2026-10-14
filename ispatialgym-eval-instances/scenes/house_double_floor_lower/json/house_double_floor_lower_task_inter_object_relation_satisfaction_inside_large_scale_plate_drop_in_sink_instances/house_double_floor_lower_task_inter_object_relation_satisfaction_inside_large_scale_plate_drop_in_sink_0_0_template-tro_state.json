@@ -1,0 +1,321 @@
+{
+  "plate.n.04_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        8.216553688049316,
+        1.0072193145751953,
+        0.897795557975769
+      ],
+      "ori": [
+        0.0004434131260495633,
+        0.002189211081713438,
+        0.5555542707443237,
+        0.8314773440361023
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          8.096046447753906,
+          0.8867769241333008,
+          0.8872523903846741,
+          8.337041854858398,
+          1.1277536153793335,
+          0.9134576320648193
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "sink.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        8.109147071838379,
+        0.23475468158721924,
+        0.8585090637207031
+      ],
+      "ori": [
+        1.3114304072894952e-15,
+        4.177641343972027e-09,
+        1.0,
+        3.1391647326017846e-07
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.850870132446289,
+          -0.28229302167892456,
+          0.7654432058334351,
+          8.367670059204102,
+          0.5756072998046875,
+          1.1919432878494263
+        ]
+      },
+      "ToggledOn": {
+        "value": false,
+        "hand_in_marker_steps": 0.0
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        8.151969909667969,
+        0.15750814974308014,
+        0.4490511119365692
+      ],
+      "ori": [
+        1.3114304072894952e-15,
+        4.177641343972027e-09,
+        1.0,
+        3.1391647326017846e-07
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.7964982986450195,
+          -0.9841198921203613,
+          -0.008339762687683105,
+          8.421698570251465,
+          1.4431809186935425,
+          0.8873600959777832
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        4.8314337730407715,
+        1.1399084329605103,
+        -0.15000006556510925
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          0.8994534015655518,
+          -1.217871069908142,
+          -0.30000007152557373,
+          8.656253814697266,
+          3.521728515625,
+          -5.960464477539063e-08
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          7.3564934730529785,
+          0.8472099304199219,
+          0.005286216735839844
+        ],
+        "orientation": [
+          -5.741700533690164e-06,
+          7.87771277828142e-05,
+          1.0520931255086907e-06,
+          1.0
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 16,
+    "task_variant": "inter_object_relation_satisfaction-inside_large_scale-plate-drop_in_sink_lkklqs_0-bar",
+    "instance_id": "inter_object_relation_satisfaction-inside_large_scale-plate-drop_in_sink_lkklqs_0-bar__house_double_floor_lower__support-bar_egwapq_0-V3a__target-plate-luhkiz__0000",
+    "generation_seed": 650495029263233353,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "b2ceeff34178bdef2f79c3c6517eb1fc853171e8871a1c1ee6fb2125c497e692",
+    "task_spec_sha256": "400b474d3e207ea75d009dc7c2fea70862323642f8dff7e0556ff02e92308b24",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_double_floor_lower",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "b8757dbf959163672bf975b2beb1d34fa6c504e7a8cd376e4b17fd371a6c138d",
+      "load_room_instances": [
+        "kitchen_0",
+        "corridor_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "corridor_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "bar_egwapq_0",
+        "drop_in_sink_lkklqs_0",
+        "floors_zqjkvm_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_zqjkvm_0",
+        "category": "floors",
+        "model": "zqjkvm"
+      },
+      "sink.n.01_1": {
+        "scene_object_name": "drop_in_sink_lkklqs_0",
+        "category": "drop_in_sink",
+        "model": "lkklqs"
+      },
+      "plate.n.04_1": {
+        "scene_object_name": "target_plate_luhkiz_0",
+        "category": "plate",
+        "model": "luhkiz"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "bar_egwapq_0",
+        "category": "bar",
+        "model": "egwapq"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.1218136548995972,
+        "torso_joint2": -1.626744031906128,
+        "torso_joint3": -0.5491260290145874,
+        "torso_joint4": -8.433681841779617e-08,
+        "left_arm_joint1": 2.0287832739995793e-05,
+        "right_arm_joint1": 3.5158413083991036e-05,
+        "left_arm_joint2": 1.570000171661377,
+        "right_arm_joint2": -1.5700002908706665,
+        "left_arm_joint3": -2.178725026169559e-06,
+        "right_arm_joint3": 1.614350935597031e-06,
+        "left_arm_joint4": -1.570000171661377,
+        "right_arm_joint4": -1.5700008869171143,
+        "left_arm_joint5": 1.5700005292892456,
+        "right_arm_joint5": -1.5700005292892456,
+        "left_arm_joint6": 1.3330756587492942e-07,
+        "right_arm_joint6": 2.679220187928877e-07,
+        "left_arm_joint7": -2.3251686798175797e-08,
+        "right_arm_joint7": 1.842616086378257e-07,
+        "left_gripper_finger_joint1": 0.04999952018260956,
+        "left_gripper_finger_joint2": 0.049999870359897614,
+        "right_gripper_finger_joint1": 0.04999949038028717,
+        "right_gripper_finger_joint2": 0.049999985843896866
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_double_floor_lower_task_inter_object_relation_satisfaction_inside_large_scale_plate_drop_in_sink_0_0_template-goal_rgb.png",
+      "rgb_sha256": "46a8b764436fb7625ae8abadfe1dc4b13edf943b64ef7d869e4f04c6f53e099d",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          7.747025966644287,
+          0.38545846939086914,
+          1.417823314666748
+        ],
+        "orientation": [
+          -0.1992187649011612,
+          0.19943159818649292,
+          0.67877596616745,
+          -0.678087055683136
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "plate.n.04_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          8.018576622009277,
+          0.3752480447292328,
+          0.7856564521789551
+        ],
+        "orientation": [
+          0.0004500280483625829,
+          0.002193502150475979,
+          0.5514397025108337,
+          0.8342117071151733
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "clove.n.03_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.071642875671387,
+        -4.673005104064941,
+        0.8798309564590454
+      ],
+      "ori": [
+        0.014329646714031696,
+        0.00644284812733531,
+        0.9285397529602051,
+        0.3709005117416382
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.089141845703125,
+          -4.701619625091553,
+          0.8702663779258728,
+          -9.047783851623535,
+          -4.654428005218506,
+          0.890918493270874
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      },
+      "MaxTemperature": {
+        "max_temperature": 23.0
+      }
+    }
+  },
+  "saucepot.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.32942008972168,
+        -4.672178268432617,
+        0.9609086513519287
+      ],
+      "ori": [
+        -0.0038024596869945526,
+        -0.0027109638322144747,
+        -0.3822811245918274,
+        0.9240342974662781
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.507884979248047,
+          -4.845957279205322,
+          0.8705012798309326,
+          -9.152109146118164,
+          -4.497049808502197,
+          1.067326545715332
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.28593921661377,
+        -3.581475257873535,
+        0.5386983156204224
+      ],
+      "ori": [
+        -1.2458474252241558e-08,
+        -3.8640354915742137e-08,
+        -1.9320200408401433e-06,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.686960220336914,
+          -4.982626914978027,
+          0.0037013888359069824,
+          -8.882148742675781,
+          -2.1770248413085938,
+          0.8705014586448669
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -8.454541206359863,
+        -2.8606200218200684,
+        0.0012011871440336108
+      ],
+      "ori": [
+        8.714015769270382e-15,
+        7.771960124894253e-15,
+        0.7071068286895752,
+        0.7071067094802856
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -11.607954978942871,
+          -7.258699893951416,
+          -0.2962988317012787,
+          -5.301128387451172,
+          1.5374598503112793,
+          0.0037011862732470036
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -9.100768089294434,
+          -5.422618865966797,
+          0.008986949920654297
+        ],
+        "orientation": [
+          -6.670504808425903e-05,
+          5.375180262490176e-05,
+          0.707108199596405,
+          0.7071055173873901
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 10,
+    "task_variant": "inter_object_relation_satisfaction-inside_small_scale-garlic_clove-saucepot-commercial_kitchen_table",
+    "instance_id": "inter_object_relation_satisfaction-inside_small_scale-garlic_clove-saucepot-commercial_kitchen_table__restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-saucepot-tfzijn__target-garlic_clove-xotobt-s3.724__0000",
+    "generation_seed": 2557282026873065170,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "277a5be50400fcab38e6d257c673d70cd83fd34d0afce55d5d7dd4920b0524d5",
+    "task_spec_sha256": "b26acb58032b00ff98a4fc864d1f54249f9d7c9be33622620444a4aee568b06b",
+    "layout_template_id": null,
+    "scene": {
+      "model": "restaurant_diner",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "1712ac1126a300b4b8d7bb7b7378782a9336c02abca977bc6e154a3bc99e9db6",
+      "load_room_instances": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "commercial_kitchen_table_vxvtec_0",
+        "floors_vikfyd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vikfyd_0",
+        "category": "floors",
+        "model": "vikfyd"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+        "category": "commercial_kitchen_table",
+        "model": "vxvtec"
+      },
+      "clove.n.03_1": {
+        "scene_object_name": "target_garlic_clove_xotobt_0",
+        "category": "garlic_clove",
+        "model": "xotobt"
+      },
+      "saucepot.n.01_1": {
+        "scene_object_name": "partner_saucepot_tfzijn_0",
+        "category": "saucepot",
+        "model": "tfzijn"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.1013015508651733,
+        "torso_joint2": -1.5892856121063232,
+        "torso_joint3": -0.5323594808578491,
+        "torso_joint4": -4.1977514797508775e-07,
+        "left_arm_joint1": -2.3450391381629743e-05,
+        "right_arm_joint1": 1.2566793884616345e-05,
+        "left_arm_joint2": 1.570001244544983,
+        "right_arm_joint2": -1.5700005292892456,
+        "left_arm_joint3": -2.5631513835833175e-06,
+        "right_arm_joint3": 1.2368936950224452e-06,
+        "left_arm_joint4": -1.5700023174285889,
+        "right_arm_joint4": -1.569996953010559,
+        "left_arm_joint5": 1.5699920654296875,
+        "right_arm_joint5": -1.570008397102356,
+        "left_arm_joint6": -7.909428632046911e-07,
+        "right_arm_joint6": -9.52385448727e-07,
+        "left_arm_joint7": -1.6264823443634668e-06,
+        "right_arm_joint7": -1.356566258436942e-06,
+        "left_gripper_finger_joint1": 0.04999983310699463,
+        "left_gripper_finger_joint2": 0.05000000074505806,
+        "right_gripper_finger_joint1": 0.049999918788671494,
+        "right_gripper_finger_joint2": 0.04999999329447746
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "restaurant_diner_task_inter_object_relation_satisfaction_inside_small_scale_garlic_clove_saucepot_0_0_template-goal_rgb.png",
+      "rgb_sha256": "180ec45ea61b5500996c2370ec6cb2d7cc84f26dc5c95d9ce062c2a68b2522f0",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -9.100703239440918,
+          -5.013120651245117,
+          1.3820234537124634
+        ],
+        "orientation": [
+          0.31706851720809937,
+          -2.790534563246183e-05,
+          -8.972102659754455e-05,
+          0.9484026432037354
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "saucepot.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.329411506652832,
+          -4.672182559967041,
+          0.9609087705612183
+        ],
+        "orientation": [
+          -0.003799804486334324,
+          -0.0026664899196475744,
+          -0.382279634475708,
+          0.9240351319313049
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      },
+      "clove.n.03_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.330374717712402,
+          -4.6702375411987305,
+          0.9050619602203369
+        ],
+        "orientation": [
+          0.0,
+          0.0,
+          0.9286551475524902,
+          0.3709442615509033
+        ],
+        "position_metric": "full",
+        "orientation_metric": null,
+        "position_tolerance": 0.03,
+        "orientation_tolerance": null,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

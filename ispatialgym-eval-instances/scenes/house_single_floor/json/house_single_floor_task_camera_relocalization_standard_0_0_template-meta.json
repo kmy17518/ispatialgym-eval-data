@@ -1,0 +1,288 @@
+{
+ "template_id": "house_single_floor",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 28.665508270263672,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 2.4427404403686523,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 1.308868169784546
+ },
+ "variant": "camera_relocalization-standard",
+ "subtask": "camera_relocalization-standard",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "718a6df5bd4e0b983c30ebdf3deb213463c512efd43d1bdd2effb0657e8681a2",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {},
+  "groups": {},
+  "template_id": "house_single_floor"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_495a7c91_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 684377364,
+  "seed_source": "split",
+  "scene": null,
+  "room": null,
+  "scene_source": "customs (no scene draw for camera_relocalization-standard)"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "4d9ef4d9c713795119d529e92501fd8bd7ff04d6b97db718fd17aaa47e6e0a4d",
+ "init_config": {
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "arms": "untucked"
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "path_buckets": [
+   {
+    "max_m": 3.0,
+    "n": 10
+   },
+   {
+    "max_m": 5.0,
+    "n": 10
+   },
+   {
+    "max_m": 10.0,
+    "n": 5
+   }
+  ],
+  "bucket_counts_existing": {}
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "uzsntg",
+   "scene_object_name": "floors_uzsntg_0",
+   "dataset": null
+  }
+ ],
+ "template_sha256": "9a9c778621ebf8efa79327cb43988c0d1f08d9f41b8708d96365d2562c9cee33",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/camera_relocalization-standard/inst/camera_relocalization-standard/house_single_floor/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/camera_relocalization-standard/inst/camera_relocalization-standard/house_single_floor/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "camera_relocalization-0",
+ "choices": {},
+ "inst_to_name": {
+  "floor.n.01_1": "floors_uzsntg_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 468.3272616863251,
+ "activity_definition": "../activity_definitions/camera_relocalization/problem0.bddl",
+ "bddl_variant": "camera_relocalization-standard",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    14.199999809265137,
+    0.6000000238418579,
+    -1.601328704020298
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "posture": "untucked",
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers_by_arm": {
+    "right": 0.05,
+    "left": 0.05
+   },
+   "name": "init",
+   "extras": {
+    "posture": "untucked",
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers_by_arm": {
+     "right": 0.05,
+     "left": 0.05
+    }
+   }
+  },
+  "goal": {
+   "base_pose2d": [
+    14.300000190734863,
+    2.700000047683716,
+    -2.557263375114848
+   ],
+   "translate": 0.40979538771571045,
+   "tilt": -0.4262259399275464,
+   "arms": "untucked",
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers_by_arm": {
+    "right": 0.05,
+    "left": 0.05
+   },
+   "name": "goal",
+   "extras": {
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers_by_arm": {
+     "right": 0.05,
+     "left": 0.05
+    }
+   }
+  }
+ },
+ "bucket_counts": {
+  "3.0": 1
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 3
+ },
+ "seeds": [
+  5419600604269036548
+ ],
+ "kit_stats": {
+  "ik_calls": 0,
+  "ik_s": 0.0,
+  "ik_batch_calls": 0,
+  "ik_batch_problems": 0,
+  "ik_batch_s": 0.0,
+  "collision_calls": 13,
+  "collision_configs": 156,
+  "collision_s": 2.6780543327331543
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "camera_relocalization",
+  "task": "camera_relocalization_standard",
+  "subtask": "camera_relocalization_standard",
+  "variant": "camera_relocalization-standard"
+ }
+}

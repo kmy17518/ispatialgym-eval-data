@@ -1,0 +1,542 @@
+{
+  "bottle__of__milk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.29897689819336,
+        -3.8683435916900635,
+        0.8996676206588745
+      ],
+      "ori": [
+        0.0029760701581835747,
+        0.01472130324691534,
+        0.9793906211853027,
+        0.20141634345054626
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.368278503417969,
+          -3.9082207679748535,
+          0.8765509724617004,
+          -9.226997375488281,
+          -3.823972463607788,
+          0.9227727651596069
+        ]
+      }
+    }
+  },
+  "bottle__of__milk.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.311553955078125,
+        -4.012807369232178,
+        0.8937756419181824
+      ],
+      "ori": [
+        -4.6086410293355584e-05,
+        3.8603520806645975e-05,
+        -0.27537328004837036,
+        0.9613374471664429
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.415668487548828,
+          -4.0959296226501465,
+          0.8765546679496765,
+          -9.216254234313965,
+          -3.9393248558044434,
+          0.9109928607940674
+        ]
+      }
+    }
+  },
+  "bottle__of__soy_milk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.201642036437988,
+        -3.7528910636901855,
+        0.9075289368629456
+      ],
+      "ori": [
+        0.5493743419647217,
+        -0.44527044892311096,
+        0.5492210388183594,
+        0.4452846050262451
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.249001502990723,
+          -3.83626651763916,
+          0.876529335975647,
+          -9.160840034484863,
+          -3.687119245529175,
+          0.9385289549827576
+        ]
+      }
+    }
+  },
+  "carton__of__milk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.341647148132324,
+        -3.712885856628418,
+        0.8990291357040405
+      ],
+      "ori": [
+        0.04722950980067253,
+        -0.7054897546768188,
+        0.04726535826921463,
+        0.7055633068084717
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.420066833496094,
+          -3.755650043487549,
+          0.8765358328819275,
+          -9.263227462768555,
+          -3.670121669769287,
+          0.9215195178985596
+        ]
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.285940170288086,
+        -3.5814778804779053,
+        0.5386981964111328
+      ],
+      "ori": [
+        -5.0713699906168586e-09,
+        -7.374875110599532e-08,
+        1.1015135896741413e-06,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.686957359313965,
+          -4.982629299163818,
+          0.0037012100219726562,
+          -8.882152557373047,
+          -2.177028179168701,
+          0.8705013394355774
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.308660507202148,
+        -3.875498056411743,
+        0.8759725689888
+      ],
+      "ori": [
+        -2.6596331736072898e-05,
+        4.473168883123435e-05,
+        -7.643163826287491e-07,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.506654739379883,
+          -4.157883644104004,
+          0.8705012202262878,
+          -9.110445022583008,
+          -3.5928542613983154,
+          0.8911305665969849
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.308693885803223,
+        -2.739135265350342,
+        0.8750375509262085
+      ],
+      "ori": [
+        5.8214566500680576e-09,
+        -0.0028736439999192953,
+        -3.6552773252651605e-08,
+        0.9999958872795105
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.446595191955566,
+          -2.959007501602173,
+          0.8705012798309326,
+          -9.169713020324707,
+          -2.5192623138427734,
+          0.892026960849762
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -8.454541206359863,
+        -2.8606200218200684,
+        0.0012011871440336108
+      ],
+      "ori": [
+        8.714015769270382e-15,
+        7.771960124894253e-15,
+        0.7071068286895752,
+        0.7071067094802856
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -11.607954978942871,
+          -7.258699893951416,
+          -0.2962988317012787,
+          -5.301128387451172,
+          1.5374598503112793,
+          0.0037011862732470036
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -10.126955032348633,
+          -3.756927490234375,
+          0.008987903594970703
+        ],
+        "orientation": [
+          -6.4273281168425456e-06,
+          7.941231888253242e-05,
+          -7.500307788177452e-07,
+          1.0
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 0,
+    "task_variant": "disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table",
+    "instance_id": "disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table__restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__target-~9d9c3322__0000",
+    "generation_seed": 7846462154103844367,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "3458a7f322383aa98c3fdc83301ec576d2d5041f48c5af1becaa744fc4243306",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "restaurant_diner",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "1ceb86ff7c21eb127e3377a2f511727bc9a34dac95b72800da74821c7b6f8705",
+      "load_room_instances": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "commercial_kitchen_table_vxvtec_0",
+        "floors_vikfyd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vikfyd_0",
+        "category": "floors",
+        "model": "vikfyd"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+        "category": "commercial_kitchen_table",
+        "model": "vxvtec"
+      },
+      "bottle__of__milk.n.01_1": {
+        "scene_object_name": "target_bottle_of_milk_mrejrs_0",
+        "category": "bottle_of_milk",
+        "model": "mrejrs"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "bottle__of__milk.n.01_2": {
+        "scene_object_name": "distractors_bottle_of_milk_debqen_0",
+        "category": "bottle_of_milk",
+        "model": "debqen"
+      },
+      "bottle__of__soy_milk.n.01_1": {
+        "scene_object_name": "distractors_bottle_of_soy_milk_mcjlhs_1",
+        "category": "bottle_of_soy_milk",
+        "model": "mcjlhs"
+      },
+      "carton__of__milk.n.01_1": {
+        "scene_object_name": "distractors_carton_of_milk_kklgxk_2",
+        "category": "carton_of_milk",
+        "model": "kklgxk"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.131247878074646,
+        "torso_joint2": -1.6439828872680664,
+        "torso_joint3": -0.5568392276763916,
+        "torso_joint4": -2.554629929818475e-08,
+        "left_arm_joint1": -0.00013946866965852678,
+        "right_arm_joint1": -0.00010889569966821,
+        "left_arm_joint2": 1.5700010061264038,
+        "right_arm_joint2": -1.5700002908706665,
+        "left_arm_joint3": -3.955836405111768e-07,
+        "right_arm_joint3": -1.1200599203675665e-07,
+        "left_arm_joint4": -1.56999933719635,
+        "right_arm_joint4": -1.5700010061264038,
+        "left_arm_joint5": 1.5700010061264038,
+        "right_arm_joint5": -1.5699981451034546,
+        "left_arm_joint6": 2.1237158875919704e-07,
+        "right_arm_joint6": 3.145517837310763e-07,
+        "left_arm_joint7": 1.6736589714128058e-07,
+        "right_arm_joint7": 2.822803821800335e-07,
+        "left_gripper_finger_joint1": 0.049999408423900604,
+        "left_gripper_finger_joint2": 0.04999994486570358,
+        "right_gripper_finger_joint1": 0.049999501556158066,
+        "right_gripper_finger_joint2": 0.049999989569187164
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "restaurant_diner_task_disembedding_bottle_of_milk_bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "b90763beb42a9474134d4482359eaaf06cf963c796d67f1f231848679c827c34",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -9.51636028289795,
+          -2.7970736026763916,
+          1.379899024963379
+        ],
+        "orientation": [
+          0.22309575974941254,
+          -0.22277265787124634,
+          -0.670537531375885,
+          0.6715505123138428
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "bottle__of__milk.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.312097549438477,
+          -2.738018035888672,
+          0.8963369727134705
+        ],
+        "orientation": [
+          -6.38164347037673e-05,
+          0.01425841823220253,
+          0.9820729494094849,
+          0.1879611611366272
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "bottle__of__milk.n.01_1",
+      "occluders": [
+        "bottle__of__milk.n.01_2",
+        "bottle__of__soy_milk.n.01_1",
+        "carton__of__milk.n.01_1"
+      ],
+      "ratio": 0.0,
+      "visible_area": 1914,
+      "reference_area": 1914,
+      "occluder_ids": [
+        "distractors_bottle_of_milk_debqen_0",
+        "distractors_bottle_of_soy_milk_mcjlhs_1",
+        "distractors_carton_of_milk_kklgxk_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 3766
+    }
+  }
+}

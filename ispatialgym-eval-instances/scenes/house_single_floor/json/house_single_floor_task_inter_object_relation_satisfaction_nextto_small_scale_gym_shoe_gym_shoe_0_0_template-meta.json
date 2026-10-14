@@ -1,0 +1,1004 @@
+{
+ "template_id": "house_single_floor__support-bench_pfjnnj_0-T3__partner-gym_shoe-mcfcwq__target-gym_shoe-kmcbym",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 28.52703285217285,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 42.55418086051941,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 7,
+   "collision_configs": 1328,
+   "collision_s": 0.22
+  },
+  "save_template_s": 1.2902436256408691
+ },
+ "variant": "inter_object_relation_satisfaction-nextto_small_scale-gym_shoe-gym_shoe-bench",
+ "subtask": "inter_object_relation_satisfaction-nextto_small_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "d2b5efd23edaeecf458a61614c712a998ded480b4b8958e91536ff012ad1e2c4",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "bedroom_0"
+  ],
+  "bindings": {
+   "support": [
+    "bench_pfjnnj_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "bench_pfjnnj_0",
+     "init": "ontop",
+     "top_z": 0.35,
+     "row": "inter_object_relation_satisfaction-nextto#04~T3"
+    }
+   ],
+   "floor": {
+    "room": "bedroom_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "gym_shoe",
+    "model": "kmcbym",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "gym_shoe__kmcbym__t",
+    "scale": null
+   },
+   "partner": {
+    "category": "gym_shoe",
+    "model": "mcfcwq",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__support-bench_pfjnnj_0-T3__partner-gym_shoe-mcfcwq__target-gym_shoe-kmcbym",
+  "support_tag": "bench_pfjnnj_0-T3"
+ },
+ "rooms": [
+  "bedroom_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_022dd869_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 10,
+  "seed": 609595618,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "bench_pfjnnj_0",
+  "row": "inter_object_relation_satisfaction-nextto#04~T3",
+  "init": "ontop",
+  "top_z": 0.35,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "bedroom_0"
+  ],
+  "floor_room": "bedroom_0",
+  "tag": "bench_pfjnnj_0-T3",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "32f990c6c00a3ce5558cb38f405b91110ad0b15c04599a7d802a9db8e08c1601",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "grasps_dropped_not_attachable": [],
+  "grasp_pinch_recentre": {
+   "grasp_2": {
+    "offset_m": 0.0358,
+    "chord_original_m": 0.0893,
+    "chord_recentred_m": 0.0893,
+    "library_width_m": 0.022,
+    "applied": false,
+    "reason": "the re-centred pads would close on a different width"
+   },
+   "grasp_3": {
+    "offset_m": 0.048,
+    "chord_original_m": 0.0954,
+    "chord_recentred_m": 0.0954,
+    "library_width_m": 0.0234,
+    "applied": false,
+    "reason": "the re-centred pads would close on a different width"
+   },
+   "front_0": {
+    "offset_m": -0.0114,
+    "chord_original_m": 0.0882,
+    "chord_recentred_m": 0.0882,
+    "library_width_m": 0.088,
+    "applied": true
+   }
+  },
+  "grasp_pinch_offset_m": {
+   "grasp_2": 0.0358,
+   "grasp_3": 0.048,
+   "front_0": -0.0114
+  },
+  "grasps_recentred": [
+   "front_0"
+  ],
+  "grasp_closing_tilt_deg": {
+   "grasp_2": 0.0,
+   "grasp_3": 1.5,
+   "front_0": 3.1
+  },
+  "grasp_pivot_arms_m": {
+   "grasp_2": 0.0736,
+   "grasp_3": 0.0792,
+   "front_0": 0.1198
+  },
+  "grasp_pinch_vs_long_axis_deg": {
+   "grasp_2": 84.3,
+   "grasp_3": 81.4,
+   "front_0": 84.3
+  },
+  "grasps_flush_first": [
+   "grasp_2",
+   "grasp_3",
+   "front_0"
+  ],
+  "grasps_inclined_fallback": [],
+  "pair": {
+   "target_extent": [
+    0.30812835693359375,
+    0.11196517944335938,
+    0.14463186264038086
+   ],
+   "partner_extent": [
+    0.3070411682128906,
+    0.11582565307617188,
+    0.14331674575805664
+   ],
+   "relation": "nextto",
+   "g_NT": 0.06282828003168106,
+   "handedness": {
+    "target": "right",
+    "partner": "left",
+    "target_side": "right"
+   }
+  },
+  "carry_clears": "partner",
+  "widest_faces": null,
+  "partner_sides": [
+   "left"
+  ],
+  "partner_on_meta_link": null,
+  "partner_aligned_to_target": false,
+  "pair_goal_align": {
+   "front_axes": {
+    "target": "gym_shoe/kmcbym +x",
+    "partner": "gym_shoe/mcfcwq +x"
+   },
+   "relative_yaw_deg": 0.0,
+   "facing": "away",
+   "faces": null,
+   "tol_deg": 5.0,
+   "stagger_max_m": 0.03,
+   "push_max_height_m": null
+  },
+  "support_surface": {
+   "support": "bench_pfjnnj_0",
+   "spec": {
+    "name": "bench_pfjnnj_0",
+    "init": "ontop",
+    "top_z": 0.35,
+    "row": "inter_object_relation_satisfaction-nextto#04~T3"
+   },
+   "top_z_above_floor": 0.3471,
+   "top_error": null,
+   "surface": "top"
+  },
+  "tremble_screen": {
+   "spots_max": 0,
+   "spots": [],
+   "skipped": "off"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17860151/reach_bands/tabletop__house_single_floor__bench_pfjnnj_0-so0.35_0.45_0.55__left_gym_shoe-kmcbym__a1467986a579196b.npz"
+   }
+  },
+  "start_region": {
+   "edge": "+u",
+   "edge_length_m": 1.141,
+   "L_min_m": 0.908,
+   "m_end_m": 0.1,
+   "lateral_m": 0.028,
+   "assigned": "left",
+   "sides": [
+    "left"
+   ],
+   "drawn_sides": [
+    "left"
+   ],
+   "gap_range_m": [
+    0.0928,
+    0.337
+   ],
+   "phase2_candidates": 99,
+   "cells": {
+    "left": 4
+   },
+   "candidates": {
+    "left": 33
+   },
+   "gap_m": {
+    "left": [
+     0.0928,
+     0.2828
+    ]
+   },
+   "meta_link": null,
+   "failed_lateral_draws": []
+  },
+  "support": {
+   "name": "bench_pfjnnj_0",
+   "z": 0.3471248745918274,
+   "yaw": -0.0024895668029785156,
+   "local_bounds": [
+    20.746681213378906,
+    21.109519958496094,
+    23.714813232421875,
+    24.85570526123047
+   ],
+   "n_free_cells": 1102,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "+u",
+   "mid": [
+    21.16991424560547,
+    24.23263168334961
+   ],
+   "inward": [
+    -0.9999969005584717,
+    0.0024895642418414354
+   ],
+   "tangent": [
+    -0.0024895642418414354,
+    -0.9999969005584717
+   ],
+   "length_m": 1.1408920288085938,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    21.619842529296875,
+    24.203125,
+    3.1391030867750795
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.028387773774927294,
+   "H_max": 0.14463186264038086,
+   "delta": 0.4470574590894911,
+   "delta_aim": 0.4470574590894911,
+   "delta_min": 0.4324049711227417,
+   "delta_max": 0.7563598012643372,
+   "conflict": false,
+   "d_ws": 0.18999979231092665,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.35000064969062805,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.7509973049163818,
+   "b_right": 0.7509973049163818,
+   "b_left": 0.7509986758232117,
+   "R_img": 0.7509973049163818,
+   "t_range": [
+    0.95,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777310848236084,
+   "n_workspace_cells": 45,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "b": 0.7509973049163818,
+    "R_img": 0.7509973049163818,
+    "safety": 0.02,
+    "D_p": 0.33704116821289065,
+    "g_NT_lo": 0.09282828003168106,
+    "g_min": 0.09282828003168106,
+    "m_end": 0.1,
+    "L_min": 0.9079978051781654,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.5704460144042969,
+    0.5704460144042969
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     21.16991424560547,
+     24.23263168334961
+    ],
+    "inward": [
+     -0.9999969005584717,
+     0.0024895642418414354
+    ],
+    "tangent": [
+     -0.0024895642418414354,
+     -0.9999969005584717
+    ],
+    "length_m": 1.1408920288085938,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500003457069397,
+   "extras": {
+    "H_max": 0.14463186264038086,
+    "delta": 0.4470574590894911,
+    "delta_aim": 0.4470574590894911,
+    "delta_min": 0.4324049711227417,
+    "delta_max": 0.7563598012643372,
+    "conflict": false,
+    "d_ws": 0.18999979231092665,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.35000064969062805,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.7509973049163818,
+    "b_right": 0.7509973049163818,
+    "b_left": 0.7509986758232117,
+    "R_img": 0.7509973049163818,
+    "t_range": [
+     0.95,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777310848236084,
+    "n_workspace_cells": 45,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.7509973049163818,
+     "R_img": 0.7509973049163818,
+     "safety": 0.02,
+     "D_p": 0.33704116821289065,
+     "g_NT_lo": 0.09282828003168106,
+     "g_min": 0.09282828003168106,
+     "m_end": 0.1,
+     "L_min": 0.9079978051781654,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.5704460144042969,
+     0.5704460144042969
+    ]
+   }
+  },
+  "n_manipulation_candidates": 33,
+  "grasp_key": "gym_shoe__kmcbym__t",
+  "n_grasps": 3,
+  "bands": "/tmp/minyeong/isge_17860151/reach_bands/tabletop__house_single_floor__bench_pfjnnj_0-so0.35_0.45_0.55__gym_shoe-kmcbym__5fb206f2233f127d.npz",
+  "H_max": 0.14463186264038086,
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "htolat",
+   "scene_object_name": "floors_htolat_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "bench.n.01_1",
+   "synset": "bench.n.01",
+   "category": "bench",
+   "model": "pfjnnj",
+   "scene_object_name": "bench_pfjnnj_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "gym_shoe.n.01_1",
+   "synset": "gym_shoe.n.01",
+   "category": "gym_shoe",
+   "model": "kmcbym",
+   "scene_object_name": "target_gym_shoe_kmcbym_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "partner",
+   "name": "gym_shoe.n.01_2",
+   "synset": "gym_shoe.n.01",
+   "category": "gym_shoe",
+   "model": "mcfcwq",
+   "scene_object_name": "partner_gym_shoe_mcfcwq_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "c23f2a27e26cec70cb1826d67bcb3f078197a2d00a604019e55327bd2c6a9f1c",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-nextto_04/pair1013_c3_k10/inst/inter_object_relation_satisfaction-nextto-gym_shoe-gym_shoe-bench/house_single_floor__support-bench_pfjnnj_0-T3__partner-gym_shoe-mcfcwq__target-gym_shoe-kmcbym/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-nextto_04/pair1013_c3_k10/inst/inter_object_relation_satisfaction-nextto-gym_shoe-gym_shoe-bench/house_single_floor__support-bench_pfjnnj_0-T3__partner-gym_shoe-mcfcwq__target-gym_shoe-kmcbym/template-partial_rooms.json",
+ "load_room_instances": [
+  "bedroom_0",
+  "bathroom_1",
+  "closet_0",
+  "closet_1",
+  "corridor_0",
+  "garden_0"
+ ],
+ "task_rooms": [
+  "bedroom_0"
+ ],
+ "sampled_with_rooms": [
+  "bedroom_0",
+  "bathroom_1",
+  "closet_0",
+  "closet_1",
+  "corridor_0",
+  "garden_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-20",
+ "choices": {
+  "target": {
+   "category": "gym_shoe",
+   "model": "kmcbym",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "gym_shoe__kmcbym__t",
+   "scale": null
+  },
+  "partner": {
+   "category": "gym_shoe",
+   "model": "mcfcwq",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_htolat_0",
+  "bench.n.01_1": "bench_pfjnnj_0",
+  "gym_shoe.n.01_1": "target_gym_shoe_kmcbym_0",
+  "gym_shoe.n.01_2": "partner_gym_shoe_mcfcwq_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 403.3335108757019,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem85.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-nextto_small_scale-gym_shoe-gym_shoe-bench",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    21.619842529296875,
+    24.203125,
+    3.1391030867750795
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.028387773774927294,
+   "H_max": 0.14463186264038086,
+   "delta": 0.4470574590894911,
+   "delta_aim": 0.4470574590894911,
+   "delta_min": 0.4324049711227417,
+   "delta_max": 0.7563598012643372,
+   "conflict": false,
+   "d_ws": 0.18999979231092665,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.35000064969062805,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.7509973049163818,
+   "b_right": 0.7509973049163818,
+   "b_left": 0.7509986758232117,
+   "R_img": 0.7509973049163818,
+   "t_range": [
+    0.95,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777310848236084,
+   "n_workspace_cells": 45,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "b": 0.7509973049163818,
+    "R_img": 0.7509973049163818,
+    "safety": 0.02,
+    "D_p": 0.33704116821289065,
+    "g_NT_lo": 0.09282828003168106,
+    "g_min": 0.09282828003168106,
+    "m_end": 0.1,
+    "L_min": 0.9079978051781654,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.5704460144042969,
+    0.5704460144042969
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     21.16991424560547,
+     24.23263168334961
+    ],
+    "inward": [
+     -0.9999969005584717,
+     0.0024895642418414354
+    ],
+    "tangent": [
+     -0.0024895642418414354,
+     -0.9999969005584717
+    ],
+    "length_m": 1.1408920288085938,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500003457069397,
+   "extras": {
+    "H_max": 0.14463186264038086,
+    "delta": 0.4470574590894911,
+    "delta_aim": 0.4470574590894911,
+    "delta_min": 0.4324049711227417,
+    "delta_max": 0.7563598012643372,
+    "conflict": false,
+    "d_ws": 0.18999979231092665,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.35000064969062805,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.7509973049163818,
+    "b_right": 0.7509973049163818,
+    "b_left": 0.7509986758232117,
+    "R_img": 0.7509973049163818,
+    "t_range": [
+     0.95,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777310848236084,
+    "n_workspace_cells": 45,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.7509973049163818,
+     "R_img": 0.7509973049163818,
+     "safety": 0.02,
+     "D_p": 0.33704116821289065,
+     "g_NT_lo": 0.09282828003168106,
+     "g_min": 0.09282828003168106,
+     "m_end": 0.1,
+     "L_min": 0.9079978051781654,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.5704460144042969,
+     0.5704460144042969
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    21.619842529296875,
+    24.203125,
+    3.1391030867750795
+   ],
+   "translate": 0.25,
+   "tilt": -1.065066655476888,
+   "arms": [
+    "right"
+   ],
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.028387773774927294,
+   "focus": [
+    20.980243682861328,
+    24.364717483520508,
+    0.4194408059120178
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.14463186264038086,
+   "delta": 0.4470574590894911,
+   "delta_aim": 0.4470574590894911,
+   "delta_min": 0.4324049711227417,
+   "delta_max": 0.7563598012643372,
+   "conflict": false,
+   "d_ws": 0.18999979231092665,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.35000064969062805,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.7509973049163818,
+   "b_right": 0.7509973049163818,
+   "b_left": 0.7509986758232117,
+   "R_img": 0.7509973049163818,
+   "t_range": [
+    0.95,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777310848236084,
+   "n_workspace_cells": 45,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "b": 0.7509973049163818,
+    "R_img": 0.7509973049163818,
+    "safety": 0.02,
+    "D_p": 0.33704116821289065,
+    "g_NT_lo": 0.09282828003168106,
+    "g_min": 0.09282828003168106,
+    "m_end": 0.1,
+    "L_min": 0.9079978051781654,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.5704460144042969,
+    0.5704460144042969
+   ],
+   "axis_angle": 0.27702343662267787,
+   "angle_class": 0,
+   "focus_info": null,
+   "focus_arms": [
+    "right"
+   ],
+   "start_region": {
+    "left": [
+     0.0928,
+     0.2828
+    ]
+   },
+   "start_region_arms": {
+    "left": [
+     "right"
+    ]
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     21.16991424560547,
+     24.23263168334961
+    ],
+    "inward": [
+     -0.9999969005584717,
+     0.0024895642418414354
+    ],
+    "tangent": [
+     -0.0024895642418414354,
+     -0.9999969005584717
+    ],
+    "length_m": 1.1408920288085938,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500003457069397,
+   "extras": {
+    "H_max": 0.14463186264038086,
+    "delta": 0.4470574590894911,
+    "delta_aim": 0.4470574590894911,
+    "delta_min": 0.4324049711227417,
+    "delta_max": 0.7563598012643372,
+    "conflict": false,
+    "d_ws": 0.18999979231092665,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.35000064969062805,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.7509973049163818,
+    "b_right": 0.7509973049163818,
+    "b_left": 0.7509986758232117,
+    "R_img": 0.7509973049163818,
+    "t_range": [
+     0.95,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777310848236084,
+    "n_workspace_cells": 45,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.7509973049163818,
+     "R_img": 0.7509973049163818,
+     "safety": 0.02,
+     "D_p": 0.33704116821289065,
+     "g_NT_lo": 0.09282828003168106,
+     "g_min": 0.09282828003168106,
+     "m_end": 0.1,
+     "L_min": 0.9079978051781654,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.5704460144042969,
+     0.5704460144042969
+    ],
+    "axis_angle": 0.27702343662267787,
+    "angle_class": 0,
+    "focus_info": null,
+    "focus_arms": [
+     "right"
+    ],
+    "start_region": {
+     "left": [
+      0.0928,
+      0.2828
+     ]
+    },
+    "start_region_arms": {
+     "left": [
+      "right"
+     ]
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 4,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "target_placement": 6,
+  "ik_joint_limit": 4,
+  "approach_untrackable": 2
+ },
+ "rejection_examples": {
+  "target_placement": [
+   {
+    "message": "[target_placement] candidate 21: [grasp_unreachable] empty feasible set F at the focus [20.98, 24.125] (trunk 0.75/-0.94, 1 yaws x 3 grasps); candidate 1: [partner_placement] no partner yaw of 16 admits a gap on the left of the target (yaw +175: ends 40/50, reach 50/50, top 50/50, frame 0/50; yaw +175: ends 40/50, reach 50/50, top 50/50, frame 0/50; yaw +175: ends 40/50, reach 50/50, top 50/50, fr",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 4827402181105096826
+   },
+   {
+    "message": "[target_placement] candidate 22: [grasp_unreachable] F (1 pairs) exhausted without an exact-IK confirmation ({'support': 1, 'ik': 4}; last: ik_joint_limit: right_arm_joint4 within 49 mrad of its limit at the pose (every solution found; the approach from it would stall)); candidate 27: [grasp_unreachable] F (1 pairs) exhausted without an exact-IK confirmation ({'support': 1, 'ik': 4}; last: exact I",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 2,
+    "seed": 4827402181105096828
+   },
+   {
+    "message": "[target_placement] candidate 29: [grasp_unreachable] empty feasible set F at the focus [20.98, 24.285] (trunk 0.95/-0.78, 1 yaws x 3 grasps); candidate 19: [grasp_unreachable] empty feasible set F at the focus [20.98, 24.285] (trunk 0.50/-1.36, 1 yaws x 3 grasps); candidate 21: [grasp_unreachable] empty feasible set F at the focus [20.98, 24.125] (trunk 0.75/-0.94, 1 yaws x 3 grasps)",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 4,
+    "seed": 4827402181105096830
+   }
+  ],
+  "ik_joint_limit": [
+   {
+    "message": "[ik_joint_limit] lift (0.17 m above the grasp) fails with the object attached: ik_joint_limit: left_arm_joint2 within 49 mrad of its limit at the pose (every solution found; the approach from it would stall)",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 1,
+    "seed": 4827402181105096827
+   },
+   {
+    "message": "[ik_joint_limit] lift (0.17 m above the grasp) fails with the object attached: ik_joint_limit: right_arm_joint4 within 28 mrad of its limit at the pose (every solution found; the approach from it would stall)",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 7,
+    "seed": 4827402181105096833
+   },
+   {
+    "message": "[ik_joint_limit] lift (0.17 m above the grasp) fails with the object attached: ik_joint_limit: right_arm_joint4 within 7 mrad of its limit at the pose (every solution found; the approach from it would stall)",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 8,
+    "seed": 4827402181105096834
+   }
+  ],
+  "approach_untrackable": [
+   {
+    "message": "[approach_untrackable] lift (0.17 m above the grasp) fails with the object attached: approach_untrackable: differential IK did not converge at waypoint 14/18: pos_err=5.9mm rot_err=0.002rad at_lower=[] at_upper=[] singular_iterations=0; the end pose has no solution on its own either",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 3,
+    "seed": 4827402181105096829
+   },
+   {
+    "message": "[approach_untrackable] lift (0.17 m above the grasp) fails with the object attached: approach_untrackable: differential IK did not converge at waypoint 13/18: pos_err=5.1mm rot_err=0.002rad at_lower=[] at_upper=[] singular_iterations=0; from the end's branch: approach_untrackable: differential IK did not converge at waypoint 3/18: pos_err=6.2mm rot_err=0.002rad at_lower=[] at_upper=[] singular_ite",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 5,
+    "seed": 4827402181105096831
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 26
+ },
+ "seeds": [
+  4827402181105096838
+ ],
+ "kit_stats": {
+  "ik_calls": 1081,
+  "ik_s": 98.27945947647095,
+  "ik_batch_calls": 59,
+  "ik_batch_problems": 143,
+  "ik_batch_s": 620.6467325687408,
+  "collision_calls": 600,
+  "collision_configs": 3543,
+  "collision_s": 5.160243272781372,
+  "limit_retry_poses": 86,
+  "limit_reject.right_arm_joint2": 10,
+  "twin_picks": 62,
+  "twin_solves": 76,
+  "limit_reject.right_arm_joint7": 8,
+  "orient_choices": 62,
+  "orient_reason.reach": 15,
+  "limit_reject.left_arm_joint7": 7,
+  "limit_reject.left_arm_joint2": 7,
+  "limit_reject.left_arm_joint4": 8,
+  "orient_source.map": 2,
+  "limit_retry_random": 529,
+  "limit_retry_random_rescued": 24,
+  "orient_arm_choices": 6,
+  "orient_reason.default": 4,
+  "orient_arm.right": 4,
+  "orient_arm_reason.default": 3,
+  "orient_reason.only_feasible": 11,
+  "segment_fallbacks": 3,
+  "segment_fallback_taken.left": 3,
+  "limit_retry_seeded_rescued": 13,
+  "limit_reject.right_arm_joint4": 6,
+  "orient_against_default": 5,
+  "twin_taken": 5,
+  "twin_taken.reach": 4,
+  "limit_reject.right_arm_joint1": 1,
+  "twin_taken.only_feasible": 1,
+  "limit_reject.left_arm_joint5": 2,
+  "orient_reason.safety": 1,
+  "orient_arm_reason.only_feasible": 1,
+  "held_turn_checks": 1,
+  "held_turn_switched": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_nextto_small_scale",
+  "subtask": "inter_object_relation_satisfaction_nextto_small_scale_gym_shoe_gym_shoe",
+  "variant": "inter_object_relation_satisfaction-nextto_small_scale-gym_shoe-gym_shoe-bench"
+ }
+}

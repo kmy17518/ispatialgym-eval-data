@@ -1,0 +1,176 @@
+{
+  "schema": "isg-oracle-v1",
+  "instance_id": "camera_relocalization-obstructed-pot_plant_1__house_single_floor__obstacles-pot_plant_1__0000",
+  "tro_sha256": "510745204396a21adea79d2a952b81ae198e33eeb1eec8fc0e057b91b62f7d58",
+  "task_family": "camera_relocalization",
+  "variant": "camera_relocalization-obstructed-pot_plant_1",
+  "path_bucket_m": 10.0,
+  "stances": {
+    "init": {
+      "base_pose2d": [
+        14.90000057220459,
+        2.9000000953674316,
+        -0.23627789817233502
+      ],
+      "translate": 0.5,
+      "tilt": 0.0,
+      "arms": "untucked",
+      "posture": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    },
+    "goal": {
+      "base_pose2d": [
+        9.5,
+        2.700000047683716,
+        -0.8185674076541334
+      ],
+      "translate": 0.5875817534928984,
+      "tilt": -0.4173196890280213,
+      "arms": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    }
+  },
+  "paths": [
+    {
+      "from": "init",
+      "to": "goal",
+      "mode": "global",
+      "waypoints": [
+        [
+          14.90000057220459,
+          2.9000000953674316,
+          -0.23627789817233502
+        ],
+        [
+          13.699999809265137,
+          2.1000001430511475,
+          3.110352848071946
+        ],
+        [
+          10.5,
+          2.200000047683716,
+          2.677945044588987
+        ],
+        [
+          9.5,
+          2.700000047683716,
+          -0.8185674076541334
+        ]
+      ],
+      "length_m": 5.761817032385244,
+      "posture": "untucked",
+      "carried": null,
+      "style": "face_travel",
+      "view_waypoint_index": {
+        "pot_plant.n.01_1": 0
+      },
+      "view_s_m": {
+        "pot_plant.n.01_1": 0.0
+      },
+      "divergence_waypoint_index": {
+        "pot_plant.n.01_1": 1
+      },
+      "divergence_s_m": {
+        "pot_plant.n.01_1": 0.22
+      },
+      "view_pose2d": {
+        "pot_plant.n.01_1": [
+          14.90000057220459,
+          2.9000000953674316,
+          -2.5535903709901775
+        ]
+      },
+      "view_heading": "driven schedule",
+      "view_trunk": "init"
+    }
+  ],
+  "goal": {
+    "base_pose2d": [
+      9.5,
+      2.700000047683716,
+      -0.8185674076541334
+    ],
+    "translate": 0.5875817534928984,
+    "tilt": -0.4173196890280213,
+    "arms": "same",
+    "blocked_footprints": {
+      "free": [],
+      "block": [
+        [
+          [
+            12.375471000671388,
+            2.402480010986328
+          ],
+          [
+            13.404326553344726,
+            2.402480010986328
+          ],
+          [
+            13.404326553344726,
+            3.4142864894866944
+          ],
+          [
+            12.375471000671388,
+            3.4142864894866944
+          ]
+        ]
+      ]
+    }
+  },
+  "language": {
+    "objects": {
+      "pot_plant.n.01_1": {
+        "display_name": "pot plant",
+        "descriptor": "the pot plant on the way"
+      }
+    },
+    "goal_numbers": {}
+  },
+  "waypoint_policy": "checked"
+}

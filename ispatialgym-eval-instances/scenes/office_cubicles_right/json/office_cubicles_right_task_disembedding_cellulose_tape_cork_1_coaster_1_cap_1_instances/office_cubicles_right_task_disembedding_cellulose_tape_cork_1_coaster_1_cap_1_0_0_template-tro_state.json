@@ -1,0 +1,961 @@
+{
+  "cellulose_tape.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.8326239585876465,
+        13.021833419799805,
+        0.6951606273651123
+      ],
+      "ori": [
+        -8.16205792943947e-05,
+        0.0010637688683345914,
+        -0.010010899044573307,
+        0.9999493956565857
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.801395893096924,
+          12.990848541259766,
+          0.6840009689331055,
+          5.863519191741943,
+          13.052833557128906,
+          0.7063595056533813
+        ]
+      }
+    }
+  },
+  "cork.n.04_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.772778511047363,
+        12.804710388183594,
+        0.7004886269569397
+      ],
+      "ori": [
+        -0.002361851278692484,
+        0.0027162721380591393,
+        -0.7144995927810669,
+        0.6996266841888428
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.7634358406066895,
+          12.795204162597656,
+          0.6844944357872009,
+          5.782130241394043,
+          12.8140287399292,
+          0.7148418426513672
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      },
+      "AttachedTo": {
+        "attached_obj_uuid": -1
+      }
+    }
+  },
+  "coaster.n.03_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.842662811279297,
+        13.17471694946289,
+        0.6846588253974915
+      ],
+      "ori": [
+        -0.002662000712007284,
+        0.001967352582141757,
+        -0.8320388197898865,
+        0.5547075867652893
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.790867805480957,
+          13.122918128967285,
+          0.6838474869728088,
+          5.894463539123535,
+          13.22651481628418,
+          0.6854701638221741
+        ]
+      }
+    }
+  },
+  "cap.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.772724628448486,
+        12.8947172164917,
+        0.69375079870224
+      ],
+      "ori": [
+        0.0018898176494985819,
+        0.00271600647829473,
+        0.5291336178779602,
+        0.8485321402549744
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.734565734863281,
+          12.856574058532715,
+          0.6843209862709045,
+          5.810877799987793,
+          12.932861328125,
+          0.6987154483795166
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "conference_table.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.238663196563721,
+        13.449784278869629,
+        0.48966923356056213
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.469757080078125,
+          11.736004829406738,
+          -0.011926203966140747,
+          6.998448848724365,
+          15.151693344116211,
+          0.6807301044464111
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.795609951019287,
+        13.012109756469727,
+        0.6838681101799011
+      ],
+      "ori": [
+        0.0001678936241660267,
+        0.003303245874121785,
+        4.046071808261331e-06,
+        0.9999945163726807
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.597704887390137,
+          12.729718208312988,
+          0.6774333119392395,
+          5.993908405303955,
+          13.29474925994873,
+          0.700329065322876
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        5.795600414276123,
+        14.075181007385254,
+        0.6829376220703125
+      ],
+      "ori": [
+        1.610444769539754e-06,
+        0.0006928307702764869,
+        1.438848507007151e-08,
+        0.9999997615814209
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          5.657803535461426,
+          13.855308532714844,
+          0.6774095296859741,
+          5.934575080871582,
+          14.295053482055664,
+          0.6993203163146973
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.042686462402344,
+        13.705039024353027,
+        -0.15001033246517181
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          3.7876875400543213,
+          10.060843467712402,
+          -0.3000108599662781,
+          8.297685623168945,
+          17.349233627319336,
+          -9.79006290435791e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          5.029754638671875,
+          13.070568084716797,
+          0.005275726318359375
+        ],
+        "orientation": [
+          -6.671038136119023e-06,
+          7.99450499471277e-05,
+          4.5451599817170063e-07,
+          1.0
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 2,
+    "task_variant": "disembedding-cellulose_tape-cork_1_coaster_1_cap_1-conference_table",
+    "instance_id": "disembedding-cellulose_tape-cork_1_coaster_1_cap_1-conference_table__office_cubicles_right__support-conference_table_fpkmyw_0-T2__destination-tray-hvlfig__source-tray-uekqey__target-cellulose_tape-kavsnx__distractors-cap_1-co~5cc2e399__0000",
+    "generation_seed": 6403882706622485097,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "b19657184d96815bd53afc1aa1a9a4fcf0bb2843b26676c6fd348ea65eb25ffd",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "753b8891882dc585638c598e5a7422ca454621509407740dbd00615acad7b1b7",
+      "load_room_instances": [
+        "meeting_room_0",
+        "conference_hall_0",
+        "corridor_0"
+      ],
+      "task_rooms": [
+        "meeting_room_0"
+      ],
+      "sampled_with_rooms": [
+        "meeting_room_0",
+        "conference_hall_0",
+        "corridor_0"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/office_cubicles_right__e6adab59b0.json",
+        "removed_objects": [
+          "swivel_chair_ucawqa_0",
+          "swivel_chair_ucawqa_1",
+          "swivel_chair_ucawqa_2",
+          "swivel_chair_ucawqa_3",
+          "swivel_chair_ucawqa_4",
+          "swivel_chair_ucawqa_5",
+          "swivel_chair_ucawqa_6",
+          "swivel_chair_ucawqa_7",
+          "swivel_chair_ucawqa_8",
+          "swivel_chair_ucawqa_9"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                5.417725563049316,
+                14.946662902832031
+              ],
+              [
+                5.417725563049316,
+                14.379962921142578
+              ],
+              [
+                4.865025520324707,
+                14.379962921142578
+              ],
+              [
+                4.865025520324707,
+                14.946662902832031
+              ]
+            ],
+            [
+              [
+                5.417725086212158,
+                14.136903762817383
+              ],
+              [
+                5.417725086212158,
+                13.57020378112793
+              ],
+              [
+                4.865025043487549,
+                13.57020378112793
+              ],
+              [
+                4.865025043487549,
+                14.136903762817383
+              ]
+            ],
+            [
+              [
+                5.417724609375,
+                13.327146530151367
+              ],
+              [
+                5.417724609375,
+                12.760446548461914
+              ],
+              [
+                4.865024566650391,
+                12.760446548461914
+              ],
+              [
+                4.865024566650391,
+                13.327146530151367
+              ]
+            ],
+            [
+              [
+                5.417722702026367,
+                12.517386436462402
+              ],
+              [
+                5.417722702026367,
+                11.95068645477295
+              ],
+              [
+                4.865022659301758,
+                11.95068645477295
+              ],
+              [
+                4.865022659301758,
+                12.517386436462402
+              ]
+            ],
+            [
+              [
+                7.047040939331055,
+                14.323537826538086
+              ],
+              [
+                7.047039985656738,
+                14.890237808227539
+              ],
+              [
+                7.599740028381348,
+                14.890237808227539
+              ],
+              [
+                7.599740982055664,
+                14.323537826538086
+              ]
+            ],
+            [
+              [
+                7.0470404624938965,
+                13.513781547546387
+              ],
+              [
+                7.04703950881958,
+                14.08048152923584
+              ],
+              [
+                7.5997395515441895,
+                14.08048152923584
+              ],
+              [
+                7.599740505218506,
+                13.513781547546387
+              ]
+            ],
+            [
+              [
+                7.047039985656738,
+                12.704024314880371
+              ],
+              [
+                7.047039985656738,
+                13.270724296569824
+              ],
+              [
+                7.599740028381348,
+                13.270724296569824
+              ],
+              [
+                7.599740028381348,
+                12.704024314880371
+              ]
+            ],
+            [
+              [
+                7.0470380783081055,
+                11.89426040649414
+              ],
+              [
+                7.047039985656738,
+                12.460960388183594
+              ],
+              [
+                7.599740028381348,
+                12.460958480834961
+              ],
+              [
+                7.599738121032715,
+                11.894258499145508
+              ]
+            ],
+            [
+              [
+                6.569116592407227,
+                15.128622055053711
+              ],
+              [
+                6.002686023712158,
+                15.111149787902832
+              ],
+              [
+                5.985645294189453,
+                15.66358757019043
+              ],
+              [
+                6.5520758628845215,
+                15.681059837341309
+              ]
+            ],
+            [
+              [
+                5.944053649902344,
+                11.943414688110352
+              ],
+              [
+                6.510752201080322,
+                11.942075729370117
+              ],
+              [
+                6.50944709777832,
+                11.38937759399414
+              ],
+              [
+                5.942748546600342,
+                11.390716552734375
+              ]
+            ]
+          ],
+          "block": [
+            [
+              [
+                6.984020233154297,
+                15.151620864868164
+              ],
+              [
+                6.984020233154297,
+                11.759820938110352
+              ],
+              [
+                5.49082088470459,
+                11.759820938110352
+              ],
+              [
+                5.49082088470459,
+                15.151620864868164
+              ]
+            ]
+          ]
+        },
+        "moved_objects": {
+          "swivel_chair_ucawqa_0": {
+            "pos": [
+              5.195241928100586,
+              14.648948669433594,
+              0.47980278730392456
+            ],
+            "ori": [
+              0.0005416165222413838,
+              0.0002252277627121657,
+              -2.0287856727918552e-07,
+              0.9999998211860657
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -104.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_1": {
+            "pos": [
+              5.195241451263428,
+              13.839189529418945,
+              0.4798026978969574
+            ],
+            "ori": [
+              0.0005417238571681082,
+              0.0002253468264825642,
+              -3.989019319305953e-07,
+              0.9999998211860657
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -109.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_2": {
+            "pos": [
+              5.1952409744262695,
+              13.02943229675293,
+              0.47980260848999023
+            ],
+            "ori": [
+              0.0005415725172497332,
+              0.0002251271071145311,
+              -2.9279564728312835e-07,
+              0.9999998211860657
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -114.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_3": {
+            "pos": [
+              5.195239067077637,
+              12.219672203063965,
+              0.47980260848999023
+            ],
+            "ori": [
+              0.0005414734478108585,
+              0.00022519165941048414,
+              -3.0730583944205137e-07,
+              0.9999998211860657
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -119.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_4": {
+            "pos": [
+              7.269523620605469,
+              14.621252059936523,
+              0.4798029661178589
+            ],
+            "ori": [
+              -0.0002246287913294509,
+              0.0005412385216914117,
+              0.9999998807907104,
+              -5.56361271719652e-07
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -124.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_5": {
+            "pos": [
+              7.2695231437683105,
+              13.811495780944824,
+              0.4798028767108917
+            ],
+            "ori": [
+              -0.00022458039165940136,
+              0.0005412417813204229,
+              0.9999998807907104,
+              -4.7169393724288966e-07
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -129.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_6": {
+            "pos": [
+              7.269523620605469,
+              13.001738548278809,
+              0.479802668094635
+            ],
+            "ori": [
+              -0.00022449216339737177,
+              0.0005411914899013937,
+              0.9999998807907104,
+              -2.9712296623074508e-08
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -134.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_7": {
+            "pos": [
+              7.269522666931152,
+              12.191973686218262,
+              0.47980254888534546
+            ],
+            "ori": [
+              -0.00022450718097388744,
+              0.0005411801394075155,
+              0.9999998211860657,
+              2.049916702162591e-06
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -139.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_8": {
+            "pos": [
+              6.264684200286865,
+              15.34182071685791,
+              0.4798029363155365
+            ],
+            "ori": [
+              0.0005459973472170532,
+              -0.00021537630527745932,
+              -0.6961207985877991,
+              0.7179244756698608
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -144.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_ucawqa_9": {
+            "pos": [
+              6.241241931915283,
+              11.720229148864746,
+              0.47938665747642517
+            ],
+            "ori": [
+              0.0007242875290103257,
+              0.0022995364852249622,
+              0.7062675356864929,
+              0.707940936088562
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -149.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "conference_table_fpkmyw_0",
+        "floors_tucopb_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_tucopb_0",
+        "category": "floors",
+        "model": "tucopb"
+      },
+      "conference_table.n.01_1": {
+        "scene_object_name": "conference_table_fpkmyw_0",
+        "category": "conference_table",
+        "model": "fpkmyw"
+      },
+      "cellulose_tape.n.01_1": {
+        "scene_object_name": "target_cellulose_tape_kavsnx_0",
+        "category": "cellulose_tape",
+        "model": "kavsnx"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "cork.n.04_1": {
+        "scene_object_name": "distractors_cork_lseuwf_0",
+        "category": "cork",
+        "model": "lseuwf"
+      },
+      "coaster.n.03_1": {
+        "scene_object_name": "distractors_coaster_arjpcz_1",
+        "category": "coaster",
+        "model": "arjpcz"
+      },
+      "cap.n.02_1": {
+        "scene_object_name": "distractors_cap_clhquh_2",
+        "category": "cap",
+        "model": "clhquh"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.434288501739502,
+        "torso_joint2": -2.1973817348480225,
+        "torso_joint3": -0.8045452237129211,
+        "torso_joint4": 3.178109153623154e-08,
+        "left_arm_joint1": -0.00012942585453856736,
+        "right_arm_joint1": -8.96370765985921e-05,
+        "left_arm_joint2": 1.5700016021728516,
+        "right_arm_joint2": -1.5700010061264038,
+        "left_arm_joint3": -1.443266910428065e-07,
+        "right_arm_joint3": 1.3104539675623528e-09,
+        "left_arm_joint4": -1.5699992179870605,
+        "right_arm_joint4": -1.5700008869171143,
+        "left_arm_joint5": 1.570001482963562,
+        "right_arm_joint5": -1.569998025894165,
+        "left_arm_joint6": 2.4624029038022854e-07,
+        "right_arm_joint6": 2.834098040693789e-07,
+        "left_arm_joint7": 3.726660509073554e-07,
+        "right_arm_joint7": 2.5565140049366164e-07,
+        "left_gripper_finger_joint1": 0.049999844282865524,
+        "left_gripper_finger_joint2": 0.04999973997473717,
+        "right_gripper_finger_joint1": 0.04999975487589836,
+        "right_gripper_finger_joint2": 0.04999959468841553
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_disembedding_cellulose_tape_cork_1_coaster_1_cap_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "c9c57f1fea1e43bafeaa46121641aae355c845c71c67755e443c4d6639889272",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          5.653435707092285,
+          14.257040977478027,
+          1.27118980884552
+        ],
+        "orientation": [
+          0.0900665894150734,
+          -0.0899168848991394,
+          -0.700721800327301,
+          0.7019914388656616
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "cellulose_tape.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          5.78948974609375,
+          14.115256309509277,
+          0.6921022534370422
+        ],
+        "orientation": [
+          -0.00017999205738306046,
+          -0.0015537613071501255,
+          0.0016937986947596073,
+          0.9999974370002747
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "cellulose_tape.n.01_1",
+      "occluders": [
+        "cork.n.04_1",
+        "coaster.n.03_1",
+        "cap.n.02_1"
+      ],
+      "ratio": 0.0,
+      "visible_area": 1190,
+      "reference_area": 1190,
+      "occluder_ids": [
+        "distractors_cork_lseuwf_0",
+        "distractors_coaster_arjpcz_1",
+        "distractors_cap_clhquh_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 3971
+    }
+  }
+}

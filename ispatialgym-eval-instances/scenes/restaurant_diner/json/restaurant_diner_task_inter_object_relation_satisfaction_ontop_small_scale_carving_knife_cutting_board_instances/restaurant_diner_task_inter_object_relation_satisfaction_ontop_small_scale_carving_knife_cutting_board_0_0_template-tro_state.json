@@ -1,0 +1,380 @@
+{
+  "carving_knife.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.424101829528809,
+        -4.178708076477051,
+        0.879309356212616
+      ],
+      "ori": [
+        0.000746891659218818,
+        7.990157428139355e-06,
+        0.06982532888650894,
+        0.9975589513778687
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.524789810180664,
+          -4.202217102050781,
+          0.8705009818077087,
+          -9.298907279968262,
+          -4.15716552734375,
+          0.8918505907058716
+        ]
+      },
+      "SlicerActive": {
+        "value": true,
+        "previously_touching": false,
+        "delay_counter": 0.0
+      }
+    }
+  },
+  "chopping_board.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.42410945892334,
+        -3.854130744934082,
+        0.8803290128707886
+      ],
+      "ori": [
+        1.2740632655550144e-06,
+        5.106610387883848e-07,
+        -0.9330861568450928,
+        0.3596530854701996
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.666200637817383,
+          -4.092103004455566,
+          0.8705011606216431,
+          -9.181751251220703,
+          -3.6160690784454346,
+          0.890502393245697
+        ]
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.285934448242188,
+        -3.581476926803589,
+        0.538698136806488
+      ],
+      "ori": [
+        -4.629721495064132e-09,
+        -1.815847952002514e-07,
+        -1.1200131666555535e-06,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.686952590942383,
+          -4.982627868652344,
+          0.0037010908126831055,
+          -8.882146835327148,
+          -2.1770272254943848,
+          0.8705013990402222
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -8.454541206359863,
+        -2.8606200218200684,
+        0.0012011871440336108
+      ],
+      "ori": [
+        8.714015769270382e-15,
+        7.771960124894253e-15,
+        0.7071068286895752,
+        0.7071067094802856
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -11.607954978942871,
+          -7.258699893951416,
+          -0.2962988317012787,
+          -5.301128387451172,
+          1.5374598503112793,
+          0.0037011862732470036
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -8.446958541870117,
+          -3.9599647521972656,
+          0.00898599624633789
+        ],
+        "orientation": [
+          8.045509457588196e-05,
+          8.106339009827934e-06,
+          -1.0,
+          4.008757969131693e-06
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 5,
+    "task_variant": "inter_object_relation_satisfaction-ontop_small_scale-carving_knife-cutting_board-commercial_kitchen_table",
+    "instance_id": "inter_object_relation_satisfaction-ontop_small_scale-carving_knife-cutting_board-commercial_kitchen_table__restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T4__partner-cutting_board-tcdrzs__target-carving_knife-awv~0c211047__0000",
+    "generation_seed": 4423830500855688217,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "77d98cba91b4b1ffb8750cbf1a3b380e3021058e70adcf1439c2b2a72b90e176",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "restaurant_diner",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "4d3a67f1a97a5e9d05b2b8918504d4d0f3d22de52e9b37e6295d06931a068e0c",
+      "load_room_instances": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "commercial_kitchen_table_vxvtec_0",
+        "floors_vikfyd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vikfyd_0",
+        "category": "floors",
+        "model": "vikfyd"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+        "category": "commercial_kitchen_table",
+        "model": "vxvtec"
+      },
+      "carving_knife.n.01_1": {
+        "scene_object_name": "target_carving_knife_awvoox_0",
+        "category": "carving_knife",
+        "model": "awvoox"
+      },
+      "chopping_board.n.01_1": {
+        "scene_object_name": "partner_cutting_board_tcdrzs_0",
+        "category": "cutting_board",
+        "model": "tcdrzs"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.1275969743728638,
+        "torso_joint2": -1.637314796447754,
+        "torso_joint3": -0.5538551211357117,
+        "torso_joint4": -6.024807248650177e-07,
+        "left_arm_joint1": -1.3062071957392618e-07,
+        "right_arm_joint1": 3.902091702912003e-05,
+        "left_arm_joint2": 1.5700006484985352,
+        "right_arm_joint2": -1.5700002908706665,
+        "left_arm_joint3": -5.088003945274977e-06,
+        "right_arm_joint3": 1.8085552255797666e-06,
+        "left_arm_joint4": -1.5700023174285889,
+        "right_arm_joint4": -1.5699976682662964,
+        "left_arm_joint5": 1.5699913501739502,
+        "right_arm_joint5": -1.5700085163116455,
+        "left_arm_joint6": -8.435835070486064e-07,
+        "right_arm_joint6": -8.573451282245514e-07,
+        "left_arm_joint7": -1.8530359966462129e-06,
+        "right_arm_joint7": -1.1699443120960495e-06,
+        "left_gripper_finger_joint1": 0.0499994270503521,
+        "left_gripper_finger_joint2": 0.04999985173344612,
+        "right_gripper_finger_joint1": 0.04999949410557747,
+        "right_gripper_finger_joint2": 0.05000000074505806
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "restaurant_diner_task_inter_object_relation_satisfaction_ontop_small_scale_carving_knife_cutting_board_0_0_template-goal_rgb.png",
+      "rgb_sha256": "833f7aa1be76609a0b476f2271c19146f75a44fe062e466f058e52bbb12f717a",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -9.059057235717773,
+          -4.259668350219727,
+          1.4196367263793945
+        ],
+        "orientation": [
+          0.1971493810415268,
+          0.1971360743045807,
+          0.6790553331375122,
+          0.6790827512741089
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "chopping_board.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.424113273620605,
+          -3.8541312217712402,
+          0.8803291916847229
+        ],
+        "orientation": [
+          1.07267908333597e-06,
+          6.29344754088379e-07,
+          -0.9330860376358032,
+          0.3596532642841339
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "carving_knife.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.427908897399902,
+          -3.8555755615234375,
+          0.8993104100227356
+        ],
+        "orientation": [
+          0.000725679041352123,
+          1.0791673048515804e-05,
+          0.07237312197685242,
+          0.9973773956298828
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

@@ -1,0 +1,606 @@
+{
+ "template_id": "house_double_floor_upper__support-walls_ynhwyn_0-r01__target-wall_clock-jerval",
+ "scene": "house_double_floor_upper",
+ "timings": {
+  "bind_spawn_s": 21.383891344070435,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 55.69452142715454,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 80,
+   "collision_configs": 20400,
+   "collision_s": 5.513
+  },
+  "save_template_s": 0.2502470016479492
+ },
+ "variant": "alignment-world_vertical-wall_clock-walls",
+ "subtask": "alignment-world_vertical",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "3293b7f7b8dcb9bbf0c938800d33a32f9523d85f879e6d617a0e24fadb62efad",
+ "choice": {
+  "scene": "house_double_floor_upper",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "support": [
+    "walls_ynhwyn_0"
+   ],
+   "support_regions": [
+    {
+     "id": "living_room_0/walls_ynhwyn_0/r01",
+     "wall": "walls_ynhwyn_0",
+     "room": "living_room_0",
+     "p0": [
+      0.815,
+      1.149
+     ],
+     "p1": [
+      1.715,
+      1.149
+     ],
+     "normal": [
+      0.0,
+      -1.0
+     ],
+     "hang_z": 1.45,
+     "length_m": 1.15,
+     "max_object_m": 0.9
+    }
+   ],
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "wall_clock",
+    "model": "jerval",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_double_floor_upper__support-walls_ynhwyn_0-r01__target-wall_clock-jerval",
+  "support_tag": "walls_ynhwyn_0-r01"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_d47bc5d1_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 1,
+  "seed": 286119364,
+  "seed_source": "split",
+  "scene": "house_double_floor_upper",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_double_floor_upper",
+  "support": "walls_ynhwyn_0",
+  "row": "living_room_0/walls_ynhwyn_0/r01",
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": [
+   "living_room_0/walls_ynhwyn_0/r01"
+  ],
+  "rooms": [
+   "living_room_0"
+  ],
+  "floor_room": "living_room_0",
+  "tag": "walls_ynhwyn_0-r01",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "a47a716a77304b2c05eaf1b8145f7fcb71dbcb904ace48c2d565d3e3a6e7fb57",
+ "template_facts": {
+  "spot_search": {
+   "regions": 1,
+   "patch_wh": [
+    0.5650444030761719,
+    0.5641474723815918
+   ],
+   "n_spots": 5,
+   "walls": [
+    "walls_ynhwyn_0"
+   ]
+  },
+  "frame": {
+   "front_axis": "+x",
+   "up_axis": "+z",
+   "level_axis_derived": "+y",
+   "symmetric_180": false,
+   "source": "customs"
+  },
+  "dims": {
+   "thickness": 0.047748565673828125,
+   "width": 0.5650444030761719,
+   "height": 0.5641474723815918
+  },
+  "scale": null,
+  "wall": "walls_ynhwyn_0",
+  "com_local": [
+   0.001819610595703125,
+   0.00070953369140625,
+   -0.0018711090087890625
+  ],
+  "wall_contacts": {
+   "collision_pieces": 1,
+   "pieces_cut": 1,
+   "material_tolerance_m": 0.003,
+   "rules": {
+    "+25": {
+     "B": {},
+     "E_low": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_high": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_push": {
+      "rule": "projection",
+      "off_m": 0.0
+     }
+    },
+    "-25": {
+     "B": {},
+     "E_low": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_high": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_push": {
+      "rule": "projection",
+      "off_m": 0.0
+     }
+    }
+   }
+  },
+  "contact_height_extra_m": 0.0,
+  "deviation_range_applied_deg": [
+   15.0,
+   25.0
+  ],
+  "template_filter_deg": 25,
+  "stance_arm_posture": "tucked",
+  "spots": [
+   {
+    "id": 0,
+    "point": [
+     0.815000057220459,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 35,
+     "-25": 35
+    },
+    "wall_protrusion_m": 0.0
+   },
+   {
+    "id": 1,
+    "point": [
+     1.0399999618530273,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 35,
+     "-25": 35
+    },
+    "wall_protrusion_m": 0.0
+   },
+   {
+    "id": 2,
+    "point": [
+     1.2649999856948853,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 35,
+     "-25": 35
+    },
+    "wall_protrusion_m": 0.0
+   },
+   {
+    "id": 3,
+    "point": [
+     1.4900000095367432,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 35,
+     "-25": 35
+    },
+    "wall_protrusion_m": 0.0
+   },
+   {
+    "id": 4,
+    "point": [
+     1.7149999141693115,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "normal": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "n_step1": 1320,
+    "survivors_pm_filter": {
+     "+25": 35,
+     "-25": 35
+    },
+    "wall_protrusion_m": 0.0
+   }
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "rfqizg",
+   "scene_object_name": "floors_rfqizg_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "wall_clock.n.01_1",
+   "synset": "wall_clock.n.01",
+   "category": "wall_clock",
+   "model": "jerval",
+   "scene_object_name": "target_wall_clock_jerval_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "support",
+   "name": "wall.n.01_1",
+   "synset": "wall.n.01",
+   "category": "walls",
+   "model": "ynhwyn",
+   "scene_object_name": "walls_ynhwyn_0",
+   "dataset": null
+  }
+ ],
+ "template_sha256": "1551bae47445ff8f9368cc80ac58601c700e29384ef1adb50e43b39c1b78bbcf",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_02/cmp1013_c2_k1/inst/alignment-world_vertical-wall_clock-walls/house_double_floor_upper__support-walls_ynhwyn_0-r01__target-wall_clock-jerval/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_02/cmp1013_c2_k1/inst/alignment-world_vertical-wall_clock-walls/house_double_floor_upper__support-walls_ynhwyn_0-r01__target-wall_clock-jerval/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "bathroom_0",
+  "bedroom_0",
+  "bedroom_1",
+  "bedroom_2"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "bathroom_0",
+  "bedroom_0",
+  "bedroom_1",
+  "bedroom_2"
+ ],
+ "scene_variant": null,
+ "problem": "alignment-8",
+ "choices": {
+  "target": {
+   "category": "wall_clock",
+   "model": "jerval",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_rfqizg_0",
+  "wall_clock.n.01_1": "target_wall_clock_jerval_0",
+  "wall.n.01_1": "walls_ynhwyn_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 237.10232973098755,
+ "activity_definition": "../activity_definitions/alignment/problem28.bddl",
+ "bddl_variant": "alignment-world_vertical-wall_clock-walls",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    1.4163099849827856,
+    0.3633126003198275,
+    1.7610800442457013
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.8,
+   "face": "wall",
+   "d": 0.8,
+   "lambda": 0.0,
+   "bearing_deg": 10.902453919990965,
+   "distance": 0.8,
+   "face_normal": [
+    0.0,
+    -1.0
+   ],
+   "axis_angle_deg": 11.436799120183581,
+   "target_centre": [
+    1.2665,
+    1.1246,
+    1.4617
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "P": [
+     1.2649999856948853,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "d": 0.8,
+    "lambda": 0.0
+   },
+   "extras": {
+    "bearing_deg": 10.902453919990965,
+    "distance": 0.8,
+    "face_normal": [
+     0.0,
+     -1.0
+    ],
+    "axis_angle_deg": 11.436799120183581,
+    "target_centre": [
+     1.2665,
+     1.1246,
+     1.4617
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    1.215000033378601,
+    0.29887306690216064,
+    1.5707963267948966
+   ],
+   "translate": 0.25,
+   "tilt": 0.0,
+   "arms": [
+    "right",
+    "left"
+   ],
+   "stand_off": 0.85,
+   "face": "wall",
+   "d": 0.85,
+   "lambda": 0.05,
+   "focus": [
+    1.2649999856948853,
+    1.1233434677124023,
+    1.4500000476837158
+   ],
+   "contacts": [
+    "push"
+   ],
+   "band": [
+    -0.15,
+    0.0
+   ],
+   "angle_class": 1,
+   "clearance_tier": 0,
+   "grid_tilt": 0.0,
+   "arm_posture": "tucked",
+   "axis_angle_deg": 17.856970352913955,
+   "closing_axes": {
+    "push": "s+0/-"
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.0,
+   "fingers_by_arm": {
+    "right": 0.0,
+    "left": 0.0
+   },
+   "name": "manipulation",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "P": [
+     1.2649999856948853,
+     1.1488730907440186,
+     1.4500000476837158
+    ],
+    "d": 0.85,
+    "lambda": 0.05
+   },
+   "extras": {
+    "band": [
+     -0.15,
+     0.0
+    ],
+    "angle_class": 1,
+    "clearance_tier": 0,
+    "grid_tilt": 0.0,
+    "arm_posture": "tucked",
+    "axis_angle_deg": 17.856970352913955,
+    "closing_axes": {
+     "push": "s+0/-"
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.0,
+    "fingers_by_arm": {
+     "right": 0.0,
+     "left": 0.0
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 2
+ },
+ "seeds": [
+  2265786040853730548
+ ],
+ "kit_stats": {
+  "ik_calls": 16,
+  "ik_s": 9.653614521026611,
+  "ik_batch_calls": 1,
+  "ik_batch_problems": 1,
+  "ik_batch_s": 5.582436561584473,
+  "collision_calls": 111,
+  "collision_configs": 20473,
+  "collision_s": 5.690537929534912,
+  "limit_retry_poses": 2,
+  "limit_reject.right_arm_joint2": 2,
+  "orient_choices": 1,
+  "orient_reason.only_feasible": 1,
+  "orient_against_default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "alignment",
+  "task": "alignment_vertical",
+  "subtask": "alignment_vertical_wall_clock",
+  "variant": "alignment-world_vertical-wall_clock-walls"
+ }
+}

@@ -1,0 +1,202 @@
+{
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        13.494917869567871,
+        0.7989608645439148,
+        -0.13880740106105804
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          9.365768432617188,
+          -2.50658917427063,
+          -0.27760744094848633,
+          17.624067306518555,
+          4.10451078414917,
+          -7.465481758117676e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          14.199993133544922,
+          0.5999946594238281,
+          0.005278110504150391
+        ],
+        "orientation": [
+          5.3151510655879974e-05,
+          5.95122946833726e-05,
+          -0.7178186178207397,
+          0.6962302327156067
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "camera_relocalization",
+    "activity_definition_id": 0,
+    "task_variant": "camera_relocalization-standard",
+    "instance_id": "camera_relocalization-standard__house_single_floor__0000",
+    "generation_seed": 5419600604269036548,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "4d9ef4d9c713795119d529e92501fd8bd7ff04d6b97db718fd17aaa47e6e0a4d",
+    "task_spec_sha256": "007ceacd9a12706e35aa8b73f9768143f3dbc7f6cd24f3af587e6aeef05ae40f",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "9a9c778621ebf8efa79327cb43988c0d1f08d9f41b8708d96365d2562c9cee33",
+      "load_room_instances": [
+        "living_room_0",
+        "corridor_0",
+        "dining_room_0",
+        "garden_0",
+        "kitchen_0"
+      ],
+      "task_rooms": [
+        "living_room_0"
+      ],
+      "sampled_with_rooms": [
+        "living_room_0",
+        "corridor_0",
+        "dining_room_0",
+        "garden_0",
+        "kitchen_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_uzsntg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_uzsntg_0",
+        "category": "floors",
+        "model": "uzsntg"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0250121355056763,
+        "torso_joint2": -1.449968934059143,
+        "torso_joint3": -0.47000038623809814,
+        "torso_joint4": 3.1714648685010616e-07,
+        "left_arm_joint1": 2.168287755921483e-05,
+        "right_arm_joint1": 3.704436676343903e-05,
+        "left_arm_joint2": 1.5699999332427979,
+        "right_arm_joint2": -1.570000171661377,
+        "left_arm_joint3": -1.5720823967058095e-06,
+        "right_arm_joint3": 2.198400352426688e-06,
+        "left_arm_joint4": -1.5699973106384277,
+        "right_arm_joint4": -1.570003867149353,
+        "left_arm_joint5": 1.5700082778930664,
+        "right_arm_joint5": -1.569993257522583,
+        "left_arm_joint6": 1.0151433116334374e-06,
+        "right_arm_joint6": 1.4318677585833939e-06,
+        "left_arm_joint7": 1.5393635521832039e-06,
+        "right_arm_joint7": 1.6199782066905755e-06,
+        "left_gripper_finger_joint1": 0.049999285489320755,
+        "left_gripper_finger_joint2": 0.04999994859099388,
+        "right_gripper_finger_joint1": 0.04999912157654762,
+        "right_gripper_finger_joint2": 0.049999307841062546
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_camera_relocalization_standard_0_0_template-goal_rgb.png",
+      "rgb_sha256": "f4f000a79f87a80222a60cfb0140e7132c993efb7d76de896e7742912febf955",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          13.917196273803711,
+          2.4328649044036865,
+          1.3481903076171875
+        ],
+        "orientation": [
+          0.16924242675304413,
+          0.32451069355010986,
+          0.8251529932022095,
+          0.4303165376186371
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "agent.n.01_1": {
+        "link": "robot_r1:zed_link:Camera:0",
+        "frame": "world",
+        "position": [
+          13.917196273803711,
+          2.4328649044036865,
+          1.3481903076171875
+        ],
+        "orientation": [
+          0.16924242675304413,
+          0.32451069355010986,
+          0.8251529932022095,
+          0.4303165376186371
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.05,
+        "orientation_tolerance": 0.1,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

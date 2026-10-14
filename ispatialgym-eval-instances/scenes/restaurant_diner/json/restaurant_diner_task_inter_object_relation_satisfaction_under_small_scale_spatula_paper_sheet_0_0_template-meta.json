@@ -1,0 +1,925 @@
+{
+ "template_id": "restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-paper_sheet-uqbipw__target-spatula-hkvsep-s0.76",
+ "scene": "restaurant_diner",
+ "timings": {
+  "bind_spawn_s": 16.54359245300293,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 27.37743091583252,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 4,
+   "collision_configs": 1734,
+   "collision_s": 0.212
+  },
+  "save_template_s": 0.26650476455688477
+ },
+ "variant": "inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table",
+ "subtask": "inter_object_relation_satisfaction-under_small_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "15727602eb19487d739c116c0f9c6a2b108e12e4bf8fe58b54a25cb2db53cba7",
+ "choice": {
+  "scene": "restaurant_diner",
+  "rooms": [
+   "kitchen_0"
+  ],
+  "bindings": {
+   "support": [
+    "commercial_kitchen_table_vxvtec_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "commercial_kitchen_table_vxvtec_0",
+     "init": "ontop",
+     "top_z": 0.87,
+     "row": "inter_object_relation_satisfaction-under_small_scale#04~T3"
+    }
+   ],
+   "floor": {
+    "room": "kitchen_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "spatula",
+    "model": "hkvsep",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "spatula__hkvsep__t076",
+    "scale": [
+     0.76,
+     0.76,
+     0.76
+    ]
+   },
+   "partner": {
+    "category": "paper_sheet",
+    "model": "uqbipw",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-paper_sheet-uqbipw__target-spatula-hkvsep-s0.76",
+  "support_tag": "commercial_kitchen_table_vxvtec_0-T3"
+ },
+ "rooms": [
+  "kitchen_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_54d35985_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 2,
+  "seed": 312651780,
+  "seed_source": "split",
+  "scene": "restaurant_diner",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "restaurant_diner",
+  "support": "commercial_kitchen_table_vxvtec_0",
+  "row": "inter_object_relation_satisfaction-under_small_scale#04~T3",
+  "init": "ontop",
+  "top_z": 0.87,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "kitchen_0"
+  ],
+  "floor_room": "kitchen_0",
+  "tag": "commercial_kitchen_table_vxvtec_0-T3",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "85f58a513689a3ef4fc42e31966cfb5399a101929ed582feaaa44999681842a8",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "grasps_dropped_not_attachable": [],
+  "grasp_pinch_recentre": {},
+  "grasp_pinch_offset_m": {
+   "grasp_0": -0.001,
+   "grasp_1": -0.001,
+   "grasp_2": -0.0007,
+   "grasp_3": -0.0038,
+   "grasp_4": -0.0038
+  },
+  "grasps_recentred": [],
+  "grasp_closing_tilt_deg": {
+   "grasp_0": 2.2,
+   "grasp_1": 2.2,
+   "grasp_2": 2.2,
+   "grasp_3": 13.8,
+   "grasp_4": 13.8
+  },
+  "grasp_pivot_arms_m": {
+   "grasp_0": 0.0167,
+   "grasp_1": 0.0102,
+   "grasp_2": 0.0334,
+   "grasp_3": 0.0362,
+   "grasp_4": 0.0475
+  },
+  "grasp_pinch_vs_long_axis_deg": {
+   "grasp_0": 89.5,
+   "grasp_1": 89.5,
+   "grasp_2": 89.5,
+   "grasp_3": 89.3,
+   "grasp_4": 89.3
+  },
+  "grasps_flush_first": [
+   "grasp_0",
+   "grasp_1",
+   "grasp_2"
+  ],
+  "grasps_inclined_fallback": [
+   "grasp_3",
+   "grasp_4"
+  ],
+  "pair": {
+   "target_extent": [
+    0.2689704895019531,
+    0.059539794921875,
+    0.021368980407714844
+   ],
+   "partner_extent": [
+    0.21000289916992188,
+    0.29000091552734375,
+    0.0005083084106445312
+   ],
+   "relation": "under",
+   "tier": "aligned"
+  },
+  "carry_clears": "partner",
+  "widest_faces": null,
+  "partner_sides": [
+   "right"
+  ],
+  "partner_on_meta_link": null,
+  "partner_aligned_to_target": true,
+  "support_surface": {
+   "support": "commercial_kitchen_table_vxvtec_0",
+   "spec": {
+    "name": "commercial_kitchen_table_vxvtec_0",
+    "init": "ontop",
+    "top_z": 0.87,
+    "row": "inter_object_relation_satisfaction-under_small_scale#04~T3"
+   },
+   "top_z_above_floor": 0.8668,
+   "top_error": null,
+   "surface": "top"
+  },
+  "partner_flat_top": {
+   "res_m": 0.002,
+   "z_ref": 0.8705,
+   "n_cells": 570836,
+   "n_flat": 536832,
+   "n_seen": 563201,
+   "tol_m": 0.003,
+   "normal_min": 0.99,
+   "margin_m": 0.01,
+   "collision_top_z": 0.8705,
+   "n_triangles": 2016,
+   "build_s": 2.19
+  },
+  "tremble_screen": {
+   "spots_max": 0,
+   "spots": [],
+   "skipped": "off"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": null,
+    "mirrored_from": "right",
+    "mirror_source": "/tmp/minyeong/isge_17857746/reach_bands/tabletop__restaurant_diner__commercial_kitchen_table_vxvtec_0__spatula-hkvsep__b1bc795bfda9497c.npz"
+   }
+  },
+  "start_region": {
+   "edge": "+u",
+   "edge_length_m": 2.78,
+   "L_min_m": 0.789,
+   "m_end_m": 0.1,
+   "lateral_m": -0.461,
+   "assigned": "right",
+   "sides": [
+    "right"
+   ],
+   "drawn_sides": [
+    "right"
+   ],
+   "gap_range_m": [
+    0.03,
+    0.32
+   ],
+   "phase2_candidates": 884,
+   "cells": {
+    "right": 40
+   },
+   "candidates": {
+    "right": 418
+   },
+   "gap_m": {
+    "right": [
+     0.03,
+     0.32
+    ]
+   },
+   "meta_link": null,
+   "failed_lateral_draws": []
+  },
+  "support": {
+   "name": "commercial_kitchen_table_vxvtec_0",
+   "z": 0.8705011606216431,
+   "yaw": 4.777162985192263e-07,
+   "local_bounds": [
+    -9.676948547363281,
+    -8.896947860717773,
+    -4.97261905670166,
+    -2.1926190853118896
+   ],
+   "n_free_cells": 5600,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "+u",
+   "mid": [
+    -8.89694595336914,
+    -3.5826234817504883
+   ],
+   "inward": [
+    -1.0,
+    -4.777162985192263e-07
+   ],
+   "tangent": [
+    4.777162985192263e-07,
+    -1.0
+   ],
+   "length_m": 2.7799999713897705,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    -8.446946144104004,
+    -3.1213464736938477,
+    -3.1415921758734946
+   ],
+   "translate": 0.5964799598130818,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": -0.46127674907542826,
+   "H_max": 0.021368980407714844,
+   "delta": 0.4788225952015524,
+   "delta_aim": 0.4788225952015524,
+   "delta_min": 0.3091470956802368,
+   "delta_max": 0.6439059080830348,
+   "conflict": false,
+   "d_ws": 0.2644447200000286,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900000333786011,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2355685428325903,
+   "z_c": 1.3456225714125936,
+   "b": 0.662774920463562,
+   "b_right": 0.662781834602356,
+   "b_left": 0.662774920463562,
+   "R_img": 0.662774920463562,
+   "t_range": [
+    0.23887795338928314,
+    0.8739827881634958
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 72,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "safety": 0.02,
+    "D_p": 0.3200009155273438,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.7889714050292969,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -1.3899999856948853,
+    1.3899999856948853
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     -8.89694595336914,
+     -3.5826234817504883
+    ],
+    "inward": [
+     -1.0,
+     -4.777162985192263e-07
+    ],
+    "tangent": [
+     4.777162985192263e-07,
+     -1.0
+    ],
+    "length_m": 2.7799999713897705,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.45000001788139343,
+   "extras": {
+    "H_max": 0.021368980407714844,
+    "delta": 0.4788225952015524,
+    "delta_aim": 0.4788225952015524,
+    "delta_min": 0.3091470956802368,
+    "delta_max": 0.6439059080830348,
+    "conflict": false,
+    "d_ws": 0.2644447200000286,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900000333786011,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2355685428325903,
+    "z_c": 1.3456225714125936,
+    "b": 0.662774920463562,
+    "b_right": 0.662781834602356,
+    "b_left": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "t_range": [
+     0.23887795338928314,
+     0.8739827881634958
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 72,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.662774920463562,
+     "R_img": 0.662774920463562,
+     "safety": 0.02,
+     "D_p": 0.3200009155273438,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.7889714050292969,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -1.3899999856948853,
+     1.3899999856948853
+    ]
+   }
+  },
+  "n_manipulation_candidates": 418,
+  "grasp_key": "spatula__hkvsep__t076",
+  "n_grasps": 5,
+  "bands": "/tmp/minyeong/isge_17857746/reach_bands/tabletop__restaurant_diner__commercial_kitchen_table_vxvtec_0__spatula-hkvsep__b1bc795bfda9497c.npz",
+  "H_max": 0.021368980407714844,
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "vikfyd",
+   "scene_object_name": "floors_vikfyd_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "countertop.n.01_1",
+   "synset": "countertop.n.01",
+   "category": "commercial_kitchen_table",
+   "model": "vxvtec",
+   "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "spatula.n.01_1",
+   "synset": "spatula.n.01",
+   "category": "spatula",
+   "model": "hkvsep",
+   "scene_object_name": "target_spatula_hkvsep_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "partner",
+   "name": "sheet.n.02_1",
+   "synset": "sheet.n.02",
+   "category": "paper_sheet",
+   "model": "uqbipw",
+   "scene_object_name": "partner_paper_sheet_uqbipw_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "5c7e055db18f5851ed964e271e5b571195f77a7eab740483414124070791dcba",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-under_small_scale_04/cmp1013_c3_k2/inst/inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table/restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-paper_sheet-uqbipw__target-spatula-hkvsep-s0.76/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-under_small_scale_04/cmp1013_c3_k2/inst/inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table/restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-paper_sheet-uqbipw__target-spatula-hkvsep-s0.76/template-partial_rooms.json",
+ "load_room_instances": [
+  "kitchen_0",
+  "bar_0",
+  "corridor_0",
+  "dining_room_0"
+ ],
+ "task_rooms": [
+  "kitchen_0"
+ ],
+ "sampled_with_rooms": [
+  "kitchen_0",
+  "bar_0",
+  "corridor_0",
+  "dining_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-18",
+ "choices": {
+  "target": {
+   "category": "spatula",
+   "model": "hkvsep",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "spatula__hkvsep__t076",
+   "scale": [
+    0.76,
+    0.76,
+    0.76
+   ]
+  },
+  "partner": {
+   "category": "paper_sheet",
+   "model": "uqbipw",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_vikfyd_0",
+  "countertop.n.01_1": "commercial_kitchen_table_vxvtec_0",
+  "spatula.n.01_1": "target_spatula_hkvsep_0",
+  "sheet.n.02_1": "partner_paper_sheet_uqbipw_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 228.47077465057373,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem47.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -8.446946144104004,
+    -3.1213464736938477,
+    -3.1415921758734946
+   ],
+   "translate": 0.5964799598130818,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": -0.46127674907542826,
+   "H_max": 0.021368980407714844,
+   "delta": 0.4788225952015524,
+   "delta_aim": 0.4788225952015524,
+   "delta_min": 0.3091470956802368,
+   "delta_max": 0.6439059080830348,
+   "conflict": false,
+   "d_ws": 0.2644447200000286,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900000333786011,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2355685428325903,
+   "z_c": 1.3456225714125936,
+   "b": 0.662774920463562,
+   "b_right": 0.662781834602356,
+   "b_left": 0.662774920463562,
+   "R_img": 0.662774920463562,
+   "t_range": [
+    0.23887795338928314,
+    0.8739827881634958
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 72,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "safety": 0.02,
+    "D_p": 0.3200009155273438,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.7889714050292969,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -1.3899999856948853,
+    1.3899999856948853
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     -8.89694595336914,
+     -3.5826234817504883
+    ],
+    "inward": [
+     -1.0,
+     -4.777162985192263e-07
+    ],
+    "tangent": [
+     4.777162985192263e-07,
+     -1.0
+    ],
+    "length_m": 2.7799999713897705,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.45000001788139343,
+   "extras": {
+    "H_max": 0.021368980407714844,
+    "delta": 0.4788225952015524,
+    "delta_aim": 0.4788225952015524,
+    "delta_min": 0.3091470956802368,
+    "delta_max": 0.6439059080830348,
+    "conflict": false,
+    "d_ws": 0.2644447200000286,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900000333786011,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2355685428325903,
+    "z_c": 1.3456225714125936,
+    "b": 0.662774920463562,
+    "b_right": 0.662781834602356,
+    "b_left": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "t_range": [
+     0.23887795338928314,
+     0.8739827881634958
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 72,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.662774920463562,
+     "R_img": 0.662774920463562,
+     "safety": 0.02,
+     "D_p": 0.3200009155273438,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.7889714050292969,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -1.3899999856948853,
+     1.3899999856948853
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    -8.446946144104004,
+    -3.421346426010132,
+    -3.1415921758734946
+   ],
+   "translate": 0.5,
+   "tilt": -0.4541999896367391,
+   "arms": [
+    "right"
+   ],
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": -0.16127674907542827,
+   "focus": [
+    -9.406946182250977,
+    -3.2613468170166016,
+    0.8811856508255005
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.021368980407714844,
+   "delta": 0.4788225952015524,
+   "delta_aim": 0.4788225952015524,
+   "delta_min": 0.3091470956802368,
+   "delta_max": 0.6439059080830348,
+   "conflict": false,
+   "d_ws": 0.2644447200000286,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900000333786011,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2355685428325903,
+   "z_c": 1.3456225714125936,
+   "b": 0.662774920463562,
+   "b_right": 0.662781834602356,
+   "b_left": 0.662774920463562,
+   "R_img": 0.662774920463562,
+   "t_range": [
+    0.23887795338928314,
+    0.8739827881634958
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777811527252197,
+   "n_workspace_cells": 72,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "safety": 0.02,
+    "D_p": 0.3200009155273438,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.7889714050292969,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -1.3899999856948853,
+    1.3899999856948853
+   ],
+   "lateral_shift_m": 0.3,
+   "axis_angle": 0.2789145158909604,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.24127626809569697,
+   "init_view_class": 0,
+   "focus_arms": [
+    "right"
+   ],
+   "start_region": {
+    "right": [
+     0.03,
+     0.16
+    ]
+   },
+   "start_region_arms": {
+    "right": [
+     "right"
+    ]
+   },
+   "init_travel": {
+    "lateral_m": 0.3,
+    "base_m": 0.3,
+    "path_m": 0.3162,
+    "departure_stand_off_m": 0.55,
+    "transition_stand_off_m": 0.45
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     -8.89694595336914,
+     -3.5826234817504883
+    ],
+    "inward": [
+     -1.0,
+     -4.777162985192263e-07
+    ],
+    "tangent": [
+     4.777162985192263e-07,
+     -1.0
+    ],
+    "length_m": 2.7799999713897705,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4499998986721039,
+   "extras": {
+    "H_max": 0.021368980407714844,
+    "delta": 0.4788225952015524,
+    "delta_aim": 0.4788225952015524,
+    "delta_min": 0.3091470956802368,
+    "delta_max": 0.6439059080830348,
+    "conflict": false,
+    "d_ws": 0.2644447200000286,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900000333786011,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2355685428325903,
+    "z_c": 1.3456225714125936,
+    "b": 0.662774920463562,
+    "b_right": 0.662781834602356,
+    "b_left": 0.662774920463562,
+    "R_img": 0.662774920463562,
+    "t_range": [
+     0.23887795338928314,
+     0.8739827881634958
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777811527252197,
+    "n_workspace_cells": 72,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.662774920463562,
+     "R_img": 0.662774920463562,
+     "safety": 0.02,
+     "D_p": 0.3200009155273438,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.7889714050292969,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -1.3899999856948853,
+     1.3899999856948853
+    ],
+    "lateral_shift_m": 0.3,
+    "axis_angle": 0.2789145158909604,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.24127626809569697,
+    "init_view_class": 0,
+    "_position": [
+     12,
+     2
+    ],
+    "focus_arms": [
+     "right"
+    ],
+    "start_region": {
+     "right": [
+      0.03,
+      0.16
+     ]
+    },
+    "start_region_arms": {
+     "right": [
+      "right"
+     ]
+    },
+    "init_travel": {
+     "lateral_m": 0.3,
+     "base_m": 0.3,
+     "path_m": 0.3162,
+     "departure_stand_off_m": 0.55,
+     "transition_stand_off_m": 0.45
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 4,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {},
+ "seeds": [
+  2475896873488337460
+ ],
+ "kit_stats": {
+  "ik_calls": 175,
+  "ik_s": 47.53934574127197,
+  "ik_batch_calls": 8,
+  "ik_batch_problems": 143,
+  "ik_batch_s": 119.37081813812256,
+  "collision_calls": 158,
+  "collision_configs": 2178,
+  "collision_s": 0.8458819389343262,
+  "limit_retry_poses": 23,
+  "limit_reject.right_arm_joint2": 10,
+  "twin_picks": 18,
+  "twin_solves": 19,
+  "orient_choices": 18,
+  "limit_retry_seeded_rescued": 9,
+  "orient_reason.only_feasible": 3,
+  "limit_reject.right_arm_joint4": 1,
+  "orient_reason.reach": 2,
+  "orient_source.map": 1,
+  "orient_against_default": 3,
+  "twin_taken": 3,
+  "twin_taken.reach": 1,
+  "limit_reject.right_arm_joint5": 3,
+  "twin_taken.only_feasible": 2,
+  "held_turn_checks": 1,
+  "held_turn_kept": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_under_small_scale",
+  "subtask": "inter_object_relation_satisfaction_under_small_scale_spatula_paper_sheet",
+  "variant": "inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table"
+ }
+}

@@ -1,0 +1,436 @@
+{
+  "keyboard.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        17.180252075195312,
+        -8.389514923095703,
+        0.7956671118736267
+      ],
+      "ori": [
+        0.00025075807934626937,
+        -0.0004600896791089326,
+        0.5413581132888794,
+        0.8407919406890869
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          16.920934677124023,
+          -8.568830490112305,
+          0.7851070761680603,
+          17.4320011138916,
+          -8.215214729309082,
+          0.8059981465339661
+        ]
+      }
+    }
+  },
+  "desk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.184144973754883,
+        -8.405205726623535,
+        0.5961460471153259
+      ],
+      "ori": [
+        1.501569840911543e-06,
+        1.5015787084848853e-06,
+        0.7071087956428528,
+        0.7071047425270081
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          14.777101516723633,
+          -8.847864151000977,
+          -0.015506923198699951,
+          17.588443756103516,
+          -7.917313575744629,
+          0.7852815985679626
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.65363883972168,
+        -8.700016021728516,
+        -0.15000979602336884
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          13.897685050964355,
+          -10.655375480651855,
+          -0.300010085105896,
+          19.40959358215332,
+          -6.744656562805176,
+          -9.506940841674805e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          17.11163902282715,
+          -7.48785400390625,
+          0.005274295806884766
+        ],
+        "orientation": [
+          5.205255001783371e-05,
+          6.527658842969686e-05,
+          -0.70710289478302,
+          0.7071107029914856
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "alignment",
+    "activity_definition_id": 1,
+    "task_variant": "alignment-axial-keyboard-desk",
+    "instance_id": "alignment-axial-keyboard-desk__office_cubicles_right__support-desk_mdhelw_1-T1__target-keyboard-injrgc__0000",
+    "generation_seed": 1865634507774732665,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "631b5d2c50cec9d96c41ce7494018847c82a8cf8e07a7db35b1b108904f92800",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "47ca7cd4ee2cb4340de0d524e4822dce45c0684ab16e26d31745d46d18226375",
+      "load_room_instances": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "task_rooms": [
+        "private_office_2"
+      ],
+      "sampled_with_rooms": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/office_cubicles_right__ce38327497.json",
+        "removed_objects": [
+          "swivel_chair_gfixyb_2",
+          "swivel_chair_gfixyb_3",
+          "swivel_chair_lhkkri_3"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                16.293466567993164,
+                -9.251572608947754
+              ],
+              [
+                16.965744018554688,
+                -8.964003562927246
+              ],
+              [
+                17.248788833618164,
+                -9.62570858001709
+              ],
+              [
+                16.57651138305664,
+                -9.913277626037598
+              ]
+            ],
+            [
+              [
+                15.382627487182617,
+                -9.160414695739746
+              ],
+              [
+                16.06134796142578,
+                -9.432428359985352
+              ],
+              [
+                15.79361343383789,
+                -10.10047435760498
+              ],
+              [
+                15.11489200592041,
+                -9.828460693359375
+              ]
+            ],
+            [
+              [
+                16.77355194091797,
+                -7.6373419761657715
+              ],
+              [
+                16.14042854309082,
+                -8.080658912658691
+              ],
+              [
+                15.656731605529785,
+                -7.389868259429932
+              ],
+              [
+                16.289854049682617,
+                -6.9465508460998535
+              ]
+            ]
+          ],
+          "block": [
+            [
+              [
+                14.794865608215332,
+                -7.977816581726074
+              ],
+              [
+                17.5761661529541,
+                -7.9778008460998535
+              ],
+              [
+                17.576171875,
+                -8.877800941467285
+              ],
+              [
+                14.794870376586914,
+                -8.877817153930664
+              ]
+            ]
+          ]
+        },
+        "moved_objects": {
+          "swivel_chair_gfixyb_2": {
+            "pos": [
+              16.753826141357422,
+              -9.407360076904297,
+              0.4937431812286377
+            ],
+            "ori": [
+              -0.00030713676824234426,
+              -0.00013151652819942683,
+              0.8346505761146545,
+              0.5507796406745911
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -104.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_gfixyb_3": {
+            "pos": [
+              15.598005294799805,
+              -9.596092224121094,
+              0.49374306201934814
+            ],
+            "ori": [
+              -0.0003330982581246644,
+              -3.895731879310915e-06,
+              0.5603525638580322,
+              0.8282541036605835
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -109.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_lhkkri_3": {
+            "pos": [
+              16.22474479675293,
+              -7.526325225830078,
+              0.45582693815231323
+            ],
+            "ori": [
+              8.810142304582769e-08,
+              5.197804409107221e-09,
+              -0.4617484509944916,
+              0.8870109915733337
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -114.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "desk_mdhelw_1",
+        "floors_wyitdg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_wyitdg_0",
+        "category": "floors",
+        "model": "wyitdg"
+      },
+      "desk.n.01_1": {
+        "scene_object_name": "desk_mdhelw_1",
+        "category": "desk",
+        "model": "mdhelw"
+      },
+      "keyboard.n.01_1": {
+        "scene_object_name": "target_keyboard_injrgc_0",
+        "category": "keyboard",
+        "model": "injrgc"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.1444302797317505,
+        "torso_joint2": -1.6680763959884644,
+        "torso_joint3": -0.5676186680793762,
+        "torso_joint4": 8.140824547808734e-08,
+        "left_arm_joint1": 1.2361137123662047e-05,
+        "right_arm_joint1": 5.4240004828898236e-05,
+        "left_arm_joint2": 1.5699999332427979,
+        "right_arm_joint2": -1.5700000524520874,
+        "left_arm_joint3": 9.209143172483891e-07,
+        "right_arm_joint3": 3.1767481232236605e-06,
+        "left_arm_joint4": -1.5700023174285889,
+        "right_arm_joint4": -1.5699973106384277,
+        "left_arm_joint5": 1.5699946880340576,
+        "right_arm_joint5": -1.5700113773345947,
+        "left_arm_joint6": -3.2711659514461644e-07,
+        "right_arm_joint6": -1.0110394441653625e-06,
+        "left_arm_joint7": -1.7595948520465754e-07,
+        "right_arm_joint7": -1.4609454410674516e-06,
+        "left_gripper_finger_joint1": 0.04999813809990883,
+        "left_gripper_finger_joint2": 0.05000000074505806,
+        "right_gripper_finger_joint1": 0.04999840632081032,
+        "right_gripper_finger_joint2": 0.0499994195997715
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_alignment_axial_keyboard_0_0_template-goal_rgb.png",
+      "rgb_sha256": "2cdb0ddc1ddd4b055ae87329b3ad89d2a2dfec5cbee64c69c467a480805d65df",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          17.213138580322266,
+          -8.000007629394531,
+          1.3761852979660034
+        ],
+        "orientation": [
+          -1.711119148239959e-05,
+          0.31527385115623474,
+          0.9490007162094116,
+          -7.51580810174346e-05
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "keyboard.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": null,
+        "orientation": [
+          1.6715963511160226e-06,
+          -1.3304149781845354e-08,
+          0.7030802369117737,
+          0.7111105918884277
+        ],
+        "position_metric": null,
+        "orientation_metric": "full",
+        "position_tolerance": null,
+        "orientation_tolerance": 0.1,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "revolute",
+        "child": "keyboard.n.01_1",
+        "parent": "desk.n.01_1",
+        "parent_link": "base_link",
+        "anchor_position": [
+          17.175058364868164,
+          -8.391934394836426,
+          0.7946802377700806
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1087 @@
+{
+ "template_id": "house_single_floor__support-bed_rrcvaq_0__target-sandal-chgcrm",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 45.93311882019043,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 51,
+   "collision_configs": 10692,
+   "collision_s": 3.932
+  },
+  "sample_template_s": 2.0740935802459717,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 0.8027184009552002
+ },
+ "variant": "inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl",
+ "subtask": "inter_object_relation_satisfaction-under_large_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "8958c167f79d4ec6377658d6e220be28053f80d60fcdb31a6b802e8c5c683ec4",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "childs_room_0"
+  ],
+  "bindings": {
+   "partner": [
+    "bed_rrcvaq_0"
+   ],
+   "support": [
+    "bed_rrcvaq_0"
+   ],
+   "floor": {
+    "room": "childs_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "sandal",
+    "model": "chgcrm",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "sandal__chgcrm",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__support-bed_rrcvaq_0__target-sandal-chgcrm",
+  "support_tag": "bed_rrcvaq_0"
+ },
+ "rooms": [
+  "childs_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_2eba1e97_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 1,
+  "seed": 755891204,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "bed_rrcvaq_0",
+  "row": null,
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "childs_room_0"
+  ],
+  "floor_room": "childs_room_0",
+  "tag": "bed_rrcvaq_0",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "template_facts": {
+  "relaxations": {
+   "partner_view_min_points": 1,
+   "init_support_max_geodesic_m": 10.0,
+   "init_support_fallback": true
+  },
+  "partner": {
+   "name": "bed_rrcvaq_0",
+   "n_goal_cells": 173,
+   "edges": [
+    {
+     "name": "+x",
+     "mid": [
+      24.251447677612305,
+      17.839069366455078
+     ],
+     "inward": [
+      -1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      -1.0
+     ],
+     "length_m": 1.2538948059082031,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-x",
+     "mid": [
+      22.239770889282227,
+      17.839069366455078
+     ],
+     "inward": [
+      1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      1.0
+     ],
+     "length_m": 1.2538948059082031,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "+y",
+     "mid": [
+      23.245609283447266,
+      18.46601676940918
+     ],
+     "inward": [
+      -0.0,
+      -1.0
+     ],
+     "tangent": [
+      1.0,
+      -0.0
+     ],
+     "length_m": 2.011676788330078,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-y",
+     "mid": [
+      23.245609283447266,
+      17.212121963500977
+     ],
+     "inward": [
+      -0.0,
+      1.0
+     ],
+     "tangent": [
+      -1.0,
+      -0.0
+     ],
+     "length_m": 2.011676788330078,
+     "overhang_m": 0.0
+    }
+   ]
+  },
+  "init_surface_selection_order": [
+   "support",
+   "partner",
+   "floor"
+  ],
+  "support_surface": {
+   "support": "bed_rrcvaq_0",
+   "spec": null,
+   "top_z_above_floor": 0.4923,
+   "top_error": null,
+   "surface": "top"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17839533/reach_bands/tabletop__house_single_floor__bed_rrcvaq_0-tcidle__left_sandal-chgcrm__f6276e48a2760946.npz"
+   }
+  },
+  "placement_stats": {
+   "laterals": 9,
+   "goal_clear": 19,
+   "drop_free": 0,
+   "base_ok": 0,
+   "candidates": 0,
+   "side_candidates": 0,
+   "drop_blocked": {
+    "not_traversable": 19
+   },
+   "drop_out_m": 0.222,
+   "edge_mid": [
+    24.25,
+    17.84
+   ],
+   "inward": [
+    -1.0,
+    -0.0
+   ]
+  },
+  "stances": {
+   "init": {
+    "base_pose2d": [
+     21.81684684753418,
+     17.233774185180664,
+     -0.0025445540875379024
+    ],
+    "translate": 0.95,
+    "tilt": 0.0,
+    "arms": "untucked",
+    "stand_off": 0.45,
+    "edge": "+u",
+    "lateral": -0.6042583119317622,
+    "H_max": 0.07191944122314453,
+    "delta": 0.5752766054787048,
+    "delta_aim": 0.5752766054787048,
+    "delta_min": 0.3596912384033203,
+    "delta_max": 0.7563599583154812,
+    "conflict": false,
+    "d_ws": 0.31821887909549557,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.6700001657009125,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8182288408279419,
+    "b_right": 0.8182288408279419,
+    "b_left": 0.818237841129303,
+    "R_img": 0.8182288408279419,
+    "t_range": [
+     0.7605021825429885,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777179718017578,
+    "n_workspace_cells": 73,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.8182288408279419,
+     "R_img": 0.8182288408279419,
+     "safety": 0.02,
+     "D_p": 0.0,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.4748692321777344,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.6100740432739258,
+     0.6100740432739258
+    ],
+    "name": "init",
+    "edge_frame": {
+     "name": "+u",
+     "mid": [
+      22.268383026123047,
+      17.836885452270508
+     ],
+     "inward": [
+      0.9999967813491821,
+      -0.0025445513892918825
+     ],
+     "tangent": [
+      0.0025445513892918825,
+      0.9999967813491821
+     ],
+     "length_m": 1.2201480865478516,
+     "overhang_m": 0.0
+    },
+    "edge_depth": 0.4500000774860382,
+    "extras": {
+     "H_max": 0.07191944122314453,
+     "delta": 0.5752766054787048,
+     "delta_aim": 0.5752766054787048,
+     "delta_min": 0.3596912384033203,
+     "delta_max": 0.7563599583154812,
+     "conflict": false,
+     "d_ws": 0.31821887909549557,
+     "d_near": 0.029998868703842163,
+     "d_far": 0.6700001657009125,
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "x_c": 0.1929425895214081,
+     "z_c": 1.1253752708435059,
+     "b": 0.8182288408279419,
+     "b_right": 0.8182288408279419,
+     "b_left": 0.818237841129303,
+     "R_img": 0.8182288408279419,
+     "t_range": [
+      0.7605021825429885,
+      0.95
+     ],
+     "camera_pitch_deg": 22.580477940295808,
+     "hand_below": 0.18777179718017578,
+     "n_workspace_cells": 73,
+     "left_band": false,
+     "margins": {
+      "kind": "iors",
+      "lam_min": -0.5600000023841858,
+      "lam_max": 0.07999999821186066,
+      "b": 0.8182288408279419,
+      "R_img": 0.8182288408279419,
+      "safety": 0.02,
+      "D_p": 0.0,
+      "g_min": 0.03,
+      "m_end": 0.1,
+      "L_min": 0.4748692321777344,
+      "m_R": 0.0,
+      "m_L": 0.0
+     },
+     "lateral_bounds": [
+      -0.6100740432739258,
+      0.6100740432739258
+     ]
+    }
+   },
+   "n_manipulation_candidates": 92,
+   "n_placement_candidates": 548
+  },
+  "init_surface": {
+   "class": "partner",
+   "name": "bed_rrcvaq_0",
+   "tried": 1
+  },
+  "contact_height_extra_m": 0.0,
+  "relation": "under",
+  "grasp_key": "sandal__chgcrm",
+  "n_grasps": 5,
+  "band_union_extent": [
+   -0.5600000023841858,
+   0.07999999821186066
+  ]
+ },
+ "bddl_sha256": "6b35cb4012dd435c84c56e9d0b996457b934d5d17bfb823254ab77977b4ea2d3",
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "vcsslq",
+   "scene_object_name": "floors_vcsslq_0",
+   "dataset": null
+  },
+  {
+   "role": "partner",
+   "name": "bed.n.01_1",
+   "synset": "bed.n.01",
+   "category": "bed",
+   "model": "rrcvaq",
+   "scene_object_name": "bed_rrcvaq_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "sandal.n.01_1",
+   "synset": "sandal.n.01",
+   "category": "sandal",
+   "model": "chgcrm",
+   "scene_object_name": "target_sandal_chgcrm_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "258fb6b5b4c0bd562b5f57a7e2c473e802849050d1c57ab681b9b72115978831",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-under_large_scale_01/stroke_c3_k1/inst/inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl/house_single_floor__support-bed_rrcvaq_0__target-sandal-chgcrm/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-under_large_scale_01/stroke_c3_k1/inst/inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl/house_single_floor__support-bed_rrcvaq_0__target-sandal-chgcrm/template-partial_rooms.json",
+ "load_room_instances": [
+  "childs_room_0",
+  "bathroom_1",
+  "closet_1",
+  "closet_2",
+  "closet_4",
+  "corridor_0",
+  "garden_0"
+ ],
+ "task_rooms": [
+  "childs_room_0"
+ ],
+ "sampled_with_rooms": [
+  "childs_room_0",
+  "bathroom_1",
+  "closet_1",
+  "closet_2",
+  "closet_4",
+  "corridor_0",
+  "garden_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-15",
+ "choices": {
+  "target": {
+   "category": "sandal",
+   "model": "chgcrm",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "sandal__chgcrm",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_vcsslq_0",
+  "bed.n.01_1": "bed_rrcvaq_0",
+  "sandal.n.01_1": "target_sandal_chgcrm_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 371.40191626548767,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem133.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    21.81684684753418,
+    17.233774185180664,
+    -0.0025445540875379024
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": -0.6042583119317622,
+   "H_max": 0.07191944122314453,
+   "delta": 0.5752766054787048,
+   "delta_aim": 0.5752766054787048,
+   "delta_min": 0.3596912384033203,
+   "delta_max": 0.7563599583154812,
+   "conflict": false,
+   "d_ws": 0.31821887909549557,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.6700001657009125,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.8182288408279419,
+   "b_right": 0.8182288408279419,
+   "b_left": 0.818237841129303,
+   "R_img": 0.8182288408279419,
+   "t_range": [
+    0.7605021825429885,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777179718017578,
+   "n_workspace_cells": 73,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "b": 0.8182288408279419,
+    "R_img": 0.8182288408279419,
+    "safety": 0.02,
+    "D_p": 0.0,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.4748692321777344,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.6100740432739258,
+    0.6100740432739258
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     22.268383026123047,
+     17.836885452270508
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025445513892918825
+    ],
+    "tangent": [
+     0.0025445513892918825,
+     0.9999967813491821
+    ],
+    "length_m": 1.2201480865478516,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500000774860382,
+   "extras": {
+    "H_max": 0.07191944122314453,
+    "delta": 0.5752766054787048,
+    "delta_aim": 0.5752766054787048,
+    "delta_min": 0.3596912384033203,
+    "delta_max": 0.7563599583154812,
+    "conflict": false,
+    "d_ws": 0.31821887909549557,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.6700001657009125,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8182288408279419,
+    "b_right": 0.8182288408279419,
+    "b_left": 0.818237841129303,
+    "R_img": 0.8182288408279419,
+    "t_range": [
+     0.7605021825429885,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777179718017578,
+    "n_workspace_cells": 73,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.8182288408279419,
+     "R_img": 0.8182288408279419,
+     "safety": 0.02,
+     "D_p": 0.0,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.4748692321777344,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.6100740432739258,
+     0.6100740432739258
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    21.81684684753418,
+    17.233774185180664,
+    -0.0025445540875379024
+   ],
+   "translate": 0.25,
+   "tilt": -1.065066655476888,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": -0.6042583119317622,
+   "focus": [
+    22.457252502441406,
+    17.39214515686035,
+    0.5282097458839417
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.07191944122314453,
+   "delta": 0.5752766054787048,
+   "delta_aim": 0.5752766054787048,
+   "delta_min": 0.3596912384033203,
+   "delta_max": 0.7563599583154812,
+   "conflict": false,
+   "d_ws": 0.31821887909549557,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.6700001657009125,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.1929425895214081,
+   "z_c": 1.1253752708435059,
+   "b": 0.8182288408279419,
+   "b_right": 0.8182288408279419,
+   "b_left": 0.818237841129303,
+   "R_img": 0.8182288408279419,
+   "t_range": [
+    0.7605021825429885,
+    0.95
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777179718017578,
+   "n_workspace_cells": 73,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "b": 0.8182288408279419,
+    "R_img": 0.8182288408279419,
+    "safety": 0.02,
+    "D_p": 0.0,
+    "g_min": 0.03,
+    "m_end": 0.1,
+    "L_min": 0.4748692321777344,
+    "m_R": 0.0,
+    "m_L": 0.0
+   },
+   "lateral_bounds": [
+    -0.6100740432739258,
+    0.6100740432739258
+   ],
+   "axis_angle": 0.31435818471161114,
+   "angle_class": 0,
+   "focus_info": null,
+   "focus_arms": [
+    "left"
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     22.268383026123047,
+     17.836885452270508
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025445513892918825
+    ],
+    "tangent": [
+     0.0025445513892918825,
+     0.9999967813491821
+    ],
+    "length_m": 1.2201480865478516,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500000774860382,
+   "extras": {
+    "H_max": 0.07191944122314453,
+    "delta": 0.5752766054787048,
+    "delta_aim": 0.5752766054787048,
+    "delta_min": 0.3596912384033203,
+    "delta_max": 0.7563599583154812,
+    "conflict": false,
+    "d_ws": 0.31821887909549557,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.6700001657009125,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.1929425895214081,
+    "z_c": 1.1253752708435059,
+    "b": 0.8182288408279419,
+    "b_right": 0.8182288408279419,
+    "b_left": 0.818237841129303,
+    "R_img": 0.8182288408279419,
+    "t_range": [
+     0.7605021825429885,
+     0.95
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777179718017578,
+    "n_workspace_cells": 73,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.07999999821186066,
+     "b": 0.8182288408279419,
+     "R_img": 0.8182288408279419,
+     "safety": 0.02,
+     "D_p": 0.0,
+     "g_min": 0.03,
+     "m_end": 0.1,
+     "L_min": 0.4748692321777344,
+     "m_R": 0.0,
+     "m_L": 0.0
+    },
+    "lateral_bounds": [
+     -0.6100740432739258,
+     0.6100740432739258
+    ],
+    "axis_angle": 0.31435818471161114,
+    "angle_class": 0,
+    "focus_info": null,
+    "focus_arms": [
+     "left"
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    21.43977165222168,
+    17.38456916809082,
+    -0.0
+   ],
+   "translate": 0.95,
+   "tilt": -1.2,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.8,
+   "edge": "-x",
+   "lateral": -0.4545,
+   "focus": [
+    22.017335891723633,
+    17.63456916809082,
+    0.03595016896724701
+   ],
+   "carried": "sandal.n.01_1",
+   "idle_posture": "untucked",
+   "goal_cell": [
+    22.309770584106445,
+    17.63456916809082
+   ],
+   "drop_cell": [
+    22.017335891723633,
+    17.63456916809082
+   ],
+   "push_dir": [
+    1.0,
+    -0.0
+   ],
+   "inside_m": 0.07,
+   "drop_ahead_m": 0.5775653839111329,
+   "stance_kind": "frontal",
+   "lane_offset_m": -0.25,
+   "angle_class": 1,
+   "edge_rank": 0,
+   "init_surface": {
+    "class": "partner",
+    "name": "bed_rrcvaq_0"
+   },
+   "path_length_m": {
+    "A_B": 0.0,
+    "B_C": 0.15152123833748365
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "edge_frame": {
+    "name": "-x",
+    "mid": [
+     22.239770889282227,
+     17.839069366455078
+    ],
+    "inward": [
+     1.0,
+     -0.0
+    ],
+    "tangent": [
+     0.0,
+     1.0
+    ],
+    "length_m": 1.2538948059082031,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.7999992370605469,
+   "extras": {
+    "goal_cell": [
+     22.309770584106445,
+     17.63456916809082
+    ],
+    "drop_cell": [
+     22.017335891723633,
+     17.63456916809082
+    ],
+    "push_dir": [
+     1.0,
+     -0.0
+    ],
+    "inside_m": 0.07,
+    "edge": "-x",
+    "drop_ahead_m": 0.5775653839111329,
+    "stance_kind": "frontal",
+    "lane_offset_m": -0.25,
+    "angle_class": 1,
+    "edge_rank": 0,
+    "init_surface": {
+     "class": "partner",
+     "name": "bed_rrcvaq_0"
+    },
+    "path_length_m": {
+     "A_B": 0.0,
+     "B_C": 0.15152123833748365
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "push": {
+   "base_pose2d": [
+    21.43977165222168,
+    17.38456916809082,
+    -0.0
+   ],
+   "translate": 2.0,
+   "tilt": 0.0,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.8,
+   "edge": "-x",
+   "lateral": -0.4545,
+   "focus": [
+    22.017335891723633,
+    17.63456916809082,
+    0.03595016896724701
+   ],
+   "idle_posture": "untucked",
+   "goal_cell": [
+    22.309770584106445,
+    17.63456916809082
+   ],
+   "drop_cell": [
+    22.017335891723633,
+    17.63456916809082
+   ],
+   "push_dir": [
+    1.0,
+    -0.0
+   ],
+   "inside_m": 0.07,
+   "drop_ahead_m": 0.5775653839111329,
+   "stance_kind": "frontal",
+   "lane_offset_m": -0.25,
+   "angle_class": 1,
+   "edge_rank": 0,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "push",
+   "edge_frame": {
+    "name": "-x",
+    "mid": [
+     22.239770889282227,
+     17.839069366455078
+    ],
+    "inward": [
+     1.0,
+     -0.0
+    ],
+    "tangent": [
+     0.0,
+     1.0
+    ],
+    "length_m": 1.2538948059082031,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.7999992370605469,
+   "extras": {
+    "goal_cell": [
+     22.309770584106445,
+     17.63456916809082
+    ],
+    "drop_cell": [
+     22.017335891723633,
+     17.63456916809082
+    ],
+    "push_dir": [
+     1.0,
+     -0.0
+    ],
+    "inside_m": 0.07,
+    "edge": "-x",
+    "drop_ahead_m": 0.5775653839111329,
+    "stance_kind": "frontal",
+    "lane_offset_m": -0.25,
+    "angle_class": 1,
+    "edge_rank": 0,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "time_budget": 1,
+  "program_check_failed": 1
+ },
+ "rejection_examples": {
+  "time_budget": [
+   {
+    "message": "[time_budget] attempt budget of 3000 s spent (3009 s) at F draw at C candidate 128 (exact IK at B / C, push chain) {'stage': 'F draw at C candidate 128 (exact IK at B / C, push chain)'}",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 5985920402183333428,
+    "stage": "F draw at C candidate 128 (exact IK at B / C, push chain)"
+   }
+  ],
+  "program_check_failed": [
+   {
+    "message": "[program_check_failed] base pose (21.417, 17.235, -0.003) collides at trunk (2.0, 0.0) (carried sandal.n.01_1 in the lifted hand) {'action': 'transition'}",
+    "phase": "program_check",
+    "index": 0,
+    "attempt": 1,
+    "seed": 5985920402183333429,
+    "action": "transition"
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 6
+ },
+ "seeds": [
+  5985920402183333430
+ ],
+ "kit_stats": {
+  "ik_calls": 5685,
+  "ik_s": 1475.2782390117645,
+  "ik_batch_calls": 120,
+  "ik_batch_problems": 7820,
+  "ik_batch_s": 2183.389864206314,
+  "collision_calls": 5933,
+  "collision_configs": 136584,
+  "collision_s": 46.8165557384491,
+  "push_yaw_lock.removed": 131,
+  "limit_retry_poses": 29,
+  "limit_reject.left_arm_joint6": 3,
+  "orient_choices": 450,
+  "orient_reason.reach": 84,
+  "orient_against_default": 82,
+  "limit_reject.left_arm_joint2": 6,
+  "twin_picks": 9,
+  "twin_solves": 9,
+  "limit_retry_seeded_rescued": 13,
+  "limit_retry_random": 23,
+  "limit_retry_random_rescued": 7,
+  "twin_taken": 1,
+  "twin_taken.reach": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_under_large_scale",
+  "subtask": "inter_object_relation_satisfaction_under_large_scale_sandal_bed",
+  "variant": "inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl"
+ }
+}

@@ -1,0 +1,950 @@
+{
+ "template_id": "office_cubicles_right__support-floor__target-trash_can-jlawet",
+ "scene": "office_cubicles_right",
+ "timings": {
+  "bind_spawn_s": 49.29475283622742,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 64,
+   "collision_configs": 10590,
+   "collision_s": 2.716
+  },
+  "sample_template_s": 0.6200137138366699,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 0.23171663284301758
+ },
+ "variant": "inter_object_relation_satisfaction-under_large_scale-trash_can-desk-floor_pitched",
+ "subtask": "inter_object_relation_satisfaction-under_large_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "1560bac86696e32b5684c4fd33bb8ec374c1896383583184fd06a0dd70dc6ed2",
+ "choice": {
+  "scene": "office_cubicles_right",
+  "rooms": [
+   "private_office_2"
+  ],
+  "bindings": {
+   "partner": [
+    "desk_mdhelw_1"
+   ],
+   "support": {
+    "room": "private_office_2"
+   },
+   "floor": {
+    "room": "private_office_2"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "trash_can",
+    "model": "jlawet",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "trash_can__jlawet__t",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "office_cubicles_right__support-floor__target-trash_can-jlawet",
+  "support_tag": "floor"
+ },
+ "rooms": [
+  "private_office_2"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_a5bda4af_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 1,
+  "seed": 375427272,
+  "seed_source": "split",
+  "scene": "office_cubicles_right",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "office_cubicles_right",
+  "support": "floor",
+  "row": null,
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "private_office_2"
+  ],
+  "floor_room": "private_office_2",
+  "tag": "floor",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "template_facts": {
+  "relaxations": {
+   "partner_view_min_points": 1,
+   "init_support_max_geodesic_m": 10.0,
+   "init_support_fallback": true
+  },
+  "partner": {
+   "name": "desk_mdhelw_1",
+   "n_goal_cells": 185,
+   "edges": [
+    {
+     "name": "+x",
+     "mid": [
+      17.588443756103516,
+      -8.382588386535645
+     ],
+     "inward": [
+      -1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      -1.0
+     ],
+     "length_m": 0.9305515289306641,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-x",
+     "mid": [
+      14.777101516723633,
+      -8.382588386535645
+     ],
+     "inward": [
+      1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      1.0
+     ],
+     "length_m": 0.9305515289306641,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "+y",
+     "mid": [
+      16.18277359008789,
+      -7.9173126220703125
+     ],
+     "inward": [
+      -0.0,
+      -1.0
+     ],
+     "tangent": [
+      1.0,
+      -0.0
+     ],
+     "length_m": 2.811342239379883,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-y",
+     "mid": [
+      16.18277359008789,
+      -8.847864151000977
+     ],
+     "inward": [
+      -0.0,
+      1.0
+     ],
+     "tangent": [
+      -1.0,
+      -0.0
+     ],
+     "length_m": 2.811342239379883,
+     "overhang_m": 0.0
+    }
+   ]
+  },
+  "init_surface_selection_order": [
+   "support",
+   "partner",
+   "floor"
+  ],
+  "arm_bands_by_factor": {
+   "floor:floor": {
+    "left": {
+     "arm": "left",
+     "path": "/tmp/minyeong/isge_17838952/reach_bands/floor__office_cubicles_right__floor__left_trash_can-jlawet__ae48bed0b902f4fc.npz"
+    }
+   }
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17838952/reach_bands/floor__office_cubicles_right__floor__left_trash_can-jlawet__ae48bed0b902f4fc.npz"
+   }
+  },
+  "floor_cells": {
+   "grid": 3381,
+   "trav_free": 2589,
+   "in_rooms": 2589,
+   "outside_partner": 2406,
+   "outside_objects": 2406,
+   "blockers": {},
+   "floor": "floors_wyitdg_0",
+   "floor_aabb": [
+    [
+     13.897685050964355,
+     -10.655375480651855
+    ],
+    [
+     19.40959358215332,
+     -6.744656562805176
+    ]
+   ]
+  },
+  "floor_init": {
+   "c_t": [
+    17.907684326171875,
+    -8.405375480651855
+   ],
+   "geodesic_m": 0.10000038146972656,
+   "n_anchor_candidates": 2406
+  },
+  "placement_stats": {
+   "laterals": 5,
+   "goal_clear": 12,
+   "drop_free": 12,
+   "base_ok": 72,
+   "candidates": 0,
+   "side_candidates": 144,
+   "drop_blocked": {},
+   "drop_out_m": 0.241,
+   "edge_mid": [
+    14.78,
+    -8.38
+   ],
+   "inward": [
+    1.0,
+    -0.0
+   ],
+   "collision_free": 0
+  },
+  "stances": {
+   "init": {
+    "base_pose2d": [
+     17.510414123535156,
+     -9.488512992858887,
+     1.2192540546202448
+    ],
+    "translate": 0.0,
+    "tilt": 0.0,
+    "arms": "untucked",
+    "stand_off": 1.153694186882113,
+    "bearing_deg": -110.14192086905214,
+    "distance": 1.153694186882113,
+    "trunk_like_b": false,
+    "name": "init",
+    "extras": {
+     "bearing_deg": -110.14192086905214,
+     "distance": 1.153694186882113,
+     "trunk_like_b": false
+    }
+   },
+   "n_manipulation_candidates": 396,
+   "n_placement_candidates": 900
+  },
+  "init_surface": {
+   "class": "floor",
+   "name": "floors_wyitdg_0",
+   "tried": 1
+  },
+  "contact_height_extra_m": 0.0,
+  "relation": "under",
+  "grasp_key": "trash_can__jlawet__t",
+  "n_grasps": 5,
+  "band_union_extent": [
+   -0.800000011920929,
+   0.1599999964237213
+  ]
+ },
+ "bddl_sha256": "46ba471a4dcf9e23a28221616874de9affc2e5932948ba5e113867bd92045929",
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "wyitdg",
+   "scene_object_name": "floors_wyitdg_0",
+   "dataset": null
+  },
+  {
+   "role": "partner",
+   "name": "desk.n.01_1",
+   "synset": "desk.n.01",
+   "category": "desk",
+   "model": "mdhelw",
+   "scene_object_name": "desk_mdhelw_1",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "ashcan.n.01_1",
+   "synset": "ashcan.n.01",
+   "category": "trash_can",
+   "model": "jlawet",
+   "scene_object_name": "target_trash_can_jlawet_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "786cea2effcc1f59f6455d5ea4a7e348fc76d6cdbb8a81f0a71ef697cdd0dd12",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-under_large_scale_03/pitched_c1_k1/inst/inter_object_relation_satisfaction-under_large_scale-trash_can-desk-floor_pitched/office_cubicles_right__support-floor__target-trash_can-jlawet/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-under_large_scale_03/pitched_c1_k1/inst/inter_object_relation_satisfaction-under_large_scale-trash_can-desk-floor_pitched/office_cubicles_right__support-floor__target-trash_can-jlawet/template-partial_rooms.json",
+ "load_room_instances": [
+  "private_office_2",
+  "corridor_0",
+  "private_office_1",
+  "private_office_3"
+ ],
+ "task_rooms": [
+  "private_office_2"
+ ],
+ "sampled_with_rooms": [
+  "private_office_2",
+  "corridor_0",
+  "private_office_1",
+  "private_office_3"
+ ],
+ "scene_variant": {
+  "scene_file": "../../scene_variants/office_cubicles_right__ce38327497.json",
+  "removed_objects": [
+   "swivel_chair_gfixyb_2",
+   "swivel_chair_gfixyb_3",
+   "swivel_chair_lhkkri_3"
+  ],
+  "freed_footprints": {
+   "free": [
+    [
+     [
+      16.293466567993164,
+      -9.251572608947754
+     ],
+     [
+      16.965744018554688,
+      -8.964003562927246
+     ],
+     [
+      17.248788833618164,
+      -9.62570858001709
+     ],
+     [
+      16.57651138305664,
+      -9.913277626037598
+     ]
+    ],
+    [
+     [
+      15.382627487182617,
+      -9.160414695739746
+     ],
+     [
+      16.06134796142578,
+      -9.432428359985352
+     ],
+     [
+      15.79361343383789,
+      -10.10047435760498
+     ],
+     [
+      15.11489200592041,
+      -9.828460693359375
+     ]
+    ],
+    [
+     [
+      16.77355194091797,
+      -7.6373419761657715
+     ],
+     [
+      16.14042854309082,
+      -8.080658912658691
+     ],
+     [
+      15.656731605529785,
+      -7.389868259429932
+     ],
+     [
+      16.289854049682617,
+      -6.9465508460998535
+     ]
+    ]
+   ],
+   "block": [
+    [
+     [
+      14.794865608215332,
+      -7.977816581726074
+     ],
+     [
+      17.5761661529541,
+      -7.9778008460998535
+     ],
+     [
+      17.576171875,
+      -8.877800941467285
+     ],
+     [
+      14.794870376586914,
+      -8.877817153930664
+     ]
+    ]
+   ]
+  },
+  "moved_objects": {
+   "swivel_chair_gfixyb_2": {
+    "pos": [
+     16.753826141357422,
+     -9.407360076904297,
+     0.4937431812286377
+    ],
+    "ori": [
+     -0.00030713676824234426,
+     -0.00013151652819942683,
+     0.8346505761146545,
+     0.5507796406745911
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -104.84157943725586,
+     -117.40103912353516,
+     -100.15001033246517
+    ]
+   },
+   "swivel_chair_gfixyb_3": {
+    "pos": [
+     15.598005294799805,
+     -9.596092224121094,
+     0.49374306201934814
+    ],
+    "ori": [
+     -0.0003330982581246644,
+     -3.895731879310915e-06,
+     0.5603525638580322,
+     0.8282541036605835
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -109.84157943725586,
+     -117.40103912353516,
+     -100.15001033246517
+    ]
+   },
+   "swivel_chair_lhkkri_3": {
+    "pos": [
+     16.22474479675293,
+     -7.526325225830078,
+     0.45582693815231323
+    ],
+    "ori": [
+     8.810142304582769e-08,
+     5.197804409107221e-09,
+     -0.4617484509944916,
+     0.8870109915733337
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -114.84157943725586,
+     -117.40103912353516,
+     -100.15001033246517
+    ]
+   }
+  }
+ },
+ "problem": "inter_object_relation_satisfaction-17",
+ "choices": {
+  "target": {
+   "category": "trash_can",
+   "model": "jlawet",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "trash_can__jlawet__t",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_wyitdg_0",
+  "desk.n.01_1": "desk_mdhelw_1",
+  "ashcan.n.01_1": "target_trash_can_jlawet_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 143.68202829360962,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem144.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-under_large_scale-trash_can-desk-floor_pitched",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    17.510414123535156,
+    -9.488512992858887,
+    1.2192540546202448
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 1.153694186882113,
+   "bearing_deg": -110.14192086905214,
+   "distance": 1.153694186882113,
+   "trunk_like_b": false,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "extras": {
+    "bearing_deg": -110.14192086905214,
+    "distance": 1.153694186882113,
+    "trunk_like_b": false,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    18.376121520996094,
+    -8.693588256835938,
+    1.9002497976837416
+   ],
+   "translate": 0.75,
+   "tilt": -1.2,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.55,
+   "focus": [
+    17.907684326171875,
+    -8.405375480651855,
+    0.02999049238860607
+   ],
+   "idle_posture": "untucked",
+   "lateral_offset_m": 0.35,
+   "focus_arms": [
+    "left"
+   ],
+   "angle_class": 1,
+   "axis_angle_deg": 29.92804943305627,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "extras": {
+    "lateral_offset_m": 0.35,
+    "focus_arms": [
+     "left"
+    ],
+    "angle_class": 1,
+    "axis_angle_deg": 29.92804943305627,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    18.48844337463379,
+    -8.308788299560547,
+    -3.141592653589793
+   ],
+   "translate": 0.95,
+   "tilt": -1.2,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.9,
+   "edge": "+x",
+   "lateral": -0.0738,
+   "focus": [
+    17.829931259155273,
+    -8.558788299560547,
+    0.14153555035591125
+   ],
+   "carried": "ashcan.n.01_1",
+   "idle_posture": "untucked",
+   "goal_cell": [
+    17.518444061279297,
+    -8.558788299560547
+   ],
+   "drop_cell": [
+    17.829931259155273,
+    -8.558788299560547
+   ],
+   "push_dir": [
+    -1.0,
+    -0.0
+   ],
+   "inside_m": 0.07,
+   "drop_ahead_m": 0.6585128784179688,
+   "stance_kind": "frontal",
+   "lane_offset_m": -0.25,
+   "angle_class": 1,
+   "edge_rank": 0,
+   "init_surface": {
+    "class": "floor",
+    "name": null
+   },
+   "path_length_m": {
+    "A_B": 1.1753104415258742,
+    "B_C": 0.40085808701303544
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "edge_frame": {
+    "name": "+x",
+    "mid": [
+     17.588443756103516,
+     -8.382588386535645
+    ],
+    "inward": [
+     -1.0,
+     -0.0
+    ],
+    "tangent": [
+     0.0,
+     -1.0
+    ],
+    "length_m": 0.9305515289306641,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.8999996185302734,
+   "extras": {
+    "goal_cell": [
+     17.518444061279297,
+     -8.558788299560547
+    ],
+    "drop_cell": [
+     17.829931259155273,
+     -8.558788299560547
+    ],
+    "push_dir": [
+     -1.0,
+     -0.0
+    ],
+    "inside_m": 0.07,
+    "edge": "+x",
+    "drop_ahead_m": 0.6585128784179688,
+    "stance_kind": "frontal",
+    "lane_offset_m": -0.25,
+    "angle_class": 1,
+    "edge_rank": 0,
+    "init_surface": {
+     "class": "floor",
+     "name": null
+    },
+    "path_length_m": {
+     "A_B": 1.1753104415258742,
+     "B_C": 0.40085808701303544
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "push": {
+   "base_pose2d": [
+    18.48844337463379,
+    -8.308788299560547,
+    -3.141592653589793
+   ],
+   "translate": 2.0,
+   "tilt": 0.0,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.9,
+   "edge": "+x",
+   "lateral": -0.0738,
+   "focus": [
+    17.829931259155273,
+    -8.558788299560547,
+    0.14153555035591125
+   ],
+   "idle_posture": "untucked",
+   "goal_cell": [
+    17.518444061279297,
+    -8.558788299560547
+   ],
+   "drop_cell": [
+    17.829931259155273,
+    -8.558788299560547
+   ],
+   "push_dir": [
+    -1.0,
+    -0.0
+   ],
+   "inside_m": 0.07,
+   "drop_ahead_m": 0.6585128784179688,
+   "stance_kind": "frontal",
+   "lane_offset_m": -0.25,
+   "angle_class": 1,
+   "edge_rank": 0,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "push",
+   "edge_frame": {
+    "name": "+x",
+    "mid": [
+     17.588443756103516,
+     -8.382588386535645
+    ],
+    "inward": [
+     -1.0,
+     -0.0
+    ],
+    "tangent": [
+     0.0,
+     -1.0
+    ],
+    "length_m": 0.9305515289306641,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.8999996185302734,
+   "extras": {
+    "goal_cell": [
+     17.518444061279297,
+     -8.558788299560547
+    ],
+    "drop_cell": [
+     17.829931259155273,
+     -8.558788299560547
+    ],
+    "push_dir": [
+     -1.0,
+     -0.0
+    ],
+    "inside_m": 0.07,
+    "edge": "+x",
+    "drop_ahead_m": 0.6585128784179688,
+    "stance_kind": "frontal",
+    "lane_offset_m": -0.25,
+    "angle_class": 1,
+    "edge_rank": 0,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "time_budget": 1
+ },
+ "rejection_examples": {
+  "time_budget": [
+   {
+    "message": "[time_budget] attempt budget of 3000 s spent (3025 s) at C candidate 25 of 36 (F_goal feasible set) at B (0.95, -1.20) {'stage': 'C candidate 25 of 36 (F_goal feasible set) at B (0.95, -1.20)'}",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 2973017485993700904,
+    "stage": "C candidate 25 of 36 (F_goal feasible set) at B (0.95, -1.20)"
+   }
+  ]
+ },
+ "counters": {},
+ "seeds": [
+  2973017485993700905
+ ],
+ "kit_stats": {
+  "ik_calls": 18926,
+  "ik_s": 2423.3088631629944,
+  "ik_batch_calls": 160,
+  "ik_batch_problems": 6418,
+  "ik_batch_s": 1540.6995115280151,
+  "collision_calls": 25199,
+  "collision_configs": 176755,
+  "collision_s": 96.46143341064453,
+  "orient_choices": 1098,
+  "orient_reason.default": 265,
+  "twin_picks": 98,
+  "twin_solves": 113,
+  "orient_reason.reach": 103,
+  "limit_retry_poses": 213,
+  "limit_retry_seeded_rescued": 23,
+  "orient_against_default": 84,
+  "twin_taken": 26,
+  "twin_taken.reach": 24,
+  "limit_reject.right_arm_joint4": 54,
+  "limit_reject.right_arm_joint6": 67,
+  "orient_source.map": 13,
+  "push_pinned_start.rejected": 197,
+  "limit_reject.right_arm_joint2": 13,
+  "limit_reject.right_arm_joint5": 12,
+  "limit_reject.left_arm_joint4": 14,
+  "limit_reject.left_arm_joint6": 17,
+  "limit_reject.right_arm_joint7": 7,
+  "orient_arm_choices": 3,
+  "orient_arm.right": 3,
+  "orient_arm_reason.reach": 2,
+  "orient_reason.safety": 2,
+  "twin_taken.safety": 2,
+  "orient_reason.only_feasible": 1,
+  "limit_reject.left_arm_joint3": 1,
+  "orient_arm_reason.only_feasible": 1,
+  "limit_retry_random": 972,
+  "limit_retry_random_rescued": 5,
+  "held_turn_checks": 1,
+  "held_turn_not_offered": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_under_large_scale",
+  "subtask": "inter_object_relation_satisfaction_under_large_scale_trash_can_desk",
+  "variant": "inter_object_relation_satisfaction-under_large_scale-trash_can-desk-floor_pitched"
+ }
+}

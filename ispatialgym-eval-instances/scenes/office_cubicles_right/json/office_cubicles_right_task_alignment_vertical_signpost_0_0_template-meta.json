@@ -1,0 +1,1192 @@
+{
+ "template_id": "office_cubicles_right__support-walls_gkewle_0-r03__target-signpost-vvjtkv",
+ "scene": "office_cubicles_right",
+ "timings": {
+  "bind_spawn_s": 41.55272626876831,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 337.3467917442322,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 576,
+   "collision_configs": 146880,
+   "collision_s": 27.253
+  },
+  "save_template_s": 0.8941326141357422
+ },
+ "variant": "alignment-world_vertical-signpost-walls",
+ "subtask": "alignment-world_vertical",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "e05a0596f00156196d9e991cbf1f54ad14c9cc7b29578d1a6c43c8dc983f5ec4",
+ "choice": {
+  "scene": "office_cubicles_right",
+  "rooms": [
+   "corridor_0"
+  ],
+  "bindings": {
+   "support": [
+    "walls_gkewle_0"
+   ],
+   "support_regions": [
+    {
+     "id": "corridor_0/walls_gkewle_0/r03",
+     "wall": "walls_gkewle_0",
+     "room": "corridor_0",
+     "p0": [
+      -2.902,
+      -1.295
+     ],
+     "p1": [
+      -2.902,
+      7.405
+     ],
+     "normal": [
+      1.0,
+      0.0
+     ],
+     "hang_z": 1.45,
+     "length_m": 9.95,
+     "max_object_m": 1.1
+    }
+   ],
+   "floor": {
+    "room": "corridor_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "signpost",
+    "model": "vvjtkv",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "office_cubicles_right__support-walls_gkewle_0-r03__target-signpost-vvjtkv",
+  "support_tag": "walls_gkewle_0-r03"
+ },
+ "rooms": [
+  "corridor_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_612712e1_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 401054398,
+  "seed_source": "split",
+  "scene": "office_cubicles_right",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "office_cubicles_right",
+  "support": "walls_gkewle_0",
+  "row": "corridor_0/walls_gkewle_0/r03",
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": [
+   "corridor_0/walls_gkewle_0/r03"
+  ],
+  "rooms": [
+   "corridor_0"
+  ],
+  "floor_room": "corridor_0",
+  "tag": "walls_gkewle_0-r03",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "9b8f53a5e49971e5bfc11b5f3b04cd2d7eedd62cc3317b71b9443afab31c817e",
+ "template_facts": {
+  "spot_search": {
+   "regions": 1,
+   "patch_wh": [
+    0.5025367736816406,
+    0.17080116271972656
+   ],
+   "n_spots": 36,
+   "walls": [
+    "walls_gkewle_0"
+   ]
+  },
+  "frame": {
+   "front_axis": "+x",
+   "up_axis": "+z",
+   "level_axis_derived": "+y",
+   "symmetric_180": false,
+   "source": "customs"
+  },
+  "dims": {
+   "thickness": 0.041385650634765625,
+   "width": 0.5025367736816406,
+   "height": 0.17080116271972656
+  },
+  "scale": null,
+  "wall": "walls_gkewle_0",
+  "com_local": [
+   0.00209808349609375,
+   -0.00140380859375,
+   -6.389617919921875e-05
+  ],
+  "contact_height_extra_m": 0.0,
+  "deviation_range_applied_deg": [
+   15.0,
+   25.0
+  ],
+  "template_filter_deg": 25,
+  "stance_arm_posture": "tucked",
+  "spots": [
+   {
+    "id": 0,
+    "point": [
+     -2.9023125171661377,
+     -1.2949998378753662,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 1,
+    "point": [
+     -2.9023125171661377,
+     -1.0464286804199219,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 2,
+    "point": [
+     -2.9023125171661377,
+     -0.7978570461273193,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 3,
+    "point": [
+     -2.9023125171661377,
+     -0.5492856502532959,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 4,
+    "point": [
+     -2.9023125171661377,
+     -0.30071425437927246,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 5,
+    "point": [
+     -2.9023125171661377,
+     -0.05214262008666992,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 6,
+    "point": [
+     -2.9023125171661377,
+     0.19642877578735352,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 7,
+    "point": [
+     -2.9023125171661377,
+     0.44500017166137695,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 8,
+    "point": [
+     -2.9023125171661377,
+     0.6935714483261108,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 9,
+    "point": [
+     -2.9023125171661377,
+     0.9421429634094238,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 10,
+    "point": [
+     -2.9023125171661377,
+     1.1907145977020264,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 11,
+    "point": [
+     -2.9023125171661377,
+     1.4392858743667603,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 12,
+    "point": [
+     -2.9023125171661377,
+     1.6878571510314941,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 13,
+    "point": [
+     -2.9023125171661377,
+     1.9364287853240967,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 14,
+    "point": [
+     -2.9023125171661377,
+     2.18500018119812,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 15,
+    "point": [
+     -2.9023125171661377,
+     2.4335715770721436,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 16,
+    "point": [
+     -2.9023125171661377,
+     2.682142972946167,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 17,
+    "point": [
+     -2.9023125171661377,
+     2.9307146072387695,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 18,
+    "point": [
+     -2.9023125171661377,
+     3.179286003112793,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 19,
+    "point": [
+     -2.9023125171661377,
+     3.4278573989868164,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 20,
+    "point": [
+     -2.9023125171661377,
+     3.676429271697998,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 21,
+    "point": [
+     -2.9023125171661377,
+     3.9250006675720215,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 22,
+    "point": [
+     -2.9023125171661377,
+     4.173571586608887,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 23,
+    "point": [
+     -2.9023125171661377,
+     4.422143459320068,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 24,
+    "point": [
+     -2.9023125171661377,
+     4.670714378356934,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 25,
+    "point": [
+     -2.9023125171661377,
+     4.919286727905273,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 26,
+    "point": [
+     -2.9023125171661377,
+     5.1678571701049805,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 27,
+    "point": [
+     -2.9023125171661377,
+     5.416429042816162,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 28,
+    "point": [
+     -2.9023125171661377,
+     5.6650004386901855,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 29,
+    "point": [
+     -2.9023125171661377,
+     5.913571357727051,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 30,
+    "point": [
+     -2.9023125171661377,
+     6.162143707275391,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 31,
+    "point": [
+     -2.9023125171661377,
+     6.410714626312256,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 32,
+    "point": [
+     -2.9023125171661377,
+     6.659286022186279,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 33,
+    "point": [
+     -2.9023125171661377,
+     6.907857894897461,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 34,
+    "point": [
+     -2.9023125171661377,
+     7.156428813934326,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   },
+   {
+    "id": 35,
+    "point": [
+     -2.9023125171661377,
+     7.40500020980835,
+     1.4500000476837158
+    ],
+    "normal": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 33,
+     "-25": 31
+    },
+    "wall_protrusion_m": 8.940696716308594e-08
+   }
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "egqrip",
+   "scene_object_name": "floors_egqrip_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "signpost.n.01_1",
+   "synset": "signpost.n.01",
+   "category": "signpost",
+   "model": "vvjtkv",
+   "scene_object_name": "target_signpost_vvjtkv_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "support",
+   "name": "wall.n.01_1",
+   "synset": "wall.n.01",
+   "category": "walls",
+   "model": "gkewle",
+   "scene_object_name": "walls_gkewle_0",
+   "dataset": null
+  }
+ ],
+ "template_sha256": "993cd4f5aa197bcc314f5aa593b64229abff3ae88ef1e9924c4700314e2e7ed3",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_04/c1_k0/inst/alignment-world_vertical-signpost-walls/office_cubicles_right__support-walls_gkewle_0-r03__target-signpost-vvjtkv/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_04/c1_k0/inst/alignment-world_vertical-signpost-walls/office_cubicles_right__support-walls_gkewle_0-r03__target-signpost-vvjtkv/template-partial_rooms.json",
+ "load_room_instances": [
+  "corridor_0",
+  "bathroom_0",
+  "conference_hall_0",
+  "copy_room_0",
+  "empty_room_0",
+  "lobby_0",
+  "meeting_room_0",
+  "private_office_0",
+  "private_office_1",
+  "private_office_2",
+  "private_office_3",
+  "shared_office_0"
+ ],
+ "task_rooms": [
+  "corridor_0"
+ ],
+ "sampled_with_rooms": [
+  "corridor_0",
+  "bathroom_0",
+  "conference_hall_0",
+  "copy_room_0",
+  "empty_room_0",
+  "lobby_0",
+  "meeting_room_0",
+  "private_office_0",
+  "private_office_1",
+  "private_office_2",
+  "private_office_3",
+  "shared_office_0"
+ ],
+ "scene_variant": null,
+ "problem": "alignment-5",
+ "choices": {
+  "target": {
+   "category": "signpost",
+   "model": "vvjtkv",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_egqrip_0",
+  "signpost.n.01_1": "target_signpost_vvjtkv_0",
+  "wall.n.01_1": "walls_gkewle_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 357.0083701610565,
+ "activity_definition": "../activity_definitions/alignment/problem32.bddl",
+ "bddl_variant": "alignment-world_vertical-signpost-walls",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -2.023799055262203,
+    5.587066236621598,
+    2.5619884449407526
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 1.05,
+   "face": "wall",
+   "d": 1.05,
+   "lambda": 0.0,
+   "bearing_deg": -33.20887494361,
+   "distance": 1.05,
+   "face_normal": [
+    1.0,
+    0.0
+   ],
+   "axis_angle_deg": 14.156960331555318,
+   "target_centre": [
+    -2.8786,
+    6.1621,
+    1.45
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "P": [
+     -2.9023125171661377,
+     6.162143707275391,
+     1.4500000476837158
+    ],
+    "d": 1.05,
+    "lambda": 0.0
+   },
+   "extras": {
+    "bearing_deg": -33.20887494361,
+    "distance": 1.05,
+    "face_normal": [
+     1.0,
+     0.0
+    ],
+    "axis_angle_deg": 14.156960331555318,
+    "target_centre": [
+     -2.8786,
+     6.1621,
+     1.45
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    -2.0523123741149902,
+    6.012143611907959,
+    -3.141592653589793
+   ],
+   "translate": 0.0,
+   "tilt": -0.004138694362578077,
+   "arms": [
+    "right",
+    "left"
+   ],
+   "stand_off": 0.85,
+   "face": "wall",
+   "d": 0.85,
+   "lambda": 0.15,
+   "focus": [
+    -2.8786253929138184,
+    6.162143707275391,
+    1.4500000476837158
+   ],
+   "contacts": [
+    "push",
+    "brace"
+   ],
+   "band": [
+    -0.15,
+    0.0
+   ],
+   "angle_class": 1,
+   "clearance_tier": 0,
+   "grid_tilt": 0.0,
+   "arm_posture": "tucked",
+   "axis_angle_deg": 17.701487656565735,
+   "closing_axes": {
+    "brace": "s+0/+",
+    "push": "s+0/-"
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.0,
+   "fingers_by_arm": {
+    "right": 0.0,
+    "left": 0.0
+   },
+   "name": "manipulation",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "P": [
+     -2.9023125171661377,
+     6.162143707275391,
+     1.4500000476837158
+    ],
+    "d": 0.85,
+    "lambda": 0.15
+   },
+   "extras": {
+    "band": [
+     -0.15,
+     0.0
+    ],
+    "angle_class": 1,
+    "clearance_tier": 0,
+    "grid_tilt": 0.0,
+    "arm_posture": "tucked",
+    "axis_angle_deg": 17.701487656565735,
+    "closing_axes": {
+     "brace": "s+0/+",
+     "push": "s+0/-"
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.0,
+    "fingers_by_arm": {
+     "right": 0.0,
+     "left": 0.0
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "too_few_visible": 1
+ },
+ "rejection_examples": {
+  "too_few_visible": [
+   {
+    "message": "[too_few_visible] 3 objects visible: ['floors_egqrip_0', 'walls_gkewle_0', 'target_signpost_vvjtkv_0']",
+    "phase": "settle_validate",
+    "index": 0,
+    "attempt": 0,
+    "seed": 3175959305611333286
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 2
+ },
+ "seeds": [
+  3175959305611333287
+ ],
+ "kit_stats": {
+  "ik_calls": 72,
+  "ik_s": 16.97885537147522,
+  "ik_batch_calls": 4,
+  "ik_batch_problems": 4,
+  "ik_batch_s": 15.466761112213135,
+  "collision_calls": 676,
+  "collision_configs": 147107,
+  "collision_s": 27.979861974716187,
+  "limit_retry_poses": 13,
+  "limit_retry_seeded_rescued": 8,
+  "limit_reject.left_arm_joint2": 3,
+  "orient_choices": 4,
+  "orient_reason.only_feasible": 1,
+  "orient_against_default": 2,
+  "orient_reason.default": 1,
+  "limit_retry_random": 5,
+  "limit_retry_random_rescued": 2,
+  "orient_reason.reach": 2
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "alignment",
+  "task": "alignment_vertical",
+  "subtask": "alignment_vertical_signpost",
+  "variant": "alignment-world_vertical-signpost-walls"
+ }
+}

@@ -1,0 +1,578 @@
+{
+  "box__of__shampoo.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.270073890686035,
+        -3.6737871170043945,
+        0.9687977433204651
+      ],
+      "ori": [
+        -1.0086628208227921e-05,
+        5.2385294111445546e-05,
+        0.10081403702497482,
+        0.9949052929878235
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.306188583374023,
+          -3.7242300510406494,
+          0.8765462040901184,
+          -9.233521461486816,
+          -3.623053789138794,
+          1.0606586933135986
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "box__of__shampoo.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.201641082763672,
+        -3.5261969566345215,
+        0.9892376065254211
+      ],
+      "ori": [
+        4.3996689782943577e-05,
+        1.5285640984075144e-05,
+        0.94586580991745,
+        0.324557900428772
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.247360229492188,
+          -3.583004951477051,
+          0.8765279650688171,
+          -9.147494316101074,
+          -3.4766151905059814,
+          1.101811170578003
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "box__of__sanitary_napkin.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.221653938293457,
+        -3.7961955070495605,
+        0.926330029964447
+      ],
+      "ori": [
+        5.872625024494482e-06,
+        5.4739328334107995e-05,
+        0.6519384980201721,
+        0.7582719922065735
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.264585494995117,
+          -3.8317863941192627,
+          0.8765498399734497,
+          -9.178722381591797,
+          -3.7606022357940674,
+          0.9761106371879578
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "box__of__tissue.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.381654739379883,
+        -3.7061970233917236,
+        0.913880467414856
+      ],
+      "ori": [
+        -4.9970454711001366e-05,
+        -2.8555537937791087e-05,
+        -0.9969993233680725,
+        0.0774104967713356
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.44425106048584,
+          -3.7769792079925537,
+          0.8765565752983093,
+          -9.31905460357666,
+          -3.63541579246521,
+          0.9512048363685608
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.285931587219238,
+        -3.5814764499664307,
+        0.5386980772018433
+      ],
+      "ori": [
+        -6.97656421522197e-09,
+        -4.181332258212933e-08,
+        -2.589651444395713e-07,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.6869478225708,
+          -4.982626914978027,
+          0.0037010908126831055,
+          -8.882145881652832,
+          -2.1770272254943848,
+          0.8705012202262878
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.308659553527832,
+        -3.6388113498687744,
+        0.875972330570221
+      ],
+      "ori": [
+        -2.624309854581952e-05,
+        4.4233463995624334e-05,
+        -9.834822094489937e-07,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.506653785705566,
+          -3.921196937561035,
+          0.8705012798309326,
+          -9.110443115234375,
+          -3.3561675548553467,
+          0.8911300301551819
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.30868911743164,
+        -4.709540843963623,
+        0.8750374913215637
+      ],
+      "ori": [
+        -4.3401744420634714e-08,
+        -0.0028736134991049767,
+        -4.957726105203619e-06,
+        0.9999958872795105
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.446592330932617,
+          -4.92941427230835,
+          0.8705011606216431,
+          -9.169706344604492,
+          -4.48966646194458,
+          0.8920269012451172
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -8.454541206359863,
+        -2.8606200218200684,
+        0.0012011871440336108
+      ],
+      "ori": [
+        8.714015769270382e-15,
+        7.771960124894253e-15,
+        0.7071068286895752,
+        0.7071067094802856
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -11.607954978942871,
+          -7.258699893951416,
+          -0.2962988317012787,
+          -5.301128387451172,
+          1.5374598503112793,
+          0.0037011862732470036
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -10.126947402954102,
+          -3.6802444458007812,
+          0.008986949920654297
+        ],
+        "orientation": [
+          -7.875426490500104e-06,
+          8.065105066634715e-05,
+          -1.5087934457369556e-07,
+          1.0
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 6,
+    "task_variant": "disembedding-box_of_shampoo-box_of_shampoo_1_box_of_sanitary_napkins_1_box_of_tissues_1-commercial_kitchen_table",
+    "instance_id": "disembedding-box_of_shampoo-box_of_shampoo_1_box_of_sanitary_napkins_1_box_of_tissues_1-commercial_kitchen_table__restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__ta~9b63e32a__0000",
+    "generation_seed": 5053185173544042102,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "a3dd4bda14b479e5732e950531f8541b27d2906585a8b4b49ce3b0da09b33c8b",
+    "task_spec_sha256": "350e9c187521a8dc4ef81656e78a9ca6c70ef8905b9aa877007e046fb7c9bae9",
+    "layout_template_id": null,
+    "scene": {
+      "model": "restaurant_diner",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "9b5cbad703507e82e0ce5843c14d37b800bd50633056d8a5be6d2cbaeeef1433",
+      "load_room_instances": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "commercial_kitchen_table_vxvtec_0",
+        "floors_vikfyd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vikfyd_0",
+        "category": "floors",
+        "model": "vikfyd"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+        "category": "commercial_kitchen_table",
+        "model": "vxvtec"
+      },
+      "box__of__shampoo.n.01_1": {
+        "scene_object_name": "target_box_of_shampoo_bclpiq_0",
+        "category": "box_of_shampoo",
+        "model": "bclpiq"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "box__of__shampoo.n.01_2": {
+        "scene_object_name": "distractors_box_of_shampoo_nijidu_0",
+        "category": "box_of_shampoo",
+        "model": "nijidu"
+      },
+      "box__of__sanitary_napkin.n.01_1": {
+        "scene_object_name": "distractors_box_of_sanitary_napkins_mxdefq_1",
+        "category": "box_of_sanitary_napkins",
+        "model": "mxdefq"
+      },
+      "box__of__tissue.n.01_1": {
+        "scene_object_name": "distractors_box_of_tissues_ntbrtz_2",
+        "category": "box_of_tissues",
+        "model": "ntbrtz"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0633386373519897,
+        "torso_joint2": -1.519982099533081,
+        "torso_joint3": -0.5013322234153748,
+        "torso_joint4": -4.22796659904634e-07,
+        "left_arm_joint1": -0.00014931625628378242,
+        "right_arm_joint1": -0.00010533012391533703,
+        "left_arm_joint2": 1.570001482963562,
+        "right_arm_joint2": -1.5700006484985352,
+        "left_arm_joint3": -8.767431154410588e-07,
+        "right_arm_joint3": -3.79619507384632e-07,
+        "left_arm_joint4": -1.5700019598007202,
+        "right_arm_joint4": -1.5699974298477173,
+        "left_arm_joint5": 1.569993019104004,
+        "right_arm_joint5": -1.5700058937072754,
+        "left_arm_joint6": -7.171413471951382e-07,
+        "right_arm_joint6": -8.956871511145437e-07,
+        "left_arm_joint7": -1.459337909182068e-06,
+        "right_arm_joint7": -1.2039951116094016e-06,
+        "left_gripper_finger_joint1": 0.04999980702996254,
+        "left_gripper_finger_joint2": 0.04999997094273567,
+        "right_gripper_finger_joint1": 0.04999954625964165,
+        "right_gripper_finger_joint2": 0.04999975487589836
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "restaurant_diner_task_disembedding_box_of_shampoo_box_of_shampoo_1_box_of_sanitary_napkins_1_box_of_tissues_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "30ef8fb93ff630df236f8fdad1aebb4176462e247ff637cb447df77101abffa2",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -9.506208419799805,
+          -4.561036109924316,
+          1.4170887470245361
+        ],
+        "orientation": [
+          -0.19551533460617065,
+          0.1957591027021408,
+          0.6799045205116272,
+          -0.6791037917137146
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "box__of__shampoo.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.312783241271973,
+          -4.704763412475586,
+          0.9654640555381775
+        ],
+        "orientation": [
+          -0.00027008558390662074,
+          -0.0028560825157910585,
+          0.10123245418071747,
+          0.9948586821556091
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "box__of__shampoo.n.01_1",
+      "occluders": [
+        "box__of__shampoo.n.01_2",
+        "box__of__sanitary_napkin.n.01_1",
+        "box__of__tissue.n.01_1"
+      ],
+      "ratio": 0.16017749785284852,
+      "visible_area": 5867,
+      "reference_area": 6986,
+      "occluder_ids": [
+        "distractors_box_of_shampoo_nijidu_0",
+        "distractors_box_of_sanitary_napkins_mxdefq_1",
+        "distractors_box_of_tissues_ntbrtz_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 3751
+    }
+  }
+}

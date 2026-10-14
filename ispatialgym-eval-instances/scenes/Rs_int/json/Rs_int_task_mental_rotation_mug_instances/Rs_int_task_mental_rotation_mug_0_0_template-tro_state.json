@@ -1,0 +1,294 @@
+{
+  "mug.n.04_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -0.29874899983406067,
+        -0.6583502888679504,
+        1.2028253078460693
+      ],
+      "ori": [
+        0.05772608146071434,
+        -0.2665884494781494,
+        -0.44408825039863586,
+        -0.8534541726112366
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -0.35427454113960266,
+          -0.7086808681488037,
+          1.1537551879882812,
+          -0.24384912848472595,
+          -0.6098634004592896,
+          1.2608873844146729
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -0.06987883150577545,
+        -1.287109136581421,
+        -0.15000025928020477
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -2.0797903537750244,
+          -4.1151628494262695,
+          -0.30000025033950806,
+          1.9400324821472168,
+          1.5409443378448486,
+          -2.682209014892578e-07
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -0.5000702142715454,
+          -1.9073486328125e-05,
+          0.00528717041015625
+        ],
+        "orientation": [
+          4.146154969930649e-05,
+          6.499530718429014e-05,
+          -0.6128827929496765,
+          0.7901738882064819
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "mental_rotation",
+    "activity_definition_id": 0,
+    "task_variant": "mental_rotation-mug",
+    "instance_id": "mental_rotation-mug__Rs_int__room-living_room_0__target-mug-ppzttc__0000",
+    "generation_seed": 8335411759516260068,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "a253c5bdf85ade9d431a78576bac5eefe57e3db3142f2bc82ba47567c5be23ef",
+    "task_spec_sha256": "eb8f914ed357e187aacb3521e484edb5d5e8827d876281208671ba409e89b11d",
+    "layout_template_id": null,
+    "scene": {
+      "model": "Rs_int",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "ece7fb19156c1895ab534296850eaee9c09f20ecd3b4c71c8e87311c31505fe7",
+      "load_room_instances": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "entryway_0",
+        "kitchen_0"
+      ],
+      "task_rooms": [
+        "living_room_0"
+      ],
+      "sampled_with_rooms": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "entryway_0",
+        "kitchen_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_ptwlei_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_ptwlei_0",
+        "category": "floors",
+        "model": "ptwlei"
+      },
+      "mug.n.04_1": {
+        "scene_object_name": "target_mug_ppzttc_0",
+        "category": "mug",
+        "model": "ppzttc"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0250141620635986,
+        "torso_joint2": -1.4499822854995728,
+        "torso_joint3": -0.470032274723053,
+        "torso_joint4": 6.23670348431915e-05,
+        "left_arm_joint1": -6.875418330309913e-05,
+        "right_arm_joint1": -1.4393383264541626,
+        "left_arm_joint2": 3.0240130399761256e-06,
+        "right_arm_joint2": -0.43495655059814453,
+        "left_arm_joint3": -4.3613777961581945e-05,
+        "right_arm_joint3": 1.6593114137649536,
+        "left_arm_joint4": 6.0023721744073555e-05,
+        "right_arm_joint4": -1.5104100704193115,
+        "left_arm_joint5": -2.0538143871817738e-05,
+        "right_arm_joint5": 2.3006906509399414,
+        "left_arm_joint6": -2.272411984449718e-05,
+        "right_arm_joint6": 0.36206889152526855,
+        "left_arm_joint7": -1.4569213817594573e-05,
+        "right_arm_joint7": 0.34475651383399963,
+        "left_gripper_finger_joint1": 0.04999983310699463,
+        "left_gripper_finger_joint2": 0.04999978467822075,
+        "right_gripper_finger_joint1": 0.042635727673769,
+        "right_gripper_finger_joint2": 0.03991783410310745
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {
+        "torso_joint1": 1.025011420249939,
+        "torso_joint2": -1.4499844312667847,
+        "torso_joint3": -0.4700244665145874,
+        "torso_joint4": 4.3627889681374654e-05,
+        "left_arm_joint1": -4.8275196604663506e-05,
+        "left_arm_joint2": 1.862935505414498e-06,
+        "left_arm_joint3": -3.221206134185195e-05,
+        "left_arm_joint4": 4.39521245425567e-05,
+        "left_arm_joint5": -9.992597370001022e-06,
+        "left_arm_joint6": -1.6154765035025775e-05,
+        "left_arm_joint7": -8.152846021403093e-06,
+        "right_arm_joint1": -1.4392749071121216,
+        "right_arm_joint2": -0.43497538566589355,
+        "right_arm_joint3": 1.6588464975357056,
+        "right_arm_joint4": -1.5097917318344116,
+        "right_arm_joint5": 2.309051990509033,
+        "right_arm_joint6": 0.36009901762008667,
+        "right_arm_joint7": 0.3356400728225708
+      }
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "Rs_int_task_mental_rotation_mug_0_0_template-goal_rgb.png",
+      "rgb_sha256": "141491dde48ebc39fd8bde7801d92b7048c00fb00b927528625e439fc6dcdd31",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -0.44034117460250854,
+          -0.23247334361076355,
+          1.3970704078674316
+        ],
+        "orientation": [
+          -0.06956765055656433,
+          0.55051189661026,
+          0.825357973575592,
+          -0.1043129712343216
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "mug.n.04_1": {
+        "link": null,
+        "frame": "world",
+        "position": null,
+        "orientation": [
+          0.06160880625247955,
+          -0.5774660110473633,
+          -0.5905511379241943,
+          -0.5603451728820801
+        ],
+        "position_metric": null,
+        "orientation_metric": "full",
+        "position_tolerance": null,
+        "orientation_tolerance": 0.15,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "grasps": [
+      {
+        "agent": "agent.n.01_1",
+        "arm": "right",
+        "object": "mug.n.04_1",
+        "grasp_key": "mug__ppzttc",
+        "grasp_name": "grasp_1",
+        "object_pose_in_eef_frame": {
+          "position": [
+            -0.014130830764770508,
+            0.0057631731033325195,
+            0.020517051219940186
+          ],
+          "orientation": [
+            -0.34528714418411255,
+            0.3463372588157654,
+            -0.6440192461013794,
+            0.5882741212844849
+          ]
+        },
+        "finger_q": [
+          0.042635727673769,
+          0.03991783410310745
+        ],
+        "ag_anchor_in_eef": [
+          -0.005900919437408447,
+          0.04193830490112305,
+          0.014794886112213135
+        ]
+      }
+    ]
+  }
+}

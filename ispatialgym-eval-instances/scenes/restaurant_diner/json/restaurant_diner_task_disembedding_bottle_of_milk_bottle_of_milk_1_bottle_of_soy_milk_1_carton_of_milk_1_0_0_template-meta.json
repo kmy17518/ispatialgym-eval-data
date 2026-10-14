@@ -1,0 +1,1092 @@
+{
+ "template_id": "restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__target-bottle_of_milk-mrejrs__distractors-bottle_of_milk_1-bottle_of_soy_milk_1-carton_of_milk_1",
+ "scene": "restaurant_diner",
+ "timings": {
+  "bind_spawn_s": 47.34550476074219,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 54.60358500480652,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 4,
+   "collision_configs": 1736,
+   "collision_s": 1.552
+  },
+  "save_template_s": 0.4941902160644531
+ },
+ "variant": "disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table",
+ "subtask": "disembedding",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "36e9f144fa6b89e875ce74b388339cb7295c2efc238c9ebc6781c503170a143b",
+ "choice": {
+  "scene": "restaurant_diner",
+  "rooms": [
+   "kitchen_0"
+  ],
+  "bindings": {
+   "support": [
+    "commercial_kitchen_table_vxvtec_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "commercial_kitchen_table_vxvtec_0",
+     "init": "ontop",
+     "top_z": 0.87,
+     "row": "disembedding#04~T5"
+    }
+   ],
+   "floor": {
+    "room": "kitchen_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "bottle_of_milk",
+    "model": "mrejrs",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "bottle_of_milk__mrejrs__t",
+    "scale": null
+   },
+   "source": {
+    "category": "tray",
+    "model": "uekqey",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   },
+   "destination": {
+    "category": "tray",
+    "model": "hvlfig",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {
+   "distractors": [
+    {
+     "category": "bottle_of_milk",
+     "model": "debqen",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    },
+    {
+     "category": "bottle_of_soy_milk",
+     "model": "mcjlhs",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    },
+    {
+     "category": "carton_of_milk",
+     "model": "kklgxk",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    }
+   ]
+  },
+  "template_id": "restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__target-bottle_of_milk-mrejrs__distractors-bottle_of_milk_1-bottle_of_soy_milk_1-carton_of_milk_1",
+  "support_tag": "commercial_kitchen_table_vxvtec_0-T5"
+ },
+ "rooms": [
+  "kitchen_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_a89a396f_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 1,
+  "seed": 990837052,
+  "seed_source": "split",
+  "scene": "restaurant_diner",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "restaurant_diner",
+  "support": "commercial_kitchen_table_vxvtec_0",
+  "row": "disembedding#04~T5",
+  "init": "ontop",
+  "top_z": 0.87,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "kitchen_0"
+  ],
+  "floor_room": "kitchen_0",
+  "tag": "commercial_kitchen_table_vxvtec_0-T5",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "3458a7f322383aa98c3fdc83301ec576d2d5041f48c5af1becaa744fc4243306",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "tray_mass_kg": {
+   "source_tray_uekqey_0": 2.0,
+   "destination_tray_hvlfig_0": 2.0
+  },
+  "distractor_rest": {
+   "bottle__of__milk.n.01_2": "lying: canonical",
+   "bottle__of__soy_milk.n.01_1": "lying: local +x up",
+   "carton__of__milk.n.01_1": "lying: local +x up"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17820556/reach_bands/tabletop__restaurant_diner__commercial_kitchen_table_vxvtec_0__left_bottle_of_milk-mrejrs__placed-tray-uekqey-focus__ae31f6a1c00711c2.npz"
+   }
+  },
+  "support": {
+   "name": "commercial_kitchen_table_vxvtec_0",
+   "z": 0.8705011606216431,
+   "yaw": -9.5367431640625e-07,
+   "local_bounds": [
+    -9.676945686340332,
+    -8.896943092346191,
+    -4.9726338386535645,
+    -2.192633628845215
+   ],
+   "n_free_cells": 5600,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "-u",
+   "mid": [
+    -9.676949501037598,
+    -3.5826244354248047
+   ],
+   "inward": [
+    1.0,
+    -9.5367431640625e-07
+   ],
+   "tangent": [
+    9.5367431640625e-07,
+    1.0
+   ],
+   "length_m": 2.7800002098083496,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    -10.126949310302734,
+    -3.7569284439086914,
+    -9.536743164059608e-07
+   ],
+   "translate": 0.592382535801734,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "-u",
+   "lateral": -0.17430445000916422,
+   "H_max": 0.062007904052734375,
+   "delta": 0.4811019518181631,
+   "delta_aim": 0.4811019518181631,
+   "delta_min": 0.34978542327880857,
+   "delta_max": 0.6432784176287824,
+   "conflict": false,
+   "d_ws": 0.2669622241696225,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900005102157593,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.23581107096803713,
+   "z_c": 1.3479019280292044,
+   "b": 0.6659345030784607,
+   "b_right": 0.6659415364265442,
+   "b_left": 0.6659345030784607,
+   "R_img": 0.6659345030784607,
+   "t_range": [
+    0.24065085706947148,
+    0.8112684107410563
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777751922607422,
+   "n_workspace_cells": 79,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "b": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "safety": 0.02,
+    "m_R": 1.1229345030784608,
+    "m_L": 1.1229345030784608
+   },
+   "lateral_bounds": [
+    -0.26706560182571404,
+    0.26706560182571404
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "-u",
+    "mid": [
+     -9.676949501037598,
+     -3.5826244354248047
+    ],
+    "inward": [
+     1.0,
+     -9.5367431640625e-07
+    ],
+    "tangent": [
+     9.5367431640625e-07,
+     1.0
+    ],
+    "length_m": 2.7800002098083496,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4499996304512024,
+   "extras": {
+    "H_max": 0.062007904052734375,
+    "delta": 0.4811019518181631,
+    "delta_aim": 0.4811019518181631,
+    "delta_min": 0.34978542327880857,
+    "delta_max": 0.6432784176287824,
+    "conflict": false,
+    "d_ws": 0.2669622241696225,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900005102157593,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.23581107096803713,
+    "z_c": 1.3479019280292044,
+    "b": 0.6659345030784607,
+    "b_right": 0.6659415364265442,
+    "b_left": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "t_range": [
+     0.24065085706947148,
+     0.8112684107410563
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777751922607422,
+    "n_workspace_cells": 79,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.07999999821186066,
+     "b": 0.6659345030784607,
+     "R_img": 0.6659345030784607,
+     "safety": 0.02,
+     "m_R": 1.1229345030784608,
+     "m_L": 1.1229345030784608
+    },
+    "lateral_bounds": [
+     -0.26706560182571404,
+     0.26706560182571404
+    ]
+   }
+  },
+  "n_manipulation_candidates": 449,
+  "grasp_key": "bottle_of_milk__mrejrs__t",
+  "n_grasps": 5,
+  "band": "/tmp/minyeong/isge_17820556/reach_bands/tabletop__restaurant_diner__commercial_kitchen_table_vxvtec_0__bottle_of_milk-mrejrs__placed-tray-uekqey-focus__12ade345713cc4a4.npz",
+  "placed_key": "tray/uekqey@focus_centred_edge_aligned",
+  "source_tray_scale": 1.0,
+  "src_floor_cells": 1639,
+  "dst_floor_cells": 926,
+  "H_max": 0.062007904052734375,
+  "distractors": [
+   "bottle__of__milk.n.01_2",
+   "bottle__of__soy_milk.n.01_1",
+   "carton__of__milk.n.01_1"
+  ],
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "vikfyd",
+   "scene_object_name": "floors_vikfyd_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "countertop.n.01_1",
+   "synset": "countertop.n.01",
+   "category": "commercial_kitchen_table",
+   "model": "vxvtec",
+   "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "bottle__of__milk.n.01_1",
+   "synset": "bottle__of__milk.n.01",
+   "category": "bottle_of_milk",
+   "model": "mrejrs",
+   "scene_object_name": "target_bottle_of_milk_mrejrs_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "source",
+   "name": "tray.n.01_1",
+   "synset": "tray.n.01",
+   "category": "tray",
+   "model": "uekqey",
+   "scene_object_name": "source_tray_uekqey_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "destination",
+   "name": "tray.n.01_2",
+   "synset": "tray.n.01",
+   "category": "tray",
+   "model": "hvlfig",
+   "scene_object_name": "destination_tray_hvlfig_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "bottle__of__milk.n.01_2",
+   "synset": "bottle__of__milk.n.01",
+   "category": "bottle_of_milk",
+   "model": "debqen",
+   "scene_object_name": "distractors_bottle_of_milk_debqen_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "bottle__of__soy_milk.n.01_1",
+   "synset": "bottle__of__soy_milk.n.01",
+   "category": "bottle_of_soy_milk",
+   "model": "mcjlhs",
+   "scene_object_name": "distractors_bottle_of_soy_milk_mcjlhs_1",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "carton__of__milk.n.01_1",
+   "synset": "carton__of__milk.n.01",
+   "category": "carton_of_milk",
+   "model": "kklgxk",
+   "scene_object_name": "distractors_carton_of_milk_kklgxk_2",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "1ceb86ff7c21eb127e3377a2f511727bc9a34dac95b72800da74821c7b6f8705",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/disembedding_04/c5_k1/inst/disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table/restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__target-bottle_of_milk-mrejrs__distractors-bottle_of_milk_1-bottle_of_soy_milk_1-carton_of_milk_1/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/disembedding_04/c5_k1/inst/disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table/restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T5__destination-tray-hvlfig__source-tray-uekqey__target-bottle_of_milk-mrejrs__distractors-bottle_of_milk_1-bottle_of_soy_milk_1-carton_of_milk_1/template-partial_rooms.json",
+ "load_room_instances": [
+  "kitchen_0",
+  "bar_0",
+  "corridor_0",
+  "dining_room_0"
+ ],
+ "task_rooms": [
+  "kitchen_0"
+ ],
+ "sampled_with_rooms": [
+  "kitchen_0",
+  "bar_0",
+  "corridor_0",
+  "dining_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "disembedding-0",
+ "choices": {
+  "target": {
+   "category": "bottle_of_milk",
+   "model": "mrejrs",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "bottle_of_milk__mrejrs__t",
+   "scale": null
+  },
+  "source": {
+   "category": "tray",
+   "model": "uekqey",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "destination": {
+   "category": "tray",
+   "model": "hvlfig",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[0]": {
+   "category": "bottle_of_milk",
+   "model": "debqen",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[1]": {
+   "category": "bottle_of_soy_milk",
+   "model": "mcjlhs",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[2]": {
+   "category": "carton_of_milk",
+   "model": "kklgxk",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_vikfyd_0",
+  "countertop.n.01_1": "commercial_kitchen_table_vxvtec_0",
+  "bottle__of__milk.n.01_1": "target_bottle_of_milk_mrejrs_0",
+  "tray.n.01_1": "source_tray_uekqey_0",
+  "tray.n.01_2": "destination_tray_hvlfig_0",
+  "bottle__of__milk.n.01_2": "distractors_bottle_of_milk_debqen_0",
+  "bottle__of__soy_milk.n.01_1": "distractors_bottle_of_soy_milk_mcjlhs_1",
+  "carton__of__milk.n.01_1": "distractors_carton_of_milk_kklgxk_2",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 317.89733028411865,
+ "activity_definition": "../activity_definitions/disembedding/problem14.bddl",
+ "bddl_variant": "disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -10.126949310302734,
+    -3.7569284439086914,
+    -9.536743164059608e-07
+   ],
+   "translate": 0.592382535801734,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "-u",
+   "lateral": -0.17430445000916422,
+   "H_max": 0.062007904052734375,
+   "delta": 0.4811019518181631,
+   "delta_aim": 0.4811019518181631,
+   "delta_min": 0.34978542327880857,
+   "delta_max": 0.6432784176287824,
+   "conflict": false,
+   "d_ws": 0.2669622241696225,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900005102157593,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.23581107096803713,
+   "z_c": 1.3479019280292044,
+   "b": 0.6659345030784607,
+   "b_right": 0.6659415364265442,
+   "b_left": 0.6659345030784607,
+   "R_img": 0.6659345030784607,
+   "t_range": [
+    0.24065085706947148,
+    0.8112684107410563
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777751922607422,
+   "n_workspace_cells": 79,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "b": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "safety": 0.02,
+    "m_R": 1.1229345030784608,
+    "m_L": 1.1229345030784608
+   },
+   "lateral_bounds": [
+    -0.26706560182571404,
+    0.26706560182571404
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "-u",
+    "mid": [
+     -9.676949501037598,
+     -3.5826244354248047
+    ],
+    "inward": [
+     1.0,
+     -9.5367431640625e-07
+    ],
+    "tangent": [
+     9.5367431640625e-07,
+     1.0
+    ],
+    "length_m": 2.7800002098083496,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4499996304512024,
+   "extras": {
+    "H_max": 0.062007904052734375,
+    "delta": 0.4811019518181631,
+    "delta_aim": 0.4811019518181631,
+    "delta_min": 0.34978542327880857,
+    "delta_max": 0.6432784176287824,
+    "conflict": false,
+    "d_ws": 0.2669622241696225,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900005102157593,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.23581107096803713,
+    "z_c": 1.3479019280292044,
+    "b": 0.6659345030784607,
+    "b_right": 0.6659415364265442,
+    "b_left": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "t_range": [
+     0.24065085706947148,
+     0.8112684107410563
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777751922607422,
+    "n_workspace_cells": 79,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.07999999821186066,
+     "b": 0.6659345030784607,
+     "R_img": 0.6659345030784607,
+     "safety": 0.02,
+     "m_R": 1.1229345030784608,
+     "m_L": 1.1229345030784608
+    },
+    "lateral_bounds": [
+     -0.26706560182571404,
+     0.26706560182571404
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    -10.026949882507324,
+    -3.9569287300109863,
+    -9.536743164059608e-07
+   ],
+   "translate": 0.25,
+   "tilt": -0.532533327738444,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.35,
+   "edge": "-u",
+   "lateral": -0.37430445000916424,
+   "focus": [
+    -9.306949615478516,
+    -3.876929521560669,
+    0.8710790872573853
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.062007904052734375,
+   "delta": 0.4811019518181631,
+   "delta_aim": 0.4811019518181631,
+   "delta_min": 0.34978542327880857,
+   "delta_max": 0.6432784176287824,
+   "conflict": false,
+   "d_ws": 0.2669622241696225,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900005102157593,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.23581107096803713,
+   "z_c": 1.3479019280292044,
+   "b": 0.6659345030784607,
+   "b_right": 0.6659415364265442,
+   "b_left": 0.6659345030784607,
+   "R_img": 0.6659345030784607,
+   "t_range": [
+    0.24065085706947148,
+    0.8112684107410563
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777751922607422,
+   "n_workspace_cells": 79,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "b": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "safety": 0.02,
+    "m_R": 1.1229345030784608,
+    "m_L": 1.1229345030784608
+   },
+   "lateral_bounds": [
+    -0.26706560182571404,
+    0.26706560182571404
+   ],
+   "lateral_shift_m": -0.2,
+   "axis_angle": 0.2884674455976764,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.33331999814695007,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "init_travel": {
+    "lateral_m": -0.2,
+    "base_m": 0.2236,
+    "path_m": 0.2,
+    "departure_stand_off_m": null,
+    "transition_stand_off_m": 0.45
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "-u",
+    "mid": [
+     -9.676949501037598,
+     -3.5826244354248047
+    ],
+    "inward": [
+     1.0,
+     -9.5367431640625e-07
+    ],
+    "tangent": [
+     9.5367431640625e-07,
+     1.0
+    ],
+    "length_m": 2.7800002098083496,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.3500000238418579,
+   "extras": {
+    "H_max": 0.062007904052734375,
+    "delta": 0.4811019518181631,
+    "delta_aim": 0.4811019518181631,
+    "delta_min": 0.34978542327880857,
+    "delta_max": 0.6432784176287824,
+    "conflict": false,
+    "d_ws": 0.2669622241696225,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900005102157593,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.23581107096803713,
+    "z_c": 1.3479019280292044,
+    "b": 0.6659345030784607,
+    "b_right": 0.6659415364265442,
+    "b_left": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "t_range": [
+     0.24065085706947148,
+     0.8112684107410563
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777751922607422,
+    "n_workspace_cells": 79,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.07999999821186066,
+     "b": 0.6659345030784607,
+     "R_img": 0.6659345030784607,
+     "safety": 0.02,
+     "m_R": 1.1229345030784608,
+     "m_L": 1.1229345030784608
+    },
+    "lateral_bounds": [
+     -0.26706560182571404,
+     0.26706560182571404
+    ],
+    "lateral_shift_m": -0.2,
+    "axis_angle": 0.2884674455976764,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.33331999814695007,
+    "init_view_class": 0,
+    "_position": [
+     10,
+     -2
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "init_travel": {
+     "lateral_m": -0.2,
+     "base_m": 0.2236,
+     "path_m": 0.2,
+     "departure_stand_off_m": null,
+     "transition_stand_off_m": 0.45
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    -10.026948928833008,
+    -2.814211368560791,
+    -9.536743164059608e-07
+   ],
+   "translate": 0.25,
+   "tilt": -0.532533327738444,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.35,
+   "edge": "-u",
+   "lateral": 0.7684129114410311,
+   "focus": [
+    -9.311445236206055,
+    -2.7342121601104736,
+    0.8710790872573853
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.062007904052734375,
+   "delta": 0.4811019518181631,
+   "delta_aim": 0.4811019518181631,
+   "delta_min": 0.34978542327880857,
+   "delta_max": 0.6432784176287824,
+   "conflict": false,
+   "d_ws": 0.2669622241696225,
+   "d_near": 0.029999732971191406,
+   "d_far": 0.5900005102157593,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.07999999821186066,
+   "x_c": 0.23581107096803713,
+   "z_c": 1.3479019280292044,
+   "b": 0.6659345030784607,
+   "b_right": 0.6659415364265442,
+   "b_left": 0.6659345030784607,
+   "R_img": 0.6659345030784607,
+   "t_range": [
+    0.24065085706947148,
+    0.8112684107410563
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777751922607422,
+   "n_workspace_cells": 79,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "b": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "safety": 0.02,
+    "m_R": 1.1229345030784608,
+    "m_L": 1.1229345030784608
+   },
+   "lateral_bounds": [
+    -0.26706560182571404,
+    0.26706560182571404
+   ],
+   "lateral_shift_m": -0.2,
+   "axis_angle": 0.2884674455976764,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.33331999814695007,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "init_travel": {
+    "lateral_m": -0.2,
+    "base_m": 0.2236,
+    "path_m": 0.2,
+    "departure_stand_off_m": null,
+    "transition_stand_off_m": 0.45
+   },
+   "lateral_shift": 1.1427173614501953,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "edge_frame": {
+    "name": "-u",
+    "mid": [
+     -9.676949501037598,
+     -3.5826244354248047
+    ],
+    "inward": [
+     1.0,
+     -9.5367431640625e-07
+    ],
+    "tangent": [
+     9.5367431640625e-07,
+     1.0
+    ],
+    "length_m": 2.7800002098083496,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.35000017285346985,
+   "extras": {
+    "H_max": 0.062007904052734375,
+    "delta": 0.4811019518181631,
+    "delta_aim": 0.4811019518181631,
+    "delta_min": 0.34978542327880857,
+    "delta_max": 0.6432784176287824,
+    "conflict": false,
+    "d_ws": 0.2669622241696225,
+    "d_near": 0.029999732971191406,
+    "d_far": 0.5900005102157593,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.07999999821186066,
+    "x_c": 0.23581107096803713,
+    "z_c": 1.3479019280292044,
+    "b": 0.6659345030784607,
+    "b_right": 0.6659415364265442,
+    "b_left": 0.6659345030784607,
+    "R_img": 0.6659345030784607,
+    "t_range": [
+     0.24065085706947148,
+     0.8112684107410563
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777751922607422,
+    "n_workspace_cells": 79,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.07999999821186066,
+     "b": 0.6659345030784607,
+     "R_img": 0.6659345030784607,
+     "safety": 0.02,
+     "m_R": 1.1229345030784608,
+     "m_L": 1.1229345030784608
+    },
+    "lateral_bounds": [
+     -0.26706560182571404,
+     0.26706560182571404
+    ],
+    "lateral_shift_m": -0.2,
+    "axis_angle": 0.2884674455976764,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.33331999814695007,
+    "init_view_class": 0,
+    "_position": [
+     10,
+     -2
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "init_travel": {
+     "lateral_m": -0.2,
+     "base_m": 0.2236,
+     "path_m": 0.2,
+     "departure_stand_off_m": null,
+     "transition_stand_off_m": 0.45
+    },
+    "lateral_shift": 1.1427173614501953,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "target_placement": 3
+ },
+ "rejection_examples": {
+  "target_placement": [
+   {
+    "message": "[target_placement] candidate 10: [distractor_placement] no free position for carton__of__milk.n.01_1 (gap 0.01, spacing 0.035 along the pinch axis); candidate 7: [distractor_placement] no free position for bottle__of__milk.n.01_2 (gap 0.01, spacing 0.035 along the pinch axis); candidate 5: [distractor_placement] no free position for carton__of__milk.n.01_1 (gap 0.01, spacing 0.035 along the pinch ",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 7846462154103844364
+   },
+   {
+    "message": "[target_placement] candidate 1: [distractor_placement] no free position for bottle__of__milk.n.01_2 (gap 0.01, spacing 0.035 along the pinch axis); candidate 4: [distractor_placement] no free position for bottle__of__soy_milk.n.01_1 (gap 0.01, spacing 0.035 along the pinch axis); candidate 3: [distractor_placement] no free position for carton__of__milk.n.01_1 (gap 0.01, spacing 0.035 along the pin",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 1,
+    "seed": 7846462154103844365
+   },
+   {
+    "message": "[target_placement] candidate 5: [distractor_placement] no free position for carton__of__milk.n.01_1 (gap 0.01, spacing 0.035 along the pinch axis); candidate 0: [distractor_placement] no free position for bottle__of__soy_milk.n.01_1 (gap 0.01, spacing 0.035 along the pinch axis); candidate 1: [distractor_placement] no free position for carton__of__milk.n.01_1 (gap 0.01, spacing 0.035 along the pin",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 2,
+    "seed": 7846462154103844366
+   }
+  ]
+ },
+ "counters": {},
+ "seeds": [
+  7846462154103844367
+ ],
+ "kit_stats": {
+  "ik_calls": 684,
+  "ik_s": 102.79699659347534,
+  "ik_batch_calls": 54,
+  "ik_batch_problems": 1422,
+  "ik_batch_s": 837.7252993583679,
+  "collision_calls": 397,
+  "collision_configs": 3054,
+  "collision_s": 4.720304250717163,
+  "limit_retry_poses": 108,
+  "limit_retry_seeded_rescued": 28,
+  "twin_picks": 63,
+  "twin_solves": 65,
+  "orient_choices": 63,
+  "orient_reason.reach": 11,
+  "orient_against_default": 6,
+  "twin_taken": 6,
+  "twin_taken.reach": 4,
+  "limit_reject.left_arm_joint5": 5,
+  "limit_reject.left_arm_joint1": 1,
+  "limit_reject.left_arm_joint2": 19,
+  "limit_reject.left_arm_joint7": 10,
+  "limit_reject.right_arm_joint2": 17,
+  "orient_reason.safety": 1,
+  "limit_reject.right_arm_joint5": 2,
+  "limit_reject.right_arm_joint3": 4,
+  "limit_reject.right_arm_joint6": 10,
+  "limit_retry_random": 139,
+  "orient_reason.only_feasible": 5,
+  "twin_taken.only_feasible": 2,
+  "limit_retry_random_rescued": 12,
+  "orient_reason.default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "disembedding",
+  "task": "disembedding",
+  "subtask": "disembedding_bottle_of_milk_bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1",
+  "variant": "disembedding-bottle_of_milk-bottle_of_milk_1_bottle_of_soy_milk_1_carton_of_milk_1-commercial_kitchen_table"
+ }
+}

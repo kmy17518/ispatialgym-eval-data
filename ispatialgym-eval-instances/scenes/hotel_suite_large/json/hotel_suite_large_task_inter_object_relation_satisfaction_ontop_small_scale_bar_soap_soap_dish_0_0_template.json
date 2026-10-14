@@ -1,0 +1,3913 @@
+{
+  "metadata": {
+    "task": {
+      "task": {
+        "task": {}
+      },
+      "inst_to_name": {
+        "floor.n.01_1": "floors_kudtlk_0",
+        "shelf.n.01_1": "shelf_rglkkf_0",
+        "bar_soap.n.01_1": "target_bar_soap_utgixp_0",
+        "soap_dish.n.01_1": "partner_soap_dish_slksbk_0",
+        "agent.n.01_1": "robot_r1"
+      },
+      "robot_poses": {
+        "robot": [
+          {
+            "position": [
+              0.3598010838031769,
+              3.2699623107910156,
+              -0.0008158683776855469
+            ],
+            "orientation": [
+              5.1748938858509064e-05,
+              6.13194060861133e-05,
+              -0.7071065306663513,
+              0.7071071267127991
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "init_info": {
+    "class_module": "omnigibson.scenes.interactive_traversable_scene",
+    "class_name": "InteractiveTraversableScene",
+    "args": {
+      "scene_model": "hotel_suite_large",
+      "scene_instance": null,
+      "scene_file": "/vision/u/minyeong/projects/isg_home/eval85/code_7f621468_6a6194600/Behavior-1K/datasets/2026-challenge-task-instances/scenes/hotel_suite_large/json/hotel_suite_large_stable.json",
+      "trav_map_resolution": 0.1,
+      "default_erosion_radius": 0.0,
+      "trav_map_with_objects": true,
+      "num_waypoints": 10,
+      "waypoint_resolution": 0.2,
+      "load_room_instances": null,
+      "seg_map_resolution": 0.1,
+      "load_room_types": null,
+      "include_robots": true
+    }
+  },
+  "objects_info": {
+    "init_info": {
+      "toilet_aapttl_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "toilet_aapttl_0",
+          "category": "toilet",
+          "model": "aapttl",
+          "scale": [
+            1.1837701797485352,
+            1.0199801921844482,
+            1.5283674001693726
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "2c18126b0afd9c78d5619603a7532284",
+          "bddl_object_scope": null
+        }
+      },
+      "toilet_paper_holder_rdfixx_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "toilet_paper_holder_rdfixx_0",
+          "category": "toilet_paper_holder",
+          "model": "rdfixx",
+          "scale": [
+            1.0002790689468384,
+            1.0002517700195312,
+            0.9996649026870728
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "a130e03c009b64407b2c66650997d081",
+          "bddl_object_scope": null
+        }
+      },
+      "armchair_hfydou_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "armchair_hfydou_0",
+          "category": "armchair",
+          "model": "hfydou",
+          "scale": [
+            0.9999292492866516,
+            1.0000108480453491,
+            0.999994695186615
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "86708b9224acdfc4723a4944abb4dcd1",
+          "bddl_object_scope": null
+        }
+      },
+      "armchair_ybcnmu_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "armchair_ybcnmu_0",
+          "category": "armchair",
+          "model": "ybcnmu",
+          "scale": [
+            1.0000135898590088,
+            0.9999963641166687,
+            0.9999665021896362
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "fea48aedcd2ed65f5ebc2ab6fff7da84",
+          "bddl_object_scope": null
+        }
+      },
+      "desk_ohjotf_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "desk_ohjotf_0",
+          "category": "desk",
+          "model": "ohjotf",
+          "scale": [
+            1.0000156164169312,
+            0.9999873638153076,
+            0.9999291896820068
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c3cf72afa2744f8214ddaa63357d8453",
+          "bddl_object_scope": null
+        }
+      },
+      "ottoman_hnmndv_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "ottoman_hnmndv_0",
+          "category": "ottoman",
+          "model": "hnmndv",
+          "scale": [
+            1.000101923942566,
+            0.9999677538871765,
+            0.9999457597732544
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "b3d0ee16c5dc2efc45911f6068aa5ddd",
+          "bddl_object_scope": null
+        }
+      },
+      "ottoman_hnmndv_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "ottoman_hnmndv_1",
+          "category": "ottoman",
+          "model": "hnmndv",
+          "scale": [
+            1.000101923942566,
+            0.9999677538871765,
+            0.9999457597732544
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "b3d0ee16c5dc2efc45911f6068aa5ddd",
+          "bddl_object_scope": null
+        }
+      },
+      "table_lamp_uzrovn_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "table_lamp_uzrovn_0",
+          "category": "table_lamp",
+          "model": "uzrovn",
+          "scale": [
+            0.9998537302017212,
+            0.9998537302017212,
+            0.9999503493309021
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "8bc2a0fb68376c5e969005f9aad829a9",
+          "bddl_object_scope": null
+        }
+      },
+      "table_lamp_uzrovn_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "table_lamp_uzrovn_1",
+          "category": "table_lamp",
+          "model": "uzrovn",
+          "scale": [
+            0.9998537302017212,
+            0.9998537302017212,
+            0.9999503493309021
+          ],
+          "fixed_base": false,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "8bc2a0fb68376c5e969005f9aad829a9",
+          "bddl_object_scope": null
+        }
+      },
+      "bed_kddswt_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bed_kddswt_0",
+          "category": "bed",
+          "model": "kddswt",
+          "scale": [
+            1.00002121925354,
+            1.000025987625122,
+            1.0000287294387817
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "2625c16a69be048cd6fc6f631d79fc09",
+          "bddl_object_scope": null
+        }
+      },
+      "bed_kddswt_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bed_kddswt_1",
+          "category": "bed",
+          "model": "kddswt",
+          "scale": [
+            1.00002121925354,
+            1.000025987625122,
+            1.0000287294387817
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "2625c16a69be048cd6fc6f631d79fc09",
+          "bddl_object_scope": null
+        }
+      },
+      "ceilings_bvwmqs_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "ceilings_bvwmqs_0",
+          "category": "ceilings",
+          "model": "bvwmqs",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "289ff33425d177026c2d8398464f85e4",
+          "bddl_object_scope": null
+        }
+      },
+      "ceilings_hnnzid_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "ceilings_hnnzid_0",
+          "category": "ceilings",
+          "model": "hnnzid",
+          "scale": [
+            1.000008225440979,
+            1.000001311302185,
+            1.000020146369934
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "cf9dfeb1ba8a51c5c7dfdd00c6f91c3e",
+          "bddl_object_scope": null
+        }
+      },
+      "door_uptpdr_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "door_uptpdr_0",
+          "category": "door",
+          "model": "uptpdr",
+          "scale": [
+            0.9998884201049805,
+            0.9999834299087524,
+            0.9999902248382568
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "1d06f8030c6701c221737ea34d29cee1",
+          "bddl_object_scope": null
+        }
+      },
+      "door_ydokma_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "door_ydokma_0",
+          "category": "door",
+          "model": "ydokma",
+          "scale": [
+            1.0001204013824463,
+            0.9999926090240479,
+            1.0000038146972656
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c0e3731a5d79c3c8a582d38691c6235a",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_0",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_1",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_10": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_10",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_2": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_2",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_3": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_3",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_4": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_4",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_5": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_5",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_6": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_6",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_7": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_7",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_8": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_8",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "downlight_miioxs_9": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "downlight_miioxs_9",
+          "category": "downlight",
+          "model": "miioxs",
+          "scale": [
+            0.9997356534004211,
+            0.9999504685401917,
+            1.001902461051941
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c79ed0da4385dcdedc4912b21eb04574",
+          "bddl_object_scope": null
+        }
+      },
+      "fixed_window_tdzczq_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "fixed_window_tdzczq_0",
+          "category": "fixed_window",
+          "model": "tdzczq",
+          "scale": [
+            0.9999762177467346,
+            0.9998047351837158,
+            1.0000137090682983
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0",
+            "bedroom_0"
+          ],
+          "expected_file_hash": "9aca6cea23570cb669e7ccdb7ea413e7",
+          "bddl_object_scope": null
+        }
+      },
+      "fixed_window_ucejof_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "fixed_window_ucejof_0",
+          "category": "fixed_window",
+          "model": "ucejof",
+          "scale": [
+            0.9998044967651367,
+            1.0000112056732178,
+            0.9999910593032837
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c6839811fa120b5d494f83f987428c71",
+          "bddl_object_scope": null
+        }
+      },
+      "floors_kudtlk_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "floors_kudtlk_0",
+          "category": "floors",
+          "model": "kudtlk",
+          "scale": [
+            0.9999918341636658,
+            0.9999871850013733,
+            0.9999163150787354
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c09294f5631e6fca0156816a25cc960f",
+          "bddl_object_scope": null
+        }
+      },
+      "floors_nwjrkc_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "floors_nwjrkc_0",
+          "category": "floors",
+          "model": "nwjrkc",
+          "scale": [
+            1.0000054836273193,
+            1.0000014305114746,
+            1.000132441520691
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "055bf89161bb7f0bf9c6247fc44f4391",
+          "bddl_object_scope": null
+        }
+      },
+      "mirror_ddmyjg_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "mirror_ddmyjg_0",
+          "category": "mirror",
+          "model": "ddmyjg",
+          "scale": [
+            0.9989861249923706,
+            1.0000052452087402,
+            0.9999758005142212
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "65de53b422ebe4809efb6cb4cf063296",
+          "bddl_object_scope": null
+        }
+      },
+      "nightstand_maeowc_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "nightstand_maeowc_0",
+          "category": "nightstand",
+          "model": "maeowc",
+          "scale": [
+            0.9999319911003113,
+            1.0000334978103638,
+            1.0000674724578857
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "98880767826d49e7279a821d7e6cbea1",
+          "bddl_object_scope": null
+        }
+      },
+      "nightstand_maeowc_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "nightstand_maeowc_1",
+          "category": "nightstand",
+          "model": "maeowc",
+          "scale": [
+            0.9999319911003113,
+            1.0000334978103638,
+            1.0000674724578857
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "98880767826d49e7279a821d7e6cbea1",
+          "bddl_object_scope": null
+        }
+      },
+      "nightstand_maeowc_2": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "nightstand_maeowc_2",
+          "category": "nightstand",
+          "model": "maeowc",
+          "scale": [
+            0.9999319911003113,
+            1.0000334978103638,
+            1.0000674724578857
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "98880767826d49e7279a821d7e6cbea1",
+          "bddl_object_scope": null
+        }
+      },
+      "room_light_acksaa_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "room_light_acksaa_0",
+          "category": "room_light",
+          "model": "acksaa",
+          "scale": [
+            0.9999892115592957,
+            1.0000559091567993,
+            1.0000133514404297
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "1a08f063ecb18e5df14d458d93735936",
+          "bddl_object_scope": null
+        }
+      },
+      "room_light_mjfjhn_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "room_light_mjfjhn_0",
+          "category": "room_light",
+          "model": "mjfjhn",
+          "scale": [
+            1.0001517534255981,
+            1.000152826309204,
+            0.9999644756317139
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "6cc78609a6a1dd4c926ce4c90f34b43f",
+          "bddl_object_scope": null
+        }
+      },
+      "room_light_mjfjhn_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "room_light_mjfjhn_1",
+          "category": "room_light",
+          "model": "mjfjhn",
+          "scale": [
+            1.0001517534255981,
+            1.000152826309204,
+            0.9999644756317139
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "6cc78609a6a1dd4c926ce4c90f34b43f",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_aqtmhm_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_aqtmhm_0",
+          "category": "shelf",
+          "model": "aqtmhm",
+          "scale": [
+            1.0000945329666138,
+            0.9999911785125732,
+            1.0004202127456665
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "ea1867e99317fa40b9710b5d0975ed01",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_cbidyu_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_cbidyu_0",
+          "category": "shelf",
+          "model": "cbidyu",
+          "scale": [
+            1.0000001192092896,
+            0.9999862313270569,
+            1.0006214380264282
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "27e547f5ffe892da5dce4ff1080f4f25",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_nbmidu_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_nbmidu_0",
+          "category": "shelf",
+          "model": "nbmidu",
+          "scale": [
+            1.0000945329666138,
+            0.9999838471412659,
+            1.0004202127456665
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "77a48d57978422c22211483db8d7df4c",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_rglkkf_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_rglkkf_0",
+          "category": "shelf",
+          "model": "rglkkf",
+          "scale": [
+            0.9999977946281433,
+            0.9999889135360718,
+            1.0000377893447876
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "4e7767b5c70ce618ba168e334427bd9f",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_xogqqm_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_xogqqm_0",
+          "category": "shelf",
+          "model": "xogqqm",
+          "scale": [
+            0.9998470544815063,
+            1.0000289678573608,
+            0.9997342824935913
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "9f8da9911dbedc0dbffe7d5cac65864d",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_xogqqm_1": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_xogqqm_1",
+          "category": "shelf",
+          "model": "xogqqm",
+          "scale": [
+            0.9998470544815063,
+            1.0000289678573608,
+            0.9997342824935913
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "9f8da9911dbedc0dbffe7d5cac65864d",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_xogqqm_2": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_xogqqm_2",
+          "category": "shelf",
+          "model": "xogqqm",
+          "scale": [
+            0.9998470544815063,
+            1.0000289678573608,
+            0.9997342824935913
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "9f8da9911dbedc0dbffe7d5cac65864d",
+          "bddl_object_scope": null
+        }
+      },
+      "shelf_xogqqm_3": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "shelf_xogqqm_3",
+          "category": "shelf",
+          "model": "xogqqm",
+          "scale": [
+            0.9998470544815063,
+            1.0000289678573608,
+            0.9997342824935913
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "9f8da9911dbedc0dbffe7d5cac65864d",
+          "bddl_object_scope": null
+        }
+      },
+      "showerhead_rhrpdm_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "showerhead_rhrpdm_0",
+          "category": "showerhead",
+          "model": "rhrpdm",
+          "scale": [
+            0.9999371767044067,
+            0.9999323487281799,
+            1.0000005960464478
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "59c2aa206234531957309727afd76839",
+          "bddl_object_scope": null
+        }
+      },
+      "stand_dbskvf_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "stand_dbskvf_0",
+          "category": "stand",
+          "model": "dbskvf",
+          "scale": [
+            1.0000355243682861,
+            1.0000015497207642,
+            0.9999930262565613
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "41c5ad556a9bf2bf3a6cb3dcf8c5692f",
+          "bddl_object_scope": null
+        }
+      },
+      "towel_rack_ibrplo_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "towel_rack_ibrplo_0",
+          "category": "towel_rack",
+          "model": "ibrplo",
+          "scale": [
+            0.9991320371627808,
+            1.0001084804534912,
+            1.0020889043807983
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "84f79e3e3b9d989f4c7ee61d4b38b83b",
+          "bddl_object_scope": null
+        }
+      },
+      "wall_mounted_sink_jbborl_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wall_mounted_sink_jbborl_0",
+          "category": "wall_mounted_sink",
+          "model": "jbborl",
+          "scale": [
+            0.999920666217804,
+            1.0000079870224,
+            1.0000145435333252
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "5cd9800511bcd11f89c786b8e4d49b59",
+          "bddl_object_scope": null
+        }
+      },
+      "wall_mounted_tv_uvlqsl_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wall_mounted_tv_uvlqsl_0",
+          "category": "wall_mounted_tv",
+          "model": "uvlqsl",
+          "scale": [
+            0.9990052580833435,
+            1.0000165700912476,
+            1.0000308752059937
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "f40b8be5ce43cd5163ba862929a21d3b",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_aisjjz_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_aisjjz_0",
+          "category": "walls",
+          "model": "aisjjz",
+          "scale": [
+            1.000036597251892,
+            0.9999738931655884,
+            1.0000029802322388
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "ff3a3110591ea7a9e63e5971318e8dd1",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_bqgzsg_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_bqgzsg_0",
+          "category": "walls",
+          "model": "bqgzsg",
+          "scale": [
+            1.000152349472046,
+            1.0000001192092896,
+            0.9999963045120239
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "21839bd9331517793efedc19bebfe0a7",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_dpttpq_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_dpttpq_0",
+          "category": "walls",
+          "model": "dpttpq",
+          "scale": [
+            0.9997340440750122,
+            0.9999584555625916,
+            0.9999995827674866
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0",
+            "bedroom_0"
+          ],
+          "expected_file_hash": "1f22520dff04f2995048acd534b96eb2",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_eideiv_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_eideiv_0",
+          "category": "walls",
+          "model": "eideiv",
+          "scale": [
+            0.999998927116394,
+            0.9999685883522034,
+            0.9999935626983643
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "56fe3f8ffe3f6f8450d4963988aeb3be",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_gjtspo_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_gjtspo_0",
+          "category": "walls",
+          "model": "gjtspo",
+          "scale": [
+            1.0008689165115356,
+            1.000022530555725,
+            0.9999793171882629
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "9865b46add0343668e690c23cc14b70b",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_hssezu_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_hssezu_0",
+          "category": "walls",
+          "model": "hssezu",
+          "scale": [
+            0.9999918341636658,
+            0.9996449947357178,
+            0.999998927116394
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "d2dfe58c7422430223dbe1bfad84e2d2",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_irxipd_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_irxipd_0",
+          "category": "walls",
+          "model": "irxipd",
+          "scale": [
+            0.9999879598617554,
+            1.0000004768371582,
+            1.0000088214874268
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "c367ccf9c7ab50b1af4420af39447131",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_jvlvng_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_jvlvng_0",
+          "category": "walls",
+          "model": "jvlvng",
+          "scale": [
+            1.000006079673767,
+            0.9999599456787109,
+            1.0000139474868774
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "b884326648378e4d5a6626d98de7d304",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_sdrwoa_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_sdrwoa_0",
+          "category": "walls",
+          "model": "sdrwoa",
+          "scale": [
+            1.0001012086868286,
+            0.9999901652336121,
+            0.9999963045120239
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "f19cfae67cc8e22463db100df1b77634",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_xftoqy_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_xftoqy_0",
+          "category": "walls",
+          "model": "xftoqy",
+          "scale": [
+            0.9999896287918091,
+            1.0000032186508179,
+            1.0000089406967163
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bedroom_0"
+          ],
+          "expected_file_hash": "28e76cf7e13f5870ac33b21d77084c56",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_xsreom_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_xsreom_0",
+          "category": "walls",
+          "model": "xsreom",
+          "scale": [
+            1.0000455379486084,
+            0.9999836683273315,
+            1.0000003576278687
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0",
+            "bedroom_0"
+          ],
+          "expected_file_hash": "22d4c3a0d4de998347623b384b224db4",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_xtlfxm_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_xtlfxm_0",
+          "category": "walls",
+          "model": "xtlfxm",
+          "scale": [
+            1.0000176429748535,
+            1.0000386238098145,
+            1.0000065565109253
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "7aeb1efccd4b3cb5c7f30b4fb5f6f9ba",
+          "bddl_object_scope": null
+        }
+      },
+      "walls_znbklu_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "walls_znbklu_0",
+          "category": "walls",
+          "model": "znbklu",
+          "scale": [
+            0.9999803304672241,
+            0.999961256980896,
+            0.9999983310699463
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "bathroom_0",
+            "bedroom_0"
+          ],
+          "expected_file_hash": "74f1c15d8583cc7c4a9f3eff5ca6cddb",
+          "bddl_object_scope": null
+        }
+      },
+      "target_bar_soap_utgixp_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "target_bar_soap_utgixp_0",
+          "category": "bar_soap",
+          "model": "utgixp",
+          "dataset_name": "behavior-1k-assets",
+          "fixed_base": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "d0f429349658281b7941359803db165a",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "partner_soap_dish_slksbk_0": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "partner_soap_dish_slksbk_0",
+          "category": "soap_dish",
+          "model": "slksbk",
+          "dataset_name": "behavior-1k-assets",
+          "fixed_base": false,
+          "in_rooms": [
+            "bathroom_0"
+          ],
+          "expected_file_hash": "c43a6fa80a7c97725d187bdc94592c0e",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "robot_r1": {
+        "class_module": "omnigibson.robots.robot",
+        "class_name": "Robot",
+        "args": {
+          "name": "robot_r1",
+          "model": "r1pro",
+          "self_collisions": true,
+          "controller_config": {
+            "base": {
+              "name": "HolonomicBaseJointController",
+              "motor_type": "velocity",
+              "vel_kp": 150,
+              "command_input_limits": [
+                [
+                  -1.0,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              "command_output_limits": [
+                [
+                  -0.75,
+                  -0.75,
+                  -1.0
+                ],
+                [
+                  0.75,
+                  0.75,
+                  1.0
+                ]
+              ],
+              "use_impedances": false
+            },
+            "trunk": {
+              "name": "JointController",
+              "motor_type": "position",
+              "pos_kp": 150,
+              "command_input_limits": null,
+              "command_output_limits": null,
+              "use_impedances": false,
+              "use_delta_commands": false
+            },
+            "arm_left": {
+              "name": "JointController",
+              "motor_type": "position",
+              "pos_kp": 150,
+              "command_input_limits": null,
+              "command_output_limits": null,
+              "use_impedances": false,
+              "use_delta_commands": false
+            },
+            "arm_right": {
+              "name": "JointController",
+              "motor_type": "position",
+              "pos_kp": 150,
+              "command_input_limits": null,
+              "command_output_limits": null,
+              "use_impedances": false,
+              "use_delta_commands": false
+            },
+            "gripper_left": {
+              "name": "MultiFingerGripperController",
+              "mode": "smooth",
+              "command_input_limits": "default",
+              "command_output_limits": "default"
+            },
+            "gripper_right": {
+              "name": "MultiFingerGripperController",
+              "mode": "smooth",
+              "command_input_limits": "default",
+              "command_output_limits": "default"
+            }
+          },
+          "action_normalize": false,
+          "reset_joint_pos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.025,
+            -1.45,
+            -0.47,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "obs_modalities": [
+            "rgb",
+            "seg_instance"
+          ],
+          "sensor_config": {
+            "VisionSensor": {
+              "sensor_kwargs": {
+                "image_height": 1080,
+                "image_width": 1080
+              }
+            }
+          },
+          "grasping_mode": "assisted",
+          "expected_file_hash": "4ed6cf0910d2c4a82afbb472a41ccf25",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "state": {
+    "pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ori": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "registry": {
+      "system_registry": {},
+      "object_registry": {
+        "toilet_aapttl_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.3295950889587402,
+              5.473812103271484,
+              0.36531227827072144
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "joint_pos": [
+            0.5235592126846313,
+            0.0,
+            -1.0933832832182855e-11,
+            -9.590502871026363e-12
+          ],
+          "joint_vel": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.620600700378418,
+                5.269135475158691,
+                -0.010880082845687866,
+                -0.926504373550415,
+                5.678498268127441,
+                0.8651354312896729
+              ]
+            }
+          }
+        },
+        "toilet_paper_holder_rdfixx_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.9951178431510925,
+              5.897287845611572,
+              0.5379858613014221
+            ],
+            "ori": [
+              -0.2035195380449295,
+              -0.2046792209148407,
+              0.6779640913009644,
+              -0.676055371761322
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.0632933378219604,
+                5.824772834777832,
+                0.484145849943161,
+                -0.9064300060272217,
+                5.964827537536621,
+                0.5901198387145996
+              ]
+            }
+          }
+        },
+        "armchair_hfydou_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -0.285903662443161,
+              -4.211336135864258,
+              0.46091166138648987
+            ],
+            "ori": [
+              0.0006181732169352472,
+              0.000725255289580673,
+              -0.7013756632804871,
+              0.7127912640571594
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.5724799633026123,
+                -4.472413063049316,
+                -0.007240206003189087,
+                -0.0004080235958099365,
+                -4.001518249511719,
+                0.7955276966094971
+              ]
+            },
+            "HeatSourceOrSink": {
+              "heat_source_or_sink": false
+            },
+            "Temperature": {
+              "temperature": 23.0
+            },
+            "OnFire": {
+              "on_fire": false
+            }
+          }
+        },
+        "armchair_ybcnmu_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              1.6293017864227295,
+              -4.435523509979248,
+              0.36668115854263306
+            ],
+            "ori": [
+              0.0007194781210273504,
+              0.0004666362947318703,
+              0.9238371253013611,
+              0.3827849328517914
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.0530200004577637,
+                -4.981024265289307,
+                -0.006333470344543457,
+                2.1780624389648438,
+                -3.872748851776123,
+                0.9461089372634888
+              ]
+            },
+            "HeatSourceOrSink": {
+              "heat_source_or_sink": false
+            },
+            "Temperature": {
+              "temperature": 23.0
+            },
+            "OnFire": {
+              "on_fire": false
+            }
+          }
+        },
+        "desk_ohjotf_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -0.44458094239234924,
+              -4.607470512390137,
+              0.5901533961296082
+            ],
+            "ori": [
+              -1.8954284314531833e-05,
+              -2.082061837427318e-05,
+              0.7071067094802856,
+              0.7071069478988647
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.2740063667297363,
+                -4.893542289733887,
+                -0.006170749664306641,
+                0.38115546107292175,
+                -4.322574138641357,
+                0.6795030236244202
+              ]
+            }
+          }
+        },
+        "ottoman_hnmndv_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.14455938339233398,
+              -2.5377824306488037,
+              0.29366981983184814
+            ],
+            "ori": [
+              -2.0673228391387966e-06,
+              -6.015404778736411e-06,
+              5.422135131993855e-07,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.09024998545646667,
+                -3.2822718620300293,
+                -0.006168663501739502,
+                0.37727653980255127,
+                -1.7921733856201172,
+                0.48018062114715576
+              ]
+            }
+          }
+        },
+        "ottoman_hnmndv_1": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.14455951750278473,
+              -0.28300076723098755,
+              0.2936716675758362
+            ],
+            "ori": [
+              -2.3245675038197078e-06,
+              -5.518772013601847e-06,
+              5.730249199586979e-07,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.09024971723556519,
+                -1.0274899005889893,
+                -0.006166577339172363,
+                0.37727680802345276,
+                0.4626085162162781,
+                0.4801822602748871
+              ]
+            }
+          }
+        },
+        "table_lamp_uzrovn_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -2.0443708896636963,
+              0.7646779417991638,
+              0.7404888272285461
+            ],
+            "ori": [
+              0.00012796731607522815,
+              0.002641407074406743,
+              -1.718414637252863e-07,
+              0.999996542930603
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.2108354568481445,
+                0.5979234576225281,
+                0.4473763108253479,
+                -1.876763105392456,
+                0.9312243461608887,
+                1.0322418212890625
+              ]
+            },
+            "ToggledOn": {
+              "value": false,
+              "hand_in_marker_steps": 0.0
+            }
+          }
+        },
+        "table_lamp_uzrovn_1": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -2.041945457458496,
+              -3.6208863258361816,
+              0.740469753742218
+            ],
+            "ori": [
+              2.0531431800918654e-05,
+              0.0025164829567074776,
+              -1.4039399047760526e-06,
+              0.9999968409538269
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.208420991897583,
+                -3.787631034851074,
+                0.44736963510513306,
+                -1.8744089603424072,
+                -3.4543304443359375,
+                1.0321828126907349
+              ]
+            },
+            "ToggledOn": {
+              "value": false,
+              "hand_in_marker_steps": 0.0
+            }
+          }
+        },
+        "bed_kddswt_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.2495039701461792,
+              -2.540408134460449,
+              0.17956680059432983
+            ],
+            "ori": [
+              -0.0029740426689386368,
+              -0.0021782719995826483,
+              -3.70538168681378e-06,
+              0.9999932050704956
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.279024124145508,
+                -3.3440732955932617,
+                -0.010442167520523071,
+                -0.09723961353302002,
+                -1.742055892944336,
+                0.5845950841903687
+              ]
+            }
+          }
+        },
+        "bed_kddswt_1": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.2495039701461792,
+              -0.2893716096878052,
+              0.1795666366815567
+            ],
+            "ori": [
+              -0.0029740426689386368,
+              -0.0021782719995826483,
+              -3.70538168681378e-06,
+              0.9999932050704956
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.279024124145508,
+                -1.0930366516113281,
+                -0.010442331433296204,
+                -0.09723961353302002,
+                0.5089807510375977,
+                0.5845949649810791
+              ]
+            }
+          }
+        },
+        "ceilings_bvwmqs_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.010174579918384552,
+              -1.66629958152771,
+              2.686767101287842
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.5512566566467285,
+                -5.57742977142334,
+                2.6180014610290527,
+                2.527609348297119,
+                2.2299623489379883,
+                2.7550013065338135
+              ]
+            }
+          }
+        },
+        "ceilings_hnnzid_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.5325531363487244,
+              4.1179704666137695,
+              2.5039238929748535
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -3.5512869358062744,
+                2.2192182540893555,
+                2.2550063133239746,
+                2.527627944946289,
+                6.084617614746094,
+                2.7550063133239746
+              ]
+            }
+          }
+        },
+        "door_uptpdr_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -2.528999090194702,
+              6.0284905433654785,
+              1.1798760890960693
+            ],
+            "ori": [
+              3.1906637332212995e-07,
+              -3.543590310073341e-07,
+              0.6691305637359619,
+              0.7431448698043823
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "joint_pos": [
+            4.642469075832878e-09
+          ],
+          "joint_vel": [
+            0.0
+          ],
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.986105442047119,
+                5.931260585784912,
+                -0.003907203674316406,
+                -2.07016658782959,
+                6.099984169006348,
+                2.084296703338623
+              ]
+            },
+            "Open": {
+              "open": false
+            }
+          }
+        },
+        "door_ydokma_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.1394668817520142,
+              4.956404209136963,
+              1.069981336593628
+            ],
+            "ori": [
+              0.7152050137519836,
+              -0.6989138126373291,
+              0.001016272115521133,
+              0.0004968168213963509
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "joint_pos": [
+            1.4799058590142522e-05
+          ],
+          "joint_vel": [
+            0.0
+          ],
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.6201015710830688,
+                4.920836448669434,
+                -0.00373077392578125,
+                -0.01047062873840332,
+                4.987490653991699,
+                2.0758442878723145
+              ]
+            },
+            "Open": {
+              "open": false
+            }
+          }
+        },
+        "downlight_miioxs_0": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.4725246727466583,
+              -3.652158737182617,
+              2.6221582889556885
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.42072463035583496,
+                -3.7514634132385254,
+                2.61905837059021,
+                0.5243246555328369,
+                -3.552863359451294,
+                2.623558759689331
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_1": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.4725246727466583,
+              1.0032404661178589,
+              2.6221585273742676
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.42072463035583496,
+                0.9039357304573059,
+                2.619058609008789,
+                0.5243246555328369,
+                1.1025357246398926,
+                2.62355899810791
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_10": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              2.055586814880371,
+              3.1709656715393066,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.00378680229187,
+                3.0716609954833984,
+                2.2505149841308594,
+                2.107386827468872,
+                3.27026104927063,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_2": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.4725246727466583,
+              -0.5485592484474182,
+              2.6221585273742676
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.42072463035583496,
+                -0.6478639841079712,
+                2.619058609008789,
+                0.5243246555328369,
+                -0.44926393032073975,
+                2.62355899810791
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_3": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.4725246727466583,
+              -2.1003589630126953,
+              2.6221585273742676
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.42072463035583496,
+                -2.1996636390686035,
+                2.619058609008789,
+                0.5243246555328369,
+                -2.001063585281372,
+                2.62355899810791
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_4": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -2.528991222381592,
+              5.258663654327393,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.7071068286895752,
+              0.7071067094802856
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.628286600112915,
+                5.2068634033203125,
+                2.2505149841308594,
+                -2.4296865463256836,
+                5.310463905334473,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_5": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -0.7699897289276123,
+              5.468023300170898,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.7071068286895752,
+              0.7071067094802856
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.8692851066589355,
+                5.416223049163818,
+                2.2505149841308594,
+                -0.6706849336624146,
+                5.5198235511779785,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_6": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -1.5863425731658936,
+              4.1256184577941895,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.6381425857543945,
+                4.026313781738281,
+                2.2505149841308594,
+                -1.5345425605773926,
+                4.224913597106934,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_7": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              -1.5863425731658936,
+              2.9947497844696045,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.6381425857543945,
+                2.8954451084136963,
+                2.2505149841308594,
+                -1.5345425605773926,
+                3.0940451622009277,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_8": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              0.952275276184082,
+              5.468023300170898,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.7071068286895752,
+              0.7071067094802856
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.8529798984527588,
+                5.416223049163818,
+                2.2505149841308594,
+                1.0515799522399902,
+                5.5198235511779785,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "downlight_miioxs_9": {
+          "is_asleep": true,
+          "root_link": {
+            "pos": [
+              2.055586814880371,
+              4.121213436126709,
+              2.253614902496338
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.00378680229187,
+                4.021908760070801,
+                2.2505149841308594,
+                2.107386827468872,
+                4.220508575439453,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "fixed_window_tdzczq_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.9339199662208557,
+              2.2559192180633545,
+              1.1292798519134521
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.10410046577453613,
+                2.235926628112793,
+                -0.007526874542236328,
+                1.757400631904602,
+                2.2759275436401367,
+                2.2554731369018555
+              ]
+            }
+          }
+        },
+        "fixed_window_ucejof_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.06523659825325012,
+              -5.424445152282715,
+              1.0763239860534668
+            ],
+            "ori": [
+              -0.0008839091751724482,
+              0.000883785542100668,
+              0.7071062326431274,
+              0.7071062326431274
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.879521369934082,
+                -5.4478044509887695,
+                -0.00616455078125,
+                1.7491581439971924,
+                -5.403926372528076,
+                2.280851364135742
+              ]
+            }
+          }
+        },
+        "floors_kudtlk_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.5485377311706543,
+              4.161387920379639,
+              -0.13994504511356354
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -3.551239490509033,
+                2.2299864292144775,
+                -0.2739635407924652,
+                2.451261043548584,
+                6.090987205505371,
+                0.027917519211769104
+              ]
+            }
+          }
+        },
+        "floors_nwjrkc_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.011823981069028378,
+              -1.7363213300704956,
+              -0.14011327922344208
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.5512735843658447,
+                -5.577429294586182,
+                -0.27406325936317444,
+                2.527625799179077,
+                2.2299695014953613,
+                -0.006163313984870911
+              ]
+            }
+          }
+        },
+        "mirror_ddmyjg_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.2836108207702637,
+              3.633213520050049,
+              1.5436835289001465
+            ],
+            "ori": [
+              -3.13916245886503e-07,
+              1.0,
+              4.370976469658672e-08,
+              -5.1697106755455025e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.264814853668213,
+                2.3484530448913574,
+                1.077479362487793,
+                2.3038253784179688,
+                4.918054103851318,
+                2.0098798274993896
+              ]
+            }
+          }
+        },
+        "nightstand_maeowc_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.9692277908325195,
+              -3.658724546432495,
+              0.2220447063446045
+            ],
+            "ori": [
+              0.9999974370002747,
+              -0.00019500953203532845,
+              -0.002265036338940263,
+              6.78629521644325e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.253373622894287,
+                -3.9703948497772217,
+                -0.009676143527030945,
+                -1.736948013305664,
+                -3.3478190898895264,
+                0.4484175443649292
+              ]
+            }
+          }
+        },
+        "nightstand_maeowc_1": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.9692277908325195,
+              -1.4157392978668213,
+              0.2220447063446045
+            ],
+            "ori": [
+              0.9999974370002747,
+              -0.00019500953203532845,
+              -0.002265036338940263,
+              6.78629521644325e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.253373622894287,
+                -1.7274093627929688,
+                -0.009676143527030945,
+                -1.736948013305664,
+                -1.1048336029052734,
+                0.4484175443649292
+              ]
+            }
+          }
+        },
+        "nightstand_maeowc_2": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.96922767162323,
+              0.8217634558677673,
+              0.2220447063446045
+            ],
+            "ori": [
+              0.9999974370002747,
+              -0.00019500953203532845,
+              -0.002265036338940263,
+              6.78629521644325e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.253373384475708,
+                0.5100933909416199,
+                -0.009676128625869751,
+                -1.736947774887085,
+                1.13266921043396,
+                0.4484175443649292
+              ]
+            }
+          }
+        },
+        "room_light_acksaa_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.44698357582092285,
+              -4.627369403839111,
+              1.88887357711792
+            ],
+            "ori": [
+              -6.12532517152431e-07,
+              6.12532517152431e-07,
+              0.7071068286895752,
+              -0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.848881185054779,
+                -4.774659156799316,
+                1.6832791566848755,
+                -0.0446220338344574,
+                -4.482220649719238,
+                2.6337268352508545
+              ]
+            }
+          }
+        },
+        "room_light_mjfjhn_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              1.9272979497909546,
+              4.629279136657715,
+              1.625829815864563
+            ],
+            "ori": [
+              5.675588568010426e-07,
+              -5.676001819665544e-07,
+              0.70710688829422,
+              -0.7071066498756409
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.7985057830810547,
+                4.500298023223877,
+                1.3525291681289673,
+                2.058211326599121,
+                4.760003566741943,
+                2.258162498474121
+              ]
+            }
+          }
+        },
+        "room_light_mjfjhn_1": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              1.9274482727050781,
+              2.60819411277771,
+              1.6258295774459839
+            ],
+            "ori": [
+              -5.67600352496811e-07,
+              -5.675587431142048e-07,
+              0.7071065902709961,
+              0.7071069478988647
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.7965346574783325,
+                2.4774703979492188,
+                1.3525289297103882,
+                2.0562403202056885,
+                2.737175703048706,
+                2.258162021636963
+              ]
+            }
+          }
+        },
+        "shelf_aqtmhm_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.118256092071533,
+              1.087349534034729,
+              0.8576804995536804
+            ],
+            "ori": [
+              3.306389179374286e-13,
+              -2.384185791015625e-07,
+              1.0,
+              -1.3868001360606286e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.879292607307434,
+                -0.05889928340911865,
+                0.8086188435554504,
+                2.338998556137085,
+                2.2334024906158447,
+                0.9068199992179871
+              ]
+            }
+          }
+        },
+        "shelf_cbidyu_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.083726167678833,
+              3.6321284770965576,
+              0.24719759821891785
+            ],
+            "ori": [
+              1.2675908465098473e-06,
+              1.0,
+              7.907536314633035e-07,
+              1.0023706040543368e-12
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.837581753730774,
+                2.35117769241333,
+                0.21981976926326752,
+                2.327587842941284,
+                4.913079261779785,
+                0.2747192084789276
+              ]
+            }
+          }
+        },
+        "shelf_nbmidu_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.118243932723999,
+              1.477858543395996,
+              1.2297548055648804
+            ],
+            "ori": [
+              1.0228697365022646e-13,
+              -3.2584136988589307e-07,
+              1.0,
+              -3.1391647326017846e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.8792933225631714,
+                0.7219990491867065,
+                1.1806936264038086,
+                2.3389954566955566,
+                2.233398675918579,
+                1.2788937091827393
+              ]
+            }
+          }
+        },
+        "shelf_rglkkf_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.9656672477722168,
+              2.594447612762451,
+              0.5849820971488953
+            ],
+            "ori": [
+              0.7071067094802856,
+              0.7071068286895752,
+              1.685874195800352e-07,
+              1.0677015893634234e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.10376691818237305,
+                2.349961996078491,
+                0.5086458325386047,
+                1.8275673389434814,
+                2.8399620056152344,
+                0.6616466641426086
+              ]
+            }
+          }
+        },
+        "shelf_xogqqm_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.767502784729004,
+              2.391702890396118,
+              1.4168239831924438
+            ],
+            "ori": [
+              5.057623297943792e-07,
+              -5.057623297943792e-07,
+              0.7071068286895752,
+              -0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.194735050201416,
+                2.241702079772949,
+                1.3642297983169556,
+                -1.3395512104034424,
+                2.550917387008667,
+                1.4625766277313232
+              ]
+            }
+          }
+        },
+        "shelf_xogqqm_1": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.767502784729004,
+              2.391702890396118,
+              1.036523699760437
+            ],
+            "ori": [
+              5.057623297943792e-07,
+              -5.057623297943792e-07,
+              0.7071068286895752,
+              -0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.194735050201416,
+                2.241702079772949,
+                0.9839293956756592,
+                -1.3395512104034424,
+                2.550917387008667,
+                1.0822763442993164
+              ]
+            }
+          }
+        },
+        "shelf_xogqqm_2": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.767502784729004,
+              2.391702890396118,
+              0.5952450037002563
+            ],
+            "ori": [
+              5.057623297943792e-07,
+              -5.057623297943792e-07,
+              0.7071068286895752,
+              -0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.194735050201416,
+                2.241702079772949,
+                0.5426506996154785,
+                -1.3395512104034424,
+                2.550917387008667,
+                0.6409976482391357
+              ]
+            }
+          }
+        },
+        "shelf_xogqqm_3": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.767502784729004,
+              2.391702890396118,
+              0.17176714539527893
+            ],
+            "ori": [
+              5.057623297943792e-07,
+              -5.057623297943792e-07,
+              0.7071068286895752,
+              -0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.194735050201416,
+                2.241702079772949,
+                0.11917291581630707,
+                -1.3395512104034424,
+                2.550917387008667,
+                0.2175198197364807
+              ]
+            }
+          }
+        },
+        "showerhead_rhrpdm_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              1.6370271444320679,
+              5.460988521575928,
+              1.3777750730514526
+            ],
+            "ori": [
+              -0.04799734801054001,
+              0.010092642158269882,
+              0.9496634602546692,
+              -0.30940860509872437
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.3972268104553223,
+                5.3231048583984375,
+                0.6975585222244263,
+                1.764739990234375,
+                5.593599796295166,
+                2.0038414001464844
+              ]
+            },
+            "ToggledOn": {
+              "value": false,
+              "hand_in_marker_steps": 0.0
+            }
+          }
+        },
+        "stand_dbskvf_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.11820125579834,
+              -0.6914688348770142,
+              0.1580006629228592
+            ],
+            "ori": [
+              1.0228697365022646e-13,
+              -3.2584136988589307e-07,
+              1.0,
+              -3.1391647326017846e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.7388345003128052,
+                -5.33698034286499,
+                -0.047987863421440125,
+                2.380434274673462,
+                2.27420711517334,
+                0.41163527965545654
+              ]
+            }
+          }
+        },
+        "towel_rack_ibrplo_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              1.3090636730194092,
+              4.918158531188965,
+              0.8875612616539001
+            ],
+            "ori": [
+              -6.181724643283815e-08,
+              6.181726774912022e-08,
+              0.70710688829422,
+              -0.7071066498756409
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.107922077178955,
+                4.906208515167236,
+                0.879248321056366,
+                1.5102078914642334,
+                4.951476573944092,
+                0.8967102766036987
+              ]
+            }
+          }
+        },
+        "wall_mounted_sink_jbborl_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.0750794410705566,
+              3.6322638988494873,
+              0.7060404419898987
+            ],
+            "ori": [
+              -1.2088688340280984e-12,
+              -9.5367431640625e-07,
+              1.0,
+              1.2675908465098473e-06
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.815955400466919,
+                2.3499515056610107,
+                0.5086442828178406,
+                2.3275601863861084,
+                4.91655158996582,
+                1.1381417512893677
+              ]
+            },
+            "ToggledOn": {
+              "value": false,
+              "hand_in_marker_steps": 0.0
+            },
+            "Temperature": {
+              "temperature": 23.0
+            }
+          }
+        },
+        "wall_mounted_tv_uvlqsl_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.2120096683502197,
+              -1.5337742567062378,
+              1.2954109907150269
+            ],
+            "ori": [
+              1.2127983079618376e-13,
+              -7.152557373046875e-07,
+              1.0,
+              -4.331257628109597e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.1981441974639893,
+                -2.257748603820801,
+                0.9002536535263062,
+                2.242746353149414,
+                -0.8087667226791382,
+                1.6901556253433228
+              ]
+            },
+            "ToggledOn": {
+              "value": false,
+              "hand_in_marker_steps": 0.0
+            }
+          }
+        },
+        "walls_aisjjz_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -1.7001101970672607,
+              5.433993816375732,
+              1.1244155168533325
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -1.780110239982605,
+                4.904043674468994,
+                -0.0061844587326049805,
+                -1.6201101541519165,
+                5.963943958282471,
+                2.2550153732299805
+              ]
+            }
+          }
+        },
+        "walls_bqgzsg_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.3894457817077637,
+              4.163369178771973,
+              1.1245718002319336
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.3275952339172363,
+                2.3563671112060547,
+                -0.0061817169189453125,
+                2.4512951374053955,
+                5.970371723175049,
+                2.2553248405456543
+              ]
+            }
+          }
+        },
+        "walls_dpttpq_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.04693957418203354,
+              2.547881603240967,
+              1.1245750188827515
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.010610423982143402,
+                2.2363815307617188,
+                -0.006174921989440918,
+                0.10448957234621048,
+                2.859381675720215,
+                2.2553248405456543
+              ]
+            }
+          }
+        },
+        "walls_eideiv_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.0493742972612381,
+              5.437199115753174,
+              1.0348225831985474
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.010625701397657394,
+                4.904052734375,
+                -0.006178498268127441,
+                0.10937423259019852,
+                5.97035026550293,
+                2.0758233070373535
+              ]
+            }
+          }
+        },
+        "walls_gjtspo_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              1.3214445114135742,
+              4.956290245056152,
+              1.0277869701385498
+            ],
+            "ori": [
+              2.2476463357179455e-08,
+              -8.429370268459024e-08,
+              0.7071068286895752,
+              0.7071067094802856
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.9157074689865112,
+                4.937616348266602,
+                0.018168330192565918,
+                1.7690812349319458,
+                4.981592655181885,
+                2.0300588607788086
+              ]
+            }
+          }
+        },
+        "walls_hssezu_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.30997613072395325,
+              6.030689716339111,
+              1.1648660898208618
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -3.551239013671875,
+                5.970390319824219,
+                0.027923941612243652,
+                2.451261043548584,
+                6.09099006652832,
+                2.255323886871338
+              ]
+            }
+          }
+        },
+        "walls_irxipd_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.354649066925049,
+              -1.6458990573883057,
+              1.379910945892334
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                2.071516513824463,
+                -5.577422142028809,
+                -0.006189823150634766,
+                2.527609348297119,
+                2.23637056350708,
+                2.6180145740509033
+              ]
+            }
+          }
+        },
+        "walls_jvlvng_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -0.0891377180814743,
+              -5.325627326965332,
+              2.0113022327423096
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.104273557662964,
+                -5.577414512634277,
+                -0.006179094314575195,
+                2.071526288986206,
+                -4.994515895843506,
+                2.618021011352539
+              ]
+            }
+          }
+        },
+        "walls_sdrwoa_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -3.3861241340637207,
+              4.273447036743164,
+              1.1245710849761963
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -3.551274061203003,
+                2.5765469074249268,
+                -0.006178855895996094,
+                -3.2209742069244385,
+                5.9703474044799805,
+                2.2553210258483887
+              ]
+            }
+          }
+        },
+        "walls_xftoqy_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -2.348546266555786,
+              -1.6389992237091064,
+              1.329853892326355
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -2.551257371902466,
+                -5.577439308166504,
+                -0.006191849708557129,
+                -2.104257106781006,
+                2.2351560592651367,
+                2.6180267333984375
+              ]
+            }
+          }
+        },
+        "walls_xsreom_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.104351758956909,
+              2.296372175216675,
+              1.1245746612548828
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.7574018239974976,
+                2.236370086669922,
+                -0.006175518035888672,
+                2.4513020515441895,
+                2.3563740253448486,
+                2.255324602127075
+              ]
+            }
+          }
+        },
+        "walls_xtlfxm_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              2.0425117015838623,
+              5.444934368133545,
+              1.1244101524353027
+            ],
+            "ori": [
+              1.0,
+              0.0,
+              0.0,
+              9.099629210140847e-07
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                1.7574148178100586,
+                4.9194865226745605,
+                -0.0061882734298706055,
+                2.3276116847991943,
+                5.970385551452637,
+                2.2550086975097656
+              ]
+            }
+          }
+        },
+        "walls_znbklu_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              -2.24585223197937,
+              2.4317431449890137,
+              1.147613525390625
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -3.551240921020508,
+                2.2295241355895996,
+                -0.0061762332916259766,
+                -1.235940933227539,
+                2.576524019241333,
+                2.255323648452759
+              ]
+            }
+          }
+        },
+        "target_bar_soap_utgixp_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.4846045970916748,
+              2.507439136505127,
+              0.6670653223991394
+            ],
+            "ori": [
+              2.644710912136361e-05,
+              -1.814608185668476e-05,
+              0.7848781943321228,
+              -0.6196500658988953
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.46585097908973694,
+                2.481588840484619,
+                0.6616447567939758,
+                0.5033320784568787,
+                2.533304452896118,
+                0.6724877953529358
+              ]
+            }
+          }
+        },
+        "partner_soap_dish_slksbk_0": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              0.7612434029579163,
+              2.507439136505127,
+              0.664323627948761
+            ],
+            "ori": [
+              1.6501840036653448e-06,
+              1.0551237892286736e-06,
+              0.6389613151550293,
+              0.7692389488220215
+            ],
+            "lin_vel": [
+              5.669791335094487e-06,
+              1.4000997907714918e-06,
+              -0.0003305616555735469
+            ],
+            "ang_vel": [
+              -0.0007880530320107937,
+              0.003740146989002824,
+              -2.058544305327814e-05
+            ]
+          },
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                0.6733537316322327,
+                2.45522141456604,
+                0.6616451740264893,
+                0.83876633644104,
+                2.562457323074341,
+                0.6778021454811096
+              ]
+            }
+          }
+        },
+        "robot_r1": {
+          "is_asleep": false,
+          "root_link": {
+            "pos": [
+              40.0,
+              40.0,
+              5.0
+            ],
+            "ori": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "lin_vel": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "ang_vel": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "joint_pos": [
+            -39.640193939208984,
+            -36.730037689208984,
+            -5.0008158683776855,
+            0.00016009112005122006,
+            1.3448006939142942e-05,
+            -1.5707952976226807,
+            1.511842966079712,
+            -2.3390135765075684,
+            -0.8679404854774475,
+            -5.404357850125052e-08,
+            2.4068849597824737e-05,
+            3.6341389204608276e-05,
+            1.5700002908706665,
+            -1.570000171661377,
+            -1.0850866374312318e-06,
+            7.156390324780659e-07,
+            -1.570000410079956,
+            -1.5699995756149292,
+            1.5699994564056396,
+            -1.570001482963562,
+            -5.952603032710613e-08,
+            -2.331562143353949e-08,
+            -1.2720586539671785e-07,
+            -4.996304880933167e-08,
+            0.04999968782067299,
+            0.0499998964369297,
+            0.04999968782067299,
+            0.04999998211860657
+          ],
+          "joint_vel": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_kin": {
+            "AABB": {
+              "aabb": [
+                -0.277748703956604,
+                2.6573219299316406,
+                -0.00124465674161911,
+                0.9910407662391663,
+                3.668248414993286,
+                1.2227813005447388
+              ]
+            }
+          },
+          "controller_groups": {
+            "base": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "control_filter": null
+            },
+            "trunk": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  1.5118420124053955,
+                  -2.3390159606933594,
+                  -0.8679404258728027,
+                  0.0
+                ]
+              },
+              "control_filter": null
+            },
+            "arm_left": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  0.0,
+                  1.5700000524520874,
+                  0.0,
+                  -1.5700000524520874,
+                  1.5700000524520874,
+                  0.0,
+                  0.0
+                ]
+              },
+              "control_filter": null
+            },
+            "gripper_left": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  0.05000000074505806
+                ]
+              },
+              "vel_filter": {
+                "past_samples": [
+                  [
+                    2.6822087875189027e-06,
+                    -1.3411043937594513e-06
+                  ],
+                  [
+                    -6.7055220824840944e-06,
+                    -3.1292436233343324e-06
+                  ],
+                  [
+                    -1.65402889251709e-05,
+                    4.4703480739372026e-07
+                  ],
+                  [
+                    3.576278459149762e-06,
+                    1.788139229574881e-06
+                  ],
+                  [
+                    -3.576278459149762e-06,
+                    4.4703480739372026e-07
+                  ]
+                ],
+                "current_idx": 3,
+                "fully_filled": true
+              }
+            },
+            "arm_right": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  0.0,
+                  -1.5700000524520874,
+                  0.0,
+                  -1.5700000524520874,
+                  -1.5700000524520874,
+                  0.0,
+                  0.0
+                ]
+              },
+              "control_filter": null
+            },
+            "gripper_right": {
+              "goal_set": true,
+              "goals": {
+                "target": [
+                  0.05000000074505806
+                ]
+              },
+              "vel_filter": {
+                "past_samples": [
+                  [
+                    1.788139229574881e-06,
+                    -4.023313522338867e-06
+                  ],
+                  [
+                    -9.387730642629322e-06,
+                    1.3411043937594513e-06
+                  ],
+                  [
+                    -1.3411044164968189e-05,
+                    1.788139229574881e-06
+                  ],
+                  [
+                    8.940696147874405e-07,
+                    -2.6822087875189027e-06
+                  ],
+                  [
+                    -1.3411043937594513e-06,
+                    2.235173951703473e-06
+                  ]
+                ],
+                "current_idx": 3,
+                "fully_filled": true
+              }
+            }
+          },
+          "ag_obj_constraint_params": {}
+        }
+      }
+    }
+  }
+}

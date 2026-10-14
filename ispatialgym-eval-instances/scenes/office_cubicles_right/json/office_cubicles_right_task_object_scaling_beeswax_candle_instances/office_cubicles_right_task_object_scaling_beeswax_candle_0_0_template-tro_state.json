@@ -1,0 +1,295 @@
+{
+  "beeswax_candle.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.7853593826293945,
+        7.471198558807373,
+        1.2400802373886108
+      ],
+      "ori": [
+        0.9920995831489563,
+        0.12525978684425354,
+        -0.004044902976602316,
+        0.005671297665685415
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.749851226806641,
+          7.435426235198975,
+          1.1819274425506592,
+          7.82050895690918,
+          7.506814956665039,
+          1.289506435394287
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        9.497687339782715,
+        7.105343818664551,
+        -0.14285503327846527
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          7.197687149047852,
+          6.055344104766846,
+          -0.2928552031517029,
+          11.797687530517578,
+          8.155344009399414,
+          0.007145136594772339
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          7.799994945526123,
+          6.800006866455078,
+          0.012430667877197266
+        ],
+        "orientation": [
+          -6.27199187874794e-05,
+          5.086631063022651e-05,
+          0.7144215703010559,
+          0.6997155547142029
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "object_scaling",
+    "activity_definition_id": 4,
+    "task_variant": "object_scaling-beeswax_candle",
+    "instance_id": "object_scaling-beeswax_candle__office_cubicles_right__room-empty_room_0__target-beeswax_candle-nhdnje__0000",
+    "generation_seed": 6808735304802635974,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "dde8509f3e407bfe2af65027642709653067542917180353ce4ed23c795d8e01",
+    "task_spec_sha256": "eb8f914ed357e187aacb3521e484edb5d5e8827d876281208671ba409e89b11d",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "fae8ffe7170ce3190ea0a92b5a579f200b781d281a89c783cbc49549a2ebd7ad",
+      "load_room_instances": [
+        "empty_room_0",
+        "corridor_0",
+        "private_office_0"
+      ],
+      "task_rooms": [
+        "empty_room_0"
+      ],
+      "sampled_with_rooms": [
+        "empty_room_0",
+        "corridor_0",
+        "private_office_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_nvhsox_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_nvhsox_0",
+        "category": "floors",
+        "model": "nvhsox"
+      },
+      "beeswax_candle.n.01_1": {
+        "scene_object_name": "target_beeswax_candle_nhdnje_0",
+        "category": "beeswax_candle",
+        "model": "nhdnje"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0250258445739746,
+        "torso_joint2": -1.4499573707580566,
+        "torso_joint3": -0.47001147270202637,
+        "torso_joint4": 3.546847074176185e-05,
+        "left_arm_joint1": -5.61082451895345e-05,
+        "right_arm_joint1": -1.2257957458496094,
+        "left_arm_joint2": 1.5904731753835222e-06,
+        "right_arm_joint2": -0.025585025548934937,
+        "left_arm_joint3": -3.055769866477931e-06,
+        "right_arm_joint3": 0.29449591040611267,
+        "left_arm_joint4": 2.6546245862846263e-05,
+        "right_arm_joint4": -0.8351216912269592,
+        "left_arm_joint5": -1.5046613953018095e-05,
+        "right_arm_joint5": -0.31068116426467896,
+        "left_arm_joint6": -1.5703644749009982e-05,
+        "right_arm_joint6": 0.4190199375152588,
+        "left_arm_joint7": -1.0868217941606417e-05,
+        "right_arm_joint7": 1.3604304790496826,
+        "left_gripper_finger_joint1": 0.049999672919511795,
+        "left_gripper_finger_joint2": 0.04999970272183418,
+        "right_gripper_finger_joint1": 0.03676530718803406,
+        "right_gripper_finger_joint2": 0.035844236612319946
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {
+        "torso_joint1": 1.0250248908996582,
+        "torso_joint2": -1.4499528408050537,
+        "torso_joint3": -0.47000765800476074,
+        "torso_joint4": 2.408933505648747e-05,
+        "left_arm_joint1": -4.793049447471276e-05,
+        "left_arm_joint2": 8.907787787393318e-07,
+        "left_arm_joint3": 1.2632359357667156e-05,
+        "left_arm_joint4": 1.645525117055513e-05,
+        "left_arm_joint5": -1.0023633876699023e-05,
+        "left_arm_joint6": -1.1296378943370655e-05,
+        "left_arm_joint7": -7.266207376233069e-06,
+        "right_arm_joint1": -1.2256683111190796,
+        "right_arm_joint2": -0.02562333643436432,
+        "right_arm_joint3": 0.2946431040763855,
+        "right_arm_joint4": -0.8356633186340332,
+        "right_arm_joint5": -0.3079688549041748,
+        "right_arm_joint6": 0.4108225107192993,
+        "right_arm_joint7": 1.3529452085494995
+      }
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_object_scaling_beeswax_candle_0_0_template-goal_rgb.png",
+      "rgb_sha256": "3a4b684ae6ec77b04798abde5523b4cf9b45693608276966703d53facc03e44c",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          7.794983863830566,
+          7.039998531341553,
+          1.4042147397994995
+        ],
+        "orientation": [
+          0.5548438429832458,
+          0.005770884454250336,
+          0.008662687614560127,
+          0.8318893909454346
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "beeswax_candle.n.01_1": {
+        "link": null,
+        "frame": "agent.n.01_1::robot_r1:zed_link:Camera:0",
+        "position": [
+          -0.0013995170593261719,
+          0.015413045883178711,
+          -0.3774857521057129
+        ],
+        "orientation": null,
+        "position_metric": "depth",
+        "orientation_metric": null,
+        "position_tolerance": 0.02,
+        "orientation_tolerance": null,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "grasps": [
+      {
+        "agent": "agent.n.01_1",
+        "arm": "right",
+        "object": "beeswax_candle.n.01_1",
+        "grasp_key": "beeswax_candle__nhdnje",
+        "grasp_name": "grasp_3",
+        "object_pose_in_eef_frame": {
+          "position": [
+            -0.016605019569396973,
+            0.0017375946044921875,
+            -0.011127471923828125
+          ],
+          "orientation": [
+            0.07909873127937317,
+            -0.7004785537719727,
+            0.07753757387399673,
+            -0.7050257325172424
+          ]
+        },
+        "finger_q": [
+          0.03676530718803406,
+          0.035844236612319946
+        ],
+        "ag_anchor_in_eef": [
+          0.007829785346984863,
+          0.039379119873046875,
+          -0.015201568603515625
+        ]
+      }
+    ]
+  }
+}

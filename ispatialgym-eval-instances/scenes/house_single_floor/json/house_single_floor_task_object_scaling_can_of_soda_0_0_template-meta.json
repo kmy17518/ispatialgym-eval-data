@@ -1,0 +1,663 @@
+{
+ "template_id": "house_single_floor__target-can_of_soda-opivig",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 21.29519033432007,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 106.98825669288635,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 14.823,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 205,
+   "ik_batch_s": 47.175,
+   "collision_calls": 2,
+   "collision_configs": 2,
+   "collision_s": 0.029,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.default": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.default": 1
+  },
+  "save_template_s": 1.3024885654449463
+ },
+ "variant": "object_scaling-can_of_soda",
+ "subtask": "object_scaling",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "ec9637905b8e75179634855d702a040b4b5de390673451cfa793303082604fd4",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "can_of_soda",
+    "model": "opivig",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "can_of_soda__opivig",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__target-can_of_soda-opivig"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_14a2f58b_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 1068679502,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": "living_room_0",
+  "scene_source": "split",
+  "room_override": false
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "71cd276a560163b5c5e4db51dbc856c709f1c4f52474bf2d0ca70e5e913b2c78",
+ "hold": {
+  "key": "d185bf8757026bdd",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 90.0,
+  "approach": "base +y",
+  "closing": "world down rolled 90.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.7012405395507812,
+    0.011837363243103027,
+    1.199892282485962
+   ],
+   "orientation": [
+    -0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "pad_in_base": [
+   0.7012405395507812,
+   -2.2649765014648438e-05,
+   1.199892282485962
+  ],
+  "camera_in_base": {
+   "position": [
+    0.23955535888671875,
+    -2.3126602172851562e-05,
+    1.391846776008606
+   ],
+   "orientation": [
+    0.39246076345443726,
+    -0.3924539387226105,
+    -0.588202714920044,
+    0.5881938934326172
+   ]
+  },
+  "right_arm_q": [
+   -1.3216252326965332,
+   0.036089010536670685,
+   0.1791771799325943,
+   -0.5513635277748108,
+   -0.16617923974990845,
+   0.2500761151313782,
+   1.4424281120300293
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "default",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "default",
+   "against_default": false,
+   "viable": [
+    "right",
+    "left"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "default",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.1284,
+     "nearest_joint": "right_arm_joint7",
+     "reach_rad": 1.442
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.345,
+     "nearest_joint": "left_arm_joint2",
+     "reach_rad": 1.618
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "default",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "default",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.1284,
+      "nearest_joint": "right_arm_joint7",
+      "reach_rad": 1.442
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.345,
+      "nearest_joint": "left_arm_joint2",
+      "reach_rad": 1.618
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "default",
+     "against_default": false,
+     "viable": [
+      "right",
+      "left"
+     ]
+    }
+   }
+  },
+  "goal_options": {
+   "grasps": 5,
+   "prior_skipped": 0,
+   "prior_unknown": 5,
+   "held_out_of_view": 0,
+   "depths": 41,
+   "too_narrow": 0,
+   "windows": 5,
+   "grasps_with_options": 5,
+   "prior_skipped_names": [],
+   "per_grasp": {
+    "grasp_0": [
+     0.22,
+     0.51
+    ],
+    "grasp_1": [
+     0.22,
+     0.51
+    ],
+    "grasp_2": [
+     0.22,
+     0.51
+    ],
+    "grasp_3": [
+     0.22,
+     0.51
+    ],
+    "grasp_4": [
+     0.23,
+     0.51
+    ]
+   }
+  },
+  "depth_windows": {
+   "grasp_0": {
+    "reference_depth": 0.4991,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_1": {
+    "reference_depth": 0.5012,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_2": {
+    "reference_depth": 0.5025,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_3": {
+    "reference_depth": 0.5008,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_4": {
+    "reference_depth": 0.5056,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   }
+  },
+  "hold": {
+   "key": "d185bf8757026bdd",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 90.0,
+   "approach": "base +y",
+   "closing": "world down rolled 90.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.7012405395507812,
+     0.011837363243103027,
+     1.199892282485962
+    ],
+    "orientation": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "pad_in_base": [
+    0.7012405395507812,
+    -2.2649765014648438e-05,
+    1.199892282485962
+   ],
+   "camera_in_base": {
+    "position": [
+     0.23955535888671875,
+     -2.3126602172851562e-05,
+     1.391846776008606
+    ],
+    "orientation": [
+     0.39246076345443726,
+     -0.3924539387226105,
+     -0.588202714920044,
+     0.5881938934326172
+    ]
+   },
+   "right_arm_q": [
+    -1.3216252326965332,
+    0.036089010536670685,
+    0.1791771799325943,
+    -0.5513635277748108,
+    -0.16617923974990845,
+    0.2500761151313782,
+    1.4424281120300293
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "can_of_soda__opivig",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 0
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "uzsntg",
+   "scene_object_name": "floors_uzsntg_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "can__of__soda.n.01_1",
+   "synset": "can__of__soda.n.01",
+   "category": "can_of_soda",
+   "model": "opivig",
+   "scene_object_name": "target_can_of_soda_opivig_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "e70f289d3ae99a8217635bed51cd9ef77b363ee8b152de28d4be2c9339d309f6",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-can_of_soda/inst/object_scaling-can_of_soda/house_single_floor__target-can_of_soda-opivig/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-can_of_soda/inst/object_scaling-can_of_soda/house_single_floor__target-can_of_soda-opivig/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "object_scaling-3",
+ "choices": {
+  "target": {
+   "category": "can_of_soda",
+   "model": "opivig",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "can_of_soda__opivig",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_uzsntg_0",
+  "can__of__soda.n.01_1": "target_can_of_soda_opivig_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 457.1848590373993,
+ "activity_definition": "../activity_definitions/object_scaling/problem5.bddl",
+ "bddl_variant": "object_scaling-can_of_soda",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    13.40000057220459,
+    2.200000047683716,
+    -1.900300043241599
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "can__of__soda.n.01_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.373539,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 90.0,
+    "start_depth_m": 0.3742419481277466,
+    "reference_depth_m": 0.5
+   },
+   "arms_q": {
+    "right": [
+     -1.04153,
+     0.00199,
+     0.16726,
+     -1.42077,
+     -0.21058,
+     0.8367,
+     1.32904
+    ],
+    "left": [
+     -0.0,
+     0.0,
+     6e-05,
+     -2e-05,
+     1e-05,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.0314914844930172,
+   "fingers_by_arm": {
+    "right": 0.0315,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.373539,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 90.0,
+     "start_depth_m": 0.3742419481277466,
+     "reference_depth_m": 0.5
+    },
+    "arms_q": {
+     "right": [
+      -1.04153,
+      0.00199,
+      0.16726,
+      -1.42077,
+      -0.21058,
+      0.8367,
+      1.32904
+     ],
+     "left": [
+      -0.0,
+      0.0,
+      6e-05,
+      -2e-05,
+      1e-05,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.0314914844930172,
+    "fingers_by_arm": {
+     "right": 0.0315,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 3
+ },
+ "seeds": [
+  8462898364956929014
+ ],
+ "kit_stats": {
+  "ik_calls": 26,
+  "ik_s": 15.145812749862671,
+  "ik_batch_calls": 5,
+  "ik_batch_problems": 205,
+  "ik_batch_s": 47.174858808517456,
+  "collision_calls": 40,
+  "collision_configs": 86,
+  "collision_s": 0.43329596519470215,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.default": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.default": 1,
+  "limit_retry_poses": 3,
+  "limit_reject.right_arm_joint6": 1,
+  "limit_retry_seeded_rescued": 2
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "object_scaling",
+  "task": "object_scaling",
+  "subtask": "object_scaling_can_of_soda",
+  "variant": "object_scaling-can_of_soda"
+ }
+}

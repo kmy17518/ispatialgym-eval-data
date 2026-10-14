@@ -1,0 +1,117 @@
+{
+  "schema": "isg-oracle-v1",
+  "instance_id": "camera_relocalization-standard__house_single_floor__0000",
+  "tro_sha256": "f9748161ddb6fb3b66e8881c36cff01698f759e951ed079b742080741b76e0ad",
+  "task_family": "camera_relocalization",
+  "variant": "camera_relocalization-standard",
+  "path_bucket_m": 3.0,
+  "stances": {
+    "init": {
+      "base_pose2d": [
+        14.199999809265137,
+        0.6000000238418579,
+        -1.601328704020298
+      ],
+      "translate": 0.5,
+      "tilt": 0.0,
+      "arms": "untucked",
+      "posture": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    },
+    "goal": {
+      "base_pose2d": [
+        14.300000190734863,
+        2.700000047683716,
+        -2.557263375114848
+      ],
+      "translate": 0.40979538771571045,
+      "tilt": -0.4262259399275464,
+      "arms": "untucked",
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      },
+      "fingers_by_arm": {
+        "right": 0.05,
+        "left": 0.05
+      }
+    }
+  },
+  "paths": [
+    {
+      "from": "init",
+      "to": "goal",
+      "mode": "global",
+      "waypoints": [
+        [
+          14.199999809265137,
+          0.6000000238418579,
+          -1.601328704020298
+        ],
+        [
+          14.300000190734863,
+          2.700000047683716,
+          -2.557263375114848
+        ]
+      ],
+      "length_m": 2.102379646122435,
+      "posture": "untucked",
+      "carried": null,
+      "style": "face_travel"
+    }
+  ],
+  "goal": {
+    "base_pose2d": [
+      14.300000190734863,
+      2.700000047683716,
+      -2.557263375114848
+    ],
+    "translate": 0.40979538771571045,
+    "tilt": -0.4262259399275464,
+    "arms": "same"
+  },
+  "language": {
+    "objects": {},
+    "goal_numbers": {}
+  },
+  "waypoint_policy": "checked"
+}

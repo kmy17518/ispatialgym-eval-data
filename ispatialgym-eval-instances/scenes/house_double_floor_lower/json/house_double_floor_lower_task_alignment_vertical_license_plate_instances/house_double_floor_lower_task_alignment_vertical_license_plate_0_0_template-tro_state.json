@@ -1,0 +1,304 @@
+{
+  "license_plate.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -5.427421569824219,
+        2.4521830081939697,
+        1.448420763015747
+      ],
+      "ori": [
+        -0.14455576241016388,
+        0.6921731233596802,
+        0.69199538230896,
+        0.14540474116802216
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -5.599899768829346,
+          2.4510815143585205,
+          1.3163566589355469,
+          -5.2555952072143555,
+          2.4556312561035156,
+          1.5822782516479492
+        ]
+      }
+    }
+  },
+  "wall.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -7.114837169647217,
+        2.330291509628296,
+        1.293397307395935
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.295806884765625,
+          2.257838726043701,
+          -2.086162567138672e-05,
+          -4.336910247802734,
+          2.6733484268188477,
+          2.707777976989746
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -5.369476318359375,
+        5.505799293518066,
+        -0.15000003576278687
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.273675918579102,
+          2.2577993869781494,
+          -0.30000004172325134,
+          -1.4652764797210693,
+          8.753799438476562,
+          -2.9802322387695312e-08
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -5.959851264953613,
+          3.353485107421875,
+          0.0052852630615234375
+        ],
+        "orientation": [
+          3.4545548260211945e-05,
+          7.494535384466872e-05,
+          -0.49667006731033325,
+          0.8679394125938416
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "alignment",
+    "activity_definition_id": 6,
+    "task_variant": "alignment-world_vertical-license_plate-walls",
+    "instance_id": "alignment-world_vertical-license_plate-walls__house_double_floor_lower__support-walls_cvdpaq_0-r00__target-license_plate-naclac__0000",
+    "generation_seed": 5495325191958118102,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "75e77f2fe4b52d0668265d0e94c1bf1d4994444ac17aa4478ce0e647b25fc1d2",
+    "task_spec_sha256": "44157081aa95ed2b403b091ff4fa1bbd891511e33357d391bdc7dc043b8ca7c0",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_double_floor_lower",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "7bbf41e39ac74c833b4865393252cae0b5b3ccca1f628eac9f17d5817eb770de",
+      "load_room_instances": [
+        "garage_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "task_rooms": [
+        "garage_0"
+      ],
+      "sampled_with_rooms": [
+        "garage_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_nbxnpk_0",
+        "walls_cvdpaq_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_nbxnpk_0",
+        "category": "floors",
+        "model": "nbxnpk"
+      },
+      "license_plate.n.01_1": {
+        "scene_object_name": "target_license_plate_naclac_0",
+        "category": "license_plate",
+        "model": "naclac"
+      },
+      "wall.n.01_1": {
+        "scene_object_name": "walls_cvdpaq_0",
+        "category": "walls",
+        "model": "cvdpaq"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.45002537965774536,
+        "torso_joint2": -0.39994263648986816,
+        "torso_joint3": -5.101310875943454e-07,
+        "torso_joint4": 1.300490225730755e-06,
+        "left_arm_joint1": -5.020563548896462e-05,
+        "right_arm_joint1": -1.367822903830529e-07,
+        "left_arm_joint2": 1.5699999332427979,
+        "right_arm_joint2": -1.570000410079956,
+        "left_arm_joint3": 2.4415330699412152e-06,
+        "right_arm_joint3": 2.7087373837275663e-06,
+        "left_arm_joint4": -1.569992184638977,
+        "right_arm_joint4": -1.570011019706726,
+        "left_arm_joint5": 1.5700265169143677,
+        "right_arm_joint5": -1.5699783563613892,
+        "left_arm_joint6": 3.1510021472058725e-06,
+        "right_arm_joint6": 3.6719566196552478e-06,
+        "left_arm_joint7": 5.663700449076714e-06,
+        "right_arm_joint7": 4.331469881435623e-06,
+        "left_gripper_finger_joint1": 0.049999214708805084,
+        "left_gripper_finger_joint2": 0.049999840557575226,
+        "right_gripper_finger_joint1": 0.049999285489320755,
+        "right_gripper_finger_joint2": 0.04999995231628418
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_double_floor_lower_task_alignment_vertical_license_plate_0_0_template-goal_rgb.png",
+      "rgb_sha256": "d8ad1addbb08532ca7489f7cc4076ecc5a077028d8c08f89aa1d198ef24e872b",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -5.375263690948486,
+          3.0648722648620605,
+          1.5715850591659546
+        ],
+        "orientation": [
+          0.00042599436710588634,
+          0.53861004114151,
+          0.8425548076629639,
+          0.00065471266862005
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "license_plate.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": null,
+        "orientation": [
+          -0.0030481498688459396,
+          0.7071000933647156,
+          0.7070960998535156,
+          0.003915593959391117
+        ],
+        "position_metric": null,
+        "orientation_metric": "full",
+        "position_tolerance": null,
+        "orientation_tolerance": 0.08,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "revolute",
+        "child": "license_plate.n.01_1",
+        "parent": "wall.n.01_1",
+        "parent_link": "base_link",
+        "anchor_position": [
+          -5.427743911743164,
+          2.4533674716949463,
+          1.449317216873169
+        ],
+        "axis": [
+          0.00122682168148458,
+          0.9999992847442627,
+          0.0
+        ],
+        "limits": null,
+        "friction": 0.03467869589620896,
+        "damping": 13.871478358483582,
+        "drive": "UsdPhysics angular drive, stiffness 0, target velocity 0: torque = clamp(-damping * omega, +-friction)",
+        "resistance_facts": {
+          "inertia_kgm2": 0.0034678695896208957,
+          "mass_kg": 0.3499999940395355,
+          "extents_perp_m": [
+            0.3077812194824219,
+            0.15546417236328125
+          ],
+          "stop_decel_rad_s2": 10.0,
+          "viscous_tau_s": 0.02,
+          "brake_omega_rad_s": 0.0025
+        }
+      }
+    ]
+  }
+}

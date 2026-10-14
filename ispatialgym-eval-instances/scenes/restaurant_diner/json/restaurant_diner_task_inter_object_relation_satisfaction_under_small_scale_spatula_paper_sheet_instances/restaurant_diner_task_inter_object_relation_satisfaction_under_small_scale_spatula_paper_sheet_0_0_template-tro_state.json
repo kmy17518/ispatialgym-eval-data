@@ -1,0 +1,370 @@
+{
+  "spatula.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.390212059020996,
+        -3.235245943069458,
+        0.8804435729980469
+      ],
+      "ori": [
+        0.0941673293709755,
+        -0.004862922243773937,
+        -0.061493340879678726,
+        0.9936435222625732
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.502416610717773,
+          -3.261256694793701,
+          0.8705016374588013,
+          -9.233692169189453,
+          -3.1976394653320312,
+          0.8953176140785217
+        ]
+      }
+    }
+  },
+  "sheet.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.389993667602539,
+        -2.9975578784942627,
+        0.8707552552223206
+      ],
+      "ori": [
+        7.235029642060908e-08,
+        -1.4652322022357112e-08,
+        -0.7470893263816833,
+        0.6647236943244934
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.546221733093262,
+          -3.1187047958374023,
+          0.8705012798309326,
+          -9.233768463134766,
+          -2.8764069080352783,
+          0.871009349822998
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "ModifiedParticles": {
+        "n_systems": 0
+      },
+      "Saturated": {
+        "n_systems": 0,
+        "default_visual_particle_limit": 200,
+        "default_physical_particle_limit": 400
+      },
+      "ParticleRemover": {
+        "current_step": 0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -9.28593635559082,
+        -3.581472873687744,
+        0.5386982560157776
+      ],
+      "ori": [
+        -1.138963057201181e-08,
+        -1.0742393641294257e-08,
+        -4.732561080800224e-07,
+        1.0
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -9.686952590942383,
+          -4.982623100280762,
+          0.003701329231262207,
+          -8.882150650024414,
+          -2.177023410797119,
+          0.8705013990402222
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -8.454541206359863,
+        -2.8606200218200684,
+        0.0012011871440336108
+      ],
+      "ori": [
+        8.714015769270382e-15,
+        7.771960124894253e-15,
+        0.7071068286895752,
+        0.7071067094802856
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -11.607954978942871,
+          -7.258699893951416,
+          -0.2962988317012787,
+          -5.301128387451172,
+          1.5374598503112793,
+          0.0037011862732470036
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -8.446950912475586,
+          -3.1213455200195312,
+          0.00898560881614685
+        ],
+        "orientation": [
+          7.958710193634033e-05,
+          7.772343451506458e-06,
+          -1.0,
+          1.147767761722207e-06
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 18,
+    "task_variant": "inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table",
+    "instance_id": "inter_object_relation_satisfaction-under_small_scale-spatula-paper_sheet-commercial_kitchen_table__restaurant_diner__support-commercial_kitchen_table_vxvtec_0-T3__partner-paper_sheet-uqbipw__target-spatula-hkvsep-s0.76__0000",
+    "generation_seed": 2475896873488337460,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "85f58a513689a3ef4fc42e31966cfb5399a101929ed582feaaa44999681842a8",
+    "task_spec_sha256": "79beeb3f003a80e0dc3e0dca831fa5d03ae156b74d2ba8bfbb69fcdd364897e2",
+    "layout_template_id": null,
+    "scene": {
+      "model": "restaurant_diner",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "5c7e055db18f5851ed964e271e5b571195f77a7eab740483414124070791dcba",
+      "load_room_instances": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "bar_0",
+        "corridor_0",
+        "dining_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "commercial_kitchen_table_vxvtec_0",
+        "floors_vikfyd_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vikfyd_0",
+        "category": "floors",
+        "model": "vikfyd"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "commercial_kitchen_table_vxvtec_0",
+        "category": "commercial_kitchen_table",
+        "model": "vxvtec"
+      },
+      "spatula.n.01_1": {
+        "scene_object_name": "target_spatula_hkvsep_0",
+        "category": "spatula",
+        "model": "hkvsep"
+      },
+      "sheet.n.02_1": {
+        "scene_object_name": "partner_paper_sheet_uqbipw_0",
+        "category": "paper_sheet",
+        "model": "uqbipw"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.135958194732666,
+        "torso_joint2": -1.6525851488113403,
+        "torso_joint3": -0.56069016456604,
+        "torso_joint4": -3.5870053238795663e-07,
+        "left_arm_joint1": -2.6366715246695094e-06,
+        "right_arm_joint1": 2.8076272428734228e-05,
+        "left_arm_joint2": 1.5700011253356934,
+        "right_arm_joint2": -1.5700006484985352,
+        "left_arm_joint3": -5.898727522435365e-06,
+        "right_arm_joint3": 3.9440592445316724e-06,
+        "left_arm_joint4": -1.5700019598007202,
+        "right_arm_joint4": -1.5699982643127441,
+        "left_arm_joint5": 1.569993257522583,
+        "right_arm_joint5": -1.5700092315673828,
+        "left_arm_joint6": -3.115665094810538e-07,
+        "right_arm_joint6": -5.349175467017631e-07,
+        "left_arm_joint7": -6.865179784654174e-07,
+        "right_arm_joint7": -8.277336291939719e-07,
+        "left_gripper_finger_joint1": 0.04999954253435135,
+        "left_gripper_finger_joint2": 0.04999995976686478,
+        "right_gripper_finger_joint1": 0.04999951273202896,
+        "right_gripper_finger_joint2": 0.049999844282865524
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "restaurant_diner_task_inter_object_relation_satisfaction_under_small_scale_spatula_paper_sheet_0_0_template-goal_rgb.png",
+      "rgb_sha256": "d5bc5f2ed8abd40ed233bcbf0dbc574376daa168e57c367210a32e11a9c8c940",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -8.926366806030273,
+          -3.423670530319214,
+          1.299004077911377
+        ],
+        "orientation": [
+          0.24975012242794037,
+          0.2499830573797226,
+          0.6618139147758484,
+          0.6611623167991638
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "sheet.n.02_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.390036582946777,
+          -2.99758243560791,
+          0.8708101511001587
+        ],
+        "orientation": [
+          3.27792986354325e-05,
+          -9.052461246028543e-05,
+          -0.7470943927764893,
+          0.664717972278595
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      },
+      "spatula.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          -9.411992073059082,
+          -2.996478319168091,
+          0.881003737449646
+        ],
+        "orientation": [
+          0.09495747089385986,
+          -0.004955017939209938,
+          -0.06135024502873421,
+          0.9935767650604248
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

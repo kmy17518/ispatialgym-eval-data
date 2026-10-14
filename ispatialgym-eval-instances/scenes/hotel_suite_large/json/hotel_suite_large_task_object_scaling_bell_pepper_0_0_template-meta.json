@@ -1,0 +1,657 @@
+{
+ "template_id": "hotel_suite_large__room-bedroom_0__target-bell_pepper-ukkycp",
+ "scene": "hotel_suite_large",
+ "timings": {
+  "bind_spawn_s": 19.8935489654541,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 92.8094391822815,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 13.408,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 205,
+   "ik_batch_s": 46.587,
+   "collision_calls": 2,
+   "collision_configs": 2,
+   "collision_s": 0.021,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.default": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.default": 1
+  },
+  "save_template_s": 0.14487838745117188
+ },
+ "variant": "object_scaling-bell_pepper",
+ "subtask": "object_scaling",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "08aea1c9d3411c65e49fa8e0c98c54efb9a33cc0ddedc177a00f1c07fb341919",
+ "choice": {
+  "scene": "hotel_suite_large",
+  "rooms": [
+   "bedroom_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "bedroom_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "bell_pepper",
+    "model": "ukkycp",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "bell_pepper__ukkycp",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "hotel_suite_large__room-bedroom_0__target-bell_pepper-ukkycp",
+  "room_tag": "bedroom_0"
+ },
+ "rooms": [
+  "bedroom_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_14a2f58b_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 239830298,
+  "seed_source": "split",
+  "scene": "hotel_suite_large",
+  "room": "bedroom_0",
+  "scene_source": "split",
+  "room_override": true
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "d444bca83988fbb3fbd8b7a6f131d6cc9bf66d13c11fca4bb384f155ca47d811",
+ "hold": {
+  "key": "63a0ead846f76dd5",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 90.0,
+  "approach": "base +y",
+  "closing": "world down rolled 90.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.7009764313697815,
+    0.012611031532287598,
+    1.192143440246582
+   ],
+   "orientation": [
+    -0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "pad_in_base": [
+   0.7009764313697815,
+   0.0007510185241699219,
+   1.192143440246582
+  ],
+  "camera_in_base": {
+   "position": [
+    0.2406352162361145,
+    0.0005952119827270508,
+    1.3872997760772705
+   ],
+   "orientation": [
+    0.39047080278396606,
+    -0.3903540372848511,
+    -0.5894462466239929,
+    0.5896689295768738
+   ]
+  },
+  "right_arm_q": [
+   -1.3084019422531128,
+   0.03898138552904129,
+   0.1741580069065094,
+   -0.5485546588897705,
+   -0.15853528678417206,
+   0.23472201824188232,
+   1.4434270858764648
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "default",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "default",
+   "against_default": false,
+   "viable": [
+    "right",
+    "left"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "default",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.1274,
+     "nearest_joint": "right_arm_joint7",
+     "reach_rad": 1.443
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.3459,
+     "nearest_joint": "left_arm_joint2",
+     "reach_rad": 1.622
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "default",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "default",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.1274,
+      "nearest_joint": "right_arm_joint7",
+      "reach_rad": 1.443
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.3459,
+      "nearest_joint": "left_arm_joint2",
+      "reach_rad": 1.622
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "default",
+     "against_default": false,
+     "viable": [
+      "right",
+      "left"
+     ]
+    }
+   }
+  },
+  "goal_options": {
+   "grasps": 5,
+   "prior_skipped": 0,
+   "prior_unknown": 5,
+   "held_out_of_view": 0,
+   "depths": 41,
+   "too_narrow": 0,
+   "windows": 5,
+   "grasps_with_options": 5,
+   "prior_skipped_names": [],
+   "per_grasp": {
+    "grasp_0": [
+     0.22,
+     0.51
+    ],
+    "grasp_1": [
+     0.22,
+     0.5
+    ],
+    "grasp_2": [
+     0.23,
+     0.51
+    ],
+    "grasp_3": [
+     0.22,
+     0.51
+    ],
+    "grasp_4": [
+     0.23,
+     0.51
+    ]
+   }
+  },
+  "depth_windows": {
+   "grasp_0": {
+    "reference_depth": 0.4985,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_1": {
+    "reference_depth": 0.4962,
+    "run": [
+     0.2,
+     0.52
+    ],
+    "window": [
+     0.22,
+     0.5
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.53,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_2": {
+    "reference_depth": 0.5018,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_3": {
+    "reference_depth": 0.5,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_4": {
+    "reference_depth": 0.5015,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   }
+  },
+  "hold": {
+   "key": "63a0ead846f76dd5",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 90.0,
+   "approach": "base +y",
+   "closing": "world down rolled 90.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.7009764313697815,
+     0.012611031532287598,
+     1.192143440246582
+    ],
+    "orientation": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "pad_in_base": [
+    0.7009764313697815,
+    0.0007510185241699219,
+    1.192143440246582
+   ],
+   "camera_in_base": {
+    "position": [
+     0.2406352162361145,
+     0.0005952119827270508,
+     1.3872997760772705
+    ],
+    "orientation": [
+     0.39047080278396606,
+     -0.3903540372848511,
+     -0.5894462466239929,
+     0.5896689295768738
+    ]
+   },
+   "right_arm_q": [
+    -1.3084019422531128,
+    0.03898138552904129,
+    0.1741580069065094,
+    -0.5485546588897705,
+    -0.15853528678417206,
+    0.23472201824188232,
+    1.4434270858764648
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "bell_pepper__ukkycp",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 0
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "nwjrkc",
+   "scene_object_name": "floors_nwjrkc_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "bell_pepper.n.02_1",
+   "synset": "bell_pepper.n.02",
+   "category": "bell_pepper",
+   "model": "ukkycp",
+   "scene_object_name": "target_bell_pepper_ukkycp_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "eb97e535af3114e499493b0e78c0bc352b2deefa2b92daee7dda9eb7142911d2",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-bell_pepper/inst/object_scaling-bell_pepper/hotel_suite_large__room-bedroom_0__target-bell_pepper-ukkycp/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-bell_pepper/inst/object_scaling-bell_pepper/hotel_suite_large__room-bedroom_0__target-bell_pepper-ukkycp/template-partial_rooms.json",
+ "load_room_instances": [
+  "bedroom_0",
+  "bathroom_0"
+ ],
+ "task_rooms": [
+  "bedroom_0"
+ ],
+ "sampled_with_rooms": [
+  "bedroom_0",
+  "bathroom_0"
+ ],
+ "scene_variant": null,
+ "problem": "object_scaling-5",
+ "choices": {
+  "target": {
+   "category": "bell_pepper",
+   "model": "ukkycp",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "bell_pepper__ukkycp",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_nwjrkc_0",
+  "bell_pepper.n.02_1": "target_bell_pepper_ukkycp_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 201.88333582878113,
+ "activity_definition": "../activity_definitions/object_scaling/problem7.bddl",
+ "bddl_variant": "object_scaling-bell_pepper",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -1.3000000715255737,
+    1.100000023841858,
+    2.7075540592710245
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "bell_pepper.n.02_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.369633,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 90.0,
+    "start_depth_m": 0.36743125319480896,
+    "reference_depth_m": 0.5
+   },
+   "arms_q": {
+    "right": [
+     -1.1007,
+     -0.23491,
+     0.51312,
+     -1.46394,
+     -0.76033,
+     0.7009,
+     0.9389
+    ],
+    "left": [
+     -4e-05,
+     -0.0,
+     -1e-05,
+     2e-05,
+     -0.0,
+     -1e-05,
+     0.0
+    ]
+   },
+   "fingers": 0.0348346121609211,
+   "fingers_by_arm": {
+    "right": 0.0348,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.369633,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 90.0,
+     "start_depth_m": 0.36743125319480896,
+     "reference_depth_m": 0.5
+    },
+    "arms_q": {
+     "right": [
+      -1.1007,
+      -0.23491,
+      0.51312,
+      -1.46394,
+      -0.76033,
+      0.7009,
+      0.9389
+     ],
+     "left": [
+      -4e-05,
+      -0.0,
+      -1e-05,
+      2e-05,
+      -0.0,
+      -1e-05,
+      0.0
+     ]
+    },
+    "fingers": 0.0348346121609211,
+    "fingers_by_arm": {
+     "right": 0.0348,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 1
+ },
+ "seeds": [
+  1899221827510389586
+ ],
+ "kit_stats": {
+  "ik_calls": 11,
+  "ik_s": 13.427974224090576,
+  "ik_batch_calls": 5,
+  "ik_batch_problems": 205,
+  "ik_batch_s": 46.586880683898926,
+  "collision_calls": 26,
+  "collision_configs": 71,
+  "collision_s": 0.20988154411315918,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.default": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "object_scaling",
+  "task": "object_scaling",
+  "subtask": "object_scaling_bell_pepper",
+  "variant": "object_scaling-bell_pepper"
+ }
+}

@@ -1,0 +1,736 @@
+{
+ "template_id": "house_single_floor__support-floor__target-serving_cart-heqtlk",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 36.65728950500488,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 2.282466173171997,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 1.1949164867401123
+ },
+ "variant": "inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor",
+ "subtask": "inter_object_relation_satisfaction-nextto_large_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "d2083d1d4779702735ed80eff25fe9b8b56a2ed8a20451a5e0948b6aa9d45d73",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "partner": [
+    "coffee_table_rlsebe_0"
+   ],
+   "support": {
+    "room": "living_room_0"
+   },
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "serving_cart",
+    "model": "heqtlk",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__support-floor__target-serving_cart-heqtlk",
+  "support_tag": "floor"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_8a6b3639_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 2,
+  "seed": 542569074,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "floor",
+  "row": null,
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "living_room_0"
+  ],
+  "floor_room": "living_room_0",
+  "tag": "floor",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "template_facts": {
+  "nextto": {
+   "target_box_local": [
+    [
+     -0.18848037719726562,
+     -0.22658157348632812,
+     -0.37950563430786133
+    ],
+    [
+     0.2162017822265625,
+     0.22515106201171875,
+     0.47570371627807617
+    ]
+   ],
+   "target_height_m": 0.8552,
+   "partner": "coffee_table_rlsebe_0",
+   "partner_aabb": [
+    [
+     12.104037284851074,
+     0.12120646238327026,
+     -7.510185241699219e-06
+    ],
+    [
+     13.078937530517578,
+     1.0961065292358398,
+     0.2691924571990967
+    ]
+   ],
+   "sides": [
+    {
+     "name": "+x",
+     "mid": [
+      13.078937530517578,
+      0.6086565256118774
+     ],
+     "inward": [
+      -1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      -1.0
+     ],
+     "length_m": 0.9749000668525696,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-x",
+     "mid": [
+      12.104037284851074,
+      0.6086565256118774
+     ],
+     "inward": [
+      1.0,
+      -0.0
+     ],
+     "tangent": [
+      0.0,
+      1.0
+     ],
+     "length_m": 0.9749000668525696,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "+y",
+     "mid": [
+      12.591487884521484,
+      1.0961065292358398
+     ],
+     "inward": [
+      -0.0,
+      -1.0
+     ],
+     "tangent": [
+      1.0,
+      -0.0
+     ],
+     "length_m": 0.9749002456665039,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-y",
+     "mid": [
+      12.591487884521484,
+      0.12120646238327026
+     ],
+     "inward": [
+      -0.0,
+      1.0
+     ],
+     "tangent": [
+      -1.0,
+      -0.0
+     ],
+     "length_m": 0.9749002456665039,
+     "overhang_m": 0.0
+    }
+   ],
+   "nextto_bound_at_yaw0_m": 0.2184,
+   "obstacles": [
+    "bush_ebuvur_0",
+    "bush_ebuvur_1",
+    "bush_frqici_0",
+    "bush_knspbi_0",
+    "bush_knspbi_1",
+    "bush_knspbi_2",
+    "bush_knspbi_3",
+    "bush_kyghri_0",
+    "bush_kyghri_1",
+    "bush_kyghri_2",
+    "bush_kyghri_3",
+    "bush_lfyqkj_0",
+    "bush_lfyqkj_1",
+    "bush_lfyqkj_2",
+    "bush_lfyqkj_3",
+    "bush_lfyqkj_4",
+    "bush_lfyqkj_5",
+    "bush_pjhpwk_0",
+    "bush_pjhpwk_1",
+    "bush_pjhpwk_2",
+    "bush_pjhpwk_3",
+    "bush_xsqlhv_0",
+    "bush_xsqlhv_1",
+    "bush_xsqlhv_2",
+    "bush_xsqlhv_3",
+    "bush_yhjhta_0",
+    "bush_yhjhta_1",
+    "car_xxsgpq_0",
+    "charcoal_grill_crdaeu_0",
+    "clothesline_pole_smrqrw_0",
+    "clothesline_pole_smrqrw_1",
+    "dishwasher_ynrhuk_0",
+    "fridge_dszchb_0",
+    "microwave_abzvij_0",
+    "recreational_vehicle_doiucd_0",
+    "tree_flkzbo_0",
+    "tree_flkzbo_1",
+    "tree_flkzbo_2",
+    "tree_flkzbo_4",
+    "tree_flkzbo_5",
+    "tree_flkzbo_6",
+    "tree_flkzbo_7",
+    "tree_rrhqpw_1",
+    "tree_rrhqpw_10",
+    "tree_rrhqpw_11",
+    "tree_rrhqpw_12",
+    "tree_rrhqpw_13",
+    "tree_rrhqpw_14",
+    "tree_rrhqpw_2",
+    "tree_rrhqpw_3",
+    "tree_rrhqpw_4",
+    "tree_rrhqpw_5",
+    "tree_rrhqpw_6",
+    "tree_rrhqpw_7",
+    "tree_rrhqpw_8",
+    "tree_rrhqpw_9",
+    "hammock_aiftuk_0",
+    "armchair_jzthdw_0",
+    "armchair_jzthdw_1",
+    "armchair_qhcrgb_0",
+    "armchair_qhcrgb_1",
+    "armchair_qhcrgb_2",
+    "armchair_qhcrgb_3",
+    "armchair_qhcrgb_4",
+    "armchair_qhcrgb_5",
+    "armchair_qhcrgb_6",
+    "armchair_qhcrgb_7",
+    "armchair_qhcrgb_8",
+    "armchair_qhcrgb_9",
+    "breakfast_table_rhjoby_0",
+    "coffee_table_wgtaip_0",
+    "eames_chair_ubmrms_0",
+    "eames_chair_ubmrms_1",
+    "eames_chair_ubmrms_2",
+    "eames_chair_ubmrms_3",
+    "floor_lamp_jbjckk_0",
+    "ottoman_lsaxch_0",
+    "ottoman_lsaxch_1",
+    "ottoman_lsaxch_2",
+    "ottoman_lsaxch_3",
+    "ottoman_lsaxch_4",
+    "pot_plant_bjwskl_0",
+    "pot_plant_bjwskl_1",
+    "pot_plant_lligdl_0",
+    "pot_plant_lligdl_1",
+    "pot_plant_lligdl_2",
+    "pot_plant_lligdl_3",
+    "straight_chair_jgoolz_0",
+    "straight_chair_jgoolz_1",
+    "straight_chair_jgoolz_2",
+    "straight_chair_jgoolz_3",
+    "straight_chair_jgoolz_4",
+    "straight_chair_jgoolz_5",
+    "taboret_ivtoxu_0",
+    "taboret_ivtoxu_1",
+    "taboret_ivtoxu_2",
+    "taboret_ivtoxu_3",
+    "taboret_ivtoxu_4",
+    "water_glass_bbpraa_0",
+    "bar_udatjt_0",
+    "baseboard_djaeet_0",
+    "baseboard_dsajeh_0",
+    "baseboard_peorza_0",
+    "bottom_cabinet_fancyy_0",
+    "bottom_cabinet_no_top_gjeoer_0",
+    "bottom_cabinet_no_top_rkgjer_0",
+    "boulder_vxbkjq_0",
+    "door_crtrpa_0",
+    "door_eduavq_0",
+    "door_fnvpyu_0",
+    "door_iuuykr_0",
+    "door_kwbnhy_0",
+    "door_kwbnhy_1",
+    "door_kwbnhy_2",
+    "door_kwbnhy_3",
+    "door_tfdrhh_0",
+    "door_tonlzz_0",
+    "drop_in_sink_awvzkn_0",
+    "fixed_window_bvqijp_0",
+    "fixed_window_dbqbzg_0",
+    "fixed_window_dfdweq_0",
+    "fixed_window_glimdy_0",
+    "fixed_window_ijpvgf_0",
+    "fixed_window_jpubcg_0",
+    "fixed_window_nruots_0",
+    "fixed_window_nszybf_0",
+    "fixed_window_qfifse_0",
+    "fixed_window_ropopf_0",
+    "fixed_window_ropopf_1",
+    "fixed_window_ropopf_2",
+    "fixed_window_tspbac_0",
+    "fixed_window_tspbac_1",
+    "fixed_window_tspbac_2",
+    "fixed_window_usynui_0",
+    "fixed_window_usynui_1",
+    "fixed_window_usynui_2",
+    "fixed_window_wogynv_0",
+    "fixed_window_xkxvpp_0",
+    "fixed_window_yikxbf_0",
+    "fixed_window_yjbico_0",
+    "gas_fireplace_gwqitr_0",
+    "openable_window_eyvzfu_0",
+    "oven_ffitak_0",
+    "painting_fqlxxd_0",
+    "painting_jreujf_0",
+    "pot_plant_xcybvc_0",
+    "pot_plant_xcybvc_1",
+    "pot_plant_xcybvc_2",
+    "pot_plant_xcybvc_3",
+    "pot_plant_xcybvc_4",
+    "pot_plant_xcybvc_5",
+    "pot_plant_xcybvc_6",
+    "pot_plant_xcybvc_7",
+    "pot_plant_xcybvc_8",
+    "shelf_amyper_1",
+    "shelf_amyper_2",
+    "shelf_amyper_6",
+    "shelf_amyper_7",
+    "showerhead_vuswbv_0",
+    "sliding_door_lrvyvc_0",
+    "sliding_door_tprpvb_0",
+    "sliding_door_tprpvb_1",
+    "sliding_door_tprpvb_10",
+    "sliding_door_tprpvb_11",
+    "sliding_door_tprpvb_12",
+    "sliding_door_tprpvb_2",
+    "sliding_door_tprpvb_3",
+    "sliding_door_tprpvb_4",
+    "sliding_door_tprpvb_5",
+    "sliding_door_tprpvb_6",
+    "sliding_door_tprpvb_7",
+    "sliding_door_tprpvb_8",
+    "sliding_door_tprpvb_9",
+    "sofa_hiphpn_0",
+    "sofa_lugrhk_0",
+    "sofa_lugrhk_1",
+    "sofa_wnzdke_0",
+    "wall_mounted_tv_ovzajm_0"
+   ],
+   "n_pieces": 32
+  },
+  "contact_height_extra_m": 0.0,
+  "relation": "nextto",
+  "grasp_key": null,
+  "n_grasps": 0,
+  "band_union_extent": null
+ },
+ "bddl_sha256": "e467ff65f7d4d75a5ba8155e8d02f9a69771c6c8c10fa458032ce62eed472234",
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "uzsntg",
+   "scene_object_name": "floors_uzsntg_0",
+   "dataset": null
+  },
+  {
+   "role": "partner",
+   "name": "coffee_table.n.01_1",
+   "synset": "coffee_table.n.01",
+   "category": "coffee_table",
+   "model": "rlsebe",
+   "scene_object_name": "coffee_table_rlsebe_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "serving_cart.n.01_1",
+   "synset": "serving_cart.n.01",
+   "category": "serving_cart",
+   "model": "heqtlk",
+   "scene_object_name": "target_serving_cart_heqtlk_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "43ff5e731a19cfc41328ce95f532bafe5e053faf358b1d7897ec2b77ccb747bc",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-nextto_large_scale_02/sf_rlsebe0_k2/inst/inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor/house_single_floor__support-floor__target-serving_cart-heqtlk/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-nextto_large_scale_02/sf_rlsebe0_k2/inst/inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor/house_single_floor__support-floor__target-serving_cart-heqtlk/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-22",
+ "choices": {
+  "target": {
+   "category": "serving_cart",
+   "model": "heqtlk",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_uzsntg_0",
+  "coffee_table.n.01_1": "coffee_table_rlsebe_0",
+  "serving_cart.n.01_1": "target_serving_cart_heqtlk_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 438.77964663505554,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem149.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    11.03671646118164,
+    3.3598971366882324,
+    -0.3081057477153096
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 1.496609564221297,
+   "bearing_deg": 57.35,
+   "distance": 1.4966,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "extras": {
+    "bearing_deg": 57.35,
+    "distance": 1.4966,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    12.28078556060791,
+    3.585522174835205,
+    -1.3089969369003773
+   ],
+   "translate": 0.95,
+   "tilt": -0.3,
+   "arms": [
+    "right",
+    "left"
+   ],
+   "stand_off": 0.55,
+   "focus": [
+    12.423135757446289,
+    3.05426287651062,
+    0.4029925465583801
+   ],
+   "contacts": [
+    "push"
+   ],
+   "push": {
+    "face": "+x",
+    "height_m": 0.4,
+    "distance_m": 1.5042,
+    "pitch_deg": 20.0,
+    "hands": 2
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "extras": {
+    "push": {
+     "face": "+x",
+     "height_m": 0.4,
+     "distance_m": 1.5042,
+     "pitch_deg": 20.0,
+     "hands": 2
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    12.67010370813013,
+    2.1325670801515995,
+    -1.3089969369003773
+   ],
+   "translate": 0.95,
+   "tilt": -0.3,
+   "arms": [
+    "right",
+    "left"
+   ],
+   "stand_off": 0.55,
+   "push_from": "manipulation",
+   "push_distance_m": 1.5042,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "extras": {
+    "push_from": "manipulation",
+    "push_distance_m": 1.5042,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 0,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "program_check_failed": 9,
+  "no_push": 5
+ },
+ "rejection_examples": {
+  "program_check_failed": [
+   {
+    "message": "[program_check_failed] pre: witness FK residual 2.8 mm > 2 mm after polishing (stance manipulation, arm right, carried None) {'action': 'base_push'}",
+    "phase": "program_check",
+    "index": 0,
+    "attempt": 0,
+    "seed": 4296617386819491018,
+    "action": "base_push"
+   },
+   {
+    "message": "[program_check_failed] pre: witness FK residual 2.8 mm > 2 mm after polishing (stance manipulation, arm right, carried None) {'action': 'base_push'}",
+    "phase": "program_check",
+    "index": 0,
+    "attempt": 2,
+    "seed": 4296617386819491020,
+    "action": "base_push"
+   },
+   {
+    "message": "[program_check_failed] pre: witness FK residual 2.8 mm > 2 mm after polishing (stance manipulation, arm right, carried None) {'action': 'base_push'}",
+    "phase": "program_check",
+    "index": 0,
+    "attempt": 5,
+    "seed": 4296617386819491023,
+    "action": "base_push"
+   }
+  ],
+  "no_push": [
+   {
+    "message": "[no_push] 24 goal candidates, none admits the push ({'stance_reach': 73, 'stance_floor': 43, 'init_not_floor': 32, 'push_no_push_stance': 12, 'init_outside_rooms': 10, 'stance_contact_out_of_frame': 10, 'stance_collision': 5, 'init_obstacle': 1}): side +y face -y L 1.91: no_push_stance: [no_push_stance] face -y: every push stance collides (target placed); side +y face +x L 2.25: no_push_stance: [n",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 1,
+    "seed": 4296617386819491019
+   },
+   {
+    "message": "[no_push] 24 goal candidates, none admits the push ({'stance_reach': 96, 'init_not_floor': 35, 'init_outside_rooms': 25, 'stance_contact_out_of_frame': 8, 'stance_collision': 4, 'push_no_push_stance': 4, 'sweep_blocked': 3}): side +x face -y L 1.91: no_push_stance: [no_push_stance] face -y: every push stance collides (target placed); side +x face +x L 1.72: no_push_stance: [no_push_stance] face +x",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 3,
+    "seed": 4296617386819491021
+   },
+   {
+    "message": "[no_push] 24 goal candidates, none admits the push ({'stance_reach': 150, 'stance_floor': 45, 'init_not_floor': 24, 'stance_contact_out_of_frame': 24, 'push_no_push_stance': 15, 'stance_collision': 11, 'init_outside_rooms': 4, 'push_ik': 3, 'push_push_unreachable': 1}): side +y face -y L 1.71: no_push_stance: [no_push_stance] face -y: every push stance collides (target placed); side +y face +x L 1",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 4,
+    "seed": 4296617386819491022
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 45
+ },
+ "seeds": [
+  4296617386819491032
+ ],
+ "kit_stats": {
+  "ik_calls": 360,
+  "ik_s": 98.45989727973938,
+  "ik_batch_calls": 0,
+  "ik_batch_problems": 0,
+  "ik_batch_s": 0.0,
+  "collision_calls": 462,
+  "collision_configs": 3467,
+  "collision_s": 5.270728349685669,
+  "limit_retry_poses": 5,
+  "limit_retry_random": 60,
+  "limit_reject.right_arm_joint7": 4,
+  "limit_reject.right_arm_joint6": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_nextto_large_scale",
+  "subtask": "inter_object_relation_satisfaction_nextto_large_scale_serving_cart_coffee_table",
+  "variant": "inter_object_relation_satisfaction-nextto_large_scale-serving_cart-coffee_table-floor"
+ }
+}

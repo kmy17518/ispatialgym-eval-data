@@ -1,0 +1,548 @@
+{
+  "beaker.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.498205184936523,
+        0.4819154739379883,
+        0.9709099531173706
+      ],
+      "ori": [
+        -6.639120783802355e-06,
+        -1.0214647772954777e-05,
+        0.7933228611946106,
+        0.6088011264801025
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.45927619934082,
+          0.4429871141910553,
+          0.9335917234420776,
+          24.53713035583496,
+          0.5208427309989929,
+          1.0144919157028198
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "beaker.n.02_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.61336326599121,
+        0.2713862359523773,
+        0.9709111452102661
+      ],
+      "ori": [
+        1.2056020750605967e-05,
+        -7.184438800322823e-06,
+        -0.6585398316383362,
+        0.7525458931922913
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.574432373046875,
+          0.23245659470558167,
+          0.9335929155349731,
+          24.652292251586914,
+          0.31031545996665955,
+          1.0144922733306885
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "dixie_cup.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.483488082885742,
+        0.3117227554321289,
+        0.986362636089325
+      ],
+      "ori": [
+        -0.0001529035362182185,
+        0.00012832357606384903,
+        -0.5383874177932739,
+        0.8426975607872009
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.43750762939453,
+          0.2656594514846802,
+          0.9335870146751404,
+          24.529735565185547,
+          0.35787859559059143,
+          1.0391156673431396
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "water_glass.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.623746871948242,
+        0.42135921120643616,
+        0.9918358325958252
+      ],
+      "ori": [
+        8.199015610443894e-06,
+        -3.8226417018449865e-06,
+        0.3412109911441803,
+        0.9399868249893188
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.575950622558594,
+          0.373562216758728,
+          0.9335930347442627,
+          24.67154312133789,
+          0.46915456652641296,
+          1.052977442741394
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.51506996154785,
+        0.017834853380918503,
+        0.9085789918899536
+      ],
+      "ori": [
+        -4.407014486673688e-08,
+        -2.8207423952153476e-07,
+        0.9999991655349731,
+        0.0012716815108433366
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.181564331054688,
+          -2.2869508266448975,
+          0.8896418809890747,
+          24.843402862548828,
+          2.1824071407318115,
+          0.9275434017181396
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.536861419677734,
+        0.46896886825561523,
+        0.933012843132019
+      ],
+      "ori": [
+        1.1498095773276873e-05,
+        -1.5987387087079696e-05,
+        -0.0012710782466456294,
+        0.9999991655349731
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.338354110717773,
+          0.18629470467567444,
+          0.9275418519973755,
+          24.73558807373047,
+          0.7518988847732544,
+          0.9481533169746399
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        24.539430618286133,
+        1.4910690784454346,
+        0.9320786595344543
+      ],
+      "ori": [
+        -3.488442189336638e-06,
+        -0.002874023513868451,
+        -0.0012717504287138581,
+        0.9999951124191284
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          24.400985717773438,
+          1.270859956741333,
+          0.9275422096252441,
+          24.67891502380371,
+          1.7112764120101929,
+          0.9490682482719421
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        23.395309448242188,
+        -0.17667298018932343,
+        -0.13880956172943115
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          21.60811424255371,
+          -2.5065724849700928,
+          -0.277609646320343,
+          25.182514190673828,
+          2.1532270908355713,
+          -9.670853614807129e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          23.738676071166992,
+          0.5095672607421875,
+          0.005277156829833984
+        ],
+        "orientation": [
+          -7.0297082856995985e-06,
+          7.695982640143484e-05,
+          -0.0012714779004454613,
+          0.9999992847442627
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 1,
+    "task_variant": "disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop",
+    "instance_id": "disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop__house_single_floor__support-countertop_ikwqer_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-beaker-jdijek__distractors-beaker_1-soda_cup_1-water_glass_1__0000",
+    "generation_seed": 7674653216160576811,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "361a04236713dc52332e02ed50741b14be675b733d1a05173fac885feadb5ff0",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "a8c57dd106da2830870414aeedcf7389493f3218ee64331a5eb58e66eb928e49",
+      "load_room_instances": [
+        "utility_room_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "task_rooms": [
+        "utility_room_0"
+      ],
+      "sampled_with_rooms": [
+        "utility_room_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "countertop_ikwqer_0",
+        "floors_glwobe_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_glwobe_0",
+        "category": "floors",
+        "model": "glwobe"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "countertop_ikwqer_0",
+        "category": "countertop",
+        "model": "ikwqer"
+      },
+      "beaker.n.02_1": {
+        "scene_object_name": "target_beaker_jdijek_0",
+        "category": "beaker",
+        "model": "jdijek"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "beaker.n.02_2": {
+        "scene_object_name": "distractors_beaker_fyrkzs_0",
+        "category": "beaker",
+        "model": "fyrkzs"
+      },
+      "dixie_cup.n.01_1": {
+        "scene_object_name": "distractors_soda_cup_lpanoc_1",
+        "category": "soda_cup",
+        "model": "lpanoc"
+      },
+      "water_glass.n.02_1": {
+        "scene_object_name": "distractors_water_glass_edfzlt_2",
+        "category": "water_glass",
+        "model": "edfzlt"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0434154272079468,
+        "torso_joint2": -1.48360013961792,
+        "torso_joint3": -0.48504704236984253,
+        "torso_joint4": -7.268750437106064e-07,
+        "left_arm_joint1": -0.00013612801558338106,
+        "right_arm_joint1": -9.472884994465858e-05,
+        "left_arm_joint2": 1.5700023174285889,
+        "right_arm_joint2": -1.570001244544983,
+        "left_arm_joint3": -3.676606411318062e-06,
+        "right_arm_joint3": -1.157530959972064e-06,
+        "left_arm_joint4": -1.5700019598007202,
+        "right_arm_joint4": -1.5699982643127441,
+        "left_arm_joint5": 1.5699920654296875,
+        "right_arm_joint5": -1.5700035095214844,
+        "left_arm_joint6": -9.424325639884046e-07,
+        "right_arm_joint6": -7.159069923545758e-07,
+        "left_arm_joint7": -2.279142336192308e-06,
+        "right_arm_joint7": -9.221361096933833e-07,
+        "left_gripper_finger_joint1": 0.04999946057796478,
+        "left_gripper_finger_joint2": 0.04999985918402672,
+        "right_gripper_finger_joint1": 0.04999944567680359,
+        "right_gripper_finger_joint2": 0.05000000074505806
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_disembedding_beaker_beaker_1_soda_cup_1_water_glass_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "9217d0c77f530937715903d30feb837370e8a0d454e25d56c5ea9f50cfc3847f",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          24.123065948486328,
+          1.3531187772750854,
+          1.459791898727417
+        ],
+        "orientation": [
+          -0.3097802698612213,
+          0.310289204120636,
+          0.6360256671905518,
+          -0.6350024938583374
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "beaker.n.02_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          24.53605842590332,
+          1.4958014488220215,
+          0.9675800204277039
+        ],
+        "orientation": [
+          -0.0022868020460009575,
+          -0.0017359515186399221,
+          0.7949997782707214,
+          0.6066030263900757
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "beaker.n.02_1",
+      "occluders": [
+        "beaker.n.02_2",
+        "dixie_cup.n.01_1",
+        "water_glass.n.02_1"
+      ],
+      "ratio": 0.0,
+      "visible_area": 3805,
+      "reference_area": 3805,
+      "occluder_ids": [
+        "distractors_beaker_fyrkzs_0",
+        "distractors_soda_cup_lpanoc_1",
+        "distractors_water_glass_edfzlt_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 3981
+    }
+  }
+}

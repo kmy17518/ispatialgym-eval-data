@@ -1,0 +1,283 @@
+{
+  "sandal.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        22.457263946533203,
+        17.3920955657959,
+        0.5086147785186768
+      ],
+      "ori": [
+        0.0011327664833515882,
+        0.00015870582137722522,
+        -4.7638468458899297e-07,
+        0.9999993443489075
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          22.32935905456543,
+          17.342679977416992,
+          0.48616135120391846,
+          22.57423210144043,
+          17.443716049194336,
+          0.55820631980896
+        ]
+      }
+    }
+  },
+  "bed.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        23.1903133392334,
+        17.832082748413086,
+        0.40365302562713623
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.9999991655349731,
+        0.0012722775572910905
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          22.239770889282227,
+          17.212121963500977,
+          -0.006585508584976196,
+          24.251449584960938,
+          18.46601676940918,
+          0.6381319761276245
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        22.21562957763672,
+        18.014190673828125,
+        -0.13880948722362518
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          20.188735961914062,
+          16.528514862060547,
+          -0.27760952711105347,
+          24.361434936523438,
+          19.605012893676758,
+          -9.551644325256348e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          21.81684684753418,
+          17.23377227783203,
+          0.005276679992675781
+        ],
+        "orientation": [
+          -6.25370375928469e-06,
+          7.878890028223395e-05,
+          -0.0012720907106995583,
+          0.9999992251396179
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 15,
+    "task_variant": "inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl",
+    "instance_id": "inter_object_relation_satisfaction-under_large_scale-sandal-bed-bed_iorsl__house_single_floor__support-bed_rrcvaq_0__target-sandal-chgcrm__0000",
+    "generation_seed": 5985920402183333430,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "6b35cb4012dd435c84c56e9d0b996457b934d5d17bfb823254ab77977b4ea2d3",
+    "task_spec_sha256": "918e4963728a572a36968a452176f4401d43618d782ec918b439fc8598c32b95",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "258fb6b5b4c0bd562b5f57a7e2c473e802849050d1c57ab681b9b72115978831",
+      "load_room_instances": [
+        "childs_room_0",
+        "bathroom_1",
+        "closet_1",
+        "closet_2",
+        "closet_4",
+        "corridor_0",
+        "garden_0"
+      ],
+      "task_rooms": [
+        "childs_room_0"
+      ],
+      "sampled_with_rooms": [
+        "childs_room_0",
+        "bathroom_1",
+        "closet_1",
+        "closet_2",
+        "closet_4",
+        "corridor_0",
+        "garden_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "bed_rrcvaq_0",
+        "floors_vcsslq_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_vcsslq_0",
+        "category": "floors",
+        "model": "vcsslq"
+      },
+      "bed.n.01_1": {
+        "scene_object_name": "bed_rrcvaq_0",
+        "category": "bed",
+        "model": "rrcvaq"
+      },
+      "sandal.n.01_1": {
+        "scene_object_name": "target_sandal_chgcrm_0",
+        "category": "sandal",
+        "model": "chgcrm"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.5425028800964355,
+        "torso_joint2": -2.3949928283691406,
+        "torso_joint3": -0.8930003046989441,
+        "torso_joint4": -1.621091598735802e-07,
+        "left_arm_joint1": 0.00031129069975577295,
+        "right_arm_joint1": 4.605852882377803e-05,
+        "left_arm_joint2": 1.5699985027313232,
+        "right_arm_joint2": -1.5700002908706665,
+        "left_arm_joint3": -4.7826642912696116e-06,
+        "right_arm_joint3": 1.4444607359109796e-06,
+        "left_arm_joint4": -1.5700011253356934,
+        "right_arm_joint4": -1.569999098777771,
+        "left_arm_joint5": 1.5699958801269531,
+        "right_arm_joint5": -1.5700045824050903,
+        "left_arm_joint6": -3.2605328215140617e-07,
+        "right_arm_joint6": -3.379500412847847e-07,
+        "left_arm_joint7": -5.542782446354977e-07,
+        "right_arm_joint7": -4.447851438271755e-07,
+        "left_gripper_finger_joint1": 0.04999958351254463,
+        "left_gripper_finger_joint2": 0.04999949038028717,
+        "right_gripper_finger_joint1": 0.049999747425317764,
+        "right_gripper_finger_joint2": 0.049998920410871506
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_inter_object_relation_satisfaction_under_large_scale_sandal_bed_0_0_template-goal_rgb.png",
+      "rgb_sha256": "845f1ad4bd9b421b1d9722c6e2afbcbf964d98f2c92cae2262504140ebae1e17",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          22.054719924926758,
+          17.386831283569336,
+          0.7311634421348572
+        ],
+        "orientation": [
+          0.07901595532894135,
+          -0.0789981409907341,
+          -0.7025321125984192,
+          0.7028260231018066
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "sandal.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          22.309375762939453,
+          17.640180587768555,
+          0.022332528606057167
+        ],
+        "orientation": [
+          4.830293391933083e-07,
+          2.2102742036622658e-07,
+          0.058600250631570816,
+          0.9982815980911255
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

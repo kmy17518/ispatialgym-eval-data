@@ -1,0 +1,290 @@
+{
+  "bottle__of__medicine.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        4.5659990310668945,
+        0.021520353853702545,
+        1.2279393672943115
+      ],
+      "ori": [
+        -0.02307954803109169,
+        0.005081939045339823,
+        0.8960338234901428,
+        0.44335630536079407
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          4.539882659912109,
+          -0.0050155650824308395,
+          1.184093713760376,
+          4.592634201049805,
+          0.04738280177116394,
+          1.277295470237732
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.593125820159912,
+        -0.258637011051178,
+        -0.13868464529514313
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          3.8204736709594727,
+          -2.4058876037597656,
+          -0.2773846387863159,
+          9.365774154663086,
+          1.8886120319366455,
+          1.531839370727539e-05
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          5.000063419342041,
+          0.4998893737792969,
+          0.005299091339111328
+        ],
+        "orientation": [
+          7.341988384723663e-05,
+          4.134307528147474e-05,
+          -0.9140993356704712,
+          0.40549030900001526
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "object_scaling",
+    "activity_definition_id": 0,
+    "task_variant": "object_scaling-bottle_of_medicine",
+    "instance_id": "object_scaling-bottle_of_medicine__house_single_floor__room-kitchen_0__target-bottle_of_medicine-kqkwoq__0000",
+    "generation_seed": 5633989436079602486,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "c32f5ee261d9f297fb3e93d49b6bec33e02a4fadb83081fcbe76c46783fde179",
+    "task_spec_sha256": "eb8f914ed357e187aacb3521e484edb5d5e8827d876281208671ba409e89b11d",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "b6e7e2e7debb76da4f318823d3219d21163ed25f652dbdd90037526f1532dadc",
+      "load_room_instances": [
+        "kitchen_0",
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_kxcpgy_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_kxcpgy_0",
+        "category": "floors",
+        "model": "kxcpgy"
+      },
+      "bottle__of__medicine.n.01_1": {
+        "scene_object_name": "target_bottle_of_medicine_kqkwoq_0",
+        "category": "bottle_of_medicine",
+        "model": "kqkwoq"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.0250126123428345,
+        "torso_joint2": -1.449976921081543,
+        "torso_joint3": -0.47000786662101746,
+        "torso_joint4": 5.568090273300186e-06,
+        "left_arm_joint1": -1.7702061086311005e-05,
+        "right_arm_joint1": -1.1417920589447021,
+        "left_arm_joint2": 9.016061994771007e-07,
+        "right_arm_joint2": 0.013313737697899342,
+        "left_arm_joint3": 4.118783544981852e-05,
+        "right_arm_joint3": 0.1676080822944641,
+        "left_arm_joint4": 1.0140651284018531e-05,
+        "right_arm_joint4": -1.0501788854599,
+        "left_arm_joint5": 5.212897576711839e-06,
+        "right_arm_joint5": -0.17115281522274017,
+        "left_arm_joint6": -5.265665549814003e-06,
+        "right_arm_joint6": 0.5696564316749573,
+        "left_arm_joint7": -1.8090521507474477e-06,
+        "right_arm_joint7": 1.3948169946670532,
+        "left_gripper_finger_joint1": 0.04999971389770508,
+        "left_gripper_finger_joint2": 0.049999937415122986,
+        "right_gripper_finger_joint1": 0.026010360568761826,
+        "right_gripper_finger_joint2": 0.026003383100032806
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {
+        "torso_joint1": 1.0250095129013062,
+        "torso_joint2": -1.4499825239181519,
+        "torso_joint3": -0.4700082242488861,
+        "torso_joint4": 3.5720249798032455e-06,
+        "left_arm_joint1": -1.0725982065196149e-05,
+        "left_arm_joint2": 5.35386391220527e-07,
+        "left_arm_joint3": 3.040115007024724e-05,
+        "left_arm_joint4": 7.660407391085755e-06,
+        "left_arm_joint5": 2.0937172848789487e-06,
+        "left_arm_joint6": -3.5463458516460378e-06,
+        "left_arm_joint7": -1.4393968967851833e-06,
+        "right_arm_joint1": -1.1417224407196045,
+        "right_arm_joint2": 0.013286393135786057,
+        "right_arm_joint3": 0.16769249737262726,
+        "right_arm_joint4": -1.050500750541687,
+        "right_arm_joint5": -0.16951608657836914,
+        "right_arm_joint6": 0.5646275877952576,
+        "right_arm_joint7": 1.3905903100967407
+      }
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_object_scaling_bottle_of_medicine_0_0_template-goal_rgb.png",
+      "rgb_sha256": "41f0c32266273f26a0208a821b829c44c0902ad6404559fc5b41232f8a1fba6d",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          4.839003086090088,
+          0.3219611942768097,
+          1.3970898389816284
+        ],
+        "orientation": [
+          0.1995677500963211,
+          0.5177674293518066,
+          0.776258111000061,
+          0.2991870939731598
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "bottle__of__medicine.n.01_1": {
+        "link": null,
+        "frame": "agent.n.01_1::robot_r1:zed_link:Camera:0",
+        "position": [
+          0.0012631416320800781,
+          -0.00029015541076660156,
+          -0.4901299476623535
+        ],
+        "orientation": null,
+        "position_metric": "depth",
+        "orientation_metric": null,
+        "position_tolerance": 0.02,
+        "orientation_tolerance": null,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "grasps": [
+      {
+        "agent": "agent.n.01_1",
+        "arm": "right",
+        "object": "bottle__of__medicine.n.01_1",
+        "grasp_key": "bottle_of_medicine__kqkwoq",
+        "grasp_name": "grasp_1",
+        "object_pose_in_eef_frame": {
+          "position": [
+            -0.0002561807632446289,
+            0.0003237724304199219,
+            -0.012565135955810547
+          ],
+          "orientation": [
+            -0.7203178405761719,
+            -0.06685787439346313,
+            0.6872600317001343,
+            0.06592223048210144
+          ]
+        },
+        "finger_q": [
+          0.026010360568761826,
+          0.026003383100032806
+        ],
+        "ag_anchor_in_eef": [
+          0.005660295486450195,
+          0.028628110885620117,
+          -0.00974273681640625
+        ]
+      }
+    ]
+  }
+}

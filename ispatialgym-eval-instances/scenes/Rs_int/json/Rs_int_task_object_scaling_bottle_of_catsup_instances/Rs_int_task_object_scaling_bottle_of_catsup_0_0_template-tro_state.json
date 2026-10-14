@@ -1,0 +1,290 @@
+{
+  "bottle__of__catsup.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        0.9821824431419373,
+        -0.6552955508232117,
+        1.2986444234848022
+      ],
+      "ori": [
+        0.06110527738928795,
+        -0.032868556678295135,
+        0.561227560043335,
+        0.824748158454895
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          0.9406463503837585,
+          -0.6807405948638916,
+          1.2216910123825073,
+          1.0196247100830078,
+          -0.6290738582611084,
+          1.4018256664276123
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -0.06987883150577545,
+        -1.287109136581421,
+        -0.15000025928020477
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -2.0797903537750244,
+          -4.1151628494262695,
+          -0.30000025033950806,
+          1.9400324821472168,
+          1.5409443378448486,
+          -2.682209014892578e-07
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          0.7999937534332275,
+          -1.0999603271484375,
+          0.005286216735839844
+        ],
+        "orientation": [
+          -4.887674003839493e-05,
+          6.349189789034426e-05,
+          0.5466001033782959,
+          0.8373937606811523
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "object_scaling",
+    "activity_definition_id": 6,
+    "task_variant": "object_scaling-bottle_of_catsup",
+    "instance_id": "object_scaling-bottle_of_catsup__Rs_int__room-living_room_0__target-bottle_of_catsup-hvxkso__0000",
+    "generation_seed": 7169070730819671016,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "ecb7eb0cba2cb6670f91425595da69e8ba06c9d24e52ccd1e3811ee2a692abb2",
+    "task_spec_sha256": "eb8f914ed357e187aacb3521e484edb5d5e8827d876281208671ba409e89b11d",
+    "layout_template_id": null,
+    "scene": {
+      "model": "Rs_int",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "f105fab12e2d1421a41b7746c0166ac8f367b91857db3a0e650e3ddb24d45bcc",
+      "load_room_instances": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "entryway_0",
+        "kitchen_0"
+      ],
+      "task_rooms": [
+        "living_room_0"
+      ],
+      "sampled_with_rooms": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "entryway_0",
+        "kitchen_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_ptwlei_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_ptwlei_0",
+        "category": "floors",
+        "model": "ptwlei"
+      },
+      "bottle__of__catsup.n.01_1": {
+        "scene_object_name": "target_bottle_of_catsup_hvxkso_0",
+        "category": "bottle_of_catsup",
+        "model": "hvxkso"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.025012731552124,
+        "torso_joint2": -1.449961543083191,
+        "torso_joint3": -0.46999937295913696,
+        "torso_joint4": -4.8619207518640906e-05,
+        "left_arm_joint1": 2.6130663172807544e-05,
+        "right_arm_joint1": -1.0658483505249023,
+        "left_arm_joint2": -2.439036279611173e-06,
+        "right_arm_joint2": -0.219378262758255,
+        "left_arm_joint3": 8.20965287857689e-05,
+        "right_arm_joint3": 0.39904674887657166,
+        "left_arm_joint4": -4.007403185823932e-05,
+        "right_arm_joint4": -1.893923044204712,
+        "left_arm_joint5": 2.231218786619138e-05,
+        "right_arm_joint5": -1.0582270622253418,
+        "left_arm_joint6": 1.4420566003536806e-05,
+        "right_arm_joint6": 1.0463610887527466,
+        "left_arm_joint7": 1.2567200428748038e-05,
+        "right_arm_joint7": 0.5481124520301819,
+        "left_gripper_finger_joint1": 0.049999628216028214,
+        "left_gripper_finger_joint2": 0.049999963492155075,
+        "right_gripper_finger_joint1": 0.01901240646839142,
+        "right_gripper_finger_joint2": 0.01900426484644413
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {
+        "torso_joint1": 1.0250121355056763,
+        "torso_joint2": -1.4499680995941162,
+        "torso_joint3": -0.47000473737716675,
+        "torso_joint4": -3.233327151974663e-05,
+        "left_arm_joint1": 1.49115976455505e-05,
+        "left_arm_joint2": -1.6414941228504176e-06,
+        "left_arm_joint3": 5.687246812158264e-05,
+        "left_arm_joint4": -2.7197171220905147e-05,
+        "left_arm_joint5": 1.667949982220307e-05,
+        "left_arm_joint6": 9.516984391666483e-06,
+        "left_arm_joint7": 8.811408406472765e-06,
+        "right_arm_joint1": -1.0658470392227173,
+        "right_arm_joint2": -0.21942904591560364,
+        "right_arm_joint3": 0.39911285042762756,
+        "right_arm_joint4": -1.8943707942962646,
+        "right_arm_joint5": -1.0537898540496826,
+        "right_arm_joint6": 1.0451778173446655,
+        "right_arm_joint7": 0.5458803772926331
+      }
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "Rs_int_task_object_scaling_bottle_of_catsup_0_0_template-goal_rgb.png",
+      "rgb_sha256": "c8d48e5573dd1743b853e7e920d6c994d82c48d15337ec4a6c934495c68022eb",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          0.896583616733551,
+          -0.880210280418396,
+          1.3970705270767212
+        ],
+        "orientation": [
+          0.5430124998092651,
+          -0.11411231756210327,
+          -0.171078160405159,
+          0.8141548037528992
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "bottle__of__catsup.n.01_1": {
+        "link": null,
+        "frame": "agent.n.01_1::robot_r1:zed_link:Camera:0",
+        "position": [
+          -0.013286828994750977,
+          0.0014653205871582031,
+          -0.4423190951347351
+        ],
+        "orientation": null,
+        "position_metric": "depth",
+        "orientation_metric": null,
+        "position_tolerance": 0.03662989735603333,
+        "orientation_tolerance": null,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "grasps": [
+      {
+        "agent": "agent.n.01_1",
+        "arm": "right",
+        "object": "bottle__of__catsup.n.01_1",
+        "grasp_key": "bottle_of_catsup__hvxkso",
+        "grasp_name": "grasp_2",
+        "object_pose_in_eef_frame": {
+          "position": [
+            -0.00245821475982666,
+            0.0005808472633361816,
+            0.0003699064254760742
+          ],
+          "orientation": [
+            0.4757257401943207,
+            -0.5545106530189514,
+            -0.5053879618644714,
+            0.45911458134651184
+          ]
+        },
+        "finger_q": [
+          0.01901240646839142,
+          0.01900426484644413
+        ],
+        "ag_anchor_in_eef": [
+          0.0047113895416259766,
+          0.022215411067008972,
+          -0.004673004150390625
+        ]
+      }
+    ]
+  }
+}

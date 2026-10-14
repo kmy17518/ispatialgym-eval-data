@@ -1,0 +1,1139 @@
+{
+ "template_id": "house_single_floor__support-breakfast_table_rhjoby_0-T1__partner-pepper_shaker-tgcwtr__target-salt_shaker-fonexa",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 27.611994743347168,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 36.726234674453735,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 4,
+   "collision_configs": 1539,
+   "collision_s": 0.212
+  },
+  "save_template_s": 1.4295063018798828
+ },
+ "variant": "inter_object_relation_satisfaction-nextto_small_scale-salt_shaker-pepper_shaker-breakfast_table",
+ "subtask": "inter_object_relation_satisfaction-nextto_small_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "d5891a1c71c5ad0c08ade189a894d8b2c519ee039a1747c3f071c312dca49537",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "dining_room_0"
+  ],
+  "bindings": {
+   "support": [
+    "breakfast_table_rhjoby_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "breakfast_table_rhjoby_0",
+     "init": "ontop",
+     "top_z": 0.81,
+     "row": "inter_object_relation_satisfaction-nextto#02~T1"
+    }
+   ],
+   "floor": {
+    "room": "dining_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "salt_shaker",
+    "model": "fonexa",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "salt_shaker__fonexa__t",
+    "scale": null
+   },
+   "partner": {
+    "category": "pepper_shaker",
+    "model": "tgcwtr",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__support-breakfast_table_rhjoby_0-T1__partner-pepper_shaker-tgcwtr__target-salt_shaker-fonexa",
+  "support_tag": "breakfast_table_rhjoby_0-T1"
+ },
+ "rooms": [
+  "dining_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_4e067cdf_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 981223682,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "breakfast_table_rhjoby_0",
+  "row": "inter_object_relation_satisfaction-nextto#02~T1",
+  "init": "ontop",
+  "top_z": 0.81,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "dining_room_0"
+  ],
+  "floor_room": "dining_room_0",
+  "tag": "breakfast_table_rhjoby_0-T1",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "79dcab9a657c84c2168d0cd7e6621034ab0944d85a27b6140b36fe8397e1bb37",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "grasps_dropped_not_attachable": [],
+  "grasp_pinch_recentre": {
+   "grasp_1": {
+    "offset_m": 0.0054,
+    "chord_original_m": 0.0487,
+    "chord_recentred_m": 0.0487,
+    "library_width_m": 0.0481,
+    "applied": true
+   },
+   "grasp_2": {
+    "offset_m": 0.0056,
+    "chord_original_m": 0.0517,
+    "chord_recentred_m": 0.0517,
+    "library_width_m": 0.0498,
+    "applied": true
+   },
+   "grasp_3": {
+    "offset_m": 0.0051,
+    "chord_original_m": 0.049,
+    "chord_recentred_m": 0.049,
+    "library_width_m": 0.048,
+    "applied": true
+   },
+   "grasp_4": {
+    "offset_m": 0.0077,
+    "chord_original_m": 0.0521,
+    "chord_recentred_m": 0.0521,
+    "library_width_m": 0.0508,
+    "applied": true
+   }
+  },
+  "grasp_pinch_offset_m": {
+   "grasp_0": 0.0001,
+   "grasp_1": 0.0054,
+   "grasp_2": 0.0056,
+   "grasp_3": 0.0051,
+   "grasp_4": 0.0077
+  },
+  "grasps_recentred": [
+   "grasp_1",
+   "grasp_2",
+   "grasp_3",
+   "grasp_4"
+  ],
+  "grasp_closing_tilt_deg": {
+   "grasp_0": 0.6,
+   "grasp_1": 5.6,
+   "grasp_2": 6.6,
+   "grasp_3": 5.4,
+   "grasp_4": 8.5
+  },
+  "grasp_pivot_arms_m": {
+   "grasp_0": 0.0463,
+   "grasp_1": 0.0453,
+   "grasp_2": 0.0449,
+   "grasp_3": 0.0457,
+   "grasp_4": 0.0453
+  },
+  "grasp_pinch_vs_long_axis_deg": {
+   "grasp_0": 89.4,
+   "grasp_1": 84.4,
+   "grasp_2": 83.4,
+   "grasp_3": 84.6,
+   "grasp_4": 81.5
+  },
+  "grasps_flush_first": [
+   "grasp_0",
+   "grasp_1",
+   "grasp_2",
+   "grasp_3",
+   "grasp_4"
+  ],
+  "grasps_inclined_fallback": [],
+  "pair": {
+   "target_extent": [
+    0.052448272705078125,
+    0.052379608154296875,
+    0.15614700317382812
+   ],
+   "partner_extent": [
+    0.06918716430664062,
+    0.0692596435546875,
+    0.16038179397583008
+   ],
+   "relation": "nextto",
+   "g_NT": 0.031100193038582802
+  },
+  "support_surface": {
+   "support": "breakfast_table_rhjoby_0",
+   "spec": {
+    "name": "breakfast_table_rhjoby_0",
+    "init": "ontop",
+    "top_z": 0.81,
+    "row": "inter_object_relation_satisfaction-nextto#02~T1"
+   },
+   "top_z_above_floor": 0.8126,
+   "top_error": null,
+   "surface": "top"
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17816794/reach_bands/tabletop__house_single_floor__breakfast_table_rhjoby_0__left_salt_shaker-fonexa__3c0a1bd66a0877f3.npz"
+   }
+  },
+  "support": {
+   "name": "breakfast_table_rhjoby_0",
+   "z": 0.8126288652420044,
+   "yaw": 1.5682435035705566,
+   "local_bounds": [
+    2.9359586238861084,
+    4.096158981323242,
+    -8.73303508758545,
+    -5.830236434936523
+   ],
+   "n_free_cells": 8463,
+   "occupants": [],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "+v",
+   "mid": [
+    5.839193344116211,
+    3.501163959503174
+   ],
+   "inward": [
+    0.9999967217445374,
+    -0.0025528203696012497
+   ],
+   "tangent": [
+    0.0025528203696012497,
+    0.9999967217445374
+   ],
+   "length_m": 1.1602003574371338,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    5.389707088470459,
+    3.7029500007629395,
+    -0.0025528231929084068
+   ],
+   "translate": 0.6831230895578637,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+v",
+   "lateral": 0.20063792176765155,
+   "H_max": 0.16038179397583008,
+   "delta": 0.4830704146663104,
+   "delta_aim": 0.4830704146663104,
+   "delta_min": 0.4481539487838745,
+   "delta_max": 0.6603468750228528,
+   "conflict": false,
+   "d_ws": 0.2624529802574302,
+   "d_near": 0.029999911785125732,
+   "d_far": 0.5100003182888031,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.0,
+   "x_c": 0.22909510738956687,
+   "z_c": 1.29572006702818,
+   "b": 0.668594241142273,
+   "b_right": 0.6685990691184998,
+   "b_left": 0.668594241142273,
+   "R_img": 0.668594241142273,
+   "t_range": [
+    0.33663010825468137,
+    0.740826315128809
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777215480804443,
+   "n_workspace_cells": 53,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "b": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "safety": 0.02,
+    "D_p": 0.0992596435546875,
+    "g_NT_lo": 0.0611001930385828,
+    "m_R": 0.7747434258460999,
+    "m_L": 0.21474342346191405
+   },
+   "lateral_bounds": [
+    0.194643247127533,
+    0.36535675525665284
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "+v",
+    "mid": [
+     5.839193344116211,
+     3.501163959503174
+    ],
+    "inward": [
+     0.9999967217445374,
+     -0.0025528203696012497
+    ],
+    "tangent": [
+     0.0025528203696012497,
+     0.9999967217445374
+    ],
+    "length_m": 1.1602003574371338,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999992847442627,
+   "extras": {
+    "H_max": 0.16038179397583008,
+    "delta": 0.4830704146663104,
+    "delta_aim": 0.4830704146663104,
+    "delta_min": 0.4481539487838745,
+    "delta_max": 0.6603468750228528,
+    "conflict": false,
+    "d_ws": 0.2624529802574302,
+    "d_near": 0.029999911785125732,
+    "d_far": 0.5100003182888031,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "x_c": 0.22909510738956687,
+    "z_c": 1.29572006702818,
+    "b": 0.668594241142273,
+    "b_right": 0.6685990691184998,
+    "b_left": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "t_range": [
+     0.33663010825468137,
+     0.740826315128809
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777215480804443,
+    "n_workspace_cells": 53,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.0,
+     "b": 0.668594241142273,
+     "R_img": 0.668594241142273,
+     "safety": 0.02,
+     "D_p": 0.0992596435546875,
+     "g_NT_lo": 0.0611001930385828,
+     "m_R": 0.7747434258460999,
+     "m_L": 0.21474342346191405
+    },
+    "lateral_bounds": [
+     0.194643247127533,
+     0.36535675525665284
+    ]
+   }
+  },
+  "n_manipulation_candidates": 1238,
+  "grasp_key": "salt_shaker__fonexa__t",
+  "n_grasps": 5,
+  "bands": "/tmp/minyeong/isge_17816794/reach_bands/tabletop__house_single_floor__breakfast_table_rhjoby_0__salt_shaker-fonexa__e6b0016b90f577c4.npz",
+  "H_max": 0.16038179397583008,
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "qgmjvd",
+   "scene_object_name": "floors_qgmjvd_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "breakfast_table.n.01_1",
+   "synset": "breakfast_table.n.01",
+   "category": "breakfast_table",
+   "model": "rhjoby",
+   "scene_object_name": "breakfast_table_rhjoby_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "salt__shaker.n.01_1",
+   "synset": "salt__shaker.n.01",
+   "category": "salt_shaker",
+   "model": "fonexa",
+   "scene_object_name": "target_salt_shaker_fonexa_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "partner",
+   "name": "pepper__shaker.n.01_1",
+   "synset": "pepper__shaker.n.01",
+   "category": "pepper_shaker",
+   "model": "tgcwtr",
+   "scene_object_name": "partner_pepper_shaker_tgcwtr_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "89cae53cea2f74c70cb574453e5d9d60e80a1d38a8317409fde824a03105133c",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-nextto_02/c1_k0/inst/inter_object_relation_satisfaction-nextto-salt_shaker-pepper_shaker-breakfast_table/house_single_floor__support-breakfast_table_rhjoby_0-T1__partner-pepper_shaker-tgcwtr__target-salt_shaker-fonexa/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/inter_object_relation_satisfaction-nextto_02/c1_k0/inst/inter_object_relation_satisfaction-nextto-salt_shaker-pepper_shaker-breakfast_table/house_single_floor__support-breakfast_table_rhjoby_0-T1__partner-pepper_shaker-tgcwtr__target-salt_shaker-fonexa/template-partial_rooms.json",
+ "load_room_instances": [
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "kitchen_0",
+  "living_room_0",
+  "living_room_1"
+ ],
+ "task_rooms": [
+  "dining_room_0"
+ ],
+ "sampled_with_rooms": [
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "kitchen_0",
+  "living_room_0",
+  "living_room_1"
+ ],
+ "scene_variant": {
+  "scene_file": "../../scene_variants/house_single_floor__cc5e0dab4b.json",
+  "removed_objects": [
+   "straight_chair_jgoolz_0",
+   "straight_chair_jgoolz_1",
+   "straight_chair_jgoolz_2",
+   "straight_chair_jgoolz_3",
+   "straight_chair_jgoolz_4",
+   "straight_chair_jgoolz_5"
+  ],
+  "freed_footprints": {
+   "free": [
+    [
+     [
+      7.993353843688965,
+      3.1143271923065186
+     ],
+     [
+      8.363746643066406,
+      3.248072862625122
+     ],
+     [
+      8.546874046325684,
+      2.7409231662750244
+     ],
+     [
+      8.176481246948242,
+      2.607177495956421
+     ]
+    ],
+    [
+     [
+      8.428321838378906,
+      3.81669282913208
+     ],
+     [
+      8.04768180847168,
+      3.715738296508789
+     ],
+     [
+      7.909452438354492,
+      4.236918926239014
+     ],
+     [
+      8.290092468261719,
+      4.337873458862305
+     ]
+    ],
+    [
+     [
+      7.475783348083496,
+      3.7558629512786865
+     ],
+     [
+      7.083395957946777,
+      3.722538948059082
+     ],
+     [
+      7.037768363952637,
+      4.259805202484131
+     ],
+     [
+      7.4301557540893555,
+      4.293128967285156
+     ]
+    ],
+    [
+     [
+      6.607521057128906,
+      3.804436206817627
+     ],
+     [
+      6.21530818939209,
+      3.8397560119628906
+     ],
+     [
+      6.263669013977051,
+      4.3767828941345215
+     ],
+     [
+      6.655881881713867,
+      4.341463088989258
+     ]
+    ],
+    [
+     [
+      6.289393901824951,
+      3.2292425632476807
+     ],
+     [
+      6.669515132904053,
+      3.1263527870178223
+     ],
+     [
+      6.528636455535889,
+      2.605881929397583
+     ],
+     [
+      6.148515224456787,
+      2.7087717056274414
+     ]
+    ],
+    [
+     [
+      7.140786647796631,
+      3.0244858264923096
+     ],
+     [
+      7.520907878875732,
+      2.921595573425293
+     ],
+     [
+      7.380028247833252,
+      2.401125192642212
+     ],
+     [
+      6.99990701675415,
+      2.5040154457092285
+     ]
+    ]
+   ],
+   "block": [
+    [
+     [
+      5.848289966583252,
+      4.084524154663086
+     ],
+     [
+      8.743980407714844,
+      4.077131748199463
+     ],
+     [
+      8.741019248962402,
+      2.9172356128692627
+     ],
+     [
+      5.845329284667969,
+      2.9246277809143066
+     ]
+    ]
+   ]
+  },
+  "moved_objects": {
+   "straight_chair_jgoolz_0": {
+    "pos": [
+     8.276880264282227,
+     2.908885955810547,
+     0.32601872086524963
+    ],
+    "ori": [
+     1.6197562217712402e-05,
+     -1.215015072375536e-05,
+     0.8184217810630798,
+     0.5746181011199951
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -124.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   },
+   "straight_chair_jgoolz_1": {
+    "pos": [
+     8.163780212402344,
+     4.046063423156738,
+     0.32601845264434814
+    ],
+    "ori": [
+     -1.2665987014770508e-05,
+     -1.56183959916234e-05,
+     -0.6097702980041504,
+     0.7925782799720764
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -129.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   },
+   "straight_chair_jgoolz_2": {
+    "pos": [
+     7.255090236663818,
+     4.027685642242432,
+     0.32602065801620483
+    ],
+    "ori": [
+     -6.452202796936035e-06,
+     -7.124384865164757e-06,
+     -0.6765273213386536,
+     0.7364175915718079
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -134.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   },
+   "straight_chair_jgoolz_3": {
+    "pos": [
+     6.437382221221924,
+     4.110452651977539,
+     0.32601872086524963
+    ],
+    "ori": [
+     -1.7136335372924805e-05,
+     -1.3347831554710865e-05,
+     -0.7381362915039062,
+     0.6746516227722168
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -139.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   },
+   "straight_chair_jgoolz_4": {
+    "pos": [
+     6.403809547424316,
+     2.8983311653137207,
+     0.3260188698768616
+    ],
+    "ori": [
+     1.1816620826721191e-05,
+     -1.826148945838213e-05,
+     0.6077523231506348,
+     0.7941267490386963
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -144.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   },
+   "straight_chair_jgoolz_5": {
+    "pos": [
+     7.255201816558838,
+     2.6935744285583496,
+     0.3260185718536377
+    ],
+    "ori": [
+     1.1801719665527344e-05,
+     -1.615926157683134e-05,
+     0.6077519059181213,
+     0.7941270470619202
+    ],
+    "fixed_base": false,
+    "moved_to": [
+     -149.84286308288574,
+     -115.73151111602783,
+     -100.9590277671814
+    ]
+   }
+  }
+ },
+ "problem": "inter_object_relation_satisfaction-11",
+ "choices": {
+  "target": {
+   "category": "salt_shaker",
+   "model": "fonexa",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "salt_shaker__fonexa__t",
+   "scale": null
+  },
+  "partner": {
+   "category": "pepper_shaker",
+   "model": "tgcwtr",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_qgmjvd_0",
+  "breakfast_table.n.01_1": "breakfast_table_rhjoby_0",
+  "salt__shaker.n.01_1": "target_salt_shaker_fonexa_0",
+  "pepper__shaker.n.01_1": "partner_pepper_shaker_tgcwtr_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 405.42830872535706,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem69.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-nextto_small_scale-salt_shaker-pepper_shaker-breakfast_table",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    5.389707088470459,
+    3.7029500007629395,
+    -0.0025528231929084068
+   ],
+   "translate": 0.6831230895578637,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+v",
+   "lateral": 0.20063792176765155,
+   "H_max": 0.16038179397583008,
+   "delta": 0.4830704146663104,
+   "delta_aim": 0.4830704146663104,
+   "delta_min": 0.4481539487838745,
+   "delta_max": 0.6603468750228528,
+   "conflict": false,
+   "d_ws": 0.2624529802574302,
+   "d_near": 0.029999911785125732,
+   "d_far": 0.5100003182888031,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.0,
+   "x_c": 0.22909510738956687,
+   "z_c": 1.29572006702818,
+   "b": 0.668594241142273,
+   "b_right": 0.6685990691184998,
+   "b_left": 0.668594241142273,
+   "R_img": 0.668594241142273,
+   "t_range": [
+    0.33663010825468137,
+    0.740826315128809
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777215480804443,
+   "n_workspace_cells": 53,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "b": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "safety": 0.02,
+    "D_p": 0.0992596435546875,
+    "g_NT_lo": 0.0611001930385828,
+    "m_R": 0.7747434258460999,
+    "m_L": 0.21474342346191405
+   },
+   "lateral_bounds": [
+    0.194643247127533,
+    0.36535675525665284
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+v",
+    "mid": [
+     5.839193344116211,
+     3.501163959503174
+    ],
+    "inward": [
+     0.9999967217445374,
+     -0.0025528203696012497
+    ],
+    "tangent": [
+     0.0025528203696012497,
+     0.9999967217445374
+    ],
+    "length_m": 1.1602003574371338,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999992847442627,
+   "extras": {
+    "H_max": 0.16038179397583008,
+    "delta": 0.4830704146663104,
+    "delta_aim": 0.4830704146663104,
+    "delta_min": 0.4481539487838745,
+    "delta_max": 0.6603468750228528,
+    "conflict": false,
+    "d_ws": 0.2624529802574302,
+    "d_near": 0.029999911785125732,
+    "d_far": 0.5100003182888031,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "x_c": 0.22909510738956687,
+    "z_c": 1.29572006702818,
+    "b": 0.668594241142273,
+    "b_right": 0.6685990691184998,
+    "b_left": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "t_range": [
+     0.33663010825468137,
+     0.740826315128809
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777215480804443,
+    "n_workspace_cells": 53,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.0,
+     "b": 0.668594241142273,
+     "R_img": 0.668594241142273,
+     "safety": 0.02,
+     "D_p": 0.0992596435546875,
+     "g_NT_lo": 0.0611001930385828,
+     "m_R": 0.7747434258460999,
+     "m_L": 0.21474342346191405
+    },
+    "lateral_bounds": [
+     0.194643247127533,
+     0.36535675525665284
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    5.289707183837891,
+    3.7032053470611572,
+    -0.0025528231929084068
+   ],
+   "translate": 0.5,
+   "tilt": -0.4541999896367391,
+   "arms": [
+    "right"
+   ],
+   "stand_off": 0.55,
+   "edge": "+v",
+   "lateral": 0.20063792176765155,
+   "focus": [
+    6.089296340942383,
+    3.541163682937622,
+    0.8907023668289185
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.16038179397583008,
+   "delta": 0.4830704146663104,
+   "delta_aim": 0.4830704146663104,
+   "delta_min": 0.4481539487838745,
+   "delta_max": 0.6603468750228528,
+   "conflict": false,
+   "d_ws": 0.2624529802574302,
+   "d_near": 0.029999911785125732,
+   "d_far": 0.5100003182888031,
+   "lam_min": -0.5600000023841858,
+   "lam_max": 0.0,
+   "x_c": 0.22909510738956687,
+   "z_c": 1.29572006702818,
+   "b": 0.668594241142273,
+   "b_right": 0.6685990691184998,
+   "b_left": 0.668594241142273,
+   "R_img": 0.668594241142273,
+   "t_range": [
+    0.33663010825468137,
+    0.740826315128809
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777215480804443,
+   "n_workspace_cells": 53,
+   "left_band": false,
+   "margins": {
+    "kind": "iors",
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "b": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "safety": 0.02,
+    "D_p": 0.0992596435546875,
+    "g_NT_lo": 0.0611001930385828,
+    "m_R": 0.7747434258460999,
+    "m_L": 0.21474342346191405
+   },
+   "lateral_bounds": [
+    0.194643247127533,
+    0.36535675525665284
+   ],
+   "lateral_shift_m": 0.0,
+   "axis_angle": 0.3044796011462427,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.4030519249048663,
+   "init_view_class": 1,
+   "focus_arms": [
+    "right"
+   ],
+   "init_travel": {
+    "lateral_m": 0.0,
+    "base_m": 0.1,
+    "path_m": null,
+    "departure_stand_off_m": null,
+    "transition_stand_off_m": 0.55
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+v",
+    "mid": [
+     5.839193344116211,
+     3.501163959503174
+    ],
+    "inward": [
+     0.9999967217445374,
+     -0.0025528203696012497
+    ],
+    "tangent": [
+     0.0025528203696012497,
+     0.9999967217445374
+    ],
+    "length_m": 1.1602003574371338,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.5500001311302185,
+   "extras": {
+    "H_max": 0.16038179397583008,
+    "delta": 0.4830704146663104,
+    "delta_aim": 0.4830704146663104,
+    "delta_min": 0.4481539487838745,
+    "delta_max": 0.6603468750228528,
+    "conflict": false,
+    "d_ws": 0.2624529802574302,
+    "d_near": 0.029999911785125732,
+    "d_far": 0.5100003182888031,
+    "lam_min": -0.5600000023841858,
+    "lam_max": 0.0,
+    "x_c": 0.22909510738956687,
+    "z_c": 1.29572006702818,
+    "b": 0.668594241142273,
+    "b_right": 0.6685990691184998,
+    "b_left": 0.668594241142273,
+    "R_img": 0.668594241142273,
+    "t_range": [
+     0.33663010825468137,
+     0.740826315128809
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777215480804443,
+    "n_workspace_cells": 53,
+    "left_band": false,
+    "margins": {
+     "kind": "iors",
+     "lam_min": -0.5600000023841858,
+     "lam_max": 0.0,
+     "b": 0.668594241142273,
+     "R_img": 0.668594241142273,
+     "safety": 0.02,
+     "D_p": 0.0992596435546875,
+     "g_NT_lo": 0.0611001930385828,
+     "m_R": 0.7747434258460999,
+     "m_L": 0.21474342346191405
+    },
+    "lateral_bounds": [
+     0.194643247127533,
+     0.36535675525665284
+    ],
+    "lateral_shift_m": 0.0,
+    "axis_angle": 0.3044796011462427,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.4030519249048663,
+    "init_view_class": 1,
+    "_position": [
+     9,
+     -2
+    ],
+    "focus_arms": [
+     "right"
+    ],
+    "init_travel": {
+     "lateral_m": 0.0,
+     "base_m": 0.1,
+     "path_m": null,
+     "departure_stand_off_m": null,
+     "transition_stand_off_m": 0.55
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 4,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "ik_joint_limit": 1
+ },
+ "rejection_examples": {
+  "ik_joint_limit": [
+   {
+    "message": "[ik_joint_limit] lift (0.19 m above the grasp) fails with the object attached: ik_joint_limit: right_arm_joint7 within 3 mrad of its limit at the pose (every solution found; the approach from it would stall)",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 0,
+    "seed": 7770333648689013274
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 6
+ },
+ "seeds": [
+  7770333648689013275
+ ],
+ "kit_stats": {
+  "ik_calls": 732,
+  "ik_s": 82.6627471446991,
+  "ik_batch_calls": 13,
+  "ik_batch_problems": 402,
+  "ik_batch_s": 177.3104522228241,
+  "collision_calls": 258,
+  "collision_configs": 2216,
+  "collision_s": 2.279892921447754,
+  "limit_retry_poses": 106,
+  "limit_reject.right_arm_joint2": 52,
+  "twin_picks": 58,
+  "twin_solves": 63,
+  "orient_choices": 58,
+  "limit_reject.right_arm_joint5": 3,
+  "limit_retry_seeded_rescued": 12,
+  "limit_reject.right_arm_joint3": 7,
+  "limit_reject.right_arm_joint6": 6,
+  "orient_reason.reach": 2,
+  "limit_reject.right_arm_joint7": 4,
+  "orient_reason.only_feasible": 3,
+  "limit_retry_random": 227,
+  "limit_retry_random_rescued": 5,
+  "limit_reject.left_arm_joint2": 3,
+  "limit_reject.left_arm_joint3": 2,
+  "limit_reject.left_arm_joint6": 8,
+  "limit_reject.left_arm_joint7": 4,
+  "orient_source.map": 1,
+  "orient_against_default": 1,
+  "twin_taken": 1,
+  "twin_taken.reach": 1,
+  "held_turn_checks": 1,
+  "held_turn_kept": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_nextto_small_scale",
+  "subtask": "inter_object_relation_satisfaction_nextto_small_scale_salt_shaker_pepper_shaker",
+  "variant": "inter_object_relation_satisfaction-nextto_small_scale-salt_shaker-pepper_shaker-breakfast_table"
+ }
+}

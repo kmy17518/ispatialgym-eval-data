@@ -1,0 +1,675 @@
+{
+ "template_id": "house_double_floor_upper__room-bedroom_1__target-canned_food-ycbspm",
+ "scene": "house_double_floor_upper",
+ "timings": {
+  "bind_spawn_s": 30.584888696670532,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 101.35288405418396,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 14.378,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 205,
+   "ik_batch_s": 52.175,
+   "collision_calls": 2,
+   "collision_configs": 2,
+   "collision_s": 0.279,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.default": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.default": 1
+  },
+  "save_template_s": 0.22746753692626953
+ },
+ "variant": "object_scaling-canned_food",
+ "subtask": "object_scaling",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "5dc594b0946a9f028225d7568209e535bb30f66474dc622fc357226379d55e39",
+ "choice": {
+  "scene": "house_double_floor_upper",
+  "rooms": [
+   "bedroom_1"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "bedroom_1"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "canned_food",
+    "model": "ycbspm",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "canned_food__ycbspm",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_double_floor_upper__room-bedroom_1__target-canned_food-ycbspm",
+  "room_tag": "bedroom_1"
+ },
+ "rooms": [
+  "bedroom_1"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_d47bc5d1_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 1,
+  "seed": 565754670,
+  "seed_source": "split",
+  "scene": "house_double_floor_upper",
+  "room": "bedroom_1",
+  "scene_source": "split",
+  "room_override": true
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "b86255faa0136cc93d3c7be7ef4e1a65cc3739d348fc178fb9d410060ef3cd37",
+ "hold": {
+  "key": "d185bf8757026bdd",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 90.0,
+  "approach": "base +y",
+  "closing": "world down rolled 90.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.7012391090393066,
+    0.011837422847747803,
+    1.199898362159729
+   ],
+   "orientation": [
+    -0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "pad_in_base": [
+   0.7012391090393066,
+   -2.2590160369873047e-05,
+   1.199898362159729
+  ],
+  "camera_in_base": {
+   "position": [
+    0.23955154418945312,
+    -2.282857894897461e-05,
+    1.3918482065200806
+   ],
+   "orientation": [
+    0.3924635350704193,
+    -0.39245709776878357,
+    -0.5882009267807007,
+    0.58819180727005
+   ]
+  },
+  "right_arm_q": [
+   -1.3216074705123901,
+   0.03607918694615364,
+   0.17918109893798828,
+   -0.5514287352561951,
+   -0.16618651151657104,
+   0.25012215971946716,
+   1.4424240589141846
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "default",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "default",
+   "against_default": false,
+   "viable": [
+    "right",
+    "left"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "default",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.1284,
+     "nearest_joint": "right_arm_joint7",
+     "reach_rad": 1.442
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.345,
+     "nearest_joint": "left_arm_joint2",
+     "reach_rad": 1.618
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "default",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "default",
+    "against_default": false,
+    "viable": [
+     "right",
+     "left"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "default",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.1284,
+      "nearest_joint": "right_arm_joint7",
+      "reach_rad": 1.442
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.345,
+      "nearest_joint": "left_arm_joint2",
+      "reach_rad": 1.618
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "default",
+     "against_default": false,
+     "viable": [
+      "right",
+      "left"
+     ]
+    }
+   }
+  },
+  "goal_options": {
+   "grasps": 5,
+   "prior_skipped": 0,
+   "prior_unknown": 5,
+   "held_out_of_view": 0,
+   "depths": 41,
+   "too_narrow": 0,
+   "windows": 5,
+   "grasps_with_options": 5,
+   "prior_skipped_names": [],
+   "per_grasp": {
+    "grasp_0": [
+     0.22,
+     0.51
+    ],
+    "grasp_1": [
+     0.22,
+     0.5
+    ],
+    "grasp_2": [
+     0.22,
+     0.51
+    ],
+    "grasp_3": [
+     0.23,
+     0.51
+    ],
+    "grasp_4": [
+     0.22,
+     0.51
+    ]
+   }
+  },
+  "depth_windows": {
+   "grasp_0": {
+    "reference_depth": 0.5005,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_1": {
+    "reference_depth": 0.4959,
+    "run": [
+     0.2,
+     0.52
+    ],
+    "window": [
+     0.22,
+     0.5
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.53,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_2": {
+    "reference_depth": 0.5002,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_3": {
+    "reference_depth": 0.5041,
+    "run": [
+     0.21,
+     0.53
+    ],
+    "window": [
+     0.23,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.2,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   },
+   "grasp_4": {
+    "reference_depth": 0.5015,
+    "run": [
+     0.2,
+     0.53
+    ],
+    "window": [
+     0.22,
+     0.51
+    ],
+    "ik_failed": [
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.54,
+     0.55
+    ],
+    "out_of_view": []
+   }
+  },
+  "hold": {
+   "key": "d185bf8757026bdd",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 90.0,
+   "approach": "base +y",
+   "closing": "world down rolled 90.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.7012391090393066,
+     0.011837422847747803,
+     1.199898362159729
+    ],
+    "orientation": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "pad_in_base": [
+    0.7012391090393066,
+    -2.2590160369873047e-05,
+    1.199898362159729
+   ],
+   "camera_in_base": {
+    "position": [
+     0.23955154418945312,
+     -2.282857894897461e-05,
+     1.3918482065200806
+    ],
+    "orientation": [
+     0.3924635350704193,
+     -0.39245709776878357,
+     -0.5882009267807007,
+     0.58819180727005
+    ]
+   },
+   "right_arm_q": [
+    -1.3216074705123901,
+    0.03607918694615364,
+    0.17918109893798828,
+    -0.5514287352561951,
+    -0.16618651151657104,
+    0.25012215971946716,
+    1.4424240589141846
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "canned_food__ycbspm",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 0
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "zrhxwn",
+   "scene_object_name": "floors_zrhxwn_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "canned_food.n.01_1",
+   "synset": "canned_food.n.01",
+   "category": "canned_food",
+   "model": "ycbspm",
+   "scene_object_name": "target_canned_food_ycbspm_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "072ad6cf954953e537fd2f65725384b7c68ec6a686608dbbf3b4880d5a2b8c43",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-canned_food/inst/object_scaling-canned_food/house_double_floor_upper__room-bedroom_1__target-canned_food-ycbspm/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/object_scaling-canned_food/inst/object_scaling-canned_food/house_double_floor_upper__room-bedroom_1__target-canned_food-ycbspm/template-partial_rooms.json",
+ "load_room_instances": [
+  "bedroom_1",
+  "bathroom_0",
+  "bedroom_2",
+  "living_room_0"
+ ],
+ "task_rooms": [
+  "bedroom_1"
+ ],
+ "sampled_with_rooms": [
+  "bedroom_1",
+  "bathroom_0",
+  "bedroom_2",
+  "living_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "object_scaling-7",
+ "choices": {
+  "target": {
+   "category": "canned_food",
+   "model": "ycbspm",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "canned_food__ycbspm",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_zrhxwn_0",
+  "canned_food.n.01_1": "target_canned_food_ycbspm_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 293.0545313358307,
+ "activity_definition": "../activity_definitions/object_scaling/problem0.bddl",
+ "bddl_variant": "object_scaling-canned_food",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    3.299999952316284,
+    1.100000023841858,
+    1.0405182656065834
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "canned_food.n.01_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.308981,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 90.0,
+    "start_depth_m": 0.3047528862953186,
+    "reference_depth_m": 0.5
+   },
+   "arms_q": {
+    "right": [
+     -1.00893,
+     -0.04908,
+     0.22372,
+     -1.70705,
+     -0.43756,
+     1.04749,
+     1.10668
+    ],
+    "left": [
+     4e-05,
+     0.0,
+     0.00011,
+     -7e-05,
+     1e-05,
+     2e-05,
+     0.0
+    ]
+   },
+   "fingers": 0.031426459550857544,
+   "fingers_by_arm": {
+    "right": 0.0314,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.308981,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 90.0,
+     "start_depth_m": 0.3047528862953186,
+     "reference_depth_m": 0.5
+    },
+    "arms_q": {
+     "right": [
+      -1.00893,
+      -0.04908,
+      0.22372,
+      -1.70705,
+      -0.43756,
+      1.04749,
+      1.10668
+     ],
+     "left": [
+      4e-05,
+      0.0,
+      0.00011,
+      -7e-05,
+      1e-05,
+      2e-05,
+      0.0
+     ]
+    },
+    "fingers": 0.031426459550857544,
+    "fingers_by_arm": {
+     "right": 0.0314,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "goal_infeasible": 1
+ },
+ "rejection_examples": {
+  "goal_infeasible": [
+   {
+    "message": "[goal_infeasible] no (grasp, start, goal) confirmed: grasp_0 0.303 -> 0.249 m: ik_joint_limit: right_arm_joint6 within 2 mrad of its limit at the pose (every solution found; the approach from it would stall); grasp_2 0.276 -> 0.223 m: ik_joint_limit: right_arm_joint6 within 3 mrad of its limit at the pose (every solution found; the approach from it would stall); grasp_4 0.312 -> 0.226 m: ik_joint_",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 4480224672363695190
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 4
+ },
+ "seeds": [
+  4480224672363695191
+ ],
+ "kit_stats": {
+  "ik_calls": 56,
+  "ik_s": 15.06906270980835,
+  "ik_batch_calls": 5,
+  "ik_batch_problems": 205,
+  "ik_batch_s": 52.17496085166931,
+  "collision_calls": 68,
+  "collision_configs": 219,
+  "collision_s": 0.8067636489868164,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.default": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.default": 1,
+  "limit_retry_poses": 8,
+  "limit_reject.right_arm_joint6": 4,
+  "limit_retry_seeded_rescued": 4
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "object_scaling",
+  "task": "object_scaling",
+  "subtask": "object_scaling_canned_food",
+  "variant": "object_scaling-canned_food"
+ }
+}

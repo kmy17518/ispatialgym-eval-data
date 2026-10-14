@@ -1,0 +1,1240 @@
+{
+  "schema": "isg-oracle-v1",
+  "instance_id": "disembedding-jigsaw_puzzle_piece-jigsaw_puzzle_piece_3-breakfast_table__house_single_floor__support-breakfast_table_rhjoby_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-jigsaw_puzzle_piece-isgefa__distractors-jigs~d307057b__0000",
+  "tro_sha256": "10c8e49a7c59fda14e4a072636a93ac341037ecb474e0da8c0154e56892ac211",
+  "task_family": "disembedding",
+  "variant": "disembedding-jigsaw_puzzle_piece-jigsaw_puzzle_piece_3-breakfast_table",
+  "path_bucket_m": null,
+  "stances": {
+    "init": {
+      "base_pose2d": [
+        6.547402381896973,
+        2.469252586364746,
+        1.5682427883485688
+      ],
+      "translate": 0.6455156875999329,
+      "tilt": 0.0,
+      "arms": "untucked",
+      "stand_off": 0.45,
+      "edge": "-u",
+      "lateral": 0.7405626099944593,
+      "H_max": 0.021525859832763672,
+      "delta": 0.5051237416665416,
+      "delta_aim": 0.5051237416665416,
+      "delta_min": 0.30929813385009763,
+      "delta_max": 0.6524588065845325,
+      "conflict": false,
+      "d_ws": 0.28749989764764905,
+      "d_near": 0.02999979257583618,
+      "d_far": 0.5899998843669891,
+      "lam_min": -0.5600000023841858,
+      "lam_max": 0.07999999821186066,
+      "x_c": 0.23222429813499487,
+      "z_c": 1.3177733940284115,
+      "b": 0.6990748643875122,
+      "b_right": 0.6990777850151062,
+      "b_left": 0.6990748643875122,
+      "R_img": 0.6990748643875122,
+      "t_range": [
+        0.3553065066499117,
+        0.95
+      ],
+      "camera_pitch_deg": 22.580477940295808,
+      "hand_below": 0.18777227401733398,
+      "n_workspace_cells": 64,
+      "left_band": false,
+      "margins": {
+        "kind": "disembedding",
+        "lam_min": -0.5600000023841858,
+        "lam_max": 0.07999999821186066,
+        "b": 0.6990748643875122,
+        "R_img": 0.6990748643875122,
+        "safety": 0.02,
+        "destination_side": "right",
+        "source_half_length": 0.2825145721435547,
+        "m_R": 1.1560748643875123,
+        "m_L": 0.38251457035541536
+      },
+      "lateral_bounds": [
+        -0.2953247003555297,
+        1.0688849943876266
+      ],
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "manipulation": {
+      "base_pose2d": [
+        6.747401714324951,
+        2.4687418937683105,
+        1.5682427883485688
+      ],
+      "translate": 0.25,
+      "tilt": -0.532533327738444,
+      "arms": [
+        "left"
+      ],
+      "stand_off": 0.45,
+      "edge": "-u",
+      "lateral": 0.5405626099944594,
+      "focus": [
+        6.669649124145508,
+        3.3489432334899902,
+        0.8131498098373413
+      ],
+      "idle_posture": "untucked",
+      "H_max": 0.021525859832763672,
+      "delta": 0.5051237416665416,
+      "delta_aim": 0.5051237416665416,
+      "delta_min": 0.30929813385009763,
+      "delta_max": 0.6524588065845325,
+      "conflict": false,
+      "d_ws": 0.28749989764764905,
+      "d_near": 0.02999979257583618,
+      "d_far": 0.5899998843669891,
+      "lam_min": -0.5600000023841858,
+      "lam_max": 0.07999999821186066,
+      "x_c": 0.23222429813499487,
+      "z_c": 1.3177733940284115,
+      "b": 0.6990748643875122,
+      "b_right": 0.6990777850151062,
+      "b_left": 0.6990748643875122,
+      "R_img": 0.6990748643875122,
+      "t_range": [
+        0.3553065066499117,
+        0.95
+      ],
+      "camera_pitch_deg": 22.580477940295808,
+      "hand_below": 0.18777227401733398,
+      "n_workspace_cells": 64,
+      "left_band": false,
+      "margins": {
+        "kind": "disembedding",
+        "lam_min": -0.5600000023841858,
+        "lam_max": 0.07999999821186066,
+        "b": 0.6990748643875122,
+        "R_img": 0.6990748643875122,
+        "safety": 0.02,
+        "destination_side": "right",
+        "source_half_length": 0.2825145721435547,
+        "m_R": 1.1560748643875123,
+        "m_L": 0.38251457035541536
+      },
+      "lateral_bounds": [
+        -0.2953247003555297,
+        1.0688849943876266
+      ],
+      "lateral_shift_m": -0.2,
+      "axis_angle": 0.13279421292089763,
+      "angle_class": 0,
+      "focus_info": null,
+      "init_view_angle": 0.30488850019847086,
+      "init_view_class": 0,
+      "focus_arms": [
+        "left"
+      ],
+      "init_travel": {
+        "lateral_m": -0.2,
+        "base_m": 0.2,
+        "path_m": 0.2236,
+        "departure_stand_off_m": 0.55,
+        "transition_stand_off_m": 0.45
+      },
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "placement": {
+      "base_pose2d": [
+        7.720200538635254,
+        2.4662578105926514,
+        1.5682427883485688
+      ],
+      "translate": 0.25,
+      "tilt": -0.532533327738444,
+      "arms": [
+        "left"
+      ],
+      "stand_off": 0.45,
+      "edge": "-u",
+      "lateral": -0.432239492571306,
+      "focus": [
+        7.642436981201172,
+        3.3421006202697754,
+        0.8131498098373413
+      ],
+      "idle_posture": "untucked",
+      "H_max": 0.021525859832763672,
+      "delta": 0.5051237416665416,
+      "delta_aim": 0.5051237416665416,
+      "delta_min": 0.30929813385009763,
+      "delta_max": 0.6524588065845325,
+      "conflict": false,
+      "d_ws": 0.28749989764764905,
+      "d_near": 0.02999979257583618,
+      "d_far": 0.5899998843669891,
+      "lam_min": -0.5600000023841858,
+      "lam_max": 0.07999999821186066,
+      "x_c": 0.23222429813499487,
+      "z_c": 1.3177733940284115,
+      "b": 0.6990748643875122,
+      "b_right": 0.6990777850151062,
+      "b_left": 0.6990748643875122,
+      "R_img": 0.6990748643875122,
+      "t_range": [
+        0.3553065066499117,
+        0.95
+      ],
+      "camera_pitch_deg": 22.580477940295808,
+      "hand_below": 0.18777227401733398,
+      "n_workspace_cells": 64,
+      "left_band": false,
+      "margins": {
+        "kind": "disembedding",
+        "lam_min": -0.5600000023841858,
+        "lam_max": 0.07999999821186066,
+        "b": 0.6990748643875122,
+        "R_img": 0.6990748643875122,
+        "safety": 0.02,
+        "destination_side": "right",
+        "source_half_length": 0.2825145721435547,
+        "m_R": 1.1560748643875123,
+        "m_L": 0.38251457035541536
+      },
+      "lateral_bounds": [
+        -0.2953247003555297,
+        1.0688849943876266
+      ],
+      "lateral_shift_m": -0.2,
+      "axis_angle": 0.13279421292089763,
+      "angle_class": 0,
+      "focus_info": null,
+      "init_view_angle": 0.30488850019847086,
+      "init_view_class": 0,
+      "focus_arms": [
+        "left"
+      ],
+      "init_travel": {
+        "lateral_m": -0.2,
+        "base_m": 0.2,
+        "path_m": 0.2236,
+        "departure_stand_off_m": 0.55,
+        "transition_stand_off_m": 0.45
+      },
+      "lateral_shift": -0.9728021025657654,
+      "arms_q": {
+        "right": [
+          0.0,
+          -1.57,
+          0.0,
+          -1.57,
+          -1.57,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.0,
+          1.57,
+          0.0,
+          -1.57,
+          1.57,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "transitions": [
+    {
+      "from": "init",
+      "to": "manipulation",
+      "stand_off": 0.55,
+      "order": [
+        "drive-back",
+        "trunk",
+        "drive-in"
+      ],
+      "at": "departure",
+      "trunk_to": [
+        0.6455156875999329,
+        0.0
+      ]
+    },
+    {
+      "from": "init",
+      "to": "manipulation",
+      "stand_off": 0.45,
+      "order": [
+        "drive-back",
+        "trunk",
+        "drive-in"
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "from": "init",
+      "to": "manipulation",
+      "mode": "local",
+      "waypoints": [
+        [
+          6.547147028329848,
+          2.369252912392499,
+          1.5682427883485688
+        ],
+        [
+          6.747401714324951,
+          2.4687418937683105,
+          1.5682427883485688
+        ]
+      ],
+      "length_m": 0.22360679032219513,
+      "posture": "untucked",
+      "carried": null
+    },
+    {
+      "from": "manipulation",
+      "to": "placement",
+      "mode": "edge_slide",
+      "waypoints": [
+        [
+          6.747401714324951,
+          2.4687418937683105,
+          1.5682427883485688
+        ],
+        [
+          7.720200538635254,
+          2.4662578105926514,
+          1.5682427883485688
+        ]
+      ],
+      "length_m": 0.972801995911157,
+      "posture": "untucked",
+      "carried": "jigsaw_puzzle_piece.n.01_1",
+      "axis_leg": {
+        "back_m": 0.0,
+        "tried_back_m": [
+          0.0
+        ],
+        "moves": [
+          [
+            "right",
+            0.9728
+          ]
+        ]
+      }
+    }
+  ],
+  "grasps": [
+    {
+      "object": "jigsaw_puzzle_piece.n.01_1",
+      "arm": "left",
+      "grasp_key": "jigsaw_puzzle_piece__isgefa__t",
+      "grasp_name": "grasp_3",
+      "yaw": 3.5317381968421895,
+      "grasp": {
+        "position": [
+          6.670436859130859,
+          3.2966678142547607,
+          0.8469769358634949
+        ],
+        "orientation": [
+          -0.4937530755996704,
+          -0.8696022033691406,
+          0.0,
+          0.0
+        ]
+      },
+      "pre_grasp": {
+        "position": [
+          6.670436859130859,
+          3.2966678142547607,
+          0.9469769597053528
+        ],
+        "orientation": [
+          -0.4937530755996704,
+          -0.8696022033691406,
+          0.0,
+          0.0
+        ]
+      },
+      "pre_place": {
+        "position": [
+          7.593005657196045,
+          3.3306779861450195,
+          0.9376997947692871
+        ],
+        "orientation": [
+          -0.4937557578086853,
+          -0.869596540927887,
+          -0.0023443845566362143,
+          0.0013404707424342632
+        ]
+      },
+      "place": {
+        "position": [
+          7.59300422668457,
+          3.3312180042266846,
+          0.8377012610435486
+        ],
+        "orientation": [
+          -0.4937557578086853,
+          -0.869596540927887,
+          -0.0023443845566362143,
+          0.0013404707424342632
+        ]
+      },
+      "carry_height": 0.04999998092651367,
+      "place_on": "tray.n.01_2",
+      "stance": "manipulation",
+      "finger_q": [
+        0.0134,
+        0.0
+      ],
+      "eef_in_object": {
+        "position": [
+          0.04980241507291794,
+          -0.008869054727256298,
+          0.02235499955713749
+        ],
+        "orientation": [
+          -0.7574008703231812,
+          0.6529502272605896,
+          0.0,
+          0.0
+        ]
+      },
+      "wrist_flip": false,
+      "twin_choice": {
+        "stage": "phase3_target",
+        "arm": "left",
+        "chosen": "row",
+        "reason": "only feasible",
+        "source": "ik",
+        "row": {
+          "label": "grasp_3",
+          "arm": "left",
+          "rank": 0,
+          "source": "ik",
+          "ok": true,
+          "margin_rad": 0.0688,
+          "nearest_joint": "left_arm_joint2",
+          "reach_rad": 2.135,
+          "name": "grasp_3"
+        },
+        "twin": {
+          "label": "grasp_3~r180",
+          "arm": "left",
+          "rank": 1,
+          "source": "ik",
+          "ok": false,
+          "margin_rad": null,
+          "nearest_joint": null,
+          "reach_rad": null,
+          "why": "exact IK failed at pose 1 of 2",
+          "name": "grasp_3~r180"
+        },
+        "orient": {
+          "stage": "grasp phase3_target",
+          "arm": "left",
+          "chosen": "grasp_3",
+          "source": "ik",
+          "reason": "only feasible",
+          "against_default": false,
+          "options": [
+            {
+              "label": "grasp_3",
+              "arm": "left",
+              "rank": 0,
+              "source": "ik",
+              "ok": true,
+              "margin_rad": 0.0688,
+              "nearest_joint": "left_arm_joint2",
+              "reach_rad": 2.135
+            },
+            {
+              "label": "grasp_3~r180",
+              "arm": "left",
+              "rank": 1,
+              "source": "ik",
+              "ok": false,
+              "margin_rad": null,
+              "nearest_joint": null,
+              "reach_rad": null,
+              "why": "exact IK failed at pose 1 of 2"
+            }
+          ]
+        },
+        "held": {
+          "stage": "held chain",
+          "arm": "left",
+          "recorded": "grasp_3",
+          "safe_margin_rad": 0.05,
+          "actions": [
+            "lift",
+            "navigate",
+            "place"
+          ],
+          "status": "kept",
+          "chosen": "grasp_3",
+          "reason": "only feasible",
+          "against_default": false,
+          "options": [
+            {
+              "label": "grasp_3",
+              "arm": "left",
+              "rank": 0,
+              "source": "recorded",
+              "ok": true,
+              "margin_rad": 0.0379,
+              "nearest_joint": "left_arm_joint2",
+              "reach_rad": 2.122,
+              "where": "place.descent"
+            },
+            {
+              "label": "grasp_3~r180",
+              "arm": "left",
+              "rank": 1,
+              "source": "ik",
+              "ok": false,
+              "margin_rad": null,
+              "nearest_joint": null,
+              "reach_rad": null,
+              "why": "pick: exact IK failed at pose 1 of 2"
+            }
+          ],
+          "why": "pick: exact IK failed at pose 1 of 2"
+        }
+      },
+      "arm_bands": {
+        "right": {
+          "arm": "right",
+          "path": "/vision/u/minyeong/projects/isg_home/eval85/jobs/17857869/reach_bands/tabletop__house_single_floor__breakfast_table_rhjoby_0__jigsaw_puzzle_piece-isgefa__placed-tray-uekqey-focus__01ed1521ed931a66.npz"
+        },
+        "left": {
+          "arm": "left",
+          "path": "/vision/u/minyeong/projects/isg_home/eval85/jobs/17857869/reach_bands/tabletop__house_single_floor__breakfast_table_rhjoby_0__left_jigsaw_puzzle_piece-isgefa__placed-tray-uekqey-focus__99b07baf6599dbcc.npz"
+        }
+      },
+      "release_surface_z": 0.8154,
+      "arm_offer": {
+        "fired": true,
+        "template_arms": [
+          "right",
+          "left"
+        ],
+        "arms": [
+          "right",
+          "left"
+        ],
+        "arm": "left",
+        "reason": "only arm feasible at the draw",
+        "against_default": true,
+        "mirrored_band": false,
+        "held_chain": {
+          "fired": false,
+          "why": "no other viable arm recorded at the grasp"
+        }
+      },
+      "may_touch": {
+        "objects": [
+          "jigsaw_puzzle_piece.n.01_2",
+          "jigsaw_puzzle_piece.n.01_3",
+          "jigsaw_puzzle_piece.n.01_4"
+        ],
+        "stay_on": "tray.n.01_1",
+        "pre_grasp": [
+          "jigsaw_puzzle_piece.n.01_2",
+          "jigsaw_puzzle_piece.n.01_3",
+          "jigsaw_puzzle_piece.n.01_4"
+        ]
+      }
+    }
+  ],
+  "goal": {
+    "base_pose2d": [
+      6.747401714324951,
+      2.4687418937683105,
+      1.5682427883485688
+    ],
+    "translate": 0.25,
+    "tilt": -0.532533327738444,
+    "arms": "same"
+  },
+  "language": {
+    "objects": {
+      "jigsaw_puzzle_piece.n.01_1": {
+        "display_name": "jigsaw puzzle piece",
+        "descriptor": "the jigsaw puzzle piece at the front centre of the source tray"
+      },
+      "tray.n.01_1": {
+        "display_name": "source tray",
+        "descriptor": "the tray in front of the robot"
+      },
+      "tray.n.01_2": {
+        "display_name": "destination tray",
+        "descriptor": "the tray on the right"
+      },
+      "jigsaw_puzzle_piece.n.01_2": {
+        "display_name": "jigsaw puzzle piece",
+        "descriptor": "the jigsaw puzzle piece at the front right of the source tray"
+      },
+      "jigsaw_puzzle_piece.n.01_3": {
+        "display_name": "jigsaw puzzle piece",
+        "descriptor": "the jigsaw puzzle piece at the front centre of the source tray"
+      },
+      "jigsaw_puzzle_piece.n.01_4": {
+        "display_name": "jigsaw puzzle piece",
+        "descriptor": "the jigsaw puzzle piece at the front centre of the source tray"
+      }
+    },
+    "goal_numbers": {}
+  },
+  "waypoint_policy": "checked",
+  "ik_witnesses": [
+    {
+      "action": 3,
+      "name": "grasp",
+      "stance": "manipulation",
+      "arm": "left",
+      "carried": null,
+      "targets": {
+        "pre_grasp": {
+          "pose": {
+            "position": [
+              6.67041,
+              3.29679,
+              0.94114
+            ],
+            "orientation": [
+              -0.493752,
+              -0.869603,
+              0.000172,
+              -0.000101
+            ]
+          },
+          "q": [
+            6.7474,
+            2.46874,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.12241,
+            0.0,
+            -0.01127,
+            -1.57,
+            -2.11117,
+            0.0,
+            -0.85868,
+            -1.57,
+            0.25742,
+            -1.57,
+            -0.20808,
+            0.0,
+            -1.14135,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            6.747401714324951,
+            2.4687418937683105,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.0,
+          "joint_limit_margin_rad": 0.1632,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 1
+        },
+        "approach": {
+          "pose": {
+            "position": [
+              6.67041,
+              3.29675,
+              0.84114
+            ],
+            "orientation": [
+              -0.493752,
+              -0.869603,
+              0.000172,
+              -0.000101
+            ]
+          },
+          "q": [
+            6.7474,
+            2.46874,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -1.87744,
+            0.0,
+            -0.1175,
+            -1.57,
+            -2.18491,
+            0.0,
+            -0.55381,
+            -1.57,
+            0.17099,
+            -1.57,
+            -0.31683,
+            0.0,
+            -1.00584,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            6.747401714324951,
+            2.4687418937683105,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00052,
+          "joint_limit_margin_rad": 0.057,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 3,
+          "chain": "leaves from the pre_grasp witness"
+        },
+        "grasp": {
+          "pose": {
+            "position": [
+              6.67041,
+              3.29675,
+              0.84114
+            ],
+            "orientation": [
+              -0.493752,
+              -0.869603,
+              0.000172,
+              -0.000101
+            ]
+          },
+          "q": [
+            6.7474,
+            2.46874,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -1.87744,
+            0.0,
+            -0.1175,
+            -1.57,
+            -2.18491,
+            0.0,
+            -0.55381,
+            -1.57,
+            0.17099,
+            -1.57,
+            -0.31683,
+            0.0,
+            -1.00584,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            6.747401714324951,
+            2.4687418937683105,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00052,
+          "joint_limit_margin_rad": 0.057,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 1,
+          "chain": "end of the tracked chain"
+        }
+      }
+    },
+    {
+      "action": 4,
+      "name": "lift",
+      "stance": "manipulation",
+      "arm": "left",
+      "carried": "jigsaw_puzzle_piece.n.01_1",
+      "targets": {
+        "lift": {
+          "pose": {
+            "position": [
+              6.67007,
+              3.29642,
+              0.89137
+            ],
+            "orientation": [
+              0.492467,
+              0.87033,
+              0.001442,
+              6.4e-05
+            ]
+          },
+          "q": [
+            6.7474,
+            2.46874,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.01431,
+            0.0,
+            -0.0535,
+            -1.57,
+            -2.16336,
+            0.0,
+            -0.74684,
+            -1.57,
+            0.22503,
+            -1.57,
+            -0.24462,
+            0.0,
+            -1.06043,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            6.747401714324951,
+            2.4687418937683105,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 6e-05,
+          "joint_limit_margin_rad": 0.121,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 3,
+          "chain": "tracked from the arm's configuration (previous action)",
+          "branch": "tracked from the arm's configuration"
+        }
+      }
+    },
+    {
+      "action": 6,
+      "name": "place",
+      "stance": "placement",
+      "arm": "left",
+      "carried": "jigsaw_puzzle_piece.n.01_1",
+      "targets": {
+        "carry": {
+          "pose": {
+            "position": [
+              7.59301,
+              3.33068,
+              0.9377
+            ],
+            "orientation": [
+              0.493756,
+              0.869596,
+              0.002344,
+              -0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.10258,
+            0.0,
+            0.02843,
+            -1.57,
+            -2.16662,
+            0.0,
+            -0.69334,
+            -1.57,
+            0.25825,
+            -1.57,
+            -0.40263,
+            0.0,
+            -1.11606,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00073,
+          "joint_limit_margin_rad": 0.1896,
+          "joint_limit_nearest": "left_arm_joint3",
+          "n_waypoints": 4,
+          "chain": "tracked from the arm's configuration (previous action)",
+          "branch": "tracked from the arm's configuration"
+        },
+        "pre_place": {
+          "pose": {
+            "position": [
+              7.59301,
+              3.33068,
+              0.9377
+            ],
+            "orientation": [
+              -0.493756,
+              -0.869597,
+              -0.002344,
+              0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.10258,
+            0.0,
+            0.02843,
+            -1.57,
+            -2.16662,
+            0.0,
+            -0.69334,
+            -1.57,
+            0.25825,
+            -1.57,
+            -0.40263,
+            0.0,
+            -1.11606,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00073,
+          "joint_limit_margin_rad": 0.1896,
+          "joint_limit_nearest": "left_arm_joint3",
+          "n_waypoints": 1,
+          "chain": "end of the tracked chain"
+        },
+        "descent": {
+          "pose": {
+            "position": [
+              7.593,
+              3.33122,
+              0.8377
+            ],
+            "orientation": [
+              -0.493756,
+              -0.869597,
+              -0.002344,
+              0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -1.80829,
+            0.0,
+            -0.13655,
+            -1.57,
+            -2.21915,
+            0.0,
+            -0.22068,
+            -1.57,
+            0.17618,
+            -1.57,
+            -0.59316,
+            0.0,
+            -0.99724,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00158,
+          "joint_limit_margin_rad": 0.0379,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 3,
+          "chain": "tracked from the arm's configuration (chain end)",
+          "branch": "tracked from the arm's configuration"
+        },
+        "place": {
+          "pose": {
+            "position": [
+              7.593,
+              3.33122,
+              0.8377
+            ],
+            "orientation": [
+              -0.493756,
+              -0.869597,
+              -0.002344,
+              0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -1.80829,
+            0.0,
+            -0.13655,
+            -1.57,
+            -2.21915,
+            0.0,
+            -0.22068,
+            -1.57,
+            0.17618,
+            -1.57,
+            -0.59316,
+            0.0,
+            -0.99724,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00158,
+          "joint_limit_margin_rad": 0.0379,
+          "joint_limit_nearest": "left_arm_joint2",
+          "n_waypoints": 1,
+          "chain": "end of the tracked chain"
+        },
+        "retreat": {
+          "pose": {
+            "position": [
+              7.59301,
+              3.33068,
+              0.9377
+            ],
+            "orientation": [
+              -0.493756,
+              -0.869597,
+              -0.002344,
+              0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.10733,
+            0.0,
+            0.01203,
+            -1.57,
+            -2.20608,
+            0.0,
+            -0.6715,
+            -1.57,
+            0.29479,
+            -1.57,
+            -0.41867,
+            0.0,
+            -1.11039,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 0.00019,
+          "joint_limit_margin_rad": 0.1501,
+          "joint_limit_nearest": "left_arm_joint3",
+          "n_waypoints": 3,
+          "chain": "tracked from the arm's configuration (chain end)",
+          "branch": "tracked from the arm's configuration"
+        }
+      }
+    },
+    {
+      "action": 7,
+      "name": "retreat",
+      "stance": "placement",
+      "arm": "left",
+      "carried": null,
+      "targets": {
+        "retreat": {
+          "pose": {
+            "position": [
+              7.59301,
+              3.33041,
+              0.9877
+            ],
+            "orientation": [
+              -0.493756,
+              -0.869597,
+              -0.002344,
+              0.00134
+            ]
+          },
+          "q": [
+            7.7202,
+            2.46626,
+            0.00528,
+            0.0,
+            0.0,
+            1.56824,
+            0.7375,
+            -0.925,
+            -0.76753,
+            0.0,
+            -2.21142,
+            0.0,
+            0.05388,
+            -1.57,
+            -2.15172,
+            0.0,
+            -0.76592,
+            -1.57,
+            0.32646,
+            -1.57,
+            -0.39315,
+            0.0,
+            -1.19573,
+            0.0,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "q_frame": "root at the world origin (identity pose, z = 0): FK(q) puts base_link at base_pose2d on the measured floor",
+          "base_pose2d": [
+            7.720200538635254,
+            2.4662578105926514,
+            1.5682427883485688
+          ],
+          "floor_z": -0.0,
+          "fk_residual_m": 7e-05,
+          "joint_limit_margin_rad": 0.2045,
+          "joint_limit_nearest": "left_arm_joint3",
+          "n_waypoints": 3,
+          "chain": "tracked from the arm's configuration (previous action)",
+          "branch": "tracked from the arm's configuration"
+        }
+      }
+    }
+  ]
+}

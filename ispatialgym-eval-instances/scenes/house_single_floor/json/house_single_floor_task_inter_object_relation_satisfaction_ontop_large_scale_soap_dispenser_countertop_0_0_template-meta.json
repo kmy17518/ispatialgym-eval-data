@@ -1,0 +1,676 @@
+{
+ "template_id": "house_single_floor__support-floor__target-soap_dispenser-zwudcz",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 45.24970984458923,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 30,
+   "collision_configs": 4370,
+   "collision_s": 1.628
+  },
+  "sample_template_s": 0.9652397632598877,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 0.5274555683135986
+ },
+ "variant": "inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor",
+ "subtask": "inter_object_relation_satisfaction-ontop_large_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "281f8fee386b5f2eaadbfa5c8ab7f1b9705cb84cac42e834f0ee9597f1159819",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "utility_room_0"
+  ],
+  "bindings": {
+   "partner": [
+    "countertop_fjkase_0"
+   ],
+   "support": {
+    "room": "utility_room_0"
+   },
+   "floor": {
+    "room": "utility_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "soap_dispenser",
+    "model": "zwudcz",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "soap_dispenser__zwudcz__t",
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "house_single_floor__support-floor__target-soap_dispenser-zwudcz",
+  "support_tag": "floor"
+ },
+ "rooms": [
+  "utility_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_360ad456_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 457384626,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "floor",
+  "row": null,
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "utility_room_0"
+  ],
+  "floor_room": "utility_room_0",
+  "tag": "floor",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "template_facts": {
+  "relaxations": {
+   "partner_view_min_points": 1,
+   "init_support_max_geodesic_m": 10.0,
+   "init_support_fallback": true
+  },
+  "partner": {
+   "name": "countertop_fjkase_0",
+   "n_goal_cells": 2576,
+   "edges": [
+    {
+     "name": "+u",
+     "mid": [
+      21.606901168823242,
+      0.47064125537872314
+     ],
+     "inward": [
+      0.9999967813491821,
+      -0.002543836133554578
+     ],
+     "tangent": [
+      0.002543836133554578,
+      0.9999967813491821
+     ],
+     "length_m": 2.4216203689575195,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-u",
+     "mid": [
+      22.253047943115234,
+      0.4689975678920746
+     ],
+     "inward": [
+      -0.9999967813491821,
+      0.002543836133554578
+     ],
+     "tangent": [
+      -0.002543836133554578,
+      -0.9999967813491821
+     ],
+     "length_m": 2.4216203689575195,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "+v",
+     "mid": [
+      21.92689323425293,
+      -0.7409868836402893
+     ],
+     "inward": [
+      0.002543836133554578,
+      0.9999967813491821
+     ],
+     "tangent": [
+      -0.9999967813491821,
+      0.002543836133554578
+     ],
+     "length_m": 0.6461505889892578,
+     "overhang_m": 0.0
+    },
+    {
+     "name": "-v",
+     "mid": [
+      21.933053970336914,
+      1.6806256771087646
+     ],
+     "inward": [
+      -0.002543836133554578,
+      -0.9999967813491821
+     ],
+     "tangent": [
+      0.9999967813491821,
+      -0.002543836133554578
+     ],
+     "length_m": 0.6461505889892578,
+     "overhang_m": 0.0
+    }
+   ]
+  },
+  "init_surface_selection_order": [
+   "support",
+   "floor"
+  ],
+  "arm_bands_by_factor": {
+   "floor:floor": {
+    "left": {
+     "arm": "left",
+     "path": "/vision/u/minyeong/projects/isg_home/eval85/jobs/17831088/reach_bands/floor__house_single_floor__floor__left_soap_dispenser-zwudcz__b2ed3026764729f8.npz"
+    }
+   }
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/vision/u/minyeong/projects/isg_home/eval85/jobs/17831088/reach_bands/floor__house_single_floor__floor__left_soap_dispenser-zwudcz__b2ed3026764729f8.npz"
+   }
+  },
+  "floor_cells": {
+   "grid": 2655,
+   "trav_free": 1365,
+   "in_rooms": 1365,
+   "outside_partner": 1350,
+   "outside_objects": 1231,
+   "blockers": {
+    "downlight_fisfbn_17": 27,
+    "downlight_fisfbn_16": 27,
+    "fixed_window_qvqecb_0": 27,
+    "bottom_cabinet_no_top_gjrero_2": 13,
+    "bottom_cabinet_no_top_gjrero_1": 12,
+    "bottom_cabinet_no_top_gjrero_0": 12
+   },
+   "floor": "floors_glwobe_0",
+   "floor_aabb": [
+    [
+     21.60811424255371,
+     -2.5065724849700928
+    ],
+    [
+     25.182514190673828,
+     2.1532270908355713
+    ]
+   ]
+  },
+  "floor_init": {
+   "c_t": [
+    22.898115158081055,
+    -1.0565725564956665
+   ],
+   "geodesic_m": 0.14142164587974548,
+   "n_anchor_candidates": 1231
+  },
+  "placement_stats": {
+   "goal_cells": 2576,
+   "band_trunks": 10,
+   "lattice": 120,
+   "base_ok": 0,
+   "band_cells": 0,
+   "goal_in_band": 0
+  },
+  "stances": {
+   "init": {
+    "base_pose2d": [
+     23.268259048461914,
+     0.11261868476867676,
+     -1.8773949080000778
+    ],
+    "translate": 0.0,
+    "tilt": 0.0,
+    "arms": "untucked",
+    "stand_off": 1.2263827790299628,
+    "bearing_deg": 72.43319033118247,
+    "distance": 1.2263827790299628,
+    "trunk_like_b": false,
+    "name": "init",
+    "extras": {
+     "bearing_deg": 72.43319033118247,
+     "distance": 1.2263827790299628,
+     "trunk_like_b": false
+    }
+   },
+   "n_manipulation_candidates": 566,
+   "n_placement_candidates": 272
+  },
+  "init_surface": {
+   "class": "floor",
+   "name": "floors_glwobe_0",
+   "tried": 1
+  },
+  "contact_height_extra_m": 0.0,
+  "relation": "ontop",
+  "grasp_key": "soap_dispenser__zwudcz__t",
+  "n_grasps": 5,
+  "band_union_extent": [
+   -0.6399999856948853,
+   0.0
+  ]
+ },
+ "bddl_sha256": "b210996b35c167bd6e9fa794630a430e1ec08cd13de0cf9aceeaecc998d4ff0c",
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "glwobe",
+   "scene_object_name": "floors_glwobe_0",
+   "dataset": null
+  },
+  {
+   "role": "partner",
+   "name": "countertop.n.01_1",
+   "synset": "countertop.n.01",
+   "category": "countertop",
+   "model": "fjkase",
+   "scene_object_name": "countertop_fjkase_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "soap_dispenser.n.01_1",
+   "synset": "soap_dispenser.n.01",
+   "category": "soap_dispenser",
+   "model": "zwudcz",
+   "scene_object_name": "target_soap_dispenser_zwudcz_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "1593157a3628c15faab1fc0c1696e8a6d91e09a5a045202e4d165d95ad2e7f27",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-ontop_large_scale_01/c2_k0/inst/inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor/house_single_floor__support-floor__target-soap_dispenser-zwudcz/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/iors_large/inter_object_relation_satisfaction-ontop_large_scale_01/c2_k0/inst/inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor/house_single_floor__support-floor__target-soap_dispenser-zwudcz/template-partial_rooms.json",
+ "load_room_instances": [
+  "utility_room_0",
+  "corridor_0",
+  "garden_0"
+ ],
+ "task_rooms": [
+  "utility_room_0"
+ ],
+ "sampled_with_rooms": [
+  "utility_room_0",
+  "corridor_0",
+  "garden_0"
+ ],
+ "scene_variant": null,
+ "problem": "inter_object_relation_satisfaction-12",
+ "choices": {
+  "target": {
+   "category": "soap_dispenser",
+   "model": "zwudcz",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "soap_dispenser__zwudcz__t",
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_glwobe_0",
+  "countertop.n.01_1": "countertop_fjkase_0",
+  "soap_dispenser.n.01_1": "target_soap_dispenser_zwudcz_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 223.22568130493164,
+ "activity_definition": "../activity_definitions/inter_object_relation_satisfaction/problem113.bddl",
+ "bddl_variant": "inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    23.268259048461914,
+    0.11261868476867676,
+    -1.8773949080000778
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 1.2263827790299628,
+   "bearing_deg": 72.43319033118247,
+   "distance": 1.2263827790299628,
+   "trunk_like_b": false,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "extras": {
+    "bearing_deg": 72.43319033118247,
+    "distance": 1.2263827790299628,
+    "trunk_like_b": false,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    23.44785499572754,
+    -1.039677619934082,
+    -3.3870963507621665
+   ],
+   "translate": 0.95,
+   "tilt": -1.2,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.55,
+   "focus": [
+    22.898115158081055,
+    -1.0565725564956665,
+    0.02999032847583294
+   ],
+   "idle_posture": "untucked",
+   "lateral_offset_m": 0.15,
+   "focus_arms": [
+    "left"
+   ],
+   "angle_class": 1,
+   "axis_angle_deg": 22.501922835859688,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "extras": {
+    "lateral_offset_m": 0.15,
+    "focus_arms": [
+     "left"
+    ],
+    "angle_class": 1,
+    "axis_angle_deg": 22.501922835859688,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    22.80069351196289,
+    -0.45676955580711365,
+    3.139048814755665
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.55,
+   "edge": "-u",
+   "lateral": 0.924371,
+   "focus": [
+    22.149972915649414,
+    -0.6401806473731995,
+    0.9810958504676819
+   ],
+   "carried": "soap_dispenser.n.01_1",
+   "idle_posture": "untucked",
+   "goal_cell": [
+    22.149972915649414,
+    -0.6401806473731995
+   ],
+   "axis_angle_deg": 33.58551691383188,
+   "angle_class": 1,
+   "edge_rank": 1,
+   "init_surface": {
+    "class": "floor",
+    "name": null
+   },
+   "path_length_m": {
+    "A_B": 1.1662081624246463,
+    "B_C": 0.9687626060162915
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "edge_frame": {
+    "name": "-u",
+    "mid": [
+     22.253047943115234,
+     0.4689975678920746
+    ],
+    "inward": [
+     -0.9999967813491821,
+     0.002543836133554578
+    ],
+    "tangent": [
+     -0.002543836133554578,
+     -0.9999967813491821
+    ],
+    "length_m": 2.4216203689575195,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.5499987602233887,
+   "extras": {
+    "goal_cell": [
+     22.149972915649414,
+     -0.6401806473731995
+    ],
+    "axis_angle_deg": 33.58551691383188,
+    "angle_class": 1,
+    "edge_rank": 1,
+    "init_surface": {
+     "class": "floor",
+     "name": null
+    },
+    "path_length_m": {
+     "A_B": 1.1662081624246463,
+     "B_C": 0.9687626060162915
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "goal_occluded": 1,
+  "place_unreachable": 1
+ },
+ "rejection_examples": {
+  "goal_occluded": [
+   {
+    "message": "[goal_occluded] target_soap_dispenser_zwudcz_0 predicted 55% hidden in the goal image (>= 50%) {'objects': {'target_soap_dispenser_zwudcz_0': 0.5458}}",
+    "phase": "goal_occlusion",
+    "index": 0,
+    "attempt": 0,
+    "seed": 3622039719380559882,
+    "objects": "{'target_soap_dispenser_zwudcz_0': 0.5458}"
+   }
+  ],
+  "place_unreachable": [
+   {
+    "message": "[place_unreachable] pre-place / place at the settled goal fail the exact IK from stance C: ik_joint_limit: right_arm_joint2 within 33 mrad of its limit at the pose (every solution found; the approach from it would stall)",
+    "phase": "goal_check",
+    "index": 0,
+    "attempt": 1,
+    "seed": 3622039719380559883
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 6,
+  "goal_occluded": 1
+ },
+ "seeds": [
+  3622039719380559884
+ ],
+ "kit_stats": {
+  "ik_calls": 2999,
+  "ik_s": 106.7759530544281,
+  "ik_batch_calls": 240,
+  "ik_batch_problems": 16906,
+  "ik_batch_s": 1619.5572559833527,
+  "collision_calls": 5481,
+  "collision_configs": 57250,
+  "collision_s": 22.808427095413208,
+  "twin_picks": 145,
+  "twin_solves": 267,
+  "orient_choices": 145,
+  "orient_reason.reach": 99,
+  "orient_against_default": 79,
+  "twin_taken": 73,
+  "twin_taken.reach": 69,
+  "limit_retry_poses": 318,
+  "limit_reject.left_arm_joint6": 29,
+  "limit_reject.left_arm_joint5": 3,
+  "limit_reject.left_arm_joint7": 27,
+  "limit_reject.left_arm_joint3": 2,
+  "limit_retry_seeded_rescued": 120,
+  "orient_source.map": 17,
+  "orient_reason.default": 6,
+  "limit_reject.left_arm_joint2": 16,
+  "limit_reject.right_arm_joint7": 15,
+  "orient_arm_choices": 34,
+  "orient_arm.left": 10,
+  "orient_arm_reason.reach": 10,
+  "orient_arm.right": 14,
+  "limit_reject.right_arm_joint2": 60,
+  "limit_reject.right_arm_joint6": 24,
+  "orient_reason.only_feasible": 3,
+  "orient_arm_reason.only_feasible": 10,
+  "orient_arm_reason.default": 4,
+  "twin_taken.default": 4,
+  "limit_reject.right_arm_joint3": 2,
+  "held_turn_checks": 1,
+  "held_turn_not_offered": 1,
+  "held_arm_checks": 1,
+  "held_arm_not_offered": 1,
+  "limit_retry_random": 501,
+  "limit_retry_random_rescued": 13,
+  "limit_reject.right_arm_joint5": 1,
+  "limit_reject.right_arm_joint4": 5,
+  "limit_reject.left_arm_joint4": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "inter_object_relation_satisfaction",
+  "task": "inter_object_relation_satisfaction_ontop_large_scale",
+  "subtask": "inter_object_relation_satisfaction_ontop_large_scale_soap_dispenser_countertop",
+  "variant": "inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor"
+ }
+}

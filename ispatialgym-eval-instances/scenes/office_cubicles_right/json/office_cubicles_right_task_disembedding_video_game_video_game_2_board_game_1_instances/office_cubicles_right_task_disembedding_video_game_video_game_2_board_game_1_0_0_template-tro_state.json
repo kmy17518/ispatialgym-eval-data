@@ -1,0 +1,676 @@
+{
+  "computer_game.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        17.002656936645508,
+        -8.28689956665039,
+        0.7948401570320129
+      ],
+      "ori": [
+        -8.911276381695643e-06,
+        8.505815458192956e-06,
+        0.891399621963501,
+        0.45321834087371826
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          16.952314376831055,
+          -8.340068817138672,
+          0.7913305759429932,
+          17.054096221923828,
+          -8.232765197753906,
+          0.7985621094703674
+        ]
+      }
+    }
+  },
+  "computer_game.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        17.110782623291016,
+        -8.373102188110352,
+        0.7950201034545898
+      ],
+      "ori": [
+        -0.0016110349679365754,
+        0.0059728603810071945,
+        0.45101478695869446,
+        0.8924950361251831
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          17.082687377929688,
+          -8.400832176208496,
+          0.7912477254867554,
+          17.138931274414062,
+          -8.345460891723633,
+          0.7988837957382202
+        ]
+      }
+    }
+  },
+  "computer_game.n.01_3": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        17.12075424194336,
+        -8.22314167022705,
+        0.7947600483894348
+      ],
+      "ori": [
+        8.214547960960772e-06,
+        -2.4499602659489028e-05,
+        -0.7013292908668518,
+        0.7128375172615051
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          17.087318420410156,
+          -8.253303527832031,
+          0.7913302779197693,
+          17.153470993041992,
+          -8.19300651550293,
+          0.7985141277313232
+        ]
+      }
+    }
+  },
+  "board_game.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.89075469970703,
+        -8.34314250946045,
+        0.8080554604530334
+      ],
+      "ori": [
+        2.1938186023362505e-07,
+        -1.2515068192442413e-05,
+        -0.9672243595123291,
+        0.2539234459400177
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          16.785860061645508,
+          -8.460609436035156,
+          0.7913296818733215,
+          16.99574851989746,
+          -8.225214958190918,
+          0.8251387476921082
+        ]
+      }
+    }
+  },
+  "desk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.184144973754883,
+        -8.405205726623535,
+        0.5961460471153259
+      ],
+      "ori": [
+        1.501569840911543e-06,
+        1.5015787084848853e-06,
+        0.7071087956428528,
+        0.7071047425270081
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          14.777101516723633,
+          -8.847864151000977,
+          -0.015506923198699951,
+          17.588443756103516,
+          -7.917313575744629,
+          0.7852815985679626
+        ]
+      }
+    }
+  },
+  "tray.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.988142013549805,
+        -8.306136131286621,
+        0.7907516360282898
+      ],
+      "ori": [
+        -3.0856942885293392e-06,
+        -1.8866590835386887e-05,
+        -0.7071050405502319,
+        0.7071086168289185
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          16.70575523376465,
+          -8.504350662231445,
+          0.7852807641029358,
+          17.270784378051758,
+          -8.108139991760254,
+          0.805891752243042
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "tray.n.01_2": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.099027633666992,
+        -8.306111335754395,
+        0.789817750453949
+      ],
+      "ori": [
+        -0.00203198054805398,
+        -0.002031866693869233,
+        -0.7071013450622559,
+        0.707106351852417
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          15.879154205322266,
+          -8.445093154907227,
+          0.7852814197540283,
+          16.31890106201172,
+          -8.168208122253418,
+          0.8068071603775024
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.65363883972168,
+        -8.700016021728516,
+        -0.15000979602336884
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          13.897685050964355,
+          -10.655375480651855,
+          -0.300010085105896,
+          19.40959358215332,
+          -6.744656562805176,
+          -9.506940841674805e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          17.12670135498047,
+          -7.48785400390625,
+          0.005274772644042969
+        ],
+        "orientation": [
+          5.1759183406829834e-05,
+          6.273502367548645e-05,
+          -0.7071040868759155,
+          0.7071096301078796
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "disembedding",
+    "activity_definition_id": 8,
+    "task_variant": "disembedding-video_game-video_game_2_board_game_1-desk",
+    "instance_id": "disembedding-video_game-video_game_2_board_game_1-desk__office_cubicles_right__support-desk_mdhelw_1-T1__destination-tray-hvlfig__source-tray-uekqey__target-video_game-ceaxsd__distractors-board_game_1-video_game_2__0000",
+    "generation_seed": 1006568294151823369,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "5e8565631ba74c4ee37fa8636e5c34558414d198081942d7cabf24dc413277f8",
+    "task_spec_sha256": "35332f2ae10f722c7722e5599222a7888e35592acf1af6c387c7d5608d2766c6",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "a41e4b9a7cff1b57ed105ec536e676215374dc47c1551feada088983839f46f8",
+      "load_room_instances": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "task_rooms": [
+        "private_office_2"
+      ],
+      "sampled_with_rooms": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/office_cubicles_right__ce38327497.json",
+        "removed_objects": [
+          "swivel_chair_gfixyb_2",
+          "swivel_chair_gfixyb_3",
+          "swivel_chair_lhkkri_3"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                16.293466567993164,
+                -9.251572608947754
+              ],
+              [
+                16.965744018554688,
+                -8.964003562927246
+              ],
+              [
+                17.248788833618164,
+                -9.62570858001709
+              ],
+              [
+                16.57651138305664,
+                -9.913277626037598
+              ]
+            ],
+            [
+              [
+                15.382627487182617,
+                -9.160414695739746
+              ],
+              [
+                16.06134796142578,
+                -9.432428359985352
+              ],
+              [
+                15.79361343383789,
+                -10.10047435760498
+              ],
+              [
+                15.11489200592041,
+                -9.828460693359375
+              ]
+            ],
+            [
+              [
+                16.77355194091797,
+                -7.6373419761657715
+              ],
+              [
+                16.14042854309082,
+                -8.080658912658691
+              ],
+              [
+                15.656731605529785,
+                -7.389868259429932
+              ],
+              [
+                16.289854049682617,
+                -6.9465508460998535
+              ]
+            ]
+          ],
+          "block": [
+            [
+              [
+                14.794865608215332,
+                -7.977816581726074
+              ],
+              [
+                17.5761661529541,
+                -7.9778008460998535
+              ],
+              [
+                17.576171875,
+                -8.877800941467285
+              ],
+              [
+                14.794870376586914,
+                -8.877817153930664
+              ]
+            ]
+          ]
+        },
+        "moved_objects": {
+          "swivel_chair_gfixyb_2": {
+            "pos": [
+              16.753826141357422,
+              -9.407360076904297,
+              0.4937431812286377
+            ],
+            "ori": [
+              -0.00030713676824234426,
+              -0.00013151652819942683,
+              0.8346505761146545,
+              0.5507796406745911
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -104.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_gfixyb_3": {
+            "pos": [
+              15.598005294799805,
+              -9.596092224121094,
+              0.49374306201934814
+            ],
+            "ori": [
+              -0.0003330982581246644,
+              -3.895731879310915e-06,
+              0.5603525638580322,
+              0.8282541036605835
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -109.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_lhkkri_3": {
+            "pos": [
+              16.22474479675293,
+              -7.526325225830078,
+              0.45582693815231323
+            ],
+            "ori": [
+              8.810142304582769e-08,
+              5.197804409107221e-09,
+              -0.4617484509944916,
+              0.8870109915733337
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -114.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "desk_mdhelw_1",
+        "floors_wyitdg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_wyitdg_0",
+        "category": "floors",
+        "model": "wyitdg"
+      },
+      "desk.n.01_1": {
+        "scene_object_name": "desk_mdhelw_1",
+        "category": "desk",
+        "model": "mdhelw"
+      },
+      "computer_game.n.01_1": {
+        "scene_object_name": "target_video_game_ceaxsd_0",
+        "category": "video_game",
+        "model": "ceaxsd"
+      },
+      "tray.n.01_1": {
+        "scene_object_name": "source_tray_uekqey_0",
+        "category": "tray",
+        "model": "uekqey"
+      },
+      "tray.n.01_2": {
+        "scene_object_name": "destination_tray_hvlfig_0",
+        "category": "tray",
+        "model": "hvlfig"
+      },
+      "computer_game.n.01_2": {
+        "scene_object_name": "distractors_video_game_qsyyql_0",
+        "category": "video_game",
+        "model": "qsyyql"
+      },
+      "computer_game.n.01_3": {
+        "scene_object_name": "distractors_video_game_quzjuo_1",
+        "category": "video_game",
+        "model": "quzjuo"
+      },
+      "board_game.n.01_1": {
+        "scene_object_name": "distractors_board_game_frgdqh_2",
+        "category": "board_game",
+        "model": "frgdqh"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.3078935146331787,
+        "torso_joint2": -1.9665781259536743,
+        "torso_joint3": -0.7012323141098022,
+        "torso_joint4": -3.3671159371806425e-07,
+        "left_arm_joint1": -0.00014169924543239176,
+        "right_arm_joint1": -8.536270615877584e-05,
+        "left_arm_joint2": 1.5700013637542725,
+        "right_arm_joint2": -1.5700011253356934,
+        "left_arm_joint3": -2.411792365819565e-06,
+        "right_arm_joint3": 1.2342541140242247e-06,
+        "left_arm_joint4": -1.5700020790100098,
+        "right_arm_joint4": -1.5699976682662964,
+        "left_arm_joint5": 1.569993019104004,
+        "right_arm_joint5": -1.5700076818466187,
+        "left_arm_joint6": -4.883313522441313e-07,
+        "right_arm_joint6": -7.968351951603836e-07,
+        "left_arm_joint7": -8.411857947976387e-07,
+        "right_arm_joint7": -1.0887342796195298e-06,
+        "left_gripper_finger_joint1": 0.049998845905065536,
+        "left_gripper_finger_joint2": 0.04999935254454613,
+        "right_gripper_finger_joint1": 0.04999857023358345,
+        "right_gripper_finger_joint2": 0.04999889060854912
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_disembedding_video_game_video_game_2_board_game_1_0_0_template-goal_rgb.png",
+      "rgb_sha256": "34bc538c9f130651dc7188c377ae6881cd6003178359031145ca0d1a4f3e961d",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          15.94393253326416,
+          -8.209901809692383,
+          1.2733454704284668
+        ],
+        "orientation": [
+          -5.848499131388962e-05,
+          0.1289026141166687,
+          0.9916572570800781,
+          -7.809097587596625e-05
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "computer_game.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          16.100845336914062,
+          -8.298454284667969,
+          0.7914851307868958
+        ],
+        "orientation": [
+          -0.0012787416344508529,
+          0.0025715564843267202,
+          0.8960540890693665,
+          0.44393569231033325
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "mass",
+        "object": "tray.n.01_1",
+        "mass_kg": 2.0,
+        "stock_kg": 0.3876,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      },
+      {
+        "type": "mass",
+        "object": "tray.n.01_2",
+        "mass_kg": 2.0,
+        "stock_kg": 0.2973,
+        "note": "generation.tray_mass_kg: a tray at its 0.4-0.6 kg category mass under 1 kg bottles is an inverted mass ratio PhysX resolves with contact chatter"
+      }
+    ],
+    "initial_occlusion": {
+      "target": "computer_game.n.01_1",
+      "occluders": [
+        "computer_game.n.01_2",
+        "computer_game.n.01_3",
+        "board_game.n.01_1"
+      ],
+      "ratio": 0.0,
+      "visible_area": 1694,
+      "reference_area": 1694,
+      "occluder_ids": [
+        "distractors_video_game_qsyyql_0",
+        "distractors_video_game_quzjuo_1",
+        "distractors_board_game_frgdqh_2"
+      ],
+      "camera_key": "robot_r1:zed_link:Camera:0",
+      "destination_pixels": 3595
+    }
+  }
+}

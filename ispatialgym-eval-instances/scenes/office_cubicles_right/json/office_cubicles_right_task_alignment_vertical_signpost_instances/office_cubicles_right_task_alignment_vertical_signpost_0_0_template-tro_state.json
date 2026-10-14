@@ -1,0 +1,322 @@
+{
+  "signpost.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -2.880723476409912,
+        6.163513660430908,
+        1.449004054069519
+      ],
+      "ori": [
+        -0.1347048431634903,
+        3.310438436392852e-18,
+        -1.2877991093335075e-19,
+        0.9908857941627502
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -2.8993124961853027,
+          5.897200584411621,
+          1.2999398708343506,
+          -2.8579273223876953,
+          6.427089691162109,
+          1.5986937284469604
+        ]
+      }
+    }
+  },
+  "wall.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -3.077312469482422,
+        2.4553442001342773,
+        1.4999949932098389
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -3.252312421798706,
+          -3.1946558952331543,
+          0.0,
+          -2.9023125171661377,
+          8.105344772338867,
+          2.9999899864196777
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -1.3019434213638306,
+        -1.532677173614502,
+        -0.15000003576278687
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -3.252312421798706,
+          -10.994651794433594,
+          -0.30000150203704834,
+          0.647687554359436,
+          8.155344009399414,
+          -3.129243850708008e-07
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -2.0238044261932373,
+          5.587066650390625,
+          0.005284786224365234
+        ],
+        "orientation": [
+          -7.831491529941559e-05,
+          1.4626769370806869e-05,
+          0.958300769329071,
+          0.2857617139816284
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "alignment",
+    "activity_definition_id": 5,
+    "task_variant": "alignment-world_vertical-signpost-walls",
+    "instance_id": "alignment-world_vertical-signpost-walls__office_cubicles_right__support-walls_gkewle_0-r03__target-signpost-vvjtkv__0000",
+    "generation_seed": 3175959305611333287,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "9b8f53a5e49971e5bfc11b5f3b04cd2d7eedd62cc3317b71b9443afab31c817e",
+    "task_spec_sha256": "44157081aa95ed2b403b091ff4fa1bbd891511e33357d391bdc7dc043b8ca7c0",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "993cd4f5aa197bcc314f5aa593b64229abff3ae88ef1e9924c4700314e2e7ed3",
+      "load_room_instances": [
+        "corridor_0",
+        "bathroom_0",
+        "conference_hall_0",
+        "copy_room_0",
+        "empty_room_0",
+        "lobby_0",
+        "meeting_room_0",
+        "private_office_0",
+        "private_office_1",
+        "private_office_2",
+        "private_office_3",
+        "shared_office_0"
+      ],
+      "task_rooms": [
+        "corridor_0"
+      ],
+      "sampled_with_rooms": [
+        "corridor_0",
+        "bathroom_0",
+        "conference_hall_0",
+        "copy_room_0",
+        "empty_room_0",
+        "lobby_0",
+        "meeting_room_0",
+        "private_office_0",
+        "private_office_1",
+        "private_office_2",
+        "private_office_3",
+        "shared_office_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "floors_egqrip_0",
+        "walls_gkewle_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_egqrip_0",
+        "category": "floors",
+        "model": "egqrip"
+      },
+      "signpost.n.01_1": {
+        "scene_object_name": "target_signpost_vvjtkv_0",
+        "category": "signpost",
+        "model": "vvjtkv"
+      },
+      "wall.n.01_1": {
+        "scene_object_name": "walls_gkewle_0",
+        "category": "walls",
+        "model": "gkewle"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.4499763250350952,
+        "torso_joint2": -0.4000430405139923,
+        "torso_joint3": 1.4852694221190177e-06,
+        "torso_joint4": -1.3649373613588978e-06,
+        "left_arm_joint1": 2.594288162072189e-05,
+        "right_arm_joint1": 7.013211870798841e-05,
+        "left_arm_joint2": 1.5700006484985352,
+        "right_arm_joint2": -1.5699999332427979,
+        "left_arm_joint3": -5.002316811442142e-06,
+        "right_arm_joint3": 6.471647679973103e-07,
+        "left_arm_joint4": -1.5700079202651978,
+        "right_arm_joint4": -1.5699903964996338,
+        "left_arm_joint5": 1.5699734687805176,
+        "right_arm_joint5": -1.5700246095657349,
+        "left_arm_joint6": -2.9143527626729337e-06,
+        "right_arm_joint6": -3.3777823773561977e-06,
+        "left_arm_joint7": -5.167553808860248e-06,
+        "right_arm_joint7": -4.104904292034917e-06,
+        "left_gripper_finger_joint1": 0.049999650567770004,
+        "left_gripper_finger_joint2": 0.04999975115060806,
+        "right_gripper_finger_joint1": 0.049999676644802094,
+        "right_gripper_finger_joint2": 0.0499999038875103
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_alignment_vertical_signpost_0_0_template-goal_rgb.png",
+      "rgb_sha256": "6b84278ca03818e25d2f18c54514263904f078550775f3ff9a1f912710dfaf2b",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -2.2648401260375977,
+          6.012327194213867,
+          1.5749924182891846
+        ],
+        "orientation": [
+          0.38969728350639343,
+          0.38968852162361145,
+          0.5900349617004395,
+          0.5900318026542664
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "signpost.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": null,
+        "orientation": [
+          -0.003804603824391961,
+          3.2949596123853003e-18,
+          1.8638934413430678e-19,
+          0.9999927878379822
+        ],
+        "position_metric": null,
+        "orientation_metric": "full",
+        "position_tolerance": null,
+        "orientation_tolerance": 0.08,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "revolute",
+        "child": "signpost.n.01_1",
+        "parent": "wall.n.01_1",
+        "parent_link": "base_link",
+        "anchor_position": [
+          -2.8786253929138184,
+          6.162143707275391,
+          1.449317216873169
+        ],
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "limits": null,
+        "friction": 0.20541808211339235,
+        "damping": 82.16723284535693,
+        "drive": "UsdPhysics angular drive, stiffness 0, target velocity 0: torque = clamp(-damping * omega, +-friction)",
+        "resistance_facts": {
+          "inertia_kgm2": 0.020541808211339236,
+          "mass_kg": 0.8749999403953552,
+          "extents_perp_m": [
+            0.5025367736816406,
+            0.17080116271972656
+          ],
+          "stop_decel_rad_s2": 10.0,
+          "viscous_tau_s": 0.02,
+          "brake_omega_rad_s": 0.0025
+        }
+      }
+    ]
+  }
+}

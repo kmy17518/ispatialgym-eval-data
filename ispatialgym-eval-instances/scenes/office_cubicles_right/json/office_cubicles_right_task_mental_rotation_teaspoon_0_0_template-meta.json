@@ -1,0 +1,582 @@
+{
+ "template_id": "office_cubicles_right__room-bathroom_0__target-teaspoon-eilfij-s1x1x2",
+ "scene": "office_cubicles_right",
+ "timings": {
+  "bind_spawn_s": 23.232321977615356,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 229.26959133148193,
+  "sample_template_kit": {
+   "ik_calls": 2,
+   "ik_s": 14.926,
+   "ik_batch_calls": 5,
+   "ik_batch_problems": 1560,
+   "ik_batch_s": 168.997,
+   "collision_calls": 1,
+   "collision_configs": 1,
+   "collision_s": 0.012,
+   "orient_choices": 1,
+   "orient_arm_choices": 1,
+   "orient_reason.only_feasible": 1,
+   "orient_arm.right": 1,
+   "orient_arm_reason.only_feasible": 1
+  },
+  "save_template_s": 0.45020008087158203
+ },
+ "variant": "mental_rotation-teaspoon",
+ "subtask": "mental_rotation",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "00b2e47c5c95f73e4bf9cfa894a8d3571b23f6f74fc40fd499b05f59d50a70b0",
+ "choice": {
+  "scene": "office_cubicles_right",
+  "rooms": [
+   "bathroom_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "bathroom_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "teaspoon",
+    "model": "eilfij",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "teaspoon__eilfij__sf",
+    "scale": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   }
+  },
+  "groups": {},
+  "template_id": "office_cubicles_right__room-bathroom_0__target-teaspoon-eilfij-s1x1x2",
+  "room_tag": "bathroom_0"
+ },
+ "rooms": [
+  "bathroom_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_14a2f58b_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 1285164,
+  "seed_source": "split",
+  "scene": "office_cubicles_right",
+  "room": "bathroom_0",
+  "scene_source": "split",
+  "room_override": true
+ },
+ "init_arms": "left tucked (JoyLo reset), right hold",
+ "bddl_sha256": "a0c729177c4058b583e20146147a4637fd3fa898cfae3965a7dd77fe3f75d6c9",
+ "init_orientation": {
+  "drawn": true,
+  "init_angle_range_deg": [
+   0.0,
+   180.0
+  ],
+  "init_draws_per_template": 312,
+  "init_axis": "uniform on the sphere",
+  "init_angle": "continuous",
+  "start_set_rng": {
+   "template_seed": 10177213716,
+   "spawn_key": [
+    19794
+   ]
+  },
+  "goal_angle_range_deg": [
+   30.0,
+   120.0
+  ],
+  "goal_axis": "uniform on the sphere",
+  "goal_angle": "continuous",
+  "goal_draws_per_start": 192
+ },
+ "hold": {
+  "key": "132d4c9fc9fa3a92",
+  "source": "solved",
+  "robot": "r1pro",
+  "depth_m": 0.5,
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "roll_deg": 15.0,
+  "approach": "base +y",
+  "closing": "world down rolled 15.0 deg about the approach",
+  "eef_in_base": {
+   "position": [
+    0.70123291015625,
+    0.011837959289550781,
+    1.1998927593231201
+   ],
+   "orientation": [
+    -0.7010573744773865,
+    0.09229595959186554,
+    0.09229595214128494,
+    0.7010574340820312
+   ]
+  },
+  "pad_in_base": [
+   0.70123291015625,
+   -2.193450927734375e-05,
+   1.1998927593231201
+  ],
+  "camera_in_base": {
+   "position": [
+    0.2395477294921875,
+    -2.288818359375e-05,
+    1.3918462991714478
+   ],
+   "orientation": [
+    0.392461359500885,
+    -0.39245450496673584,
+    -0.5882022380828857,
+    0.5881935358047485
+   ]
+  },
+  "right_arm_q": [
+   -1.3560740947723389,
+   -0.053372688591480255,
+   0.5576711297035217,
+   -0.5515205264091492,
+   -0.09233605116605759,
+   -1.0439231395721436,
+   1.0924371480941772
+  ],
+  "idle_arms": "tucked"
+ },
+ "hold_arm": {
+  "arm": "right",
+  "reason": "only feasible",
+  "against_default": false,
+  "default": "right",
+  "offered": [
+   "right",
+   "left"
+  ],
+  "arm_choice": {
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "chosen": "right",
+   "reason": "only feasible",
+   "against_default": false,
+   "viable": [
+    "right"
+   ]
+  },
+  "decision": {
+   "stage": "hold",
+   "arm": "right",
+   "chosen": "right:hold",
+   "source": "ik",
+   "reason": "only feasible",
+   "against_default": false,
+   "options": [
+    {
+     "label": "right:hold",
+     "arm": "right",
+     "rank": 0,
+     "source": "ik",
+     "ok": true,
+     "margin_rad": 0.0033,
+     "nearest_joint": "right_arm_joint6",
+     "reach_rad": 1.356
+    },
+    {
+     "label": "left:hold",
+     "arm": "left",
+     "rank": 1,
+     "source": "ik",
+     "ok": false,
+     "margin_rad": null,
+     "nearest_joint": null,
+     "reach_rad": null,
+     "why": "[hold_pose] no left-arm IK solution for the fixed hold (depth 0.5, trunk (0.5, 0.0), roll 15.0 deg; pad in base [0.701, "
+    }
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "only feasible",
+    "against_default": false,
+    "viable": [
+     "right"
+    ]
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "hold_arm": {
+   "arm": "right",
+   "reason": "only feasible",
+   "against_default": false,
+   "default": "right",
+   "offered": [
+    "right",
+    "left"
+   ],
+   "arm_choice": {
+    "default": "right",
+    "offered": [
+     "right",
+     "left"
+    ],
+    "chosen": "right",
+    "reason": "only feasible",
+    "against_default": false,
+    "viable": [
+     "right"
+    ]
+   },
+   "decision": {
+    "stage": "hold",
+    "arm": "right",
+    "chosen": "right:hold",
+    "source": "ik",
+    "reason": "only feasible",
+    "against_default": false,
+    "options": [
+     {
+      "label": "right:hold",
+      "arm": "right",
+      "rank": 0,
+      "source": "ik",
+      "ok": true,
+      "margin_rad": 0.0033,
+      "nearest_joint": "right_arm_joint6",
+      "reach_rad": 1.356
+     },
+     {
+      "label": "left:hold",
+      "arm": "left",
+      "rank": 1,
+      "source": "ik",
+      "ok": false,
+      "margin_rad": null,
+      "nearest_joint": null,
+      "reach_rad": null,
+      "why": "[hold_pose] no left-arm IK solution for the fixed hold (depth 0.5, trunk (0.5, 0.0), roll 15.0 deg; pad in base [0.701, "
+     }
+    ],
+    "arm_choice": {
+     "default": "right",
+     "offered": [
+      "right",
+      "left"
+     ],
+     "chosen": "right",
+     "reason": "only feasible",
+     "against_default": false,
+     "viable": [
+      "right"
+     ]
+    }
+   }
+  },
+  "start_options": {
+   "grasps": 5,
+   "starts": 312,
+   "grasps_out_of_view": 0,
+   "out_of_view": 0,
+   "ik_failed": 937,
+   "feasible": 623,
+   "grasps_with_options": 5,
+   "per_grasp": {
+    "grasp_0": 125,
+    "grasp_1": 127,
+    "grasp_3": 123,
+    "grasp_4": 123,
+    "grasp_6": 125
+   }
+  },
+  "hold": {
+   "key": "132d4c9fc9fa3a92",
+   "source": "solved",
+   "robot": "r1pro",
+   "depth_m": 0.5,
+   "trunk": [
+    0.5,
+    0.0
+   ],
+   "roll_deg": 15.0,
+   "approach": "base +y",
+   "closing": "world down rolled 15.0 deg about the approach",
+   "eef_in_base": {
+    "position": [
+     0.70123291015625,
+     0.011837959289550781,
+     1.1998927593231201
+    ],
+    "orientation": [
+     -0.7010573744773865,
+     0.09229595959186554,
+     0.09229595214128494,
+     0.7010574340820312
+    ]
+   },
+   "pad_in_base": [
+    0.70123291015625,
+    -2.193450927734375e-05,
+    1.1998927593231201
+   ],
+   "camera_in_base": {
+    "position": [
+     0.2395477294921875,
+     -2.288818359375e-05,
+     1.3918462991714478
+    ],
+    "orientation": [
+     0.392461359500885,
+     -0.39245450496673584,
+     -0.5882022380828857,
+     0.5881935358047485
+    ]
+   },
+   "right_arm_q": [
+    -1.3560740947723389,
+    -0.053372688591480255,
+    0.5576711297035217,
+    -0.5515205264091492,
+    -0.09233605116605759,
+    -1.0439231395721436,
+    1.0924371480941772
+   ],
+   "idle_arms": "tucked"
+  },
+  "grasp_key": "teaspoon__eilfij__sf",
+  "n_grasps": 5,
+  "orientation_equivalences": null,
+  "visibility_prior_rows": 869
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "mlogeo",
+   "scene_object_name": "floors_mlogeo_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "teaspoon.n.02_1",
+   "synset": "teaspoon.n.02",
+   "category": "teaspoon",
+   "model": "eilfij",
+   "scene_object_name": "target_teaspoon_eilfij_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "294e1f5760b42961d60558f553d491d7f98eb750701765716dba0305576e57de",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/mental_rotation-teaspoon/inst/mental_rotation-teaspoon/office_cubicles_right__room-bathroom_0__target-teaspoon-eilfij-s1x1x2/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/mental_rotation-teaspoon/inst/mental_rotation-teaspoon/office_cubicles_right__room-bathroom_0__target-teaspoon-eilfij-s1x1x2/template-partial_rooms.json",
+ "load_room_instances": [
+  "bathroom_0",
+  "corridor_0"
+ ],
+ "task_rooms": [
+  "bathroom_0"
+ ],
+ "sampled_with_rooms": [
+  "bathroom_0",
+  "corridor_0"
+ ],
+ "scene_variant": null,
+ "problem": "mental_rotation-1",
+ "choices": {
+  "target": {
+   "category": "teaspoon",
+   "model": "eilfij",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "teaspoon__eilfij__sf",
+   "scale": [
+    1.0,
+    1.0,
+    2.0
+   ]
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_mlogeo_0",
+  "teaspoon.n.02_1": "target_teaspoon_eilfij_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 221.77298545837402,
+ "activity_definition": "../activity_definitions/mental_rotation/problem2.bddl",
+ "bddl_variant": "mental_rotation-teaspoon",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    17.700000762939453,
+    7.099999904632568,
+    -1.2711271564598994
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": [
+    "right"
+   ],
+   "carried": "teaspoon.n.02_1",
+   "idle_posture": "untucked",
+   "posture": {
+    "left_arm": "reset",
+    "right_arm": "hold"
+   },
+   "hold": {
+    "depth_m": 0.5,
+    "trunk": [
+     0.5,
+     0.0
+    ],
+    "roll_deg": 15.0,
+    "start_rotation": {
+     "axis_base": [
+      0.9209855198860168,
+      0.2838684916496277,
+      -0.26684141159057617
+     ],
+     "angle_deg": 79.92535305755658,
+     "axis_world": [
+      0.5430964231491089,
+      -0.7961418628692627,
+      -0.26684141159057617
+     ]
+    }
+   },
+   "arms_q": {
+    "right": [
+     -0.9678,
+     0.14119,
+     0.88208,
+     -0.75896,
+     0.03088,
+     -0.91232,
+     -0.64227
+    ],
+    "left": [
+     -2e-05,
+     0.0,
+     5e-05,
+     1e-05,
+     2e-05,
+     -0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.004699974786490202,
+   "fingers_by_arm": {
+    "right": 0.0047,
+    "left": null
+   },
+   "name": "init",
+   "extras": {
+    "posture": {
+     "left_arm": "reset",
+     "right_arm": "hold"
+    },
+    "hold": {
+     "depth_m": 0.5,
+     "trunk": [
+      0.5,
+      0.0
+     ],
+     "roll_deg": 15.0,
+     "start_rotation": {
+      "axis_base": [
+       0.9209855198860168,
+       0.2838684916496277,
+       -0.26684141159057617
+      ],
+      "angle_deg": 79.92535305755658,
+      "axis_world": [
+       0.5430964231491089,
+       -0.7961418628692627,
+       -0.26684141159057617
+      ]
+     }
+    },
+    "arms_q": {
+     "right": [
+      -0.9678,
+      0.14119,
+      0.88208,
+      -0.75896,
+      0.03088,
+      -0.91232,
+      -0.64227
+     ],
+     "left": [
+      -2e-05,
+      0.0,
+      5e-05,
+      1e-05,
+      2e-05,
+      -0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.004699974786490202,
+    "fingers_by_arm": {
+     "right": 0.0047,
+     "left": null
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {},
+ "seeds": [
+  10177244247641148
+ ],
+ "kit_stats": {
+  "ik_calls": 10,
+  "ik_s": 15.084396600723267,
+  "ik_batch_calls": 7,
+  "ik_batch_problems": 1947,
+  "ik_batch_s": 236.68089985847473,
+  "collision_calls": 12,
+  "collision_configs": 41,
+  "collision_s": 0.10648965835571289,
+  "orient_choices": 1,
+  "orient_arm_choices": 1,
+  "orient_reason.only_feasible": 1,
+  "orient_arm.right": 1,
+  "orient_arm_reason.only_feasible": 1,
+  "limit_retry_poses": 2,
+  "limit_reject.right_arm_joint2": 1,
+  "limit_retry_seeded_rescued": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "mental_rotation",
+  "task": "mental_rotation",
+  "subtask": "mental_rotation_teaspoon",
+  "variant": "mental_rotation-teaspoon"
+ }
+}

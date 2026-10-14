@@ -1,0 +1,405 @@
+{
+ "template_id": "house_single_floor__obstacles-trash_can_1-s1.4",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 27.784570455551147,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 2.4992733001708984,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 1.2061076164245605
+ },
+ "variant": "camera_relocalization-obstructed-trash_can_1",
+ "subtask": "camera_relocalization-obstructed",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "0976f538047d8d491fdc464b1eb693def7ef900a823ee7ce78d8f226eefcd967",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "living_room_0"
+  ],
+  "bindings": {
+   "floor": {
+    "room": "living_room_0"
+   }
+  },
+  "models": {},
+  "groups": {
+   "obstacles": [
+    {
+     "category": "trash_can",
+     "model": "cdzyew",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": [
+      1.4,
+      1.4,
+      1.4
+     ]
+    }
+   ]
+  },
+  "template_id": "house_single_floor__obstacles-trash_can_1-s1.4"
+ },
+ "rooms": [
+  "living_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_6cabe73f_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 305593536,
+  "seed_source": "split",
+  "scene": null,
+  "room": null,
+  "scene_source": "customs (no scene draw for camera_relocalization-obstructed)"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "73731f0dab4996588afb7094f5364a1091f7e496649d054da2e20c11bc58fd6e",
+ "init_config": {
+  "trunk": [
+   0.5,
+   0.0
+  ],
+  "arms": "untucked"
+ },
+ "obstacles": {
+  "instances": {
+   "ashcan.n.01_1": {
+    "scene_object_name": "obstacles_trash_can_cdzyew_0",
+    "category": "trash_can",
+    "model": "cdzyew",
+    "bottom_offset_m": 0.22236967086791992,
+    "height_m": 0.5526914596557617,
+    "footprint_m": [
+     0.407958984375,
+     0.34661102294921875
+    ],
+    "radius_m": 0.22017577290534973
+   }
+  },
+  "generation": {
+   "footprint_range_m": [
+    0.12,
+    0.8
+   ],
+   "height_range_m": [
+    0.1,
+    1.7
+   ],
+   "preferred_footprint_range_m": [
+    0.2,
+    0.55
+   ],
+   "preferred_height_range_m": [
+    0.2,
+    1.1
+   ],
+   "settle_steps": 60,
+   "settle_drift_max_m": 0.005,
+   "min_detour_m": 0.3,
+   "min_corridor_width_m": 0.75,
+   "in_frame_margin": 0.05
+  },
+  "per_instance": {
+   "camera_relocalization-obstructed-trash_can_1__house_single_floor__obstacles-trash_can_1-s1.4__0000": {
+    "blocked_footprints": {
+     "free": [],
+     "block": [
+      [
+       [
+        14.558141593933106,
+        0.6419122266769408
+       ],
+       [
+        15.642502899169921,
+        0.6419122266769408
+       ],
+       [
+        15.642502899169921,
+        1.7878072214126588
+       ],
+       [
+        14.558141593933106,
+        1.7878072214126588
+       ]
+      ]
+     ]
+    },
+    "free_geodesic_m": 3.421320915222168,
+    "blocked_geodesic_m": 4.007107257843018,
+    "view_waypoint_index": {
+     "ashcan.n.01_1": 0
+    },
+    "divergence_waypoint_index": {
+     "ashcan.n.01_1": 0
+    },
+    "positions": {
+     "ashcan.n.01_1": [
+      15.1,
+      1.2002,
+      0.2223
+     ]
+    }
+   }
+  }
+ },
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "path_buckets": [
+   {
+    "max_m": 3.0,
+    "n": 10
+   },
+   {
+    "max_m": 5.0,
+    "n": 10
+   },
+   {
+    "max_m": 10.0,
+    "n": 5
+   }
+  ],
+  "bucket_counts_existing": {}
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "uzsntg",
+   "scene_object_name": "floors_uzsntg_0",
+   "dataset": null
+  },
+  {
+   "role": "obstacles",
+   "name": "ashcan.n.01_1",
+   "synset": "ashcan.n.01",
+   "category": "trash_can",
+   "model": "cdzyew",
+   "scene_object_name": "obstacles_trash_can_cdzyew_0",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "890536142384bd66d3bbd08c857bb5e07d31831ea3a957f709eac38b2548f923",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/camera_relocalization-obstructed-trash_can_1/inst/camera_relocalization-obstructed-trash_can_1/house_single_floor__obstacles-trash_can_1-s1.4/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s2_3tasks/camera_relocalization-obstructed-trash_can_1/inst/camera_relocalization-obstructed-trash_can_1/house_single_floor__obstacles-trash_can_1-s1.4/template-partial_rooms.json",
+ "load_room_instances": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "task_rooms": [
+  "living_room_0"
+ ],
+ "sampled_with_rooms": [
+  "living_room_0",
+  "corridor_0",
+  "dining_room_0",
+  "garden_0",
+  "kitchen_0"
+ ],
+ "scene_variant": null,
+ "problem": "camera_relocalization-4",
+ "choices": {
+  "obstacles[0]": {
+   "category": "trash_can",
+   "model": "cdzyew",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": [
+    1.4,
+    1.4,
+    1.4
+   ]
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_uzsntg_0",
+  "ashcan.n.01_1": "obstacles_trash_can_cdzyew_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 429.224232673645,
+ "activity_definition": "../activity_definitions/camera_relocalization/problem4.bddl",
+ "bddl_variant": "camera_relocalization-obstructed-trash_can_1",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    13.5,
+    0.20000000298023224,
+    3.122861527579057
+   ],
+   "translate": 0.5,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "posture": "untucked",
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers_by_arm": {
+    "right": 0.05,
+    "left": 0.05
+   },
+   "name": "init",
+   "extras": {
+    "posture": "untucked",
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers_by_arm": {
+     "right": 0.05,
+     "left": 0.05
+    }
+   }
+  },
+  "goal": {
+   "base_pose2d": [
+    16.30000114440918,
+    1.7000000476837158,
+    -2.6927798819947766
+   ],
+   "translate": 0.19417503478984846,
+   "tilt": -0.26387984301271206,
+   "arms": "untucked",
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers_by_arm": {
+    "right": 0.05,
+    "left": 0.05
+   },
+   "name": "goal",
+   "extras": {
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers_by_arm": {
+     "right": 0.05,
+     "left": 0.05
+    }
+   }
+  }
+ },
+ "bucket_counts": {
+  "5.0": 1
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 3
+ },
+ "seeds": [
+  2420002471569634752
+ ],
+ "kit_stats": {
+  "ik_calls": 0,
+  "ik_s": 0.0,
+  "ik_batch_calls": 0,
+  "ik_batch_problems": 0,
+  "ik_batch_s": 0.0,
+  "collision_calls": 7,
+  "collision_configs": 142,
+  "collision_s": 2.4611611366271973
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "camera_relocalization",
+  "task": "camera_relocalization_obstructed",
+  "subtask": "camera_relocalization_obstructed_trash_can_1",
+  "variant": "camera_relocalization-obstructed-trash_can_1"
+ }
+}

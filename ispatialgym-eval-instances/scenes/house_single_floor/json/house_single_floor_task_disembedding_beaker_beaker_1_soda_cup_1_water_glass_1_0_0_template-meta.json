@@ -1,0 +1,1074 @@
+{
+ "template_id": "house_single_floor__support-countertop_ikwqer_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-beaker-jdijek__distractors-beaker_1-soda_cup_1-water_glass_1",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 62.53257465362549,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 36.804433822631836,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 124,
+   "collision_configs": 1914,
+   "collision_s": 2.427
+  },
+  "save_template_s": 0.8610224723815918
+ },
+ "variant": "disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop",
+ "subtask": "disembedding",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "6340f5164af93a2b6b00833646ce864401bc64dc1f3f85e7612f046d47f17e88",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "utility_room_0"
+  ],
+  "bindings": {
+   "support": [
+    "countertop_ikwqer_0"
+   ],
+   "support_surfaces": [
+    {
+     "name": "countertop_ikwqer_0",
+     "init": "ontop",
+     "top_z": 0.93,
+     "row": "disembedding#05~T1"
+    }
+   ],
+   "floor": {
+    "room": "utility_room_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "beaker",
+    "model": "jdijek",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": "beaker__jdijek__t",
+    "scale": null
+   },
+   "source": {
+    "category": "tray",
+    "model": "uekqey",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   },
+   "destination": {
+    "category": "tray",
+    "model": "hvlfig",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {
+   "distractors": [
+    {
+     "category": "beaker",
+     "model": "fyrkzs",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    },
+    {
+     "category": "soda_cup",
+     "model": "lpanoc",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    },
+    {
+     "category": "water_glass",
+     "model": "edfzlt",
+     "dataset": "behavior-1k-assets",
+     "grasp_key": null,
+     "scale": null
+    }
+   ]
+  },
+  "template_id": "house_single_floor__support-countertop_ikwqer_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-beaker-jdijek__distractors-beaker_1-soda_cup_1-water_glass_1",
+  "support_tag": "countertop_ikwqer_0-T1"
+ },
+ "rooms": [
+  "utility_room_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_4e067cdf_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 969141330,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "house_single_floor",
+  "support": "countertop_ikwqer_0",
+  "row": "disembedding#05~T1",
+  "init": "ontop",
+  "top_z": 0.93,
+  "surface": null,
+  "regions": null,
+  "rooms": [
+   "utility_room_0"
+  ],
+  "floor_room": "utility_room_0",
+  "tag": "countertop_ikwqer_0-T1",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "361a04236713dc52332e02ed50741b14be675b733d1a05173fac885feadb5ff0",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "tray_mass_kg": {
+   "source_tray_uekqey_0": 2.0,
+   "destination_tray_hvlfig_0": 2.0
+  },
+  "arm_bands": {
+   "left": {
+    "arm": "left",
+    "path": "/tmp/minyeong/isge_17816763/reach_bands/tabletop__house_single_floor__countertop_ikwqer_0__left_beaker-jdijek__placed-tray-uekqey-focus__46036ccb9ce04cd4.npz"
+   }
+  },
+  "support": {
+   "name": "countertop_ikwqer_0",
+   "z": 0.9275420904159546,
+   "yaw": 3.1390492916107178,
+   "local_bounds": [
+    -24.831832885742188,
+    -24.187307357788086,
+    -2.22619891166687,
+    2.2154147624969482
+   ],
+   "n_free_cells": 6620,
+   "occupants": [
+    "fixed_window_qvqecb_0",
+    "tabletop_sink_vekaaf_0"
+   ],
+   "resolution": 0.02
+  },
+  "edge": {
+   "name": "+u",
+   "mid": [
+    24.18724250793457,
+    -0.05612495541572571
+   ],
+   "inward": [
+    0.9999967813491821,
+    -0.0025433592963963747
+   ],
+   "tangent": [
+    0.0025433592963963747,
+    0.9999967813491821
+   ],
+   "length_m": 4.441613674163818,
+   "overhang_m": 0.0
+  },
+  "init_stance": {
+   "base_pose2d": [
+    23.738679885864258,
+    0.5095669031143188,
+    -0.002543361998520354
+   ],
+   "translate": 0.516008574371005,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.5645491579927222,
+   "H_max": 0.11938333511352539,
+   "delta": 0.46134825443537875,
+   "delta_aim": 0.46134825443537875,
+   "delta_min": 0.40715346336364744,
+   "delta_max": 0.6343249430063466,
+   "conflict": false,
+   "d_ws": 0.25060571910757007,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.510000079870224,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2392559049986431,
+   "z_c": 1.388900015704948,
+   "b": 0.6387186050415039,
+   "b_right": 0.6387247443199158,
+   "b_left": 0.6387186050415039,
+   "R_img": 0.6387186050415039,
+   "t_range": [
+    0.06504690335829982,
+    0.6159266367949392
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777012825012207,
+   "n_workspace_cells": 66,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "safety": 0.02,
+    "m_R": 1.095718605041504,
+    "m_L": 1.095718605041504
+   },
+   "lateral_bounds": [
+    -1.1250882320404052,
+    1.1250882320404052
+   ],
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     24.18724250793457,
+     -0.05612495541572571
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025433592963963747
+    ],
+    "tangent": [
+     0.0025433592963963747,
+     0.9999967813491821
+    ],
+    "length_m": 4.441613674163818,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999995827674866,
+   "extras": {
+    "H_max": 0.11938333511352539,
+    "delta": 0.46134825443537875,
+    "delta_aim": 0.46134825443537875,
+    "delta_min": 0.40715346336364744,
+    "delta_max": 0.6343249430063466,
+    "conflict": false,
+    "d_ws": 0.25060571910757007,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.510000079870224,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2392559049986431,
+    "z_c": 1.388900015704948,
+    "b": 0.6387186050415039,
+    "b_right": 0.6387247443199158,
+    "b_left": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "t_range": [
+     0.06504690335829982,
+     0.6159266367949392
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777012825012207,
+    "n_workspace_cells": 66,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.6387186050415039,
+     "R_img": 0.6387186050415039,
+     "safety": 0.02,
+     "m_R": 1.095718605041504,
+     "m_L": 1.095718605041504
+    },
+    "lateral_bounds": [
+     -1.1250882320404052,
+     1.1250882320404052
+    ]
+   }
+  },
+  "n_manipulation_candidates": 118,
+  "grasp_key": "beaker__jdijek__t",
+  "n_grasps": 5,
+  "band": "/tmp/minyeong/isge_17816763/reach_bands/tabletop__house_single_floor__countertop_ikwqer_0__beaker-jdijek__placed-tray-uekqey-focus__148d577c9f170db4.npz",
+  "placed_key": "tray/uekqey@focus_centred_edge_aligned",
+  "source_tray_scale": 1.0,
+  "src_floor_cells": 1639,
+  "dst_floor_cells": 926,
+  "H_max": 0.11938333511352539,
+  "distractors": [
+   "beaker.n.02_2",
+   "dixie_cup.n.01_1",
+   "water_glass.n.02_1"
+  ],
+  "segment_arms": [
+   "right",
+   "left"
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "glwobe",
+   "scene_object_name": "floors_glwobe_0",
+   "dataset": null
+  },
+  {
+   "role": "support",
+   "name": "countertop.n.01_1",
+   "synset": "countertop.n.01",
+   "category": "countertop",
+   "model": "ikwqer",
+   "scene_object_name": "countertop_ikwqer_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "beaker.n.02_1",
+   "synset": "beaker.n.02",
+   "category": "beaker",
+   "model": "jdijek",
+   "scene_object_name": "target_beaker_jdijek_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "source",
+   "name": "tray.n.01_1",
+   "synset": "tray.n.01",
+   "category": "tray",
+   "model": "uekqey",
+   "scene_object_name": "source_tray_uekqey_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "destination",
+   "name": "tray.n.01_2",
+   "synset": "tray.n.01",
+   "category": "tray",
+   "model": "hvlfig",
+   "scene_object_name": "destination_tray_hvlfig_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "beaker.n.02_2",
+   "synset": "beaker.n.02",
+   "category": "beaker",
+   "model": "fyrkzs",
+   "scene_object_name": "distractors_beaker_fyrkzs_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "dixie_cup.n.01_1",
+   "synset": "dixie_cup.n.01",
+   "category": "soda_cup",
+   "model": "lpanoc",
+   "scene_object_name": "distractors_soda_cup_lpanoc_1",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "distractors",
+   "name": "water_glass.n.02_1",
+   "synset": "water_glass.n.02",
+   "category": "water_glass",
+   "model": "edfzlt",
+   "scene_object_name": "distractors_water_glass_edfzlt_2",
+   "dataset": "behavior-1k-assets"
+  }
+ ],
+ "template_sha256": "a8c57dd106da2830870414aeedcf7389493f3218ee64331a5eb58e66eb928e49",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/disembedding_05/c1_k0/inst/disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop/house_single_floor__support-countertop_ikwqer_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-beaker-jdijek__distractors-beaker_1-soda_cup_1-water_glass_1/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/disembedding_05/c1_k0/inst/disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop/house_single_floor__support-countertop_ikwqer_0-T1__destination-tray-hvlfig__source-tray-uekqey__target-beaker-jdijek__distractors-beaker_1-soda_cup_1-water_glass_1/template-partial_rooms.json",
+ "load_room_instances": [
+  "utility_room_0",
+  "corridor_0",
+  "garden_0"
+ ],
+ "task_rooms": [
+  "utility_room_0"
+ ],
+ "sampled_with_rooms": [
+  "utility_room_0",
+  "corridor_0",
+  "garden_0"
+ ],
+ "scene_variant": null,
+ "problem": "disembedding-1",
+ "choices": {
+  "target": {
+   "category": "beaker",
+   "model": "jdijek",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": "beaker__jdijek__t",
+   "scale": null
+  },
+  "source": {
+   "category": "tray",
+   "model": "uekqey",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "destination": {
+   "category": "tray",
+   "model": "hvlfig",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[0]": {
+   "category": "beaker",
+   "model": "fyrkzs",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[1]": {
+   "category": "soda_cup",
+   "model": "lpanoc",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  },
+  "distractors[2]": {
+   "category": "water_glass",
+   "model": "edfzlt",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_glwobe_0",
+  "countertop.n.01_1": "countertop_ikwqer_0",
+  "beaker.n.02_1": "target_beaker_jdijek_0",
+  "tray.n.01_1": "source_tray_uekqey_0",
+  "tray.n.01_2": "destination_tray_hvlfig_0",
+  "beaker.n.02_2": "distractors_beaker_fyrkzs_0",
+  "dixie_cup.n.01_1": "distractors_soda_cup_lpanoc_1",
+  "water_glass.n.02_1": "distractors_water_glass_edfzlt_2",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 422.61740159988403,
+ "activity_definition": "../activity_definitions/disembedding/problem15.bddl",
+ "bddl_variant": "disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    23.738679885864258,
+    0.5095669031143188,
+    -0.002543361998520354
+   ],
+   "translate": 0.516008574371005,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.5645491579927222,
+   "H_max": 0.11938333511352539,
+   "delta": 0.46134825443537875,
+   "delta_aim": 0.46134825443537875,
+   "delta_min": 0.40715346336364744,
+   "delta_max": 0.6343249430063466,
+   "conflict": false,
+   "d_ws": 0.25060571910757007,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.510000079870224,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2392559049986431,
+   "z_c": 1.388900015704948,
+   "b": 0.6387186050415039,
+   "b_right": 0.6387247443199158,
+   "b_left": 0.6387186050415039,
+   "R_img": 0.6387186050415039,
+   "t_range": [
+    0.06504690335829982,
+    0.6159266367949392
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777012825012207,
+   "n_workspace_cells": 66,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "safety": 0.02,
+    "m_R": 1.095718605041504,
+    "m_L": 1.095718605041504
+   },
+   "lateral_bounds": [
+    -1.1250882320404052,
+    1.1250882320404052
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     24.18724250793457,
+     -0.05612495541572571
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025433592963963747
+    ],
+    "tangent": [
+     0.0025433592963963747,
+     0.9999967813491821
+    ],
+    "length_m": 4.441613674163818,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.44999995827674866,
+   "extras": {
+    "H_max": 0.11938333511352539,
+    "delta": 0.46134825443537875,
+    "delta_aim": 0.46134825443537875,
+    "delta_min": 0.40715346336364744,
+    "delta_max": 0.6343249430063466,
+    "conflict": false,
+    "d_ws": 0.25060571910757007,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.510000079870224,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2392559049986431,
+    "z_c": 1.388900015704948,
+    "b": 0.6387186050415039,
+    "b_right": 0.6387247443199158,
+    "b_left": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "t_range": [
+     0.06504690335829982,
+     0.6159266367949392
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777012825012207,
+    "n_workspace_cells": 66,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.6387186050415039,
+     "R_img": 0.6387186050415039,
+     "safety": 0.02,
+     "m_R": 1.095718605041504,
+     "m_L": 1.095718605041504
+    },
+    "lateral_bounds": [
+     -1.1250882320404052,
+     1.1250882320404052
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    23.738170623779297,
+    0.30956757068634033,
+    -0.002543361998520354
+   ],
+   "translate": 0.25,
+   "tilt": -0.266266663869222,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 0.3645491579927222,
+   "focus": [
+    24.53857421875,
+    0.46753236651420593,
+    0.9281187057495117
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.11938333511352539,
+   "delta": 0.46134825443537875,
+   "delta_aim": 0.46134825443537875,
+   "delta_min": 0.40715346336364744,
+   "delta_max": 0.6343249430063466,
+   "conflict": false,
+   "d_ws": 0.25060571910757007,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.510000079870224,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2392559049986431,
+   "z_c": 1.388900015704948,
+   "b": 0.6387186050415039,
+   "b_right": 0.6387247443199158,
+   "b_left": 0.6387186050415039,
+   "R_img": 0.6387186050415039,
+   "t_range": [
+    0.06504690335829982,
+    0.6159266367949392
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777012825012207,
+   "n_workspace_cells": 66,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "safety": 0.02,
+    "m_R": 1.095718605041504,
+    "m_L": 1.095718605041504
+   },
+   "lateral_bounds": [
+    -1.1250882320404052,
+    1.1250882320404052
+   ],
+   "lateral_shift_m": -0.2,
+   "axis_angle": 0.33347918316305464,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.298809657486261,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "init_travel": {
+    "lateral_m": -0.2,
+    "base_m": 0.2,
+    "path_m": 0.2236,
+    "departure_stand_off_m": 0.55,
+    "transition_stand_off_m": 0.45
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     24.18724250793457,
+     -0.05612495541572571
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025433592963963747
+    ],
+    "tangent": [
+     0.0025433592963963747,
+     0.9999967813491821
+    ],
+    "length_m": 4.441613674163818,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4500005543231964,
+   "extras": {
+    "H_max": 0.11938333511352539,
+    "delta": 0.46134825443537875,
+    "delta_aim": 0.46134825443537875,
+    "delta_min": 0.40715346336364744,
+    "delta_max": 0.6343249430063466,
+    "conflict": false,
+    "d_ws": 0.25060571910757007,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.510000079870224,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2392559049986431,
+    "z_c": 1.388900015704948,
+    "b": 0.6387186050415039,
+    "b_right": 0.6387247443199158,
+    "b_left": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "t_range": [
+     0.06504690335829982,
+     0.6159266367949392
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777012825012207,
+    "n_workspace_cells": 66,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.6387186050415039,
+     "R_img": 0.6387186050415039,
+     "safety": 0.02,
+     "m_R": 1.095718605041504,
+     "m_L": 1.095718605041504
+    },
+    "lateral_bounds": [
+     -1.1250882320404052,
+     1.1250882320404052
+    ],
+    "lateral_shift_m": -0.2,
+    "axis_angle": 0.33347918316305464,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.298809657486261,
+    "init_view_class": 0,
+    "_position": [
+     10,
+     0
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "init_travel": {
+     "lateral_m": -0.2,
+     "base_m": 0.2,
+     "path_m": 0.2236,
+     "departure_stand_off_m": 0.55,
+     "transition_stand_off_m": 0.45
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "placement": {
+   "base_pose2d": [
+    23.740787506103516,
+    1.3380225896835327,
+    -0.002543361998520354
+   ],
+   "translate": 0.25,
+   "tilt": -0.266266663869222,
+   "arms": [
+    "left"
+   ],
+   "stand_off": 0.45,
+   "edge": "+u",
+   "lateral": 1.393007514850022,
+   "focus": [
+    24.53668975830078,
+    1.4959988594055176,
+    0.9281187057495117
+   ],
+   "idle_posture": "untucked",
+   "H_max": 0.11938333511352539,
+   "delta": 0.46134825443537875,
+   "delta_aim": 0.46134825443537875,
+   "delta_min": 0.40715346336364744,
+   "delta_max": 0.6343249430063466,
+   "conflict": false,
+   "d_ws": 0.25060571910757007,
+   "d_near": 0.029998868703842163,
+   "d_far": 0.510000079870224,
+   "lam_min": -0.800000011920929,
+   "lam_max": 0.0,
+   "x_c": 0.2392559049986431,
+   "z_c": 1.388900015704948,
+   "b": 0.6387186050415039,
+   "b_right": 0.6387247443199158,
+   "b_left": 0.6387186050415039,
+   "R_img": 0.6387186050415039,
+   "t_range": [
+    0.06504690335829982,
+    0.6159266367949392
+   ],
+   "camera_pitch_deg": 22.580477940295808,
+   "hand_below": 0.18777012825012207,
+   "n_workspace_cells": 66,
+   "left_band": false,
+   "margins": {
+    "kind": "disembedding",
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "b": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "safety": 0.02,
+    "m_R": 1.095718605041504,
+    "m_L": 1.095718605041504
+   },
+   "lateral_bounds": [
+    -1.1250882320404052,
+    1.1250882320404052
+   ],
+   "lateral_shift_m": -0.2,
+   "axis_angle": 0.33347918316305464,
+   "angle_class": 1,
+   "focus_info": null,
+   "init_view_angle": 0.298809657486261,
+   "init_view_class": 0,
+   "focus_arms": [
+    "left"
+   ],
+   "init_travel": {
+    "lateral_m": -0.2,
+    "base_m": 0.2,
+    "path_m": 0.2236,
+    "departure_stand_off_m": 0.55,
+    "transition_stand_off_m": 0.45
+   },
+   "lateral_shift": 1.0284583568572998,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "placement",
+   "edge_frame": {
+    "name": "+u",
+    "mid": [
+     24.18724250793457,
+     -0.05612495541572571
+    ],
+    "inward": [
+     0.9999967813491821,
+     -0.0025433592963963747
+    ],
+    "tangent": [
+     0.0025433592963963747,
+     0.9999967813491821
+    ],
+    "length_m": 4.441613674163818,
+    "overhang_m": 0.0
+   },
+   "edge_depth": 0.4499993920326233,
+   "extras": {
+    "H_max": 0.11938333511352539,
+    "delta": 0.46134825443537875,
+    "delta_aim": 0.46134825443537875,
+    "delta_min": 0.40715346336364744,
+    "delta_max": 0.6343249430063466,
+    "conflict": false,
+    "d_ws": 0.25060571910757007,
+    "d_near": 0.029998868703842163,
+    "d_far": 0.510000079870224,
+    "lam_min": -0.800000011920929,
+    "lam_max": 0.0,
+    "x_c": 0.2392559049986431,
+    "z_c": 1.388900015704948,
+    "b": 0.6387186050415039,
+    "b_right": 0.6387247443199158,
+    "b_left": 0.6387186050415039,
+    "R_img": 0.6387186050415039,
+    "t_range": [
+     0.06504690335829982,
+     0.6159266367949392
+    ],
+    "camera_pitch_deg": 22.580477940295808,
+    "hand_below": 0.18777012825012207,
+    "n_workspace_cells": 66,
+    "left_band": false,
+    "margins": {
+     "kind": "disembedding",
+     "lam_min": -0.800000011920929,
+     "lam_max": 0.0,
+     "b": 0.6387186050415039,
+     "R_img": 0.6387186050415039,
+     "safety": 0.02,
+     "m_R": 1.095718605041504,
+     "m_L": 1.095718605041504
+    },
+    "lateral_bounds": [
+     -1.1250882320404052,
+     1.1250882320404052
+    ],
+    "lateral_shift_m": -0.2,
+    "axis_angle": 0.33347918316305464,
+    "angle_class": 1,
+    "focus_info": null,
+    "init_view_angle": 0.298809657486261,
+    "init_view_class": 0,
+    "_position": [
+     10,
+     0
+    ],
+    "focus_arms": [
+     "left"
+    ],
+    "init_travel": {
+     "lateral_m": -0.2,
+     "base_m": 0.2,
+     "path_m": 0.2236,
+     "departure_stand_off_m": 0.55,
+     "transition_stand_off_m": 0.45
+    },
+    "lateral_shift": 1.0284583568572998,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {
+  "target_placement": 1
+ },
+ "rejection_examples": {
+  "target_placement": [
+   {
+    "message": "[target_placement] candidate 69: [place_unreachable] pre-place / place fail the exact IK from the placement stance: ik_joint_limit: right_arm_joint2 within 3 mrad of its limit at the pose (every solution found; the approach from it would stall); candidate 114: [place_unreachable] pre-place / place fail the exact IK from the placement stance: ik_joint_limit: left_arm_joint2 within 3 mrad of its lim",
+    "phase": "sample",
+    "index": 0,
+    "attempt": 0,
+    "seed": 7674653216160576810
+   }
+  ]
+ },
+ "counters": {
+  "scene_reset": 4
+ },
+ "seeds": [
+  7674653216160576811
+ ],
+ "kit_stats": {
+  "ik_calls": 281,
+  "ik_s": 52.77630376815796,
+  "ik_batch_calls": 20,
+  "ik_batch_problems": 657,
+  "ik_batch_s": 323.5953583717346,
+  "collision_calls": 267,
+  "collision_configs": 2337,
+  "collision_s": 3.522437334060669,
+  "limit_retry_poses": 47,
+  "limit_reject.right_arm_joint2": 15,
+  "twin_picks": 36,
+  "twin_solves": 37,
+  "orient_choices": 36,
+  "orient_reason.reach": 2,
+  "orient_against_default": 5,
+  "twin_taken": 5,
+  "twin_taken.reach": 2,
+  "limit_reject.right_arm_joint4": 1,
+  "limit_reject.right_arm_joint3": 5,
+  "orient_reason.only_feasible": 5,
+  "twin_taken.only_feasible": 3,
+  "limit_retry_seeded_rescued": 5,
+  "limit_reject.right_arm_joint7": 1,
+  "limit_reject.left_arm_joint4": 3,
+  "limit_reject.left_arm_joint2": 8,
+  "limit_reject.left_arm_joint3": 2,
+  "limit_reject.left_arm_joint7": 4,
+  "limit_retry_random": 36,
+  "limit_retry_random_rescued": 3
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "disembedding",
+  "task": "disembedding",
+  "subtask": "disembedding_beaker_beaker_1_soda_cup_1_water_glass_1",
+  "variant": "disembedding-beaker-beaker_1_soda_cup_1_water_glass_1-countertop"
+ }
+}

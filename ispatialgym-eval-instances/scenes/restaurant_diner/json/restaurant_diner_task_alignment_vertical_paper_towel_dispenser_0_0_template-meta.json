@@ -1,0 +1,574 @@
+{
+ "template_id": "restaurant_diner__support-walls_ztyvde_0-r01__target-paper_towel_dispenser-jacqxv",
+ "scene": "restaurant_diner",
+ "timings": {
+  "bind_spawn_s": 20.273757457733154,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 27.356549739837646,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 16,
+   "collision_configs": 4080,
+   "collision_s": 2.616
+  },
+  "save_template_s": 0.16446995735168457
+ },
+ "variant": "alignment-world_vertical-paper_towel_dispenser-walls",
+ "subtask": "alignment-world_vertical",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "e6703fa174a38da07f31c0e425ea4ac1a55d2f9866f3a4d72e454b85ec84b62e",
+ "choice": {
+  "scene": "restaurant_diner",
+  "rooms": [
+   "bathroom_0"
+  ],
+  "bindings": {
+   "support": [
+    "walls_ztyvde_0"
+   ],
+   "support_regions": [
+    {
+     "id": "bathroom_0/walls_ztyvde_0/r01",
+     "wall": "walls_ztyvde_0",
+     "room": "bathroom_0",
+     "p0": [
+      -2.149,
+      5.701
+     ],
+     "p1": [
+      -2.149,
+      5.701
+     ],
+     "normal": [
+      -1.0,
+      0.0
+     ],
+     "hang_z": 1.449,
+     "length_m": 0.25,
+     "max_object_m": 0.7
+    }
+   ],
+   "floor": {
+    "room": "bathroom_0"
+   }
+  },
+  "models": {
+   "target": {
+    "category": "paper_towel_dispenser",
+    "model": "jacqxv",
+    "dataset": "behavior-1k-assets",
+    "grasp_key": null,
+    "scale": null
+   }
+  },
+  "groups": {},
+  "template_id": "restaurant_diner__support-walls_ztyvde_0-r01__target-paper_towel_dispenser-jacqxv",
+  "support_tag": "walls_ztyvde_0-r01"
+ },
+ "rooms": [
+  "bathroom_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_4183ba18_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.05,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 605161018,
+  "seed_source": "split",
+  "scene": "restaurant_diner",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "candidate": {
+  "scene": "restaurant_diner",
+  "support": "walls_ztyvde_0",
+  "row": "bathroom_0/walls_ztyvde_0/r01",
+  "init": null,
+  "top_z": null,
+  "surface": null,
+  "regions": [
+   "bathroom_0/walls_ztyvde_0/r01"
+  ],
+  "rooms": [
+   "bathroom_0"
+  ],
+  "floor_room": "bathroom_0",
+  "tag": "walls_ztyvde_0-r01",
+  "source": "--support"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "c9bae19e450a247ef0d9b8047857ca82115a256b4fe7128c3f4dfb207adcbdc9",
+ "template_facts": {
+  "spot_search": {
+   "regions": 1,
+   "patch_wh": [
+    0.3300819396972656,
+    0.40015554428100586
+   ],
+   "n_spots": 2,
+   "walls": [
+    "walls_ztyvde_0"
+   ]
+  },
+  "frame": {
+   "front_axis": "+x",
+   "up_axis": "+z",
+   "level_axis_derived": "+y",
+   "symmetric_180": false,
+   "source": "customs"
+  },
+  "dims": {
+   "thickness": 0.1452178955078125,
+   "width": 0.3300819396972656,
+   "height": 0.40015554428100586
+  },
+  "scale": null,
+  "wall": "walls_ztyvde_0",
+  "com_local": [
+   0.011775970458984375,
+   -0.007678985595703125,
+   -0.05456399917602539
+  ],
+  "wall_contacts": {
+   "collision_pieces": 8,
+   "pieces_cut": 4,
+   "material_tolerance_m": 0.003,
+   "rules": {
+    "+25": {
+     "B": {
+      "below_high": {
+       "rule": "section",
+       "off_m": 0.0468
+      },
+      "above_low": {
+       "rule": "projection",
+       "off_m": 0.0013
+      },
+      "side_high": {
+       "rule": "projection",
+       "off_m": 0.0006
+      }
+     },
+     "E_low": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_high": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_push": {
+      "rule": "section",
+      "off_m": 0.0468
+     }
+    },
+    "-25": {
+     "B": {
+      "below_high": {
+       "rule": "section",
+       "off_m": 0.0468
+      },
+      "above_low": {
+       "rule": "projection",
+       "off_m": 0.0009
+      },
+      "side_high": {
+       "rule": "projection",
+       "off_m": 0.0009
+      }
+     },
+     "E_low": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_high": {
+      "rule": "projection",
+      "off_m": 0.0
+     },
+     "E_push": {
+      "rule": "section",
+      "off_m": 0.0468
+     }
+    }
+   }
+  },
+  "contact_height_extra_m": 0.0,
+  "deviation_range_applied_deg": [
+   15.0,
+   25.0
+  ],
+  "template_filter_deg": 25,
+  "stance_arm_posture": "tucked",
+  "spots": [
+   {
+    "id": 0,
+    "point": [
+     -2.1492300033569336,
+     5.7009992599487305,
+     1.4490000009536743
+    ],
+    "normal": [
+     -1.0,
+     1.788139485370266e-07,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 14,
+     "-25": 19
+    },
+    "wall_protrusion_m": 4.172325134277344e-07
+   },
+   {
+    "id": 1,
+    "point": [
+     -2.1492300033569336,
+     5.7009992599487305,
+     1.4490000009536743
+    ],
+    "normal": [
+     -1.0,
+     1.788139485370266e-07,
+     0.0
+    ],
+    "n_step1": 1870,
+    "survivors_pm_filter": {
+     "+25": 14,
+     "-25": 19
+    },
+    "wall_protrusion_m": 4.172325134277344e-07
+   }
+  ]
+ },
+ "bindings": [
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "sqkllg",
+   "scene_object_name": "floors_sqkllg_0",
+   "dataset": null
+  },
+  {
+   "role": "target",
+   "name": "paper_towel_dispenser.n.01_1",
+   "synset": "paper_towel_dispenser.n.01",
+   "category": "paper_towel_dispenser",
+   "model": "jacqxv",
+   "scene_object_name": "target_paper_towel_dispenser_jacqxv_0",
+   "dataset": "behavior-1k-assets"
+  },
+  {
+   "role": "support",
+   "name": "wall.n.01_1",
+   "synset": "wall.n.01",
+   "category": "walls",
+   "model": "ztyvde",
+   "scene_object_name": "walls_ztyvde_0",
+   "dataset": null
+  }
+ ],
+ "template_sha256": "c46e735c5d2f8ce19202aec75580dcebd1a385ad06d765a247e77175e3735c2d",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_03/c3_k0/inst/alignment-world_vertical-paper_towel_dispenser-walls/restaurant_diner__support-walls_ztyvde_0-r01__target-paper_towel_dispenser-jacqxv/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/alignment-world_vertical_03/c3_k0/inst/alignment-world_vertical-paper_towel_dispenser-walls/restaurant_diner__support-walls_ztyvde_0-r01__target-paper_towel_dispenser-jacqxv/template-partial_rooms.json",
+ "load_room_instances": [
+  "bathroom_0",
+  "corridor_0"
+ ],
+ "task_rooms": [
+  "bathroom_0"
+ ],
+ "sampled_with_rooms": [
+  "bathroom_0",
+  "corridor_0"
+ ],
+ "scene_variant": null,
+ "problem": "alignment-4",
+ "choices": {
+  "target": {
+   "category": "paper_towel_dispenser",
+   "model": "jacqxv",
+   "dataset": "behavior-1k-assets",
+   "grasp_key": null,
+   "scale": null
+  }
+ },
+ "inst_to_name": {
+  "floor.n.01_1": "floors_sqkllg_0",
+  "paper_towel_dispenser.n.01_1": "target_paper_towel_dispenser_jacqxv_0",
+  "wall.n.01_1": "walls_ztyvde_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 177.68816208839417,
+ "activity_definition": "../activity_definitions/alignment/problem30.bddl",
+ "bddl_variant": "alignment-world_vertical-paper_towel_dispenser-walls",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    -2.9299251309332615,
+    5.526313491270795,
+    0.220130740819248
+   ],
+   "translate": 0.0,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.8,
+   "face": "wall",
+   "d": 0.8,
+   "lambda": 0.0,
+   "bearing_deg": 12.61257263531568,
+   "distance": 0.8,
+   "face_normal": [
+    -1.0,
+    1.788139485370266e-07
+   ],
+   "axis_angle_deg": 8.755241461265554,
+   "target_centre": [
+    -2.2536,
+    5.691,
+    1.452
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     -1.0,
+     1.788139485370266e-07,
+     0.0
+    ],
+    "P": [
+     -2.1492300033569336,
+     5.7009992599487305,
+     1.4490000009536743
+    ],
+    "d": 0.8,
+    "lambda": 0.0
+   },
+   "extras": {
+    "bearing_deg": 12.61257263531568,
+    "distance": 0.8,
+    "face_normal": [
+     -1.0,
+     1.788139485370266e-07
+    ],
+    "axis_angle_deg": 8.755241461265554,
+    "target_centre": [
+     -2.2536,
+     5.691,
+     1.452
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    -3.0492300987243652,
+    5.650999069213867,
+    -1.7881394853702468e-07
+   ],
+   "translate": 0.25,
+   "tilt": -0.03240607131822887,
+   "arms": [
+    "right",
+    "left"
+   ],
+   "stand_off": 0.9,
+   "face": "wall",
+   "d": 0.9,
+   "lambda": -0.05,
+   "focus": [
+    -2.22918438911438,
+    5.7009992599487305,
+    1.4490000009536743
+   ],
+   "contacts": [
+    "push",
+    "brace"
+   ],
+   "band": [
+    -0.15,
+    0.0
+   ],
+   "angle_class": 1,
+   "clearance_tier": 0,
+   "grid_tilt": 0.0,
+   "arm_posture": "tucked",
+   "axis_angle_deg": 19.83167182880691,
+   "closing_axes": {
+    "brace": "s+0/+",
+    "push": "s+25/-"
+   },
+   "arms_q": {
+    "right": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "fingers": 0.0,
+   "fingers_by_arm": {
+    "right": 0.0,
+    "left": 0.0
+   },
+   "name": "manipulation",
+   "face_frame": {
+    "name": "wall",
+    "n": [
+     -1.0,
+     1.788139485370266e-07,
+     0.0
+    ],
+    "P": [
+     -2.1492300033569336,
+     5.7009992599487305,
+     1.4490000009536743
+    ],
+    "d": 0.9,
+    "lambda": -0.05
+   },
+   "extras": {
+    "band": [
+     -0.15,
+     0.0
+    ],
+    "angle_class": 1,
+    "clearance_tier": 0,
+    "grid_tilt": 0.0,
+    "arm_posture": "tucked",
+    "axis_angle_deg": 19.83167182880691,
+    "closing_axes": {
+     "brace": "s+0/+",
+     "push": "s+25/-"
+    },
+    "arms_q": {
+     "right": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fingers": 0.0,
+    "fingers_by_arm": {
+     "right": 0.0,
+     "left": 0.0
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 1,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {},
+ "seeds": [
+  4792284478352304626
+ ],
+ "kit_stats": {
+  "ik_calls": 259,
+  "ik_s": 15.931629657745361,
+  "ik_batch_calls": 1,
+  "ik_batch_problems": 1,
+  "ik_batch_s": 5.515146493911743,
+  "collision_calls": 93,
+  "collision_configs": 4210,
+  "collision_s": 2.978607177734375,
+  "limit_retry_poses": 57,
+  "limit_reject.left_arm_joint2": 6,
+  "limit_reject.right_arm_joint2": 36,
+  "orient_choices": 16,
+  "limit_reject.right_arm_joint5": 11,
+  "limit_retry_seeded_rescued": 4,
+  "orient_reason.only_feasible": 2,
+  "orient_source.map": 2,
+  "orient_against_default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "alignment",
+  "task": "alignment_vertical",
+  "subtask": "alignment_vertical_paper_towel_dispenser",
+  "variant": "alignment-world_vertical-paper_towel_dispenser-walls"
+ }
+}

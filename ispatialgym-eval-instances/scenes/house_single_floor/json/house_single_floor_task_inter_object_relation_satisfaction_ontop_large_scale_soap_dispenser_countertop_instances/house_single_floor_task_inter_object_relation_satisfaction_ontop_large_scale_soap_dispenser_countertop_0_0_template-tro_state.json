@@ -1,0 +1,279 @@
+{
+  "soap_dispenser.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        22.898073196411133,
+        -1.056658387184143,
+        0.0567544661462307
+      ],
+      "ori": [
+        -0.0007767771603539586,
+        -0.00015907354827504605,
+        0.5556414723396301,
+        -0.8314216136932373
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          22.862834930419922,
+          -1.0918442010879517,
+          -1.7646700143814087e-05,
+          22.933143615722656,
+          -1.021520733833313,
+          0.13069266080856323
+        ]
+      },
+      "ToggledOn": {
+        "value": false,
+        "hand_in_marker_steps": 0.0
+      }
+    }
+  },
+  "countertop.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        21.927404403686523,
+        0.47523194551467896,
+        0.8967929482460022
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.9999991655349731,
+        0.0012719199294224381
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          21.599966049194336,
+          -0.7501810193061829,
+          0.8778429627418518,
+          22.256675720214844,
+          1.7005836963653564,
+          0.9157429337501526
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        23.395309448242188,
+        -0.17667298018932343,
+        -0.13880956172943115
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          21.60811424255371,
+          -2.5065724849700928,
+          -0.277609646320343,
+          25.182514190673828,
+          2.1532270908355713,
+          -9.670853614807129e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          23.26825523376465,
+          0.11261749267578125,
+          0.005276203155517578
+        ],
+        "orientation": [
+          5.8785080909729004e-05,
+          5.2908733778167516e-05,
+          -0.8067891597747803,
+          0.5908395051956177
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "inter_object_relation_satisfaction",
+    "activity_definition_id": 12,
+    "task_variant": "inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor",
+    "instance_id": "inter_object_relation_satisfaction-ontop_large_scale-soap_dispenser-countertop-floor__house_single_floor__support-floor__target-soap_dispenser-zwudcz__0000",
+    "generation_seed": 3622039719380559884,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "b210996b35c167bd6e9fa794630a430e1ec08cd13de0cf9aceeaecc998d4ff0c",
+    "task_spec_sha256": "44f7c6b5ec60dc22b0e840e64108e680e2ccd8f83c698e0ac856d1d04c967351",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "1593157a3628c15faab1fc0c1696e8a6d91e09a5a045202e4d165d95ad2e7f27",
+      "load_room_instances": [
+        "utility_room_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "task_rooms": [
+        "utility_room_0"
+      ],
+      "sampled_with_rooms": [
+        "utility_room_0",
+        "corridor_0",
+        "garden_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "countertop_fjkase_0",
+        "floors_glwobe_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_glwobe_0",
+        "category": "floors",
+        "model": "glwobe"
+      },
+      "countertop.n.01_1": {
+        "scene_object_name": "countertop_fjkase_0",
+        "category": "countertop",
+        "model": "fjkase"
+      },
+      "soap_dispenser.n.01_1": {
+        "scene_object_name": "target_soap_dispenser_zwudcz_0",
+        "category": "soap_dispenser",
+        "model": "zwudcz"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.4500043988227844,
+        "torso_joint2": -0.39998504519462585,
+        "torso_joint3": 8.43748239276465e-07,
+        "torso_joint4": -1.1824516832348309e-06,
+        "left_arm_joint1": 2.811262311297469e-05,
+        "right_arm_joint1": 7.849581743357703e-05,
+        "left_arm_joint2": 1.5700008869171143,
+        "right_arm_joint2": -1.5699998140335083,
+        "left_arm_joint3": -4.9043619583244435e-06,
+        "right_arm_joint3": 3.3672597510303603e-07,
+        "left_arm_joint4": -1.5700058937072754,
+        "right_arm_joint4": -1.5699917078018188,
+        "left_arm_joint5": 1.5699775218963623,
+        "right_arm_joint5": -1.5700196027755737,
+        "left_arm_joint6": -2.5872341211652383e-06,
+        "right_arm_joint6": -2.7950823096034583e-06,
+        "left_arm_joint7": -4.886941496806685e-06,
+        "right_arm_joint7": -3.4086299365299055e-06,
+        "left_gripper_finger_joint1": 0.049998968839645386,
+        "left_gripper_finger_joint2": 0.04999881982803345,
+        "right_gripper_finger_joint1": 0.049998752772808075,
+        "right_gripper_finger_joint2": 0.049999821931123734
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_inter_object_relation_satisfaction_ontop_large_scale_soap_dispenser_countertop_0_0_template-goal_rgb.png",
+      "rgb_sha256": "c4cc5f17027832b72a53095b108a6235506370213b805f9e294f771676233c3f",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          22.587100982666016,
+          -0.4512897729873657,
+          1.575414776802063
+        ],
+        "orientation": [
+          0.3960953950881958,
+          0.38566428422927856,
+          0.5813209414482117,
+          0.5970238447189331
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "soap_dispenser.n.01_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          22.149808883666992,
+          -0.6407132148742676,
+          0.9724531173706055
+        ],
+        "orientation": [
+          -0.001236787880770862,
+          0.0010691203642636538,
+          0.4432317316532135,
+          -0.8964056968688965
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {}
+  }
+}

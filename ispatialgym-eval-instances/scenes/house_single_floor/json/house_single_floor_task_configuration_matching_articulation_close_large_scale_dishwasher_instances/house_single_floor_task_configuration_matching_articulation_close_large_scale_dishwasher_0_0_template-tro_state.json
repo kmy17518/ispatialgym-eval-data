@@ -1,0 +1,274 @@
+{
+  "dishwasher.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        7.205429553985596,
+        -1.9554954767227173,
+        0.41157689690589905
+      ],
+      "ori": [
+        -2.3283064365386963e-10,
+        -4.267803888069466e-10,
+        0.7071067690849304,
+        0.7071068286895752
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "joint_pos": [
+      0.0,
+      1.8154921786694625e-24,
+      0.3298672139644623
+    ],
+    "joint_vel": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          6.913760185241699,
+          -2.173727035522461,
+          0.005407989025115967,
+          7.495988845825195,
+          -1.3727627992630005,
+          0.8181917667388916
+        ]
+      },
+      "Open": {
+        "open": true
+      },
+      "ToggledOn": {
+        "value": false,
+        "hand_in_marker_steps": 0.0
+      },
+      "Temperature": {
+        "temperature": 23.0
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        6.593125820159912,
+        -0.258637011051178,
+        -0.13868464529514313
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          3.8204736709594727,
+          -2.4058876037597656,
+          -0.2773846387863159,
+          9.365774154663086,
+          1.8886120319366455,
+          1.531839370727539e-05
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          7.23662805557251,
+          -0.8750877380371094,
+          0.005300998687744141
+        ],
+        "orientation": [
+          5.242973566055298e-05,
+          6.071645111660473e-05,
+          -0.7220950126647949,
+          0.6917939782142639
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "configuration_matching",
+    "activity_definition_id": 2,
+    "task_variant": "configuration_matching-articulation_close_large_scale-dishwasher",
+    "instance_id": "configuration_matching-articulation_close_large_scale-dishwasher__house_single_floor__0000",
+    "generation_seed": 2874898152528583580,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "c291968c69c70f4012a03b7190416e8e5186b6e65165bb85ac4ad34015bf28c4",
+    "task_spec_sha256": "44157081aa95ed2b403b091ff4fa1bbd891511e33357d391bdc7dc043b8ca7c0",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_single_floor",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "3f2597c107f4c984bed4240ddb77c5eb00552aeaad84449c507e079e71b2f212",
+      "load_room_instances": [
+        "kitchen_0",
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "task_rooms": [
+        "kitchen_0"
+      ],
+      "sampled_with_rooms": [
+        "kitchen_0",
+        "dining_room_0",
+        "entryway_0",
+        "garden_0",
+        "living_room_0"
+      ],
+      "scene_variant": null,
+      "required_scene_objects": [
+        "dishwasher_ynrhuk_0",
+        "floors_kxcpgy_0"
+      ]
+    },
+    "object_bindings": {
+      "dishwasher.n.01_1": {
+        "scene_object_name": "dishwasher_ynrhuk_0",
+        "category": "dishwasher",
+        "model": "ynrhuk"
+      },
+      "floor.n.01_1": {
+        "scene_object_name": "floors_kxcpgy_0",
+        "category": "floors",
+        "model": "kxcpgy"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.4499998688697815,
+        "torso_joint2": -0.39999920129776,
+        "torso_joint3": -0.34999847412109375,
+        "torso_joint4": -3.365780401054508e-07,
+        "left_arm_joint1": -1.6714901676095906e-06,
+        "right_arm_joint1": 2.7573350962484255e-05,
+        "left_arm_joint2": 1.5700005292892456,
+        "right_arm_joint2": -1.5700000524520874,
+        "left_arm_joint3": -2.50269681600912e-06,
+        "right_arm_joint3": 1.3642584235640243e-06,
+        "left_arm_joint4": -1.5700021982192993,
+        "right_arm_joint4": -1.5699974298477173,
+        "left_arm_joint5": 1.5699924230575562,
+        "right_arm_joint5": -1.570008397102356,
+        "left_arm_joint6": -7.544725804109476e-07,
+        "right_arm_joint6": -9.194577046400809e-07,
+        "left_arm_joint7": -1.3458220564643852e-06,
+        "right_arm_joint7": -1.138069137596176e-06,
+        "left_gripper_finger_joint1": 0.04999938979744911,
+        "left_gripper_finger_joint2": 0.05000000074505806,
+        "right_gripper_finger_joint1": 0.04999939352273941,
+        "right_gripper_finger_joint2": 0.04999975487589836
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_single_floor_task_configuration_matching_articulation_close_large_scale_dishwasher_0_0_template-goal_rgb.png",
+      "rgb_sha256": "033baca4a85d802fa50911bae9b58b0a5d4e28175b239a1cb5384208e03b2435",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          7.216607570648193,
+          -1.2603991031646729,
+          1.076532006263733
+        ],
+        "orientation": [
+          0.0003663340175990015,
+          0.2579156160354614,
+          0.9661672115325928,
+          -0.000573554600123316
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {},
+    "groups": {},
+    "articulation_targets": {
+      "dishwasher.n.01_1": {
+        "joints": {
+          "j_link_0": {
+            "position": 0.0,
+            "tolerance": 0.01
+          },
+          "j_link_1": {
+            "position": 1.8154921786694625e-24,
+            "tolerance": 0.01
+          },
+          "j_link_2": {
+            "position": 0.019827943295240402,
+            "tolerance": 0.05
+          }
+        }
+      }
+    },
+    "constraints": [
+      {
+        "type": "counterbalance",
+        "object": "dishwasher.n.01_1",
+        "joint": "j_link_2",
+        "links": [
+          "link_2"
+        ],
+        "damping": 5.0,
+        "note": "spring-balanced appliance door (generation.counterbalance): no gravity on the leaf assembly, viscous joint damping - the leaf holds at any angle with the stock friction and stops where the hand leaves it"
+      }
+    ]
+  }
+}

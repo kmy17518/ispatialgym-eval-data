@@ -1,0 +1,477 @@
+{
+  "carton.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        17.16789436340332,
+        -8.588187217712402,
+        0.8411547541618347
+      ],
+      "ori": [
+        -1.9209582546864112e-07,
+        5.424822120403405e-07,
+        -1.0,
+        3.282025318185333e-06
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "joint_pos": [
+      -0.0029541936237365007,
+      -2.0277726980183486e-12
+    ],
+    "joint_vel": [
+      0.0,
+      0.0
+    ],
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          17.053647994995117,
+          -8.747417449951172,
+          0.785280704498291,
+          17.284133911132812,
+          -8.433027267456055,
+          0.9720471501350403
+        ]
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "Open": {
+        "open": false
+      }
+    }
+  },
+  "desk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.184144973754883,
+        -8.405205726623535,
+        0.5961460471153259
+      ],
+      "ori": [
+        1.501569840911543e-06,
+        1.5015787084848853e-06,
+        0.7071087956428528,
+        0.7071047425270081
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          14.777101516723633,
+          -8.847864151000977,
+          -0.015506923198699951,
+          17.588443756103516,
+          -7.917313575744629,
+          0.7852815985679626
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        16.65363883972168,
+        -8.700016021728516,
+        -0.15000979602336884
+      ],
+      "ori": [
+        1.0,
+        0.0,
+        0.0,
+        -7.549790126404332e-08
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          13.897685050964355,
+          -10.655375480651855,
+          -0.300010085105896,
+          19.40959358215332,
+          -6.744656562805176,
+          -9.506940841674805e-06
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          18.017101287841797,
+          -8.575298309326172,
+          0.005275726318359375
+        ],
+        "orientation": [
+          7.792003452777863e-05,
+          7.366828413069015e-06,
+          -1.0,
+          3.055156412301585e-06
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "configuration_matching",
+    "activity_definition_id": 8,
+    "task_variant": "configuration_matching-articulation_open_small_scale-carton-desk",
+    "instance_id": "configuration_matching-articulation_open_small_scale-carton-desk__office_cubicles_right__support-desk_mdhelw_1-T5__target-carton-cdmmwy__0000",
+    "generation_seed": 8009608060170094254,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "f1fc467b7cf596c536889f11f2a307e7451f21e7f55d17a6d81af443b8f0d4b8",
+    "task_spec_sha256": "6a7e0694d13456f7aeedbdf5a8d0ef0cb38f800bd51f0d9d543a86230aab2db4",
+    "layout_template_id": null,
+    "scene": {
+      "model": "office_cubicles_right",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "e22aaa3521af4a2047ae717608e11937e58687463c97a2f694cad270543d7aeb",
+      "load_room_instances": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "task_rooms": [
+        "private_office_2"
+      ],
+      "sampled_with_rooms": [
+        "private_office_2",
+        "corridor_0",
+        "private_office_1",
+        "private_office_3"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/office_cubicles_right__ce38327497.json",
+        "removed_objects": [
+          "swivel_chair_gfixyb_2",
+          "swivel_chair_gfixyb_3",
+          "swivel_chair_lhkkri_3"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                16.293466567993164,
+                -9.251572608947754
+              ],
+              [
+                16.965744018554688,
+                -8.964003562927246
+              ],
+              [
+                17.248788833618164,
+                -9.62570858001709
+              ],
+              [
+                16.57651138305664,
+                -9.913277626037598
+              ]
+            ],
+            [
+              [
+                15.382627487182617,
+                -9.160414695739746
+              ],
+              [
+                16.06134796142578,
+                -9.432428359985352
+              ],
+              [
+                15.79361343383789,
+                -10.10047435760498
+              ],
+              [
+                15.11489200592041,
+                -9.828460693359375
+              ]
+            ],
+            [
+              [
+                16.77355194091797,
+                -7.6373419761657715
+              ],
+              [
+                16.14042854309082,
+                -8.080658912658691
+              ],
+              [
+                15.656731605529785,
+                -7.389868259429932
+              ],
+              [
+                16.289854049682617,
+                -6.9465508460998535
+              ]
+            ]
+          ],
+          "block": [
+            [
+              [
+                14.794865608215332,
+                -7.977816581726074
+              ],
+              [
+                17.5761661529541,
+                -7.9778008460998535
+              ],
+              [
+                17.576171875,
+                -8.877800941467285
+              ],
+              [
+                14.794870376586914,
+                -8.877817153930664
+              ]
+            ]
+          ]
+        },
+        "moved_objects": {
+          "swivel_chair_gfixyb_2": {
+            "pos": [
+              16.753826141357422,
+              -9.407360076904297,
+              0.4937431812286377
+            ],
+            "ori": [
+              -0.00030713676824234426,
+              -0.00013151652819942683,
+              0.8346505761146545,
+              0.5507796406745911
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -104.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_gfixyb_3": {
+            "pos": [
+              15.598005294799805,
+              -9.596092224121094,
+              0.49374306201934814
+            ],
+            "ori": [
+              -0.0003330982581246644,
+              -3.895731879310915e-06,
+              0.5603525638580322,
+              0.8282541036605835
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -109.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          },
+          "swivel_chair_lhkkri_3": {
+            "pos": [
+              16.22474479675293,
+              -7.526325225830078,
+              0.45582693815231323
+            ],
+            "ori": [
+              8.810142304582769e-08,
+              5.197804409107221e-09,
+              -0.4617484509944916,
+              0.8870109915733337
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -114.84157943725586,
+              -117.40103912353516,
+              -100.15001033246517
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "desk_mdhelw_1",
+        "floors_wyitdg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_wyitdg_0",
+        "category": "floors",
+        "model": "wyitdg"
+      },
+      "desk.n.01_1": {
+        "scene_object_name": "desk_mdhelw_1",
+        "category": "desk",
+        "model": "mdhelw"
+      },
+      "carton.n.02_1": {
+        "scene_object_name": "target_carton_cdmmwy_0",
+        "category": "carton",
+        "model": "cdmmwy"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 0.9807212352752686,
+        "torso_joint2": -1.3691126108169556,
+        "torso_joint3": -0.4338015019893646,
+        "torso_joint4": -9.384110057908401e-07,
+        "left_arm_joint1": 2.112280071742134e-06,
+        "right_arm_joint1": 2.7948237402597442e-05,
+        "left_arm_joint2": 1.5700011253356934,
+        "right_arm_joint2": -1.5700007677078247,
+        "left_arm_joint3": -5.9210360632278025e-06,
+        "right_arm_joint3": 9.338599511465873e-07,
+        "left_arm_joint4": -1.5700031518936157,
+        "right_arm_joint4": -1.5699968338012695,
+        "left_arm_joint5": 1.5699872970581055,
+        "right_arm_joint5": -1.5700099468231201,
+        "left_arm_joint6": -1.3014443993597524e-06,
+        "right_arm_joint6": -1.2304374195082346e-06,
+        "left_arm_joint7": -2.914401648013154e-06,
+        "right_arm_joint7": -1.6068547665781807e-06,
+        "left_gripper_finger_joint1": 0.04999936372041702,
+        "left_gripper_finger_joint2": 0.04999995976686478,
+        "right_gripper_finger_joint1": 0.049999333918094635,
+        "right_gripper_finger_joint2": 0.049999818205833435
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "office_cubicles_right_task_configuration_matching_articulation_open_small_scale_carton_0_0_template-goal_rgb.png",
+      "rgb_sha256": "881c8357fd592bc25c2e691e84001b08d43e5cd8c51bc1af5870d8385614f7f4",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          17.72663116455078,
+          -8.57531452178955,
+          1.1253188848495483
+        ],
+        "orientation": [
+          0.39371055364608765,
+          0.393704354763031,
+          0.5873655080795288,
+          0.5873590111732483
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "carton.n.02_1": {
+        "link": null,
+        "frame": "world",
+        "position": [
+          17.16770362854004,
+          -8.587574005126953,
+          0.8411553502082825
+        ],
+        "orientation": [
+          -5.526475206352188e-07,
+          4.748684432342998e-07,
+          -0.9999932050704956,
+          0.00369537272490561
+        ],
+        "position_metric": "full",
+        "orientation_metric": "full",
+        "position_tolerance": 0.03,
+        "orientation_tolerance": 0.2,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {
+      "carton.n.02_1": {
+        "joints": {
+          "j_left_lid": {
+            "position": -0.0031084863003343344,
+            "tolerance": 0.23562
+          },
+          "j_right_lid": {
+            "position": 2.3306901454925537,
+            "tolerance": 0.23562
+          }
+        }
+      }
+    },
+    "constraints": [
+      {
+        "type": "joint_friction",
+        "object": "carton.n.02_1",
+        "joint": "j_right_lid",
+        "stiffness": 0.0,
+        "damping": 80.0,
+        "max_effort": 0.2,
+        "stock": {
+          "friction": 0.2,
+          "damping": 2.86
+        },
+        "moving_link_mass_kg": 0.004038854036480188,
+        "note": "resistance of the moved joint (generation.joint_friction, constraints.apply_joint_brake): stock, this lid falls to its gravitational equilibrium and no open value below the upper limit is stable; damping + max_effort = the joint drive as a Coulomb brake of max_effort N\u00b7m (torque = clamp(-damping*omega, +-max_effort))"
+      },
+      {
+        "type": "joint_friction",
+        "object": "carton.n.02_1",
+        "joint": "j_left_lid",
+        "stiffness": 1.0,
+        "damping": 0.15,
+        "max_effort": 5.0,
+        "lower_limit_rad": -0.55,
+        "openable_joints": [
+          "j_right_lid"
+        ],
+        "note": "drive of another joint of the target (generation.joint_drives): a spring to its closed position with an extended lower limit - the non-target flap of a two-flap carton is pressed down to open the seam and comes back when the fist leaves"
+      }
+    ]
+  }
+}

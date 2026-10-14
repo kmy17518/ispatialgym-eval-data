@@ -1,0 +1,528 @@
+{
+ "template_id": "house_single_floor",
+ "scene": "house_single_floor",
+ "timings": {
+  "bind_spawn_s": 14.707651615142822,
+  "bind_spawn_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "sample_template_s": 41.1202507019043,
+  "sample_template_kit": {
+   "ik_calls": 0,
+   "ik_s": 0.0,
+   "ik_batch_calls": 0,
+   "ik_batch_problems": 0,
+   "ik_batch_s": 0.0,
+   "collision_calls": 0,
+   "collision_configs": 0,
+   "collision_s": 0.0
+  },
+  "save_template_s": 1.3100950717926025
+ },
+ "variant": "configuration_matching-articulation_open_large_scale-dishwasher",
+ "subtask": "configuration_matching-articulation_open_large_scale",
+ "sampler_version": "2.0.0-dev",
+ "spec_hash": "73cee3e9b949663b86c98147a719eadc9772afb9992562d20d560ec79b281e39",
+ "choice": {
+  "scene": "house_single_floor",
+  "rooms": [
+   "kitchen_0"
+  ],
+  "bindings": {
+   "target": [
+    "dishwasher_ynrhuk_0"
+   ],
+   "floor": {
+    "room": "kitchen_0"
+   }
+  },
+  "models": {},
+  "groups": {},
+  "template_id": "house_single_floor"
+ },
+ "rooms": [
+  "kitchen_0"
+ ],
+ "customs": "/vision/u/minyeong/projects/isg_home/eval85/code_612712e1_6a6194600/ispatialgym/assets/task_specs/isg_customs.json",
+ "joint_limit_margin_rad": 0.025,
+ "split": {
+  "split": "eval",
+  "index": 0,
+  "seed": 403281294,
+  "seed_source": "split",
+  "scene": "house_single_floor",
+  "room": null,
+  "scene_source": "--scene"
+ },
+ "init_arms": "untucked",
+ "bddl_sha256": "e2a3b8902ca0e55583ae51806eb2343b2fe68b9b22dfccaa03560266e4793cdc",
+ "template_facts": {
+  "contact_height_extra_m": 0.0,
+  "handle": {
+   "source": "runlogs/scene_inventory_20260915/house_single_floor/artic/dishwasher_ynrhuk_0.json",
+   "frame": "instance",
+   "row": "dishwasher__ynrhuk:j_link_2#A",
+   "kind": "bar",
+   "width_mm": 22.7,
+   "contact_obj": [
+    0.3548,
+    0.0389,
+    0.3302
+   ],
+   "pinch_axis_obj": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "approach_dir_obj": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "joint": "j_link_2",
+   "type": "RevoluteJoint",
+   "axis_dir_obj": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "hinge_point_obj": [
+    0.2934400141239166,
+    0.0008997917175292969,
+    -0.25707000494003296
+   ],
+   "instance_scale": [
+    1.0596805810928345,
+    1.105420708656311,
+    1.0615441799163818
+   ],
+   "n_rows": 6
+  },
+  "counterbalance": {
+   "links": [
+    "link_2"
+   ],
+   "damping": 5.0
+  },
+  "joint_friction": null,
+  "passive_probe": {
+   "0.0000->0.4712": {
+    "tolerance": 0.025,
+    "min_progress": 0.5,
+    "probes": [
+     {
+      "k": 0.25,
+      "q_k": 0.1178,
+      "q_after": 0.1178,
+      "ok": false
+     },
+     {
+      "k": 0.5,
+      "q_k": 0.2356,
+      "q_after": 0.2356,
+      "ok": false
+     },
+     {
+      "k": 0.75,
+      "q_k": 0.3534,
+      "q_after": 0.3534,
+      "ok": false
+     }
+    ]
+   },
+   "0.0000->0.5498": {
+    "tolerance": 0.0275,
+    "min_progress": 0.5,
+    "probes": [
+     {
+      "k": 0.25,
+      "q_k": 0.1374,
+      "q_after": 0.1374,
+      "ok": false
+     },
+     {
+      "k": 0.5,
+      "q_k": 0.2749,
+      "q_after": 0.2749,
+      "ok": false
+     },
+     {
+      "k": 0.75,
+      "q_k": 0.4123,
+      "q_after": 0.4123,
+      "ok": false
+     }
+    ]
+   }
+  },
+  "joint": "j_link_2",
+  "joint_type": "RevoluteJoint",
+  "limits": [
+   0.0,
+   1.5707963705062866
+  ],
+  "direction": "open",
+  "stable_set": [
+   0.4712389298772379,
+   0.5497787203145243
+  ],
+  "stable_fractions": [
+   0.30000001192092896,
+   0.3499999940395355
+  ],
+  "passive_from": {
+   "0.0000->0.4712": null,
+   "0.0000->0.5498": null
+  },
+  "face_normal": [
+   5.960464477539063e-08,
+   1.0,
+   0.0
+  ],
+  "face_centre": [
+   7.204500198364258,
+   -1.624400019645691,
+   0.4636000096797943
+  ],
+  "P_manip": [
+   7.166529655456543,
+   -1.624400019645691,
+   0.7417769432067871
+  ],
+  "handle_offset_left_m": -0.037970542907714844,
+  "arm": "right",
+  "follow_mode": "hybrid",
+  "axis_world": [
+   -1.0,
+   5.960464477539063e-08,
+   -9.328309236167343e-10
+  ],
+  "door_class": "cabinet",
+  "hinge_side": null,
+  "lateral_range_m": [
+   -0.1,
+   0.6
+  ]
+ },
+ "bindings": [
+  {
+   "role": "target",
+   "name": "dishwasher.n.01_1",
+   "synset": "dishwasher.n.01",
+   "category": "dishwasher",
+   "model": "ynrhuk",
+   "scene_object_name": "dishwasher_ynrhuk_0",
+   "dataset": null
+  },
+  {
+   "role": "floor",
+   "name": "floor.n.01_1",
+   "synset": "floor.n.01",
+   "category": "floors",
+   "model": "kxcpgy",
+   "scene_object_name": "floors_kxcpgy_0",
+   "dataset": null
+  }
+ ],
+ "hybrid_follow": {
+  "ok": true,
+  "n_poses": 5,
+  "n_base_moves": 0,
+  "base_path_m": 0.0,
+  "base_turn_rad": 0.0,
+  "max_step_m": 0.0,
+  "max_step_rad": 0.0,
+  "n_ik": 8,
+  "followed_fraction": 1.0,
+  "arm_only_fraction": 1.0,
+  "total_displacement_m": 0.0,
+  "time_s": 1.6,
+  "r_max_m": 0.759,
+  "policy": "sequential",
+  "n_segments": 1,
+  "n_regrasp_moves": 0,
+  "leaf_links": [
+   "link_2"
+  ],
+  "n_body_boxes": 6,
+  "log": []
+ },
+ "hybrid_follow_fraction": {
+  "d0.85_l+0.10_t0.25_-0.82": 0.25
+ },
+ "hybrid_follow_fraction_max": 0.25,
+ "template_sha256": "fe04fb2f8b281a989451a2323c818a54e47a1bf8cf9cae5ec007ad16c382523c",
+ "template_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/configuration_matching-articulation_open_large_scale_02/c1_k0/inst/configuration_matching-articulation_open_large_scale-dishwasher/house_single_floor/template.json",
+ "template_partial_path": "/vision/u/minyeong/projects/isg_home/eval85/runs/s3_55tasks/configuration_matching-articulation_open_large_scale_02/c1_k0/inst/configuration_matching-articulation_open_large_scale-dishwasher/house_single_floor/template-partial_rooms.json",
+ "load_room_instances": [
+  "kitchen_0",
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "living_room_0"
+ ],
+ "task_rooms": [
+  "kitchen_0"
+ ],
+ "sampled_with_rooms": [
+  "kitchen_0",
+  "dining_room_0",
+  "entryway_0",
+  "garden_0",
+  "living_room_0"
+ ],
+ "scene_variant": null,
+ "problem": "configuration_matching-5",
+ "choices": {},
+ "inst_to_name": {
+  "dishwasher.n.01_1": "dishwasher_ynrhuk_0",
+  "floor.n.01_1": "floors_kxcpgy_0",
+  "agent.n.01_1": "robot_r1"
+ },
+ "scene_load_s": 424.2744960784912,
+ "activity_definition": "../activity_definitions/configuration_matching/problem20.bddl",
+ "bddl_variant": "configuration_matching-articulation_open_large_scale-dishwasher",
+ "stances": {
+  "init": {
+   "base_pose2d": [
+    7.133845186581194,
+    -0.8777355238311806,
+    -1.4764497391552043
+   ],
+   "translate": 0.95,
+   "tilt": 0.0,
+   "arms": "untucked",
+   "stand_off": 0.75,
+   "face": "face",
+   "d": 0.75,
+   "lambda": 0.0,
+   "bearing_deg": 5.405664698310123,
+   "distance": 0.75,
+   "face_normal": [
+    5.960464477539063e-08,
+    1.0
+   ],
+   "axis_angle_deg": 19.380355647653445,
+   "target_centre": [
+    7.2049,
+    -1.8702,
+    0.4118
+   ],
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "init",
+   "face_frame": {
+    "name": "face",
+    "n": [
+     5.960464477539063e-08,
+     1.0,
+     0.0
+    ],
+    "P": [
+     7.204500198364258,
+     -1.624400019645691,
+     0.4636000096797943
+    ],
+    "d": 0.75,
+    "lambda": 0.0
+   },
+   "extras": {
+    "bearing_deg": 5.405664698310123,
+    "distance": 0.75,
+    "face_normal": [
+     5.960464477539063e-08,
+     1.0
+    ],
+    "axis_angle_deg": 19.380355647653445,
+    "target_centre": [
+     7.2049,
+     -1.8702,
+     0.4118
+    ],
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "manipulation": {
+   "base_pose2d": [
+    7.36652946472168,
+    -0.774399995803833,
+    -1.5707963863995413
+   ],
+   "translate": 0.95,
+   "tilt": -0.23474152464998777,
+   "arms": [
+    "right"
+   ],
+   "stand_off": 0.85,
+   "face": "face",
+   "d": 0.85,
+   "lambda": 0.2,
+   "focus": [
+    7.304529666900635,
+    -1.6006954908370972,
+    0.7417769432067871
+   ],
+   "contacts": [
+    "handle"
+   ],
+   "idle_posture": "untucked",
+   "band": [
+    -0.44999999999999996,
+    -0.15
+   ],
+   "angle_class": 0,
+   "bar_offset_m": 0.138,
+   "clearance_tier": 0,
+   "grid_tilt": -0.3,
+   "axis_angle_deg": 5.947946872495483,
+   "arms_q": {
+    "right": [
+     0.0,
+     -1.57,
+     0.0,
+     -1.57,
+     -1.57,
+     0.0,
+     0.0
+    ],
+    "left": [
+     0.0,
+     1.57,
+     0.0,
+     -1.57,
+     1.57,
+     0.0,
+     0.0
+    ]
+   },
+   "name": "manipulation",
+   "face_frame": {
+    "name": "face",
+    "n": [
+     5.960464477539063e-08,
+     1.0,
+     0.0
+    ],
+    "P": [
+     7.166529655456543,
+     -1.624400019645691,
+     0.7417769432067871
+    ],
+    "d": 0.85,
+    "lambda": 0.2
+   },
+   "extras": {
+    "band": [
+     -0.44999999999999996,
+     -0.15
+    ],
+    "angle_class": 0,
+    "bar_offset_m": 0.138,
+    "clearance_tier": 0,
+    "grid_tilt": -0.3,
+    "axis_angle_deg": 5.947946872495483,
+    "arms_q": {
+     "right": [
+      0.0,
+      -1.57,
+      0.0,
+      -1.57,
+      -1.57,
+      0.0,
+      0.0
+     ],
+     "left": [
+      0.0,
+      1.57,
+      0.0,
+      -1.57,
+      1.57,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "n_constraints_recorded": 2,
+ "checks": {
+  "attached_object": true,
+  "program_check": "expand"
+ },
+ "rejections": {},
+ "rejection_examples": {},
+ "counters": {
+  "scene_reset": 3
+ },
+ "seeds": [
+  3193594147939701558
+ ],
+ "kit_stats": {
+  "ik_calls": 152,
+  "ik_s": 75.04249143600464,
+  "ik_batch_calls": 0,
+  "ik_batch_problems": 0,
+  "ik_batch_s": 0.0,
+  "collision_calls": 337,
+  "collision_configs": 55675,
+  "collision_s": 13.094710350036621,
+  "limit_retry_poses": 3,
+  "limit_retry_seeded_rescued": 1,
+  "orient_choices": 2,
+  "limit_reject.right_arm_joint6": 1,
+  "limit_reject.right_arm_joint7": 1,
+  "orient_reason.only_feasible": 1,
+  "orient_against_default": 1
+ },
+ "n_written": 1,
+ "eval": {
+  "task_family": "configuration_matching",
+  "task": "configuration_matching_articulation_open_large_scale",
+  "subtask": "configuration_matching_articulation_open_large_scale_dishwasher",
+  "variant": "configuration_matching-articulation_open_large_scale-dishwasher"
+ }
+}

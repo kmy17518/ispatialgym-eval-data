@@ -1,0 +1,352 @@
+{
+  "magazine.n.02_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -1.1876745223999023,
+        -2.8433785438537598,
+        0.7398273348808289
+      ],
+      "ori": [
+        5.293443336995551e-06,
+        2.530969686631579e-05,
+        -0.9217384457588196,
+        0.3878120183944702
+      ],
+      "lin_vel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ang_vel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -1.3196545839309692,
+          -2.9755656719207764,
+          0.7351066470146179,
+          -1.0562173128128052,
+          -2.710381031036377,
+          0.7451956272125244
+        ]
+      },
+      "HeatSourceOrSink": {
+        "heat_source_or_sink": false
+      },
+      "Temperature": {
+        "temperature": 23.0
+      },
+      "OnFire": {
+        "on_fire": false
+      }
+    }
+  },
+  "desk.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -1.3021131753921509,
+        -2.950000286102295,
+        0.6246660351753235
+      ],
+      "ori": [
+        0.0013271044008433819,
+        -0.0005110846250317991,
+        -6.436954572563991e-05,
+        0.9999989867210388
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -1.572171688079834,
+          -3.655701160430908,
+          -0.003340303897857666,
+          -1.0314537286758423,
+          -2.245239734649658,
+          0.7351287603378296
+        ]
+      }
+    }
+  },
+  "floor.n.01_1": {
+    "is_asleep": false,
+    "root_link": {
+      "pos": [
+        -1.9037261009216309,
+        -2.049670696258545,
+        -0.15000000596046448
+      ],
+      "ori": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "non_kin": {
+      "AABB": {
+        "aabb": [
+          -6.401543617248535,
+          -4.866776466369629,
+          -0.30000001192092896,
+          2.3453564643859863,
+          1.2459232807159424,
+          0.0
+        ]
+      }
+    }
+  },
+  "robot_poses": {
+    "robot": [
+      {
+        "position": [
+          -2.012223958969116,
+          -2.6204910278320312,
+          0.005286216735839844
+        ],
+        "orientation": [
+          -7.460011147486512e-06,
+          7.90675258031115e-05,
+          -6.447127816500142e-05,
+          1.0
+        ]
+      }
+    ]
+  },
+  "ispatialgym": {
+    "schema_version": "isg-tro-v1",
+    "activity": "alignment",
+    "activity_definition_id": 7,
+    "task_variant": "alignment-axial-magazine-desk",
+    "instance_id": "alignment-axial-magazine-desk__house_double_floor_upper__support-desk_iotfzl_0-T1__target-magazine-tfovwy__0000",
+    "generation_seed": 6728116871298061024,
+    "evaluation_profile": "isg-v1",
+    "bddl_sha256": "983e1df0ee294f83de7f9e368241e79296ae40c315f03b8cbc4b38ac9cdf0b1d",
+    "task_spec_sha256": "50283448770c34ad54613e1ea516f9d211d335d67a560e3918a8c1d9e288889d",
+    "layout_template_id": null,
+    "scene": {
+      "model": "house_double_floor_upper",
+      "floor": 0,
+      "template_path": "../template.json",
+      "template_sha256": "12e3b3cf8f6d9fcc5d57affa0a4d0c803436dbe16f171346469efa6274e58ee6",
+      "load_room_instances": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "bedroom_1",
+        "bedroom_2"
+      ],
+      "task_rooms": [
+        "living_room_0"
+      ],
+      "sampled_with_rooms": [
+        "living_room_0",
+        "bathroom_0",
+        "bedroom_0",
+        "bedroom_1",
+        "bedroom_2"
+      ],
+      "scene_variant": {
+        "scene_file": "../../scene_variants/house_double_floor_upper__a577561a80.json",
+        "removed_objects": [
+          "armchair_axcwcm_0"
+        ],
+        "freed_footprints": {
+          "free": [
+            [
+              [
+                -1.5851404666900635,
+                -2.653679609298706
+              ],
+              [
+                -1.5851387977600098,
+                -3.220679521560669
+              ],
+              [
+                -2.1145389080047607,
+                -3.2206809520721436
+              ],
+              [
+                -2.1145405769348145,
+                -2.6536810398101807
+              ]
+            ]
+          ],
+          "block": []
+        },
+        "moved_objects": {
+          "armchair_axcwcm_0": {
+            "pos": [
+              -1.8404432535171509,
+              -2.9386322498321533,
+              0.4584132432937622
+            ],
+            "ori": [
+              -9.67930827755481e-06,
+              0.00017159467097371817,
+              1.484062522649765e-06,
+              1.0000001192092896
+            ],
+            "fixed_base": false,
+            "moved_to": [
+              -106.47597217559814,
+              -104.79177808761597,
+              -102.01276230812073
+            ]
+          }
+        }
+      },
+      "required_scene_objects": [
+        "desk_iotfzl_0",
+        "floors_rfqizg_0"
+      ]
+    },
+    "object_bindings": {
+      "floor.n.01_1": {
+        "scene_object_name": "floors_rfqizg_0",
+        "category": "floors",
+        "model": "rfqizg"
+      },
+      "desk.n.01_1": {
+        "scene_object_name": "desk_iotfzl_0",
+        "category": "desk",
+        "model": "iotfzl"
+      },
+      "magazine.n.02_1": {
+        "scene_object_name": "target_magazine_tfovwy_0",
+        "category": "magazine",
+        "model": "tfovwy"
+      }
+    },
+    "robot_state": {
+      "bddl_instance": "agent.n.01_1",
+      "model": "r1pro",
+      "joint_positions": {
+        "torso_joint1": 1.3486413955688477,
+        "torso_joint2": -2.0409884452819824,
+        "torso_joint3": -0.7345404028892517,
+        "torso_joint4": -7.15587532340578e-07,
+        "left_arm_joint1": 3.9667887904215604e-05,
+        "right_arm_joint1": 6.609075353480875e-05,
+        "left_arm_joint2": 1.570000171661377,
+        "right_arm_joint2": -1.5699992179870605,
+        "left_arm_joint3": -2.974236849695444e-06,
+        "right_arm_joint3": -2.485381855876767e-07,
+        "left_arm_joint4": -1.5700030326843262,
+        "right_arm_joint4": -1.5699961185455322,
+        "left_arm_joint5": 1.5699883699417114,
+        "right_arm_joint5": -1.5700091123580933,
+        "left_arm_joint6": -1.3578934385805042e-06,
+        "right_arm_joint6": -1.3873936950403731e-06,
+        "left_arm_joint7": -2.695450803003041e-06,
+        "right_arm_joint7": -1.7407851373718586e-06,
+        "left_gripper_finger_joint1": 0.04999960958957672,
+        "left_gripper_finger_joint2": 0.04999990016222,
+        "right_gripper_finger_joint1": 0.04999963566660881,
+        "right_gripper_finger_joint2": 0.04999985545873642
+      },
+      "joint_velocities": {
+        "torso_joint1": 0.0,
+        "torso_joint2": 0.0,
+        "torso_joint3": 0.0,
+        "torso_joint4": 0.0,
+        "left_arm_joint1": 0.0,
+        "right_arm_joint1": 0.0,
+        "left_arm_joint2": 0.0,
+        "right_arm_joint2": 0.0,
+        "left_arm_joint3": 0.0,
+        "right_arm_joint3": 0.0,
+        "left_arm_joint4": 0.0,
+        "right_arm_joint4": 0.0,
+        "left_arm_joint5": 0.0,
+        "right_arm_joint5": 0.0,
+        "left_arm_joint6": 0.0,
+        "right_arm_joint6": 0.0,
+        "left_arm_joint7": 0.0,
+        "right_arm_joint7": 0.0,
+        "left_gripper_finger_joint1": 0.0,
+        "left_gripper_finger_joint2": 0.0,
+        "right_gripper_finger_joint1": 0.0,
+        "right_gripper_finger_joint2": 0.0
+      },
+      "controller_targets": {}
+    },
+    "goal_observation": {
+      "sensor_key": "robot_r1:zed_link:Camera:0",
+      "rgb_path": "house_double_floor_upper_task_alignment_axial_magazine_0_0_template-goal_rgb.png",
+      "rgb_sha256": "df0b7fd04aae3a38617c3fa75cf5d5743cbd6a8b1721244752472a480466cbab",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "intrinsics": {
+        "fx": 459.0,
+        "fy": 459.0,
+        "cx": 540.0,
+        "cy": 540.0,
+        "width": 1080,
+        "height": 1080
+      },
+      "camera_pose_world": {
+        "position": [
+          -1.3986520767211914,
+          -2.822577714920044,
+          1.2617624998092651
+        ],
+        "orientation": [
+          -0.1318318396806717,
+          0.13194218277931213,
+          0.6949543356895447,
+          -0.6944422721862793
+        ]
+      },
+      "evaluation_profile": "isg-v1",
+      "n_render_iterations": 1
+    },
+    "pose_targets": {
+      "magazine.n.02_1": {
+        "link": null,
+        "frame": "world",
+        "position": null,
+        "orientation": [
+          -4.166694270679727e-05,
+          -5.722351488657296e-05,
+          -0.9999858140945435,
+          0.005340348929166794
+        ],
+        "position_metric": null,
+        "orientation_metric": "full",
+        "position_tolerance": null,
+        "orientation_tolerance": 0.1,
+        "orientation_equivalences": []
+      }
+    },
+    "groups": {},
+    "articulation_targets": {},
+    "constraints": [
+      {
+        "type": "revolute",
+        "child": "magazine.n.02_1",
+        "parent": "desk.n.01_1",
+        "parent_link": "base_link",
+        "anchor_position": [
+          -1.1847844123840332,
+          -2.8449244499206543,
+          0.7341074347496033
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": null
+      }
+    ]
+  }
+}
